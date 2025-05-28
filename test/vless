@@ -1,4 +1,3 @@
-
 proxies:
   - {name: 🇦🇪阿联酋 01, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 20017, type: ss, cipher: aes-256-gcm, password: PO1WX8J1LOK8E2YE}
   - {name: 🇦🇪阿联酋 02, server: 77.232.140.29, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560", headers: {Host: hk.laoyoutiao.link}}}
