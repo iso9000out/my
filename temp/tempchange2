@@ -1,1 +1,569 @@
-
+proxies:
+- cipher: aes-256-gcm
+  name: HK Vertex 01
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 60043
+  server: kqs-hk.03ezhg0qsa.download
+  type: ss
+- cipher: aes-256-gcm
+  name: HK Vertex 02
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 53305
+  server: kqs-hk.03ezhg0qsa.download
+  type: ss
+- cipher: aes-256-gcm
+  name: HK Vertex 03
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 45001
+  server: kqs-hk.03ezhg0qsa.download
+  type: ss
+- name: HK Datacamp 04
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32443
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- cipher: aes-256-gcm
+  name: HK Vertex 05
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 53304
+  server: kqs-hk.03ezhg0qsa.download
+  type: ss
+- name: HK HESHL 06
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32000
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: HK Akari 07
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32037
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: HK HKT 08
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32033
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: HK LSHIY 09
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 33579
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: HK GCore 10
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32027
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: HK RTL 11
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32029
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: SG SSPL 01
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 27663
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: SG Datacamp 02
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32007
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- cipher: aes-256-gcm
+  name: SG Oracle 03
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 45005
+  server: kqs-sg.03ezhg0qsa.download
+  type: ss
+- cipher: aes-256-gcm
+  name: JP SKY 01
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 35380
+  server: kqs-jp.03ezhg0qsa.download
+  type: ss
+- name: JP Datacamp 02
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32004
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: JP Akari 03
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 41507
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: JP Akari 04
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32036
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: JP GCore 05
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32022
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- cipher: aes-256-gcm
+  name: US Vertex 01
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 22284
+  server: kqs-us.03ezhg0qsa.download
+  type: ss
+- cipher: aes-256-gcm
+  name: US VCL 02
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 29589
+  server: kqs-us.03ezhg0qsa.download
+  type: ss
+- cipher: aes-256-gcm
+  name: US VCL 03
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 53091
+  server: kqs-us.03ezhg0qsa.download
+  type: ss
+- cipher: aes-256-gcm
+  name: US VCL 04
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 29123
+  server: kqs-us.03ezhg0qsa.download
+  type: ss
+- name: US Cogent 05
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 29525
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: US Datacamp 06
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32028
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: US GCore 07
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32021
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: US Datacamp 08
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32001
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: US RTL 09
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32031
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: US WEBNX 10
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 53397
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- cipher: aes-256-gcm
+  name: TW PNIC 01
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 51875
+  server: kqs-tw.03ezhg0qsa.download
+  type: ss
+- cipher: aes-256-gcm
+  name: TW PNIC 02
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 53303
+  server: kqs-tw.03ezhg0qsa.download
+  type: ss
+- name: TW RTL 03
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32040
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- cipher: aes-256-gcm
+  name: TW PNIC 04
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 44813
+  server: kqs-tw.03ezhg0qsa.download
+  type: ss
+- cipher: aes-256-gcm
+  name: TW PNIC 05
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 49325
+  server: kqs-tw.03ezhg0qsa.download
+  type: ss
+- name: TW Akari 06
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 48082
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: TW RTL 07
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32003
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: AE ORACLE 01
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 34281
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: AR Dattatec 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32015
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: AU AS 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32012
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: AU GCore 02
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32023
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: AU Oracle 03
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 48389
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: BR GCore 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32025
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: BR GCore 02
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32016
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: CA Datacamp 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32039
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: DE Datacamp 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32011
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: DE Oracle 02
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 17107
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: FR Datacamp 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32009
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: GB Datacamp 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32010
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: IL ORACLE 01
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 27436
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: IN GCore 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32024
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: IN DIGITALOCEAN 02
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32017
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- cipher: aes-256-gcm
+  name: KR ORACLE 01
+  password: 492fabd1-2511-4ad2-b320-fe0373bfd42a
+  port: 23236
+  server: kqs-kr.03ezhg0qsa.download
+  type: ss
+- name: KR ORACLE 02
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 31080
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: KR AS 03
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32005
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: MX Oracle 01
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 45837
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: MY STSB 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32038
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: NG Melbikomas 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32034
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: PH COMFAC 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32030
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: PH ZEN 02
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32013
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: RU UFO 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32008
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: SA Kaopu 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32035
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: TH Bangmod 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32043
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: TH CLPCL 02
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 23284
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
+- name: TR GCore 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32026
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: TR KBTSVTA 02
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32014
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: UA ZVN 01
+  password: 42c75add-37f9-4d73-a882-9d9e8bc84493
+  port: 32019
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tcp-opts:
+    headers:
+      Host: cert.bitbyte.one
+  type: trojan
+- name: ZA Oracle 01
+  password: 32baccd8-84be-11ef-bb6b-bc241111d95d
+  port: 24109
+  server: js.wnwwv.cn
+  skip-cert-verify: true
+  sni: sin.cloudfisher.xyz
+  type: trojan
