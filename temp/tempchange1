@@ -1,1 +1,516 @@
-
+proxies:
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: HK POLONETWORK 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 2101
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d1.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: HK Akari 02
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 2110
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d1.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: HK GNTC 03
+  password: 3bb81117-4b23-4ba8-8b17-589ce728aafc
+  port: 12040
+  server: 125.88.196.56
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: HK Kirino 04
+  obfs: tls1.2_ticket_auth
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 6016
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d2.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: HK Akari 05
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 4331b292462.microsoft.com
+    mode: http
+  port: 3608
+  server: bs1.jymzffbquawl.com
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: HK PRIME 06
+  password: lSrdIR
+  port: 54147
+  server: 118.184.136.61
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: SG Akari 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 3202
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d2.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: SG Kirino 02
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 1138
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d3.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: SG Akamai 03
+  obfs: tls1.2_ticket_auth
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 1128
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d3.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: JP POLONETWORK 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 6305
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d2.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: JP AS 02
+  password: 3bb81117-4b23-4ba8-8b17-589ce728aafc
+  port: 12012
+  server: 120.232.218.188
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: JP Kirino 03
+  password: lSrdIR
+  port: 54147
+  server: hr04.htz.wtf
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: JP Akari 04
+  password: lSrdIR
+  port: 54147
+  server: hr07.htz.wtf
+  tfo: false
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: US RMH 01
+  network: ws
+  port: 8880
+  server: 162.159.246.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: TW DCBG 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 1116
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d1.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: TW DCBG 02
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 1122
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d3.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: TW DCBG 03
+  password: lSrdIR
+  port: 54147
+  server: twct05.htz.wtf
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: TW DCBG 04
+  password: lSrdIR
+  port: 54147
+  server: twct07.htz.wtf
+  tfo: false
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: AE ZEN 01
+  password: f70ff140-9c4e-44d3-8864-f336d7607d7e
+  port: 20206
+  server: uk.xn--mes91t7ofgnw.com
+  skip-cert-verify: false
+  sni: uk.xn--mes91t7ofgnw.com
+  type: hysteria2
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: AU AS 01
+  obfs: tls1.2_ticket_auth
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 1137
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d3.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: CA ESTRUXTURE 01
+  password: 3bb81117-4b23-4ba8-8b17-589ce728aafc
+  port: 12022
+  server: 120.232.218.188
+  tfo: false
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: CL ORACLE 01
+  password: 9b80524b-f3c5-4221-8851-59cd409d99ef
+  port: 10000
+  server: zhili.959555.xyz
+  skip-cert-verify: true
+  sni: zhili.959555.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: CN CUCB 01
+  network: ws
+  port: 8080
+  server: ah.xn--wlqw1swrj04ju56d.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 83e7283d-2a50-4b84-814a-4b489dee47da
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: CN HAAC 02
+  network: ws
+  port: 80
+  server: 106.15.73.120
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 83e7283d-2a50-4b84-814a-4b489dee47da
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: DE AKILE 01
+  obfs: tls1.2_ticket_auth
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 2402
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d1.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: ES AS 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 2805
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d1.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: ID Akamai 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 1139
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d3.alibabamysql.com
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: ID Hadi 02
+  port: 26144
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: IN Akamai 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 2701
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d1.alibabamysql.com
+  type: ssr
+  udp: true
+- client-fingerprint: chrome
+  name: IQ RCFITL 01
+  password: c32ac5e6-b068-4cbc-9b2f-5efcd1f23104
+  port: 43999
+  server: jiangzhiylk.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiylk.54264944.xyz
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: IT CLOUDFLARENET 01
+  password: 9b80524b-f3c5-4221-8851-59cd409d99ef
+  port: 10000
+  server: yidali.959555.xyz
+  skip-cert-verify: true
+  sni: yidali.959555.xyz
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: KH IICWTBVIT 01
+  password: 70d38694-8b6e-4328-a3a4-e6f5503e8503
+  port: 443
+  server: kh.mjt000.com
+  skip-cert-verify: false
+  sni: kh.mjt000.com
+  type: trojan
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: KR MOACK 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 1142
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d3.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: KR Cyberzone 02
+  password: lSrdIR
+  port: 54147
+  server: krgame05.htz.wtf
+  tfo: false
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: LT Cloudflare 01
+  network: ws
+  port: 2086
+  server: zzzqb1.593920.xyz
+  servername: sg2.593920.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0076436c-9459-458b-8c6f-57c379acbbe3
+  ws-opts:
+    headers:
+      Host: sg2.593920.xyz
+    path: /youxuan
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: MY Kaopu 01
+  obfs: tls1.2_ticket_auth
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 1140
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d3.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: PH Kaopu 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 2802
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d1.alibabamysql.com
+  type: ssr
+  udp: true
+- client-fingerprint: chrome
+  name: SA ORACLE 01
+  password: 9b80524b-f3c5-4221-8851-59cd409d99ef
+  port: 12000
+  server: shatejida.959555.xyz
+  skip-cert-verify: false
+  sni: shatejida.959555.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: SA Kaopu 02
+  obfs: tls1.2_ticket_auth
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 2809
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d1.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: SC dataforest 01
+  obfs: tls1.2_ticket_auth
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 2401
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d1.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: TR Kaopu 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 2803
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d1.alibabamysql.com
+  type: ssr
+  udp: true
+- client-fingerprint: chrome
+  name: UA Datacamp 01
+  password: f70ff140-9c4e-44d3-8864-f336d7607d7e
+  port: 20252
+  server: jp.xn--mes91t7ofgnw.com
+  skip-cert-verify: false
+  sni: jp.xn--mes91t7ofgnw.com
+  type: hysteria2
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: VN MCL 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 1141
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d3.alibabamysql.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: ZA AS 01
+  obfs: plain
+  obfs-param: 70631264735.www.gov.hk
+  password: di15PV
+  port: 1135
+  protocol: auth_aes128_md5
+  protocol-param: 264735:x2YSMW
+  server: d3.alibabamysql.com
+  type: ssr
+  udp: true
+- client-fingerprint: chrome
+  name: ZA Sahdsoft 02
+  network: ws
+  port: 2086
+  server: zzzqb1.593920.xyz
+  servername: nf.593920.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0076436c-9459-458b-8c6f-57c379acbbe3
+  ws-opts:
+    headers:
+      Host: nf.593920.xyz
+    path: /youxuan
