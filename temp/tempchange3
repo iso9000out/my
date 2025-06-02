@@ -1,1 +1,582 @@
-
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: HK HKT 01
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 28864
+  server: gzyd.xn--fiqs8sjz2bull.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: HK AMAZON 02
+  port: 55693
+  server: 112.5.37.212
+  type: vmess
+  udp: true
+  uuid: 7cabdaf2-ff36-4dc1-9cd0-124045f4fb53
+- cipher: chacha20-ietf-poly1305
+  name: HK LANDUPS 03
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 28716
+  server: mmt.gya.zhangwei.li
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK Pq 04
+  password: 5e8fa330-fb4d-42a3-87c7-8ccd3a81743f
+  port: 10999
+  server: 113.96.190.245
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK ASNET 05
+  password: 5e8fa330-fb4d-42a3-87c7-8ccd3a81743f
+  port: 10888
+  server: 113.96.190.245
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK HGCL 06
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 44330
+  server: gzyd.xn--fiqs8sjz2bull.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK LANDUPS 07
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 48618
+  server: mm-gzdxaa.la-chinata.hk
+  type: ss
+  udp: true
+- down: 1000
+  name: HK HKT 08
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14850
+  ports: 14001-14999
+  server: surfboard-hk.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-hk.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- name: HK HKT 09
+  password: 141f84de-0b96-4b2d-9268-a47ccb0dbe95
+  port: 36152
+  server: hongkongtunshubest.tsjc.shop
+  skip-cert-verify: true
+  sni: apple.com
+  type: anytls
+  udp: true
+- name: HK ASNET 10
+  password: 816c059b-9008-4ad0-bdc0-6164b894819d
+  port: 22311
+  server: hk3.bppp.shop
+  skip-cert-verify: true
+  sni: apple.com
+  type: anytls
+  udp: true
+- down: 1000
+  name: HK Pq 11
+  password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  port: 52232
+  ports: 50000-53000
+  server: 194.156.99.107
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  up: 200
+- alterId: 0
+  cipher: auto
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: HK Tele 12
+  network: tcp
+  port: 55533
+  reality-opts:
+    public-key: gOYo94ioWM5UOhCXBq13wpeT8-spVsd8MKmHHKbNnH4
+    short-id: 09f087ce
+  server: 6rguyesfdhvbz.uk
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7cabdaf2-ff36-4dc1-9cd0-124045f4fb53
+- name: SG Alibaba 01
+  password: 141f84de-0b96-4b2d-9268-a47ccb0dbe95
+  port: 10485
+  server: sg.tsjc.shop
+  skip-cert-verify: true
+  sni: apple.com
+  type: anytls
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG Akari 02
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 29705
+  server: gygyd.mmt.zhangwei.li
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG AKILE 03
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 37150
+  server: node1.nidenwo.site
+  type: ss
+  udp: true
+- down: 1000
+  name: SG Datacamp 04
+  password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  port: 51530
+  ports: 50000-53000
+  server: 5.180.78.153
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  up: 200
+- name: SG Baxet 05
+  password: 816c059b-9008-4ad0-bdc0-6164b894819d
+  port: 22311
+  server: sg1.bppp.shop
+  skip-cert-verify: true
+  sni: apple.com
+  type: anytls
+  udp: true
+- down: 1000
+  name: SG Melbikomas 06
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14062
+  ports: 14001-14999
+  server: surfboard-sg.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-sg.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- client-fingerprint: random
+  name: JP SAKURA 01
+  network: ws
+  port: 35433
+  server: 23.128.228.10
+  servername: mot.majusti.dpdns.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: ec9bbd26-4a2e-468d-ae32-254441fb1876
+  ws-opts:
+    headers:
+      Host: mot.majusti.dpdns.org
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: JP EDCL 02
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 34948
+  server: gzyd.xn--fiqs8sjz2bull.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP POLONETWORK 03
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 17476
+  server: gyccc.mmt.zhangwei.li
+  type: ss
+  udp: true
+- down: 1000
+  name: JP OPTAGE 04
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14186
+  ports: 14001-14999
+  server: surfboard-jp.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-jp.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- name: JP Datacamp 05
+  password: 816c059b-9008-4ad0-bdc0-6164b894819d
+  port: 22311
+  server: jp1.bppp.shop
+  skip-cert-verify: true
+  sni: apple.com
+  type: anytls
+  udp: true
+- down: 1000
+  name: JP NTT 06
+  obfs: salamander
+  obfs-password: Y2YwNTVmYjExYzYwMDQwYw==
+  password: 7cabdaf2-ff36-4dc1-9cd0-124045f4fb53
+  port: 14030
+  server: 6rguyesfdhvbz.uk
+  skip-cert-verify: false
+  sni: 6rguyesfdhvbz.uk
+  type: hysteria2
+  up: 1000
+- name: JP YUWAN 07
+  password: 141f84de-0b96-4b2d-9268-a47ccb0dbe95
+  port: 10485
+  server: japantunshubest.tsjc.shop
+  skip-cert-verify: true
+  sni: apple.com
+  type: anytls
+  udp: true
+- down: 1000
+  name: JP Pq 08
+  password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  port: 52212
+  ports: 50000-53000
+  server: 45.89.109.129
+  skip-cert-verify: true
+  sni: music.apple.com
+  type: hysteria2
+  up: 200
+- down: 1000
+  name: US AMAZON 01
+  obfs: salamander
+  obfs-password: Y2YwNTVmYjExYzYwMDQwYw==
+  password: 7cabdaf2-ff36-4dc1-9cd0-124045f4fb53
+  port: 11000
+  server: us.6rguyesfdhvbz.uk
+  skip-cert-verify: false
+  sni: us.6rguyesfdhvbz.uk
+  type: hysteria2
+  up: 1000
+- down: 1000
+  name: US HURRICANE 02
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14104
+  ports: 14001-14999
+  server: surfboard-us.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-us.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- cipher: aes-128-gcm
+  name: US PONYNET 03
+  password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  port: 51751
+  server: 6ushrhml7ttpliy3.lovebaipiao.net
+  type: ss
+  udp: true
+- down: 1000
+  name: US AS40676 04
+  password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  port: 51459
+  ports: 50000-53000
+  server: 108.181.14.189
+  skip-cert-verify: true
+  sni: apps.apple.com
+  type: hysteria2
+  up: 200
+- down: 1000
+  name: US PONYNET 05
+  password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  port: 50058
+  ports: 50000-53000
+  server: 209.141.42.49
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: 200
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: US NETINF 06
+  network: tcp
+  port: 36152
+  reality-opts:
+    public-key: ap0FQD7LYC9oRF-_qv_0WSTx9gMy9RTRbLREOrDShy0
+    short-id: e13fccc2f63fa52f
+  server: usatunshuedrtfgyhujikdxfcgvbhjk.tsjc.shop
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 141f84de-0b96-4b2d-9268-a47ccb0dbe95
+- down: 1000
+  name: US PONYNET 07
+  password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  port: 52236
+  ports: 50000-53000
+  server: 205.185.125.20
+  skip-cert-verify: true
+  sni: apps.apple.com
+  type: hysteria2
+  up: 200
+- cipher: chacha20-ietf-poly1305
+  name: US NetLab 08
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 19642
+  server: gzyd.xn--fiqs8sjz2bull.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US POLONETWORK 09
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 53501
+  server: gzyd.xn--fiqs8sjz2bull.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: TW POLONETWORK 01
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 40532
+  server: gygyd.mmt.zhangwei.li
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: TW DCBG 02
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 20731
+  server: mmt.gya.zhangwei.li
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: TW DCBG 03
+  port: 13429
+  server: 112.5.37.212
+  type: vmess
+  udp: true
+  uuid: 7cabdaf2-ff36-4dc1-9cd0-124045f4fb53
+- down: 1000
+  name: TW DCBG 04
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14132
+  ports: 14001-14999
+  server: surfboard-tw.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-tw.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- alterId: 0
+  cipher: auto
+  name: AU CLOUDFLARENET 01
+  port: 23443
+  server: a.6rguyesfdhvbz.uk
+  type: vmess
+  udp: true
+  uuid: 7cabdaf2-ff36-4dc1-9cd0-124045f4fb53
+- down: 1000
+  name: BG Melbikomas 01
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14449
+  ports: 14001-14999
+  server: surfboard-bg.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-bg.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- alterId: 0
+  cipher: auto
+  name: BO BrainStorm 01
+  port: 31390
+  server: node1.nidenwo.site
+  type: vmess
+  udp: true
+  uuid: 8551f311-f369-4132-8bcb-a9bf3f151e23
+- down: 1000
+  name: CA OVH 01
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14688
+  ports: 14001-14999
+  server: surfboard-ca.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-ca.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- cipher: chacha20-ietf-poly1305
+  name: GB POLONETWORK 01
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 37836
+  server: mmt.bjcu.donghui.tech
+  type: ss
+  udp: true
+- down: 1000
+  name: GB Clouvider 02
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14717
+  ports: 14001-14999
+  server: surfboard-uk.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-uk.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- down: 1000
+  name: GB BlueVPS 03
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14364
+  ports: 14001-14999
+  server: surfboard-il.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-il.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- down: 1000
+  name: GB Pq 04
+  password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  port: 50596
+  ports: 50000-53000
+  server: 5.180.30.16
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  up: 200
+- alterId: 0
+  cipher: auto
+  name: GB ASNET 05
+  network: ws
+  port: 80
+  server: 6ernu3zmhsv7s95fm.lovebaipiao.net
+  type: vmess
+  udp: true
+  uuid: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  ws-opts:
+    headers:
+      Host: 6ernu3zmhsv7s95fm.lovebaipiao.net
+    path: /
+- down: 1000
+  name: KR DAOU 01
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14652
+  ports: 14001-14999
+  server: surfboard-kr.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-kr.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- client-fingerprint: random
+  name: KR Korea 02
+  network: ws
+  port: 10020
+  server: 211.177.191.120
+  servername: ennyfe.zipgd3vx91o.ddns-ip.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a74c0814-cd23-4e43-86cd-a32011786d92
+  ws-opts:
+    headers:
+      Host: ennyfe.zipgd3vx91o.ddns-ip.net
+    path: /?ed=2560
+- down: 1000
+  name: KR Pq 03
+  password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  port: 50962
+  ports: 50000-53000
+  server: 45.82.246.147
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  up: 200
+- down: 1000
+  name: LV Melbikomas 01
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14871
+  ports: 14001-14999
+  server: surfboard-lv.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-lv.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- alterId: 0
+  cipher: auto
+  name: MY TTSS 01
+  port: 12529
+  server: mmt.gya.zhangwei.li
+  type: vmess
+  udp: true
+  uuid: 8551f311-f369-4132-8bcb-a9bf3f151e23
+- cipher: chacha20-ietf-poly1305
+  name: NL TIGB 01
+  password: 8551f311-f369-4132-8bcb-a9bf3f151e23
+  port: 13687
+  server: mmt.bjcu.donghui.tech
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: RU CLOUDFLARENET 01
+  network: ws
+  port: 80
+  server: eedp257bubu2wefy2.lovebaipiao.net
+  type: vmess
+  udp: true
+  uuid: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /iphone
+- down: 1000
+  name: RU LLC 02
+  obfs: salamander
+  obfs-password: NDA0YTI5YmZjNzkwY2M3Yg==
+  password: 7cabdaf2-ff36-4dc1-9cd0-124045f4fb53
+  port: 14329
+  server: ru.6rguyesfdhvbz.uk
+  skip-cert-verify: false
+  sni: ru.milkcloud.org
+  type: hysteria2
+  up: 1000
+- down: 1000
+  name: RU LLC 03
+  password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  port: 51168
+  ports: 50000-53000
+  server: 46.17.40.117
+  skip-cert-verify: true
+  sni: music.apple.com
+  type: hysteria2
+  up: 200
+- alterId: 0
+  cipher: auto
+  name: RU CLOUDFLARENET 04
+  network: ws
+  port: 80
+  server: eedp257bubu2wefy3.lovebaipiao.net
+  type: vmess
+  udp: true
+  uuid: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /iphone
+- down: 1000
+  name: SE Melbikomas 01
+  password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+  port: 14499
+  ports: 14001-14999
+  server: surfboard-se.jingfan.cyou
+  skip-cert-verify: false
+  sni: surfboard-se.jingfan.cyou
+  type: hysteria2
+  up: 1000
+- alterId: 0
+  cipher: auto
+  name: TR MIHL 01
+  port: 31600
+  server: mmt.bjcu.donghui.tech
+  type: vmess
+  udp: true
+  uuid: 8551f311-f369-4132-8bcb-a9bf3f151e23
+- alterId: 0
+  cipher: auto
+  name: TR PQ 02
+  network: ws
+  port: 80
+  server: cdn3.bpcdn.cc
+  type: vmess
+  udp: true
+  uuid: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+  ws-opts:
+    headers:
+      Host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Unknown Melbikomas 01
+  port: 13016
+  server: 112.5.37.212
+  type: vmess
+  udp: true
+  uuid: 7cabdaf2-ff36-4dc1-9cd0-124045f4fb53
