@@ -1,3 +1,4 @@
+proxies:
   - {name: Cloudflare Outbound, server: usa.visa.com, port: 443, type: vless, uuid: c42a5375-2d49-4bcd-8a66-f64b2532644d, tls: true, tfo: false, skip-cert-verify: true, servername: v-aged-violet-fa26-less.cloudflare-temp1.workers.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: v-aged-violet-fa26-less.cloudflare-temp1.workers.dev}}, udp: true}
   - {name: 45.131.7.156:8880, server: 45.131.7.156, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@ShadowProxy66?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
   - {name: 104.16.171.121:80, server: 104.16.171.121, port: 80, type: vless, uuid: a3875c94-e968-404c-b62d-5a292d20e6d8, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: polished-limit-deb9-ppal03.latopi8673.workers.dev}}, udp: true}
