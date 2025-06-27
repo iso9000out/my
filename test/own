@@ -1,2 +1,2 @@
 proxies:
-    - { name: '剩余流量：497.02 GB', server: surfboard-hk.jingfan.cyou, port: 14094, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 14001-14999, type: hysteria2, password: c012f73e-73af-4aba-8b91-6835b3360701 }
+    - { name: 'jpcn', server: jpcn286.s2fjeyeeyafe.bond, port: 35789, udp: true, skip-cert-verify: false, sni: jpcn286.s2fjeyeeyafe.bond, type: hysteria2, password: 96eee01d-74be-440a-94f8-7cc52450395e }
