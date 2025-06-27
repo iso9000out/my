@@ -1,2 +1,10 @@
 proxies:
     - { name: 'jpcn', server: jpcn286.s2fjeyeeyafe.bond, port: 35789, udp: true, skip-cert-verify: false, sni: jpcn286.s2fjeyeeyafe.bond, type: hysteria2, password: 96eee01d-74be-440a-94f8-7cc52450395e }
+    - { name: 'jkcnrkke', type: vmess, server: jkcnrkke.xn--fiqs8sjz2bull.com, port: 25419, uuid: fe25c900-1a52-4dd5-89a2-9a39d7fcde38, alterId: 0, cipher: auto, udp: true }
+    - { name: '🇭🇰香港高级-1 x3', type: vmess, server: mvxpzpxc.xn--fiqs8sjz2bull.com, port: 17392, uuid: fe25c900-1a52-4dd5-89a2-9a39d7fcde38, alterId: 0, cipher: auto, udp: true }
+    - { name: '🇭🇰香港高级-2 x3', type: vmess, server: mvxpzpxc.xn--fiqs8sjz2bull.com, port: 48506, uuid: fe25c900-1a52-4dd5-89a2-9a39d7fcde38, alterId: 0, cipher: auto, udp: true }
+    - { name: '🇭🇰香港高级-3 x3', type: vmess, server: mvxpzpxc.xn--fiqs8sjz2bull.com, port: 32147, uuid: fe25c900-1a52-4dd5-89a2-9a39d7fcde38, alterId: 0, cipher: auto, udp: true }
+    - { name: '🇭🇰香港高级-4 x3', type: vmess, server: jkcnrkke.xn--fiqs8sjz2bull.com, port: 60983, uuid: fe25c900-1a52-4dd5-89a2-9a39d7fcde38, alterId: 0, cipher: auto, udp: true }
+    - { name: '🇭🇰香港高级-5 x3', type: vmess, server: jkcnrkke.xn--fiqs8sjz2bull.com, port: 25419, uuid: fe25c900-1a52-4dd5-89a2-9a39d7fcde38, alterId: 0, cipher: auto, udp: true }
+    - { name: '🇺🇸美国高级-1 x2', type: vmess, server: jhdfzvnq.xn--fiqs8sjz2bull.com, port: 20021, uuid: fe25c900-1a52-4dd5-89a2-9a39d7fcde38, alterId: 0, cipher: auto, udp: true }
+    - { name: 🇯🇵日本, type: ss, server: jpv1.wzjwkqya.xyz, port: 47255, cipher: 2022-blake3-aes-256-gcm, password: 'OTBjODNjYzIwZGJhNDA3NTNjNTlhOWVkOTU4ZjRkNWY=:ZmUyNWM5MDAtMWE1Mi00ZGQ1LTg5YTItOWEzOWQ3ZmM=', udp: true }
