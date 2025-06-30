@@ -1,4 +1,5 @@
 proxies:
+    - {name: 🇻🇳越南 15, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
     - {name: 🇨🇦 CA AS 01, server: cname02-a56xgycr7j4km32e.brahmin12.com, port: 7091, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 131234:P482VtR3zWegc7qh, obfs-param: 8fa95131234.microsoft.com}
     - {name: 🇭🇰 HK AMAZON 11, server: 1111-2222.0015.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com, port: 54125, type: ssr, cipher: chacha20-ietf, password: Mv4e0QHWPwdbKiCF, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 6915:SaIS0X, obfs-param: ""}
     - {"type":"vless","name":"🇸🇬 GCP-SGP","server":"8.222.131.225","port":443,"uuid":"0783b1b9-5d8b-4d03-adc3-b050acc71a29","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"headers":{"Host":"sgp.rtot.me"},"path":"/bing"},"servername":"sgp.rtot.me"}
