@@ -19,7 +19,6 @@ proxies:
     - {name: fbi.gov, server: fbi.gov, port: 2087, type: vless, uuid: 5bbf7617-1153-4149-94ed-a6a38f0c8a52, tls: true, tfo: false, skip-cert-verify: true, servername: suburl.yukies.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: suburl.yukies.top}}}
     - {name: 🇭🇰 icook.hk, server: icook.hk, port: 443, type: vless, uuid: 5bbf7617-1153-4149-94ed-a6a38f0c8a52, tls: true, tfo: false, skip-cert-verify: true, servername: suburl.yukies.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: suburl.yukies.top}}}
     - {name: IPv6, server: "2606:4700::", port: 443, type: vless, uuid: 5bbf7617-1153-4149-94ed-a6a38f0c8a52, tls: true, tfo: false, skip-cert-verify: true, servername: suburl.yukies.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: suburl.yukies.top}}}
-    - {name: tangdou, server: "2606:4700::", port: 443, type: vless, uuid: 5bbf7617-1153-4149-94ed-a6a38f0c8a52, tls: true, tfo: false, skip-cert-verify: true, servername: suburl.yukies.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: suburl.yukies.top}}}
 
 
 #PeiQian1000Long
