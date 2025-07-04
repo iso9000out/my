@@ -2,7 +2,8 @@ proxies:
 
 #TangDou
     - {name: lqddnvk7, server: 77.93.91.53, port: 35676, type: vless, uuid: 199b5911-f063-44a8-b030-539e4c90fc2e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: wSBvfr7AB54-HROl-wlgZoSQlThaD7WG7RRbx1dUKXM, short-id: e0}, servername: tesla.com, client-fingerprint: chrome, network: tcp, udp: true}
-    - {name: eic6lozh, server: 77.93.91.53, port: 31145, type: ss, cipher: 2022-blake3-aes-256-gcm, password: y6CqN5/hvcLTVk2LjquqcPxagOG3OoY7z2bS8fCqgxo=:+nN/qoTwGsw+y7fpCd9zSvyFeVOZxkUcunFYu4LMEXE=, udp: true}    - { name: 日本Big, server: jpcn286.s2fjeyeeyafe.bond, port: 35789, udp: true, skip-cert-verify: false, sni: jpcn286.s2fjeyeeyafe.bond, type: hysteria2, password: 96eee01d-74be-440a-94f8-7cc52450395e }
+    - {name: eic6lozh, server: 77.93.91.53, port: 31145, type: ss, cipher: 2022-blake3-aes-256-gcm, password: y6CqN5/hvcLTVk2LjquqcPxagOG3OoY7z2bS8fCqgxo=:+nN/qoTwGsw+y7fpCd9zSvyFeVOZxkUcunFYu4LMEXE=, udp: true}
+    - { name: 日本Big, server: jpcn286.s2fjeyeeyafe.bond, port: 35789, udp: true, skip-cert-verify: false, sni: jpcn286.s2fjeyeeyafe.bond, type: hysteria2, password: 96eee01d-74be-440a-94f8-7cc52450395e }
     - { name: 美国Big, server: us10.s2fjeyeeyafe.bond, port: 35789, udp: true, skip-cert-verify: false, sni: us10.s2fjeyeeyafe.bond, type: hysteria2, password: 96eee01d-74be-440a-94f8-7cc52450395e }
     - {name: 🇻🇳 越南1, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
     - {name: 🇰🇷 韩国1, server: bgp.xn--qprx60h.xyz, port: 34061, type: vmess, uuid: bcf7bb9d-facd-411b-8a40-ddfc084b65d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
