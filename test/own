@@ -90,13 +90,9 @@ proxies:
 
 
 #WithStar
-    - { name: 🇭🇰HK-香港|流媒体解锁|1.0x✨, type: vless, server: 1751108541.tencentapp.cn, port: 443, uuid: 2a287d3a-5d1d-453e-a71c-493e6527da05, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: true, servername: aznathk.55512345.xyz, network: ws, ws-opts: { path: /, headers: { Host: aznathk.55512345.xyz } } }
-    - { name: 🇯🇵JP-日本|三优|1.0x✨, server: 104.155.201.41, port: 20000, sni: jp-game-optimization.gzcloud.shop, up: null, down: null, skip-cert-verify: true, type: hysteria2, password: 2a287d3a-5d1d-453e-a71c-493e6527da05, obfs: salamander, obfs-password: OsPe6JIgbyP6DDM8 }
-    - { name: 🇰🇷KR-韩国|联优|1.0x✨, type: vless, server: s-mini.mlampah-mlampah.eu.org, port: 13145, uuid: 2a287d3a-5d1d-453e-a71c-493e6527da05, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: true, servername: apple.com, reality-opts: { public-key: tojHTgtDt8YqIUO7cqcuNM0yBJaoPuhKCe9C50o3PVg, short-id: fd747534e8 }, client-fingerprint: firefox }
-    - { name: 🇸🇬SG-新加坡|三网优|1.0x✨, type: vless, server: sg2-b2.oraclenat.cc, port: 13145, uuid: 2a287d3a-5d1d-453e-a71c-493e6527da05, alterId: 0, cipher: auto, udp: true, flow: null, tls: false }
-    - { name: 🇦🇺AU-澳州|移联优|1.0x✨, type: vmess, server: sydney-mini-ddns.faforex.eu.org, port: 13144, uuid: 2a287d3a-5d1d-453e-a71c-493e6527da05, alterId: 0, cipher: auto, udp: true, network: tcp }
-    - { name: 🇦🇺AU-澳洲大宽|下载专用|1.0x✨, type: vless, server: sydney-mini-ddns.faforex.eu.org, port: 13145, uuid: 2a287d3a-5d1d-453e-a71c-493e6527da05, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: true, servername: apple.com, reality-opts: { public-key: QEpM883wv8iiLmCa13WQTHdIWbIWeTeT1OWGVtz_SR8, short-id: fcf23e1de5bc73b7 }, client-fingerprint: edge }
-    - { name: 🇺🇸US-美国|下载专用|1.0x✨, type: vless, server: furry-adultbabydiaperlover.jiasudecdn.filegear-sg.me, port: 443, uuid: 2a287d3a-5d1d-453e-a71c-493e6527da05, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: true, servername: usphxcdn.55512345.xyz, network: ws, ws-opts: { path: /, headers: { Host: usphxcdn.55512345.xyz } } }
-    - { name: 🇺🇸US-美国|CDN节点|1.0x✨, type: vless, server: furry-adultbabydiaperlover.jiasudecdn.filegear-sg.me, port: 443, uuid: 2a287d3a-5d1d-453e-a71c-493e6527da05, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: true, servername: us-vps-1.55512345.xyz, network: ws, ws-opts: { path: /, headers: { Host: us-vps-1.55512345.xyz } } }
+
+
+
+
 
 #GoodFast
