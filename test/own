@@ -1,6 +1,13 @@
 proxies:
 
 #TangDou
+
+    - {name: 🇮🇩 印度尼西亚, server: 172.235.251.78, port: 2321, type: vless, uuid: e1c74950-6e40-4565-b690-abf09f33f9ae, tls: false, tfo: false, skip-cert-verify: true, network: tcp, udp: true}
+    - {name: 🇯🇵 JP-HYSTERIA2-22, server: 18.181.213.212, port: 28100, type: hysteria2, password: Rw8RlIbymBVZ0r1wK3R3U6c, auth: Rw8RlIbymBVZ0r1wK3R3U6c, sni: bing.com, skip-cert-verify: true, udp: true}
+    - {name: 🇯🇵 JP-HYSTERIA2-23, server: 13.230.97.153, port: 24801, type: hysteria2, password: kIKFMf0EbDYYTnUYTSWsrZO2CgI, auth: kIKFMf0EbDYYTnUYTSWsrZO2CgI, sni: bing.com, skip-cert-verify: true, udp: true}
+    - {name: 🇰🇷 KR Fast, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+    - {name: "🇺🇸 USA Chicago", server: 172.234.197.187, port: 11518, type: vless, uuid: a020eb91-54b1-4a73-8dd5-f705a6dcc6ae, tls: false, tfo: false, skip-cert-verify: true, network: tcp, udp: true}
+    - {name: 🇮🇳 印度, server: 172.105.56.172, port: 48103, type: vless, uuid: 89f15b4b-6f3e-4cbd-bd34-57295508169b, tls: false, tfo: false, skip-cert-verify: true, network: tcp, udp: true}
     - { name: 美国Big, server: us10.s2fjeyeeyafe.bond, port: 35789, udp: true, skip-cert-verify: false, sni: us10.s2fjeyeeyafe.bond, type: hysteria2, password: 96eee01d-74be-440a-94f8-7cc52450395e }
     - {name: 🇻🇳 越南1, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
     - {name: 🇰🇷 韩国1, server: bgp.xn--qprx60h.xyz, port: 34061, type: vmess, uuid: bcf7bb9d-facd-411b-8a40-ddfc084b65d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
