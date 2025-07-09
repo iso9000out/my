@@ -2,6 +2,8 @@ proxies:
 
 #TangDou
 
+    - {name: 🇸🇬SG_@WangCai_8, server: gdgs.tarioblink.me, port: 30003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a2c25d38-44dc-4b53-9377-9f98bd8d7e2b, tfo: false}
+    - {name: 🇨🇳TW_@WangCai_8, server: gdgs.tarioblink.me, port: 30002, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a2c25d38-44dc-4b53-9377-9f98bd8d7e2b, tfo: false}
     - {name: 🇮🇩 印度尼西亚, server: 172.235.251.78, port: 2321, type: vless, uuid: e1c74950-6e40-4565-b690-abf09f33f9ae, tls: false, tfo: false, skip-cert-verify: true, network: tcp, udp: true}
     - {name: 🇯🇵 JP-HYSTERIA2-22, server: 18.181.213.212, port: 28100, type: hysteria2, password: Rw8RlIbymBVZ0r1wK3R3U6c, auth: Rw8RlIbymBVZ0r1wK3R3U6c, sni: bing.com, skip-cert-verify: true, udp: true}
     - {name: 🇯🇵 JP-HYSTERIA2-23, server: 13.230.97.153, port: 24801, type: hysteria2, password: kIKFMf0EbDYYTnUYTSWsrZO2CgI, auth: kIKFMf0EbDYYTnUYTSWsrZO2CgI, sni: bing.com, skip-cert-verify: true, udp: true}
