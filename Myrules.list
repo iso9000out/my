@@ -1,7 +1,5 @@
 # My Rule
 
-DOMAIN-SUFFIX,tiktokv.us
-DOMAIN-KEYWORD,tiktokv
 DOMAIN-KEYWORD,jiux001
 DOMAIN-KEYWORD,vercel
 DOMAIN-KEYWORD,huasuan666
@@ -88,3 +86,20 @@ DOMAIN-KEYWORD,1point3acres
 DOMAIN-KEYWORD,worldpopulationreview
 DOMAIN-KEYWORD,sleazyfork
 DOMAIN-KEYWORD,greasyfork
+
+
+# 内容：TikTok
+# 数量：13条
+USER-AGENT,TikTok*
+DOMAIN-KEYWORD,tiktokv
+DOMAIN-KEYWORD,tiktokcdn
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.us
