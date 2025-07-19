@@ -89,10 +89,11 @@ DOMAIN-KEYWORD,greasyfork
 
 
 # 内容：TikTok
-# 数量：13条
+# 数量：15条
 USER-AGENT,TikTok*
 DOMAIN-KEYWORD,tiktokv
 DOMAIN-KEYWORD,tiktokcdn
+DOMAIN-KEYWORD,tiktokcdn-us
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ipstatp.com
@@ -100,6 +101,7 @@ DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
