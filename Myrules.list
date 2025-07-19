@@ -65,12 +65,6 @@ DOMAIN-SUFFIX,uptodown.com
 DOMAIN-KEYWORD,uptodown
 DOMAIN-KEYWORD,pikpak
 DOMAIN-KEYWORD,mypikpak
-DOMAIN-SUFFIX,capcutapi.com
-DOMAIN-KEYWORD,capcutapi
-DOMAIN-KEYWORD,capcutvod
-DOMAIN-KEYWORD,byteoversea
-DOMAIN-KEYWORD,bytedapm
-DOMAIN-KEYWORD,akamai
 DOMAIN-SUFFIX,you.com
 DOMAIN-KEYWORD,ptt
 DOMAIN-KEYWORD,imgur
@@ -89,11 +83,18 @@ DOMAIN-KEYWORD,greasyfork
 
 
 # 内容：TikTok
-# 数量：15条
+
 USER-AGENT,TikTok*
 DOMAIN-KEYWORD,tiktokv
 DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-KEYWORD,tiktokcdn-us
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-KEYWORD,capcutapi
+DOMAIN-KEYWORD,capcutvod
+DOMAIN-KEYWORD,byteoversea
+DOMAIN-KEYWORD,bytedapm
+DOMAIN-KEYWORD,akamai
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ipstatp.com
@@ -105,3 +106,5 @@ DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokd.org
