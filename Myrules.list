@@ -1,7 +1,7 @@
 # My Rule
 
-DOMAIN-SUFFIX,api.ytools.cc
-DOMAIN-SUFFIX,v1.mk
+# DOMAIN-SUFFIX,api.ytools.cc
+# DOMAIN-SUFFIX,v1.mk
 DOMAIN-KEYWORD,jiux001
 DOMAIN-KEYWORD,vercel
 DOMAIN-KEYWORD,huasuan666
