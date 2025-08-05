@@ -1,11 +1,1 @@
-proxies:
-    - { name: 日本1, server: jp.redbean.pro, port: 21770, sni: null, up: null, down: null, skip-cert-verify: false, ports: 21001-21999, type: hysteria2, password: 980f46c7-b26e-4301-b438-b6ccffbab91f }
-    - { name: 日本2, server: jp.redbean.pro, port: 21627, sni: null, up: null, down: null, skip-cert-verify: false, ports: 21001-21999, type: hysteria2, password: 980f46c7-b26e-4301-b438-b6ccffbab91f }
-    - { name: 新加坡1, server: sg.redbean.pro, port: 21490, sni: null, up: null, down: null, skip-cert-verify: false, ports: 21001-21999, type: hysteria2, password: 980f46c7-b26e-4301-b438-b6ccffbab91f }
-    - { name: 新加坡2, server: sg.redbean.pro, port: 21803, sni: null, up: null, down: null, skip-cert-verify: false, ports: 21001-21999, type: hysteria2, password: 980f46c7-b26e-4301-b438-b6ccffbab91f }
-    - { name: 香港1, server: hk.redbean.pro, port: 21607, sni: null, up: null, down: null, skip-cert-verify: false, ports: 21001-21999, type: hysteria2, password: 980f46c7-b26e-4301-b438-b6ccffbab91f }
-    - { name: 香港2, server: hk.redbean.pro, port: 21051, sni: null, up: null, down: null, skip-cert-verify: false, ports: 21001-21999, type: hysteria2, password: 980f46c7-b26e-4301-b438-b6ccffbab91f }
-    - { name: 美国1, server: us.redbean.pro, port: 21326, sni: null, up: null, down: null, skip-cert-verify: false, ports: 21001-21999, type: hysteria2, password: 980f46c7-b26e-4301-b438-b6ccffbab91f }
-    - { name: 美国2, server: us.redbean.pro, port: 21791, sni: null, up: null, down: null, skip-cert-verify: false, ports: 21001-21999, type: hysteria2, password: 980f46c7-b26e-4301-b438-b6ccffbab91f }
-    - { name: 荷兰1, server: nl.redbean.pro, port: 21089, sni: null, up: null, down: null, skip-cert-verify: false, ports: 21001-21999, type: hysteria2, password: 980f46c7-b26e-4301-b438-b6ccffbab91f }
-    - { name: 荷兰2, server: nl.redbean.pro, port: 21410, sni: null, up: null, down: null, skip-cert-verify: false, ports: 21001-21999, type: hysteria2, password: 980f46c7-b26e-4301-b438-b6ccffbab91f }
+
