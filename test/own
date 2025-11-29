@@ -319,3 +319,15 @@ proxies:
   - {name: 🇦🇪 阿联酋 03, server: jp.xn--gmq00sc0nuve.shop, port: 21917, type: hysteria2, password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d, auth: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d, sni: jp.xn--gmq00sc0nuve.shop, skip-cert-verify: true, udp: true}
 
 
+
+#Tuic
+
+  - {name: 🇭🇰 香港 15, server: hktuic01.yydzx.xyz, port: 12907, type: tuic, password: de5d89a9-3f16-448e-8c40-9145852c8736, uuid: de5d89a9-3f16-448e-8c40-9145852c8736, sni: hktuic01.yydzx.xyz, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: bbr}
+  - {name: 🇩🇪 法国 11, server: node.waifly.com, port: 28132, type: tuic, password: 91bf574a-4a2f-42eb-bfa9-5824317f541c, uuid: 91bf574a-4a2f-42eb-bfa9-5824317f541c, sni: example.com, skip-cert-verify: true, disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: cubic}
+  - {name: 🇩🇪 德国 06, server: de3.bot-hosting.net, port: 20434, type: tuic, password: e7be6bfd-6ac8-470e-bc83-f4cbc3f7bfcb, uuid: e7be6bfd-6ac8-470e-bc83-f4cbc3f7bfcb, sni: example.com, skip-cert-verify: true, disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: cubic}
+  - {name: 🇩🇪 德国 07, server: de1.bot-hosting.net, port: 21474, type: tuic, password: 67148f6c-1c15-42d5-981b-67f5f572d039, uuid: 67148f6c-1c15-42d5-981b-67f5f572d039, sni: example.com, skip-cert-verify: true, disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: cubic}
+  - {name: 🇩🇪 芬兰 01, server: fi5.bot-hosting.net, port: 20800, type: tuic, password: 341e05a4-aa65-480c-82d2-02e8070e236b, uuid: 341e05a4-aa65-480c-82d2-02e8070e236b, sni: example.com, skip-cert-verify: true, disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: cubic}
+  - {name: 🇩🇪 芬兰 03, server: fi2.bot-hosting.net, port: 20304, type: tuic, password: 39d8dab2-1dec-4605-b46e-53f4a3a59dc8, uuid: 39d8dab2-1dec-4605-b46e-53f4a3a59dc8, sni: example.com, skip-cert-verify: true, disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: cubic}
+
+
+
