@@ -280,6 +280,12 @@ proxies:
 
 #GoodFast
 
-  - {name: 🇭🇰 香港 16, server: 382c152a-t6g1s0-t7wiup-1teuc.hk1.hyhuawei.com, port: 443, type: hysteria2, password: a5a81a34-f257-11ef-ba82-f23c913c8d2b, auth: a5a81a34-f257-11ef-ba82-f23c913c8d2b, sni: 382c152a-t6g1s0-t7wiup-1teuc.hk1.hyhuawei.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 18, server: 4e96e80f-t6g1s0-t7wiup-1teuc.hk2.hyhuawei.com, port: 443, type: hysteria2, password: a5a81a34-f257-11ef-ba82-f23c913c8d2b, auth: a5a81a34-f257-11ef-ba82-f23c913c8d2b, sni: 4e96e80f-t6g1s0-t7wiup-1teuc.hk2.hyhuawei.com, skip-cert-verify: true, udp: true}
+
+#Anytls
+
+  - {name: 🇺🇸 美国 39, server: ociuszz5.9966663.xyz, port: 63427, type: anytls, password: c1854182-5014-4cd5-b024-022302480ba1, fingerprint: chrome, udp: true, sni: ociuszz5.9966663.xyz, skip-cert-verify: true, alpn: [h2]}
+  - {name: 🇦🇺 澳大利亚 01, server: auoci.9966663.xyz, port: 34546, type: anytls, password: 238d00bd-79f9-4780-82c3-5fd8d3546947, fingerprint: chrome, udp: true, sni: auoci.9966663.xyz, skip-cert-verify: true, alpn: [h2]}
+  - {name: 🇦🇺 澳大利亚 02, server: auoci.9966663.xyz, port: 34543, type: anytls, password: 238d00bd-79f9-4780-82c3-5fd8d3546947, fingerprint: chrome, udp: true, sni: auoci.9966663.xyz, skip-cert-verify: true, alpn: [h2]}
+  - {name: 🇦🇺 澳大利亚 03, server: auoci.9966663.xyz, port: 34547, type: anytls, password: 238d00bd-79f9-4780-82c3-5fd8d3546947, fingerprint: chrome, udp: true, sni: auoci.9966663.xyz, skip-cert-verify: true, alpn: [h2]}
+  - {name: 🇩🇪 印尼 01, server: idanytls01.yytls.top, port: 27016, type: anytls, password: de5d89a9-3f16-448e-8c40-9145852c8736, udp: true, sni: idanytls01.yytls.top, skip-cert-verify: true}
 
