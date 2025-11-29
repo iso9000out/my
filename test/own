@@ -280,6 +280,8 @@ proxies:
 
 #GoodFast
 
+  - {name: CF节点, server: wvs.sosorg.nyc.mn, port: 443, type: vless, uuid: fb87a5bc-9c03-4e3e-a9ac-f091d6694a79, tls: true, tfo: false, skip-cert-verify: true, servername: saas.cfliu.filegear-sg.me, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: saas.cfliu.filegear-sg.me}}, udp: true}
+
 
 #Anytls
 
