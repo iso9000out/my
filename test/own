@@ -282,6 +282,7 @@ proxies:
 
 
 #Anytls
+
   - {name: 🇺🇸 美国 39, server: ociuszz5.9966663.xyz, port: 63427, type: anytls, password: c1854182-5014-4cd5-b024-022302480ba1, fingerprint: chrome, udp: true, sni: ociuszz5.9966663.xyz, skip-cert-verify: true, alpn: [h2]}
   - {name: 🇦🇺 澳大利亚 01, server: auoci.9966663.xyz, port: 34546, type: anytls, password: 238d00bd-79f9-4780-82c3-5fd8d3546947, fingerprint: chrome, udp: true, sni: auoci.9966663.xyz, skip-cert-verify: true, alpn: [h2]}
   - {name: 🇦🇺 澳大利亚 02, server: auoci.9966663.xyz, port: 34543, type: anytls, password: 238d00bd-79f9-4780-82c3-5fd8d3546947, fingerprint: chrome, udp: true, sni: auoci.9966663.xyz, skip-cert-verify: true, alpn: [h2]}
@@ -290,6 +291,7 @@ proxies:
 
 
 #Hy2
+
   - {name: 🇭🇰 香港 16, server: 382c152a-t6g1s0-t7wiup-1teuc.hk1.hyhuawei.com, port: 443, type: hysteria2, password: a5a81a34-f257-11ef-ba82-f23c913c8d2b, auth: a5a81a34-f257-11ef-ba82-f23c913c8d2b, sni: 382c152a-t6g1s0-t7wiup-1teuc.hk1.hyhuawei.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 18, server: 4e96e80f-t6g1s0-t7wiup-1teuc.hk2.hyhuawei.com, port: 443, type: hysteria2, password: a5a81a34-f257-11ef-ba82-f23c913c8d2b, auth: a5a81a34-f257-11ef-ba82-f23c913c8d2b, sni: 4e96e80f-t6g1s0-t7wiup-1teuc.hk2.hyhuawei.com, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 法国 01, server: 195.154.206.231, port: 33880, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: apple.com, skip-cert-verify: true, udp: true}
@@ -319,6 +321,7 @@ proxies:
 
 
 #Tuic
+
   - {name: 🇭🇰 香港 15, server: hktuic01.yydzx.xyz, port: 12907, type: tuic, password: de5d89a9-3f16-448e-8c40-9145852c8736, uuid: de5d89a9-3f16-448e-8c40-9145852c8736, sni: hktuic01.yydzx.xyz, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: bbr}
   - {name: 🇩🇪 法国 11, server: node.waifly.com, port: 28132, type: tuic, password: 91bf574a-4a2f-42eb-bfa9-5824317f541c, uuid: 91bf574a-4a2f-42eb-bfa9-5824317f541c, sni: example.com, skip-cert-verify: true, disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: cubic}
   - {name: 🇩🇪 德国 06, server: de3.bot-hosting.net, port: 20434, type: tuic, password: e7be6bfd-6ac8-470e-bc83-f4cbc3f7bfcb, uuid: e7be6bfd-6ac8-470e-bc83-f4cbc3f7bfcb, sni: example.com, skip-cert-verify: true, disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: cubic}
@@ -329,6 +332,7 @@ proxies:
 
 
 #Vless
+
   - {name: 🇭🇰 香港 01, server: 8.217.180.234, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: true, tfo: false, skip-cert-verify: true, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: kuangbao.xiejiang.dpdns.org}}, udp: true}
   - {name: 🇭🇰 香港 04, server: 202.85.53.54, port: 7000, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: true, tfo: false, skip-cert-verify: true, servername: kuangbao.xiejiang.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: kuangbao.xiejiang.dpdns.org}}, udp: true}
   - {name: 🇭🇰 香港 05, server: 68.64.176.135, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: kuangbao.xiejiang.dpdns.org, client-fingerprint: random, network: ws, ws-opts: {path: /, headers: {Host: kuangbao.xiejiang.dpdns.org}}, udp: true}
