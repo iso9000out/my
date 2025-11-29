@@ -279,3 +279,7 @@ proxies:
 
 
 #GoodFast
+
+  - {name: 🇭🇰 香港 16, server: 382c152a-t6g1s0-t7wiup-1teuc.hk1.hyhuawei.com, port: 443, type: hysteria2, password: a5a81a34-f257-11ef-ba82-f23c913c8d2b, auth: a5a81a34-f257-11ef-ba82-f23c913c8d2b, sni: 382c152a-t6g1s0-t7wiup-1teuc.hk1.hyhuawei.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 18, server: 4e96e80f-t6g1s0-t7wiup-1teuc.hk2.hyhuawei.com, port: 443, type: hysteria2, password: a5a81a34-f257-11ef-ba82-f23c913c8d2b, auth: a5a81a34-f257-11ef-ba82-f23c913c8d2b, sni: 4e96e80f-t6g1s0-t7wiup-1teuc.hk2.hyhuawei.com, skip-cert-verify: true, udp: true}
+
