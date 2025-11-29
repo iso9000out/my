@@ -283,14 +283,6 @@ proxies:
   - {name: CF节点, server: wvs.sosorg.nyc.mn, port: 443, type: vless, uuid: fb87a5bc-9c03-4e3e-a9ac-f091d6694a79, tls: true, tfo: false, skip-cert-verify: true, servername: saas.cfliu.filegear-sg.me, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: saas.cfliu.filegear-sg.me}}, udp: true}
 
 
-#Anytls
-
-  - {name: 🇺🇸 美国 39, server: ociuszz5.9966663.xyz, port: 63427, type: anytls, password: c1854182-5014-4cd5-b024-022302480ba1, fingerprint: chrome, udp: true, sni: ociuszz5.9966663.xyz, skip-cert-verify: true, alpn: [h2]}
-  - {name: 🇦🇺 澳大利亚 01, server: auoci.9966663.xyz, port: 34546, type: anytls, password: 238d00bd-79f9-4780-82c3-5fd8d3546947, fingerprint: chrome, udp: true, sni: auoci.9966663.xyz, skip-cert-verify: true, alpn: [h2]}
-  - {name: 🇦🇺 澳大利亚 02, server: auoci.9966663.xyz, port: 34543, type: anytls, password: 238d00bd-79f9-4780-82c3-5fd8d3546947, fingerprint: chrome, udp: true, sni: auoci.9966663.xyz, skip-cert-verify: true, alpn: [h2]}
-  - {name: 🇦🇺 澳大利亚 03, server: auoci.9966663.xyz, port: 34547, type: anytls, password: 238d00bd-79f9-4780-82c3-5fd8d3546947, fingerprint: chrome, udp: true, sni: auoci.9966663.xyz, skip-cert-verify: true, alpn: [h2]}
-  - {name: 🇩🇪 印尼 01, server: idanytls01.yytls.top, port: 27016, type: anytls, password: de5d89a9-3f16-448e-8c40-9145852c8736, udp: true, sni: idanytls01.yytls.top, skip-cert-verify: true}
-
 
 #Hy2
 
