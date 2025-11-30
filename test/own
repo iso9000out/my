@@ -333,3 +333,14 @@ proxies:
 
   - {name: CF节点, server: wvs.sosorg.nyc.mn, port: 443, type: vless, uuid: fb87a5bc-9c03-4e3e-a9ac-f091d6694a79, tls: true, tfo: false, skip-cert-verify: true, servername: saas.cfliu.filegear-sg.me, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: saas.cfliu.filegear-sg.me}}, udp: true}
 
+  - {name: vless-reality, server: 107.148.225.121, port: 29346, type: vless, uuid: 522fbf87-eb01-4a96-9be0-7040f565280c, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: omnvcbYUmxWuxu01064-LwDOoExs059Desd5skiphiM, short-id: eb034c8bd4454961}, servername: www.microsoft.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: vless-grpc-reality, server: 107.148.225.121, port: 40996, type: vless, uuid: 522fbf87-eb01-4a96-9be0-7040f565280c, tls: true, tfo: false, skip-cert-verify: true, reality-opts: {public-key: omnvcbYUmxWuxu01064-LwDOoExs059Desd5skiphiM, short-id: eb034c8bd4454961}, servername: www.microsoft.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, udp: true}
+  - {name: trojan-reality, server: 107.148.225.121, port: 24552, type: trojan, password: 522fbf87-eb01-4a96-9be0-7040f565280c, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: hysteria2, server: 107.148.225.121, port: 33500, type: hysteria2, password: vNk9S+/nFsCaY7dh4OUfwf7Sg1Z+T1YSXAXd45AYvHc=, auth: vNk9S+/nFsCaY7dh4OUfwf7Sg1Z+T1YSXAXd45AYvHc=, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: vmess-ws, server: 107.148.225.121, port: 16882, type: vmess, uuid: 522fbf87-eb01-4a96-9be0-7040f565280c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vm}, udp: true}
+  - {name: hysteria2-obfs, server: 107.148.225.121, port: 14176, type: hysteria2, password: n6jDpttBTa6xcC29Dl9rPvHDmQrN7pALAAQnV0P/1zk=, auth: n6jDpttBTa6xcC29Dl9rPvHDmQrN7pALAAQnV0P/1zk=, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3], obfs: salamander, obfs-password: aDtPR7j0IEWkuRpYwlzl2g==, udp: true}
+  - {name: ss2022, server: 107.148.225.121, port: 29306, type: ss, cipher: 2022-blake3-aes-256-gcm, password: TdNyz8fNoV4PCTlTU/AuLNXkU/C/8EJ9727Uo2qolIY=, udp: true}
+  - {name: ss 5, server: 107.148.225.121, port: 30506, type: ss, cipher: aes-256-gcm, password: 9_PjVQJVYrBMT1WgdNjjfIglmTU60Hur, udp: true}
+  - {name: tuic-v5, server: 107.148.225.121, port: 18316, type: tuic, password: 522fbf87-eb01-4a96-9be0-7040f565280c, uuid: 522fbf87-eb01-4a96-9be0-7040f565280c, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
+
+
