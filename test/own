@@ -281,6 +281,13 @@ proxies:
 #GoodFast
 
   - {name: JP Chui 1, server: 35.77.110.27, port: 8989, type: ss, cipher: chacha20-ietf-poly1305, password: f0b9ae63-91a7-4673-924e-498e0e0828c0}
+  - {name: 🇸🇬 新加坡  Akanai, server: 223.95.183.131, port: 39398, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇸🇬 新加坡  SGP, server: 223.95.183.131, port: 25819, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇸🇬 新加坡  Tencent, server: 223.95.183.131, port: 45295, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇸🇬 新加坡  SGP 2, server: 223.95.183.131, port: 47116, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇸🇬 新加坡  Tencent 2, server: 223.95.183.131, port: 28217, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+
+
 
 #Anytls
 
