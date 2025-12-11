@@ -286,7 +286,7 @@ proxies:
   - {name: 🇸🇬 新加坡  Tencent, server: 223.95.183.131, port: 45295, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
   - {name: 🇸🇬 新加坡  SGP 2, server: 223.95.183.131, port: 47116, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
   - {name: 🇸🇬 新加坡  Tencent 2, server: 223.95.183.131, port: 28217, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
-
+  - {name: visa.com:443, server: visa.com, port: 443, type: vless, uuid: 495c0dad-3268-4470-ac57-887c5089db0d, tls: true, tfo: false, skip-cert-verify: true, servername: asuka.boringdad.netlib.re, network: ws, ws-opts: {path: /, headers: {Host: asuka.boringdad.netlib.re}}, udp: true}
 
 
 #Anytls
