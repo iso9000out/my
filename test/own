@@ -290,7 +290,7 @@ proxies:
   - {name: 🇸🇬 新加坡-IPV6-AWS, server: "[2406:da18:94:a400:b1c1:8374:3548:4727]", port: 18080, type: trojan, password: 546763be-3313-4111-9dbd-2c7bdeb44ddf, sni: jiangsu-10.zos.ctyun.cn, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 V2CROSS.COM, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 阿里云, server: www.shopify.com, port: 2096, type: trojan, password: f52d0a04-94ad-4f9e-9945-4c3d43374e36, sni: ts888.yumige.dpdns.org, alpn: [h3], skip-cert-verify: true, network: ws, ws-opts: {path: /http://5555:5555@47.242.35.79:5555, headers: {Host: ts888.yumige.dpdns.org}}, udp: true}
-
+  - {name: southmaple.top, server: 185.241.40.168, port: 31204, type: trojan, password: EpKcUdLNSI, sni: www.bing.com, skip-cert-verify: true, udp: true}
 
 
 
