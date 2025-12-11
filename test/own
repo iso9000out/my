@@ -365,7 +365,7 @@ proxies:
 
 
 
-
+#2026-01-02过期
   - { name: '🇺🇸America 01 San José', server: us1.miyazono-kaori.com, port: 45539, sni: us1.miyazono-kaori.com, up: null, down: null, skip-cert-verify: false, ports: 40000-50000, type: hysteria2, password: 937ea175-026e-4155-8912-5639dc2138d9, obfs: salamander, obfs-password: MLcTDmvKlm0psA1o }
   - { name: '🇺🇸America 02 San José', server: us2.miyazono-kaori.com, port: 42771, sni: us2.miyazono-kaori.com, up: null, down: null, skip-cert-verify: false, ports: 40000-50000, type: hysteria2, password: 937ea175-026e-4155-8912-5639dc2138d9, obfs: salamander, obfs-password: q09FgbUK15sTD3tM }
   - { name: '🇺🇸America 05 Phoenix', server: us5.miyazono-kaori.com, port: 49042, sni: us5.miyazono-kaori.com, up: null, down: null, skip-cert-verify: false, ports: 40000-50000, type: hysteria2, password: 937ea175-026e-4155-8912-5639dc2138d9, obfs: salamander, obfs-password: BPD6yutSFKgajsOc }
