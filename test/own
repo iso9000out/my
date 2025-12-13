@@ -293,6 +293,17 @@ proxies:
   - {name: southmaple.top, server: 185.241.40.168, port: 31204, type: trojan, password: EpKcUdLNSI, sni: www.bing.com, skip-cert-verify: true, udp: true}
 
 
+  - {name: 🇭🇰 香港, server: 113.46.227.69, port: 9999, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c358ab5fb77bf5df, tfo: false, udp: true}
+  - {name: 🇯🇵 日本, server: 113.46.227.82, port: 9909, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c358ab5fb77bf5df, tfo: false, udp: true}
+  - {name: 🇸🇬 新加坡, server: 113.46.227.82, port: 9999, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c358ab5fb77bf5df, tfo: false, udp: true}
+  - {name: 🇬🇧 英国, server: 113.46.227.82, port: 9908, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c358ab5fb77bf5df, tfo: false, udp: true}
+  - {name: 🇩🇪 德国, server: 113.46.227.82, port: 9901, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c358ab5fb77bf5df, tfo: false, udp: true}
+  - {name: 🇺🇸 美国聖荷西, server: 113.46.227.82, port: 9915, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c358ab5fb77bf5df, tfo: false, udp: true}
+  - {name: 🇺🇸 美国洛杉矶, server: 113.46.227.82, port: 9910, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c358ab5fb77bf5df, tfo: false, udp: true}
+  - {name: 🇦🇺 澳大利亚, server: 113.46.227.82, port: 9911, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c358ab5fb77bf5df, tfo: false, udp: true}
+  - {name: 🇰🇷 首尔cxkun.com, server: sr.jiediandajie.link, port: 1421, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b26a2283-2bec-4b2b-a3c1-ce25d1ac62c6, tfo: false, udp: true}
+
+
 
   - {name: 🇨🇦 加拿大 中继-11.5x, server: zzvds3.xxjc-ddns.top, port: 20031, type: ssr, cipher: aes-256-cfb, password: Wyi7aa, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 197126:C2X60M, obfs-param: c0972197126.zhaoj.in, udp: true}
   - {name: 🇨🇦 加拿大 中继-21.5x, server: zzvds3.xxjc-ddns.top, port: 20032, type: ssr, cipher: aes-256-cfb, password: Wyi7aa, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 197126:C2X60M, obfs-param: c0972197126.zhaoj.in, udp: true}
