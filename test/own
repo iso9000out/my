@@ -295,6 +295,8 @@ proxies:
 
 
   - {name: qd_hk, server: 47.104.178.65, port: 8443, type: hysteria2, password: XlKH0dIDib, auth: XlKH0dIDib, sni: bing.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK01, server: 120.232.218.114, port: 49213, type: trojan, password: f2ae5f66-0e1d-49ed-93b1-507e6ad26787, skip-cert-verify: true, udp: true}
+
 
 
   - {name: 🇭🇰 香港, server: 113.46.227.69, port: 9999, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c358ab5fb77bf5df, tfo: false, udp: true}
