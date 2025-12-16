@@ -296,6 +296,11 @@ proxies:
 
   - {name: qd_hk, server: 47.104.178.65, port: 8443, type: hysteria2, password: XlKH0dIDib, auth: XlKH0dIDib, sni: bing.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK01, server: 120.232.218.114, port: 49213, type: trojan, password: f2ae5f66-0e1d-49ed-93b1-507e6ad26787, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 Hong Kong, server: 58.152.53.174, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 233boy-reality, server: 1.165.83.250, port: 57236, type: vless, uuid: 6b10ecc3-d4c2-40e2-ac33-1f9abb9a5b58, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: gb_4u29Xpz6QWUiV-xJ4LhowRgnYu8e150_Dy5tL_Dk}, servername: dash.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇭🇰 HK5|18.5MB, server: 58.152.18.155, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 156.246.90.110, server: 156.246.90.110, port: 33726, type: ss, cipher: aes-256-gcm, password: 0SmyQLNyMS, udp: true}
+  - {name: JP_4-clone, server: 116.80.44.144, port: 27724, type: vless, uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w}, servername: www.yahoo.co.jp, client-fingerprint: chrome, network: tcp, udp: true}
 
 
 
