@@ -292,6 +292,9 @@ proxies:
   - {name: 🇭🇰 香港 阿里云, server: www.shopify.com, port: 2096, type: trojan, password: f52d0a04-94ad-4f9e-9945-4c3d43374e36, sni: ts888.yumige.dpdns.org, alpn: [h3], skip-cert-verify: true, network: ws, ws-opts: {path: /http://5555:5555@47.242.35.79:5555, headers: {Host: ts888.yumige.dpdns.org}}, udp: true}
   - {name: southmaple.top, server: 185.241.40.168, port: 31204, type: trojan, password: EpKcUdLNSI, sni: www.bing.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 埼玉县 大井 Vultr, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: trojan, password: f52d0a04-94ad-4f9e-9945-4c3d43374e36, sni: ts888.yumige.dpdns.org, skip-cert-verify: true, udp: true}
+  - {name: "Hostinger", server: vermilion.qzz.io, port: 443, client-fingerprint: chrome, type: vless, uuid: 623e29dc-6675-4f1b-b33a-7c76bcc19f4a, tls: true, tfo: false, servername: vermilion.qzz.io, skip-cert-verify: true, network: ws, ws-opts: {path: /31.97.50.106:443, headers: {Host: vermilion.qzz.io}}, udp: true}
+
+
 
 
   - {name: qd_hk, server: 47.104.178.65, port: 8443, type: hysteria2, password: XlKH0dIDib, auth: XlKH0dIDib, sni: bing.com, skip-cert-verify: true, udp: true}
