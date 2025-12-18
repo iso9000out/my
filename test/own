@@ -21,7 +21,9 @@ proxies:
   - {name: HK_WangCai, server: WangCai.cf.877774.xyz, port: 8880, client-fingerprint: chrome, type: vless, uuid: 67e631dd-9566-457f-82f1-9a06cafa6dc8, tls: false, tfo: false, servername: WangCai.cf.877774.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: WangCai.cf.877774.xyz}}, udp: true}
   - {name: US_WangCai, server: 88.210.36.106, port: 443, client-fingerprint: chrome, type: trojan, password: 117ec0f7b1e98c77, sni: t.me%2FWangCai2, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: db}, udp: true}
 
-
+  - {name: 🏳️‍🌈 新加坡🇸🇬 Akari Networks无限流量, server: 103.248.229.90, port: 35817, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 4VqrUWV7hm, tfo: false, udp: true}
+  - {name: 🏳️‍🌈 新加坡🇸🇬 Akari Networks--3无限流量, server: 103.248.229.90, port: 24203, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1GJth1Qjic, tfo: false, udp: true}
+  - {name: 🏳️‍🌈 新加坡🇸🇬 Akari Networks--2无限流量, server: 103.248.229.90, port: 40413, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: hGpFS8dtyN, tfo: false, udp: true}
 
   - {name: qd_hk, server: 47.104.178.65, port: 8443, type: hysteria2, password: XlKH0dIDib, auth: XlKH0dIDib, sni: bing.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK01, server: 120.232.218.114, port: 49213, type: trojan, password: f2ae5f66-0e1d-49ed-93b1-507e6ad26787, skip-cert-verify: true, udp: true}
