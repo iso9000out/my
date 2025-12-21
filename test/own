@@ -43,6 +43,10 @@ proxies:
   - {name: ☁️-ID-O, server: freeyx.cloudflare88.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: 9b40d859-e833-42eb-ba99-ebcad479997d, tls: true, tfo: false, servername: oracle-id-batam.064288.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/announcement?ed=2048", headers: {Host: oracle-id-batam.064288.xyz}}, udp: true}
   - {name: 🇧🇷 巴西-圣保罗, server: 168.138.131.183, port: 7785, reality-opts: {public-key: XfRq1EP1ksmCeQtnVftv1wJZAdBzgemz5Cfdpwq6dQk, short-id: cd1291ed}, client-fingerprint: chrome, type: vless, uuid: 4a154e4b-6103-425c-84a3-b9d5af4933e4, tls: true, tfo: false, servername: www.counter-strike.net, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
   - {name: SY, server: 38.34.2.155, port: 18199, client-fingerprint: chrome, type: vmess, uuid: 0d2c09cd-aade-469a-9595-15db16085be8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 香港125", server: 103.197.71.148, port: 8080, reality-opts: {public-key: synxygq0ozctiW0jNF1mmvAI9PainW0rBfqe11LkeAM}, client-fingerprint: random, type: vless, uuid: 1e503e46-5ab8-4f79-8cd1-73bac4bcd102, tls: true, tfo: false, servername: swdist.apple.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 | JPN, server: zhe01.webflarex.top, port: 38340, client-fingerprint: chrome, type: trojan, password: k9EG6P7KcwrNUvxo, sni: yazhou10.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-919.0KB/s, server: 112.118.116.8, port: 443, client-fingerprint: chrome, type: trojan, password: e2722c0fb503f8a592436c12bce0509a, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: 68f891b8-d7e8-47bf-a5f2-b7baf912f69c, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: asuka.0061.my, network: ws, ws-opts: {path: /, headers: {Host: asuka.0061.my}}, udp: true}
 
 
 
