@@ -47,7 +47,7 @@ proxies:
   - {name: 🇯🇵 日本 | JPN, server: zhe01.webflarex.top, port: 38340, client-fingerprint: chrome, type: trojan, password: k9EG6P7KcwrNUvxo, sni: yazhou10.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-919.0KB/s, server: 112.118.116.8, port: 443, client-fingerprint: chrome, type: trojan, password: e2722c0fb503f8a592436c12bce0509a, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: 68f891b8-d7e8-47bf-a5f2-b7baf912f69c, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: asuka.0061.my, network: ws, ws-opts: {path: /, headers: {Host: asuka.0061.my}}, udp: true}
-
+  - {name: 🇯🇵 日本 VL, server: 178.239.124.211, port: 41632, reality-opts: {public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM}, client-fingerprint: chrome, type: vless, uuid: e19d9843-8347-4bc9-c40e-f59c1e545924, tls: true, tfo: false, servername: yahoo.co.jp, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
 
 
   - {name: vless-reality, server: 107.148.225.121, port: 29346, type: vless, uuid: 522fbf87-eb01-4a96-9be0-7040f565280c, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: omnvcbYUmxWuxu01064-LwDOoExs059Desd5skiphiM, short-id: eb034c8bd4454961}, servername: www.microsoft.com, client-fingerprint: chrome, network: tcp, udp: true}
