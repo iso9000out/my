@@ -16,6 +16,19 @@ proxies:
   - {name: CF_V13_yg13.ygkkk.dpdns.org_2096, server: yg13.ygkkk.dpdns.org, port: 2096, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: true, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
 
 
+  - {name: GB_AVToday.io_4, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: GB_AVToday.io_5, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: GB_AVToday.io_6, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: GB_AVToday.io_7, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: US_AVToday.io_9, server: 95.164.116.33, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA, tfo: false, udp: true}
+  - {name: GB_AVToday.io_8, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: CN_AVToday.io_18, server: v12.hdacd.com, port: 30812, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: GB_AVToday.io_9, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+
+
+
+
+
 #GoodFast
 
   - {name: JP Chui 1, server: 35.77.110.27, port: 8989, type: ss, cipher: chacha20-ietf-poly1305, password: f0b9ae63-91a7-4673-924e-498e0e0828c0}
