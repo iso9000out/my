@@ -1,6 +1,13 @@
 proxies:
 
 
+  - {name: 🇨🇳 IEPL1|台湾1｜x2, server: gogpe.dhh114514.casa, port: 42029, reality-opts: {public-key: 5j0D5VRr76mvmXNzT-tMk3IVQQr_6uhbL_ykvZdU2kc, short-id: f5739ee2}, client-fingerprint: firefox, type: vless, uuid: 29f5e6fe-d4cc-4614-a744-90416e78f797, tls: true, tfo: false, servername: jimeng.jianying.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan-WS]直连", server: ip.dudeuni.com, port: 28398, client-fingerprint: chrome, type: trojan, password: BasflkqKWB, sni: ip.dudeuni.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan-hk] 直连", server: ip.dudeuni.com, port: 12773, client-fingerprint: chrome, type: trojan, password: yG6FRhzlRt, sni: ip.dudeuni.com, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: grpc}, udp: true}
+  - {name: "[Trojan]直连", server: ip.dudeuni.com, port: 52251, client-fingerprint: chrome, type: trojan, password: HQk9wst3vK, sni: ip.dudeuni.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan-hk-V6] 直连", server: ipv6.dudeuni.com, port: 12773, client-fingerprint: chrome, type: trojan, password: yG6FRhzlRt, sni: ip.dudeuni.com, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: grpc}, udp: true}
+  - {name: "[Trojan-WS-V6]直连", server: ipv6.dudeuni.com, port: 28398, client-fingerprint: chrome, type: trojan, password: BasflkqKWB, sni: ip.dudeuni.com, skip-cert-verify: true, udp: true}
+
 
   - {name: 🇰🇷 1、韩国, server: 129.154.222.63, port: 8443, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /129.154.222.63:8443, headers: {Host: snippets.kkii.eu.org}}, udp: true}
   - {name: 🇰🇷 2、韩国, server: 146.56.138.33, port: 10443, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /146.56.138.33:10443, headers: {Host: snippets.kkii.eu.org}}, udp: true}
