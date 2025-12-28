@@ -2,7 +2,7 @@ proxies:
 
   - {name: 🇨🇳 中国 rep, server: v12.hdacd.com, port: 30812, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 rep, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-
+  - {name: nadia, server: investors.spotify.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 514954de-d548-415b-88c0-0ba444213820, tls: true, tfo: false, servername: investors.spotify.com.nusa.vpnstore28.my.id, skip-cert-verify: true, network: ws, ws-opts: {path: /vless, headers: {Host: investors.spotify.com.nusa.vpnstore28.my.id}}, udp: true}
 
   - {name: 🇨🇳 IEPL1|台湾1｜x2, server: gogpe.dhh114514.casa, port: 42029, reality-opts: {public-key: 5j0D5VRr76mvmXNzT-tMk3IVQQr_6uhbL_ykvZdU2kc, short-id: f5739ee2}, client-fingerprint: firefox, type: vless, uuid: 29f5e6fe-d4cc-4614-a744-90416e78f797, tls: true, tfo: false, servername: jimeng.jianying.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
   - {name: "[Trojan-WS]直连", server: ip.dudeuni.com, port: 28398, client-fingerprint: chrome, type: trojan, password: BasflkqKWB, sni: ip.dudeuni.com, skip-cert-verify: true, udp: true}
