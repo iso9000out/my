@@ -14,6 +14,10 @@ proxies:
   - {name: "7 🇸🇬 Oracle Public Cloud WS TLS [cf-serverless]", server: space.byu.id, port: 443, client-fingerprint: chrome, type: vless, uuid: b63825e9-9798-47a9-a36c-a0901681bbc4, tls: true, tfo: false, servername: cf-serverless.valvatacea.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /168.138.171.70-23280, headers: {Host: cf-serverless.valvatacea.workers.dev}}, udp: true}
   - {name: "8 🇸🇬 Oracle Svenska AB WS TLS [cf-serverless]", server: space.byu.id, port: 443, client-fingerprint: chrome, type: vless, uuid: b63825e9-9798-47a9-a36c-a0901681bbc4, tls: true, tfo: false, servername: cf-serverless.valvatacea.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /213.35.100.31-47112, headers: {Host: cf-serverless.valvatacea.workers.dev}}, udp: true}
   - {name: "🇮🇩 9 🇮🇩 PT Pusat Media Indonesia WS TLS [cf-serverless]", server: space.byu.id, port: 443, client-fingerprint: chrome, type: vless, uuid: b63825e9-9798-47a9-a36c-a0901681bbc4, tls: true, tfo: false, servername: cf-serverless.valvatacea.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /103.6.207.108-8080, headers: {Host: cf-serverless.valvatacea.workers.dev}}, udp: true}
+  - {name: 45.77.87.33:37795, server: 45.77.87.33, port: 37795, reality-opts: {public-key: 4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM}, client-fingerprint: chrome, type: vless, uuid: 8287e81d-2560-4aaf-ebc8-f6873c521f83, tls: true, tfo: false, servername: www.lovelive-anime.jp, skip-cert-verify: true, udp: true}
+
+
+
 
 
 
