@@ -34,9 +34,6 @@ proxies:
 
 
 
-
-
-
   - {name: 🇨🇳 IEPL1|台湾1｜x2, server: gogpe.dhh114514.casa, port: 42029, reality-opts: {public-key: 5j0D5VRr76mvmXNzT-tMk3IVQQr_6uhbL_ykvZdU2kc, short-id: f5739ee2}, client-fingerprint: firefox, type: vless, uuid: 29f5e6fe-d4cc-4614-a744-90416e78f797, tls: true, tfo: false, servername: jimeng.jianying.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
   - {name: "[Trojan-WS]直连", server: ip.dudeuni.com, port: 28398, client-fingerprint: chrome, type: trojan, password: BasflkqKWB, sni: ip.dudeuni.com, skip-cert-verify: true, udp: true}
   - {name: "[Trojan-hk] 直连", server: ip.dudeuni.com, port: 12773, client-fingerprint: chrome, type: trojan, password: yG6FRhzlRt, sni: ip.dudeuni.com, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: grpc}, udp: true}
@@ -44,33 +41,6 @@ proxies:
   - {name: "[Trojan-hk-V6] 直连", server: ipv6.dudeuni.com, port: 12773, client-fingerprint: chrome, type: trojan, password: yG6FRhzlRt, sni: ip.dudeuni.com, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: grpc}, udp: true}
   - {name: "[Trojan-WS-V6]直连", server: ipv6.dudeuni.com, port: 28398, client-fingerprint: chrome, type: trojan, password: BasflkqKWB, sni: ip.dudeuni.com, skip-cert-verify: true, udp: true}
 
-
-  - {name: 🇰🇷 1、韩国, server: 129.154.222.63, port: 8443, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /129.154.222.63:8443, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: 🇰🇷 2、韩国, server: 146.56.138.33, port: 10443, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /146.56.138.33:10443, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: 🇰🇷 3、韩国, server: 125.133.160.129, port: 10443, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /125.133.160.129:10443, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: 🇰🇷 4、韩国, server: 1.251.63.52, port: 20201, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /1.251.63.52:20201, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: 🇰🇷 5、韩国, server: 152.69.227.72, port: 8443, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /152.69.227.72:8443, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: 🇰🇷 6、韩国, server: 59.21.252.156, port: 37810, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /59.21.252.156:37810, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: 🇰🇷 7、韩国, server: 59.3.3.161, port: 8443, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /59.3.3.161:8443, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: 🇰🇷 8、韩国, server: 113.199.23.82, port: 18000, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /113.199.23.82:18000, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: 🇰🇷 9、韩国, server: 112.72.202.60, port: 10000, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /112.72.202.60:10000, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: 🇰🇷 10、韩国, server: 61.43.63.174, port: 32677, client-fingerprint: chrome, type: vless, uuid: 5a2c16f9-e365-4080-8d38-6924c3835586, tls: true, tfo: false, servername: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /61.43.63.174:32677, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-
-
-
-  - {name: CF_V1_yg1.ygkkk.dpdns.org_80, server: yg1.ygkkk.dpdns.org, port: 80, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: false, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V2_yg2.ygkkk.dpdns.org_8080, server: yg2.ygkkk.dpdns.org, port: 8080, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: false, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V3_yg3.ygkkk.dpdns.org_8880, server: yg3.ygkkk.dpdns.org, port: 8880, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: false, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V4_yg4.ygkkk.dpdns.org_2052, server: yg4.ygkkk.dpdns.org, port: 2052, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: false, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V5_yg5.ygkkk.dpdns.org_2082, server: yg5.ygkkk.dpdns.org, port: 2082, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: false, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V6_yg6.ygkkk.dpdns.org_2086, server: yg6.ygkkk.dpdns.org, port: 2086, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: false, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V7_yg7.ygkkk.dpdns.org_2095, server: yg7.ygkkk.dpdns.org, port: 2095, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: false, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V8_yg8.ygkkk.dpdns.org_443, server: yg8.ygkkk.dpdns.org, port: 443, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: true, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V9_yg9.ygkkk.dpdns.org_8443, server: yg9.ygkkk.dpdns.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: true, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V10_yg10.ygkkk.dpdns.org_2053, server: yg10.ygkkk.dpdns.org, port: 2053, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: true, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V11_yg11.ygkkk.dpdns.org_2083, server: yg11.ygkkk.dpdns.org, port: 2083, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: true, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V12_yg12.ygkkk.dpdns.org_2087, server: yg12.ygkkk.dpdns.org, port: 2087, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: true, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
-  - {name: CF_V13_yg13.ygkkk.dpdns.org_2096, server: yg13.ygkkk.dpdns.org, port: 2096, client-fingerprint: chrome, type: vless, uuid: 36ebc17c-d775-473f-8fcc-0220ca125a06, tls: true, tfo: false, servername: raspy-term-ef45.yhdzz1.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: raspy-term-ef45.yhdzz1.workers.dev}}, udp: true}
 
 
   - {name: GB_AVToday.io_4, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
@@ -81,8 +51,6 @@ proxies:
   - {name: GB_AVToday.io_8, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: CN_AVToday.io_18, server: v12.hdacd.com, port: 30812, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: GB_AVToday.io_9, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-
-
 
 
 
@@ -106,8 +74,6 @@ proxies:
 
 
 
-
-
   - {name: qd_hk, server: 47.104.178.65, port: 8443, type: hysteria2, password: XlKH0dIDib, auth: XlKH0dIDib, sni: bing.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK01, server: 120.232.218.114, port: 49213, type: trojan, password: f2ae5f66-0e1d-49ed-93b1-507e6ad26787, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 Hong Kong, server: 58.152.53.174, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -121,31 +87,6 @@ proxies:
 
 
 
-
-
-
-  - {name: 🇯🇵 日本 LI 01, server: jpli06.m5vip.net, port: 443, client-fingerprint: chrome, type: vless, uuid: b150b245-2223-409f-8acc-6409990e6ea1, tls: true, tfo: false, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: violet}, udp: true}
-  - {name: 🇭🇰 香港 LI 01, server: hkli01.m5vip.net, port: 443, client-fingerprint: chrome, type: vless, uuid: b150b245-2223-409f-8acc-6409990e6ea1, tls: true, tfo: false, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: violet}, udp: true}
-  - {name: 🇬🇧 ☁️-UK, server: ct.877774.xyz, port: 443, client-fingerprint: random, type: vless, uuid: 9b40d859-e833-42eb-ba99-ebcad479997d, tls: true, tfo: false, servername: do-lon1.064288.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/announcement?ed=2048", headers: {Host: do-lon1.064288.xyz}}, udp: true}
-  - {name: 🇮🇳 ☁️-IN, server: freev2.cloudflare.182682.xyz, port: 443, client-fingerprint: random, type: vless, uuid: 9b40d859-e833-42eb-ba99-ebcad479997d, tls: true, tfo: false, servername: do-blr1.064288.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/announcement?ed=2048", headers: {Host: do-blr1.064288.xyz}}, udp: true}
-  - {name: 🇸🇬 ☁️-SG, server: www.visa.com.hk, port: 443, client-fingerprint: random, type: vless, uuid: 9b40d859-e833-42eb-ba99-ebcad479997d, tls: true, tfo: false, servername: do-sgp1.064288.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/announcement?ed=2048", headers: {Host: do-sgp1.064288.xyz}}, udp: true}
-  - {name: 🇫🇷 ☁️-FR, server: freeyx.cloudflare88.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: 9b40d859-e833-42eb-ba99-ebcad479997d, tls: true, tfo: false, servername: do-fra1.064288.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/announcement?ed=2048", headers: {Host: do-fra1.064288.xyz}}, udp: true}
-  - {name: ☁️-ID-O, server: freeyx.cloudflare88.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: 9b40d859-e833-42eb-ba99-ebcad479997d, tls: true, tfo: false, servername: oracle-id-batam.064288.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/announcement?ed=2048", headers: {Host: oracle-id-batam.064288.xyz}}, udp: true}
-  - {name: 🇧🇷 巴西-圣保罗, server: 168.138.131.183, port: 7785, reality-opts: {public-key: XfRq1EP1ksmCeQtnVftv1wJZAdBzgemz5Cfdpwq6dQk, short-id: cd1291ed}, client-fingerprint: chrome, type: vless, uuid: 4a154e4b-6103-425c-84a3-b9d5af4933e4, tls: true, tfo: false, servername: www.counter-strike.net, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
-  - {name: SY, server: 38.34.2.155, port: 18199, client-fingerprint: chrome, type: vmess, uuid: 0d2c09cd-aade-469a-9595-15db16085be8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 香港125", server: 103.197.71.148, port: 8080, reality-opts: {public-key: synxygq0ozctiW0jNF1mmvAI9PainW0rBfqe11LkeAM}, client-fingerprint: random, type: vless, uuid: 1e503e46-5ab8-4f79-8cd1-73bac4bcd102, tls: true, tfo: false, servername: swdist.apple.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 | JPN, server: zhe01.webflarex.top, port: 38340, client-fingerprint: chrome, type: trojan, password: k9EG6P7KcwrNUvxo, sni: yazhou10.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港-919.0KB/s, server: 112.118.116.8, port: 443, client-fingerprint: chrome, type: trojan, password: e2722c0fb503f8a592436c12bce0509a, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: 68f891b8-d7e8-47bf-a5f2-b7baf912f69c, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: asuka.0061.my, network: ws, ws-opts: {path: /, headers: {Host: asuka.0061.my}}, udp: true}
-  - {name: 🇯🇵 日本 VL, server: 178.239.124.211, port: 41632, reality-opts: {public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM}, client-fingerprint: chrome, type: vless, uuid: e19d9843-8347-4bc9-c40e-f59c1e545924, tls: true, tfo: false, servername: yahoo.co.jp, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港, server: qa.xchicn.com, port: 43903, client-fingerprint: chrome, type: vmess, uuid: 0ff91f16-db78-4c17-b0b2-ba2d4cd72785, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-
-
-
-
-
-
-
   - {name: vless-reality, server: 107.148.225.121, port: 29346, type: vless, uuid: 522fbf87-eb01-4a96-9be0-7040f565280c, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: omnvcbYUmxWuxu01064-LwDOoExs059Desd5skiphiM, short-id: eb034c8bd4454961}, servername: www.microsoft.com, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: vless-grpc-reality, server: 107.148.225.121, port: 40996, type: vless, uuid: 522fbf87-eb01-4a96-9be0-7040f565280c, tls: true, tfo: false, skip-cert-verify: true, reality-opts: {public-key: omnvcbYUmxWuxu01064-LwDOoExs059Desd5skiphiM, short-id: eb034c8bd4454961}, servername: www.microsoft.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, udp: true}
   - {name: trojan-reality, server: 107.148.225.121, port: 24552, type: trojan, password: 522fbf87-eb01-4a96-9be0-7040f565280c, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
@@ -155,7 +96,6 @@ proxies:
   - {name: ss2022, server: 107.148.225.121, port: 29306, type: ss, cipher: 2022-blake3-aes-256-gcm, password: TdNyz8fNoV4PCTlTU/AuLNXkU/C/8EJ9727Uo2qolIY=, udp: true}
   - {name: ss 5, server: 107.148.225.121, port: 30506, type: ss, cipher: aes-256-gcm, password: 9_PjVQJVYrBMT1WgdNjjfIglmTU60Hur, udp: true}
   - {name: tuic-v5, server: 107.148.225.121, port: 18316, type: tuic, password: 522fbf87-eb01-4a96-9be0-7040f565280c, uuid: 522fbf87-eb01-4a96-9be0-7040f565280c, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
-
 
 
 
