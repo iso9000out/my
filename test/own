@@ -1,6 +1,20 @@
 proxies:
 
 
+
+  - {name: 🇸🇬 新加坡 alike, server: 223.95.183.132, port: 39398, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇸🇬 新加坡, server: 223.95.183.132, port: 25819, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇸🇬 新加坡 2, server: 223.95.183.132, port: 47116, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇸🇬 新加坡 腾讯云, server: 223.95.183.132, port: 28217, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇸🇬 新加坡 腾讯云 2, server: 223.95.183.132, port: 45295, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇯🇵 日本, server: 223.95.183.132, port: 53596, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇯🇵 日本 2, server: 223.95.183.132, port: 26334, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇺🇸 美国, server: 223.95.183.132, port: 19279, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇺🇸 美国 2, server: 223.95.183.132, port: 31091, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇸🇬 新加坡 3, server: 223.95.183.132, port: 47116, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+
+
+
   - {name: 🇺🇸 USA美国, server: 46.17.44.76, port: 1012, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 7ae4e68cf77f6089, tfo: false, udp: true}
   - {name: 🇸🇬 Singapore新加坡, server: 194.87.10.161, port: 8388, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d2umVadPT1m/FwIn, tfo: false, udp: true}
   - {name: 🇯🇵 Japan日本, server: 167.17.179.87, port: 8388, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: vEY+Etsv/KTEM3vq, tfo: false, udp: true}
