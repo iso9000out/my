@@ -1,6 +1,24 @@
 proxies:
 
 
+  - {name: 🇺🇸 USA美国, server: 46.17.44.76, port: 1012, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 7ae4e68cf77f6089, tfo: false, udp: true}
+  - {name: 🇸🇬 Singapore新加坡, server: 194.87.10.161, port: 8388, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d2umVadPT1m/FwIn, tfo: false, udp: true}
+  - {name: 🇯🇵 Japan日本, server: 167.17.179.87, port: 8388, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: vEY+Etsv/KTEM3vq, tfo: false, udp: true}
+  - {name: 🇭🇰 HongKong香港, server: 91.149.236.182, port: 8388, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: OWsoMhOel+7mcZ+p, tfo: false, udp: true}
+  - {name: 🇨🇳 Taiwan台湾, server: 45.140.169.225, port: 60010, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: c5fcdf7829112cb4, tfo: false, udp: true}
+  - {name: 🇫🇷 France法国, server: 194.87.68.7, port: 30129, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 83acf69edb4e5453, tfo: false, udp: true}
+  - {name: 🇹🇭 Thailand泰国, server: 46.17.43.151, port: 10081, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d989ff3d46a63f63, tfo: false, udp: true}
+  - {name: 🇦🇺 Australia澳大利亚, server: 46.17.43.151, port: 10081, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d989ff3d46a63f63, tfo: false, udp: true}
+  - {name: 🇨🇦 Montreal加拿大, server: 195.58.49.100, port: 30312, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, tfo: false, udp: true}
+  - {name: 🇰🇷 South Korea韩国, server: 203.32.26.157, port: 40201, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 63d7c17506d1f48b, tfo: false, udp: true}
+  - {name: 🇬🇧 British英国, server: 46.17.43.143, port: 1281, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: f34579d0148b2581, tfo: false, udp: true}
+  - {name: 🇪🇸 Spain西班牙, server: 46.17.43.143, port: 1281, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: f34579d0148b2581, tfo: false, udp: true}
+  - {name: 🇭🇰 HongKong香港 2, server: 212.192.15.59, port: 60129, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, tfo: false, udp: true}
+  - {name: 🇷🇺 Russia俄罗斯, server: 195.133.5.213, port: 20219, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9ca2803c16de72cd, tfo: false, udp: true}
+  - {name: 🇯🇵 Japan日本 2, server: 167.17.179.197, port: 20291, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 0690659746980c46, tfo: false, udp: true}
+  - {name: 🇫🇷 France法国 2, server: 195.133.5.213, port: 20219, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9ca2803c16de72cd, tfo: false, udp: true}
+
+
 
   - {name: "🇭🇰 香港[YouTube无广]", server: 104.16.246.141, port: 2053, type: vmess, uuid: 282709b6-abcf-4c3b-940c-a23c3c1e1ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk.11160321.de5.net, network: ws, ws-opts: {path: /, headers: {Host: hk.11160321.de5.net}}, udp: true}
   - {name: 🇭🇰 香港, server: 104.16.246.140, port: 2053, type: vmess, uuid: ce360730-c2c9-41d9-8ae4-0e25c70fa0f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us.11160321.de5.net, network: ws, ws-opts: {path: /, headers: {Host: us.11160321.de5.net}}, udp: true}
