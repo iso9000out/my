@@ -1,0 +1,5 @@
+chinaz.com###article-detail > div.article-wrapper:first-child > div.article-wrapper__bd:last-child > div.smediabox:nth-child(2)
+ping0.cc###check > div.container:nth-child(2) > div.myeles:nth-child(5)
+ping0.cc###check > div.container:nth-child(2) > div.myeles.toprow:first-child
+infinityfree.com###img_ybfqu1uaeu7uzuhuf9muz > div:last-child
+dash.infinityfree.com##div.wrapper:first-child > div.page-wrapper:last-child > div.container-fluid:nth-child(2) > div.row.justify-content-center > div.col-12.col-xxl-auto:nth-child(2) > div.container-xl.content-container > div.row.clearfix.text-center.my-3:first-child > div.col-12 > ins.adsbygoogle.text-center:first-child
