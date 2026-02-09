@@ -2,6 +2,9 @@ proxies:
 
 
 
+  - {name: 周润发 02, server: 190.93.247.178, port: 443, client-fingerprint: chrome, type: vless, uuid: 203d9487-1656-4824-bb09-99c73ecd36c6, tls: true, tfo: false, servername: saa-e1b.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: saa-e1b.pages.dev}}, udp: true}
+
+
   - {name: GB_AVToday.io_4, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: GB_AVToday.io_5, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: GB_AVToday.io_6, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
