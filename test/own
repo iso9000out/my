@@ -17,6 +17,20 @@ proxies:
 
 
 
+  - {name: 🇸🇬 新加坡 DigitalOcean, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c, tls: true, tfo: false, servername: trump.drintion.de5.net, skip-cert-verify: true, network: ws, ws-opts: {path: /SG, headers: {Host: trump.drintion.de5.net}}, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean_1, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c, tls: true, tfo: false, servername: trump.drintion.de5.net, skip-cert-verify: true, network: ws, ws-opts: {path: /SG10, headers: {Host: trump.drintion.de5.net}}, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean_10, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c, tls: true, tfo: false, servername: trump.drintion.de5.net, skip-cert-verify: true, network: ws, ws-opts: {path: /SG10, headers: {Host: trump.drintion.de5.net}}, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean_2, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c, tls: true, tfo: false, servername: trump.drintion.de5.net, skip-cert-verify: true, network: ws, ws-opts: {path: /SG2, headers: {Host: trump.drintion.de5.net}}, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean_3, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c, tls: true, tfo: false, servername: trump.drintion.de5.net, skip-cert-verify: true, network: ws, ws-opts: {path: /SG3, headers: {Host: trump.drintion.de5.net}}, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean_4, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c, tls: true, tfo: false, servername: trump.drintion.de5.net, skip-cert-verify: true, network: ws, ws-opts: {path: /SG4, headers: {Host: trump.drintion.de5.net}}, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean_5, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c, tls: true, tfo: false, servername: trump.drintion.de5.net, skip-cert-verify: true, network: ws, ws-opts: {path: /SG5, headers: {Host: trump.drintion.de5.net}}, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean_6, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c, tls: true, tfo: false, servername: trump.drintion.de5.net, skip-cert-verify: true, network: ws, ws-opts: {path: /SG6, headers: {Host: trump.drintion.de5.net}}, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean_7, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c, tls: true, tfo: false, servername: trump.drintion.de5.net, skip-cert-verify: true, network: ws, ws-opts: {path: /SG7, headers: {Host: trump.drintion.de5.net}}, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean_8, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c, tls: true, tfo: false, servername: trump.drintion.de5.net, skip-cert-verify: true, network: ws, ws-opts: {path: /SG8, headers: {Host: trump.drintion.de5.net}}, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean_9, server: www.shopify.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c, tls: true, tfo: false, servername: trump.drintion.de5.net, skip-cert-verify: true, network: ws, ws-opts: {path: /SG9, headers: {Host: trump.drintion.de5.net}}, udp: true}
+
+
+
 
   - {name: "🇻🇳 VN|Ns 22", server: 103.186.154.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: "🇭🇰 HK|Ns 2", server: 43.161.253.82, port: 443, type: vmess, uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
