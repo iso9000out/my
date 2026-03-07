@@ -35,6 +35,7 @@ proxies:
   - {name: 🇺🇸 美国-IEPL, server: ncgfralbtm2ic6ilc.xcdoo.com, port: 38775, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 8929d565-10be-4cea-9a16-d3777822e441, tfo: false, udp: true}
   - {name: 601, server: 601.xnjsqnode.org, port: 20601, reality-opts: {public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk, short-id: 9153}, client-fingerprint: firefox, type: vless, uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59, tls: true, tfo: false, servername: img14.360buyimg.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
   - {name: 501, server: 501.xnjsqnode.org, port: 20501, reality-opts: {public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk, short-id: 9153}, client-fingerprint: chrome, type: vless, uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59, tls: true, tfo: false, servername: img14.360buyimg.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
+  - {name: 301.xnjsqnode.org, server: 301.xnjsqnode.org, port: 20301, reality-opts: {public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk, short-id: 9153}, client-fingerprint: chrome, type: vless, uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59, tls: true, tfo: false, servername: img14.360buyimg.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
 
 
 
