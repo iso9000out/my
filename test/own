@@ -18,6 +18,12 @@ proxies:
   - {name: MK-46, server: 46.183.185.37, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false, udp: true}
   - {name: SE-121, server: 121.127.46.147, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false, udp: true}
   - {name: 🇭🇰 HK-8.210.182.238-0532, server: 8.210.182.238, port: 8888, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: a338A9, tfo: false, udp: true}
+  - {name: A8.15-9x0exz4j, server: 69.63.211.26, port: 23247, reality-opts: {public-key: oJFuJjI17LUyNzFcgGibyBw8CPFq-5KuphdUsgugtmE, short-id: cd}, client-fingerprint: chrome, type: vless, uuid: 53367873-ab90-4195-9a05-963f0e7a08f0, tls: true, tfo: false, servername: apple.com, skip-cert-verify: true, udp: true}
+  - {name: B8.15-i21t8yyd, server: 69.63.211.26, port: 34237, reality-opts: {public-key: oJFuJjI17LUyNzFcgGibyBw8CPFq-5KuphdUsgugtmE, short-id: cd}, client-fingerprint: chrome, type: vless, uuid: 55ef993a-08fb-46c0-ad7e-699b3eef994e, tls: true, tfo: false, servername: apple.com, skip-cert-verify: true, udp: true}
+  - {name: D1.4-dylap4dh, server: 69.63.211.26, port: 45525, reality-opts: {public-key: oJFuJjI17LUyNzFcgGibyBw8CPFq-5KuphdUsgugtmE, short-id: cd}, client-fingerprint: chrome, type: vless, uuid: b12d23bb-0ab7-4cd5-9040-5a09ae7a4788, tls: true, tfo: false, servername: motostorie.blog, skip-cert-verify: true, udp: true}
+  - {name: E1.4-c7ecwwuh, server: 69.63.211.26, port: 44119, reality-opts: {public-key: oJFuJjI17LUyNzFcgGibyBw8CPFq-5KuphdUsgugtmE, short-id: cd}, client-fingerprint: chrome, type: vless, uuid: 3da9204c-c4b5-46f0-96fc-7563d51e3908, tls: true, tfo: false, servername: motostorie.blog, skip-cert-verify: true, udp: true}
+  - {name: F1.4-xv83euu0, server: 69.63.211.26, port: 11254, reality-opts: {public-key: oJFuJjI17LUyNzFcgGibyBw8CPFq-5KuphdUsgugtmE, short-id: cd}, client-fingerprint: chrome, type: vless, uuid: acd14f59-f0d1-4dab-8459-cd3232780fde, tls: true, tfo: false, servername: motostorie.blog, skip-cert-verify: true, udp: true}
+  - {name: G-ybbtjgr0, server: 69.63.211.26, port: 37765, reality-opts: {public-key: oJFuJjI17LUyNzFcgGibyBw8CPFq-5KuphdUsgugtmE, short-id: cd}, client-fingerprint: chrome, type: vless, uuid: c9ebf0d6-6288-492d-a3c6-f775340ec4b2, tls: true, tfo: false, servername: motostorie.blog, skip-cert-verify: true, udp: true}
 
 #TD
 
