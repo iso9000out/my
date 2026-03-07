@@ -14,9 +14,10 @@ proxies:
 #GoodFast
 
 
-  - {name: SE, server: 121.127.46.147, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false, udp: true}
   - {name: "🇺🇸 US|Ms 26", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: icloud.com, udp: true}
-
+  - {name: MK-46, server: 46.183.185.37, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false, udp: true}
+  - {name: SE-121, server: 121.127.46.147, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false, udp: true}
+  - {name: 🇭🇰 HK-8.210.182.238-0532, server: 8.210.182.238, port: 8888, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: a338A9, tfo: false, udp: true}
 
 #TD
 
