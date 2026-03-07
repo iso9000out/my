@@ -36,7 +36,9 @@ proxies:
   - {name: 601, server: 601.xnjsqnode.org, port: 20601, reality-opts: {public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk, short-id: 9153}, client-fingerprint: firefox, type: vless, uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59, tls: true, tfo: false, servername: img14.360buyimg.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
   - {name: 501, server: 501.xnjsqnode.org, port: 20501, reality-opts: {public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk, short-id: 9153}, client-fingerprint: chrome, type: vless, uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59, tls: true, tfo: false, servername: img14.360buyimg.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
   - {name: 301.xnjsqnode.org, server: 301.xnjsqnode.org, port: 20301, reality-opts: {public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk, short-id: 9153}, client-fingerprint: chrome, type: vless, uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59, tls: true, tfo: false, servername: img14.360buyimg.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
-
+  - {name: 🇺🇸 Zoro-US-VLESS (直连), server: zc.yibao.chat, port: 2083, client-fingerprint: chrome, type: vless, uuid: 6bb1b830-f35f-46c2-bde7-545e6ac2bca3, tls: true, tfo: false, servername: zc.yibao.chat, skip-cert-verify: true, network: ws, ws-opts: {path: /6bb1b830, headers: {Host: zc.yibao.chat}}, udp: true}
+  - {name: 🇯🇵 Zoro-US (日本中转), server: jp.yibao.chat, port: 8001, client-fingerprint: chrome, type: vless, uuid: 6bb1b830-f35f-46c2-bde7-545e6ac2bca3, tls: true, tfo: false, servername: zc.yibao.chat, skip-cert-verify: true, network: ws, ws-opts: {path: /6bb1b830, headers: {Host: zc.yibao.chat}}, udp: true}
+  - {name: 🇯🇵 VMISS-JP-VLESS (直连), server: jp.yibao.chat, port: 2083, client-fingerprint: chrome, type: vless, uuid: aa10fdba-4beb-4333-ad2b-ae15fb3ec06b, tls: true, tfo: false, servername: jp.yibao.chat, skip-cert-verify: true, network: ws, ws-opts: {path: /aa10fdba, headers: {Host: jp.yibao.chat}}, udp: true}
 
 
 #TD
