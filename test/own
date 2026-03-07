@@ -19,6 +19,17 @@ proxies:
 
 #TD
 
+  - {name: 🇺🇸 美国-1, server: 88.210.36.106, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: 6db9d46.default.microsoft.ge:44797}, udp: true}
+  - {name: 🇺🇸 美国-10, server: 95.174.71.102, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: 6db9d46.default.microsoft.ge:44797}, udp: true}
+  - {name: 🇺🇸 美国-2, server: 88.210.36.107, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: 6db9d46.default.microsoft.ge:44797}, udp: true}
+  - {name: 🇺🇸 美国-3, server: 88.210.36.108, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: 6db9d46.default.microsoft.ge:44797}, udp: true}
+  - {name: 🇺🇸 美国-4, server: 88.210.36.109, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: 6db9d46.default.microsoft.ge:44797}, udp: true}
+  - {name: 🇺🇸 美国-5, server: 95.174.71.19, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: 6db9d46.default.microsoft.ge:44797}, udp: true}
+  - {name: 🇺🇸 美国-6, server: 95.174.71.27, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: 6db9d46.default.microsoft.ge:44797}, udp: true}
+  - {name: 🇺🇸 美国-7, server: 95.174.71.28, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: 6db9d46.default.microsoft.ge:44797}, udp: true}
+  - {name: 🇺🇸 美国-8, server: 95.174.71.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: 6db9d46.default.microsoft.ge:44797}, udp: true}
+  - {name: 🇺🇸 美国-9, server: 95.174.71.100, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: 6db9d46.default.microsoft.ge:44797}, udp: true}
+
 
 
 
