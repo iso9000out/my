@@ -56,8 +56,6 @@ proxies:
   - {name: 🇺🇸 美国-9, server: 95.174.71.100, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: 6db9d46.default.microsoft.ge:44797}, udp: true}
 
 
-
-
 #https://link3.cc/jbksle
 
   - {name: "PT 052 | ⬇️ 1MB/s", server: 185.231.233.112, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false, udp: true}
