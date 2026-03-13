@@ -8,3 +8,5 @@ realbook.us###igigbookadspace
 archdaily.com###piano-meter
 ping0.cc###check > div.container:nth-child(2) > div.xxeles.toprow:first-child
 ping0.cc###check > div.container:nth-child(2) > div.xxeles:nth-child(5)
+ping0.cc###check > div.container:nth-child(2) > div.xyeles.toprow:first-child
+ping0.cc###check > div.container:nth-child(2) > div.xyeles:nth-child(5)
