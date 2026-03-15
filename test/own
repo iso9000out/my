@@ -14,9 +14,9 @@ proxies:
 
 #SmackedUncles
 
-  - {name: 🇺🇸 美国 01, server: 107.174.27.219, port: 52852, type: hysteria2, password: eb3e8469-fd93-4abc-865a-c0bfc5be89e9, sni: www.bing.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 02, server: 107.174.27.219, port: 37222, type: vless, tls: true, uuid: eb3e8469-fd93-4abc-865a-c0bfc5be89e9, servername: apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 11iu3UstpJViX5yk-O0n-8yLU2c3_nCxahTOlyYMcTs, short-id: b0494da8}, client-fingerprint: chrome, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 03, server: 107.174.27.219, port: 8880, type: vmess, uuid: eb3e8469-fd93-4abc-865a-c0bfc5be89e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: eb3e8469-fd93-4abc-865a-c0bfc5be89e9-vm, headers: {Host: www.bing.com}}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国107hy2, server: 107.174.27.219, port: 52852, type: hysteria2, password: eb3e8469-fd93-4abc-865a-c0bfc5be89e9, sni: www.bing.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇺🇸 美国107vless, server: 107.174.27.219, port: 37222, type: vless, tls: true, uuid: eb3e8469-fd93-4abc-865a-c0bfc5be89e9, servername: apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 11iu3UstpJViX5yk-O0n-8yLU2c3_nCxahTOlyYMcTs, short-id: b0494da8}, client-fingerprint: chrome, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇺🇸 美国107vmess, server: 107.174.27.219, port: 8880, type: vmess, uuid: eb3e8469-fd93-4abc-865a-c0bfc5be89e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: eb3e8469-fd93-4abc-865a-c0bfc5be89e9-vm, headers: {Host: www.bing.com}}, udp: true, tfo: false}
 
 
 #GoodFast
