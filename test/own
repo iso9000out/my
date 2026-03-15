@@ -1,6 +1,13 @@
 proxies:
 
 
+
+  - {name: 🇯🇵 JP|优选反代|188ms, server: 167.179.70.95, port: 443, type: vless, uuid: e47eba6b-05f1-46d9-82e1-0d145faa7d53, tls: true, skip-cert-verify: false, servername: xiaoli0772.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /socks5=123:123@8.210.81.59:3060, headers: {Host: xiaoli0772.ccwu.cc}}, ech-opts: {enable: true, query-server-name: icook.hk}}
+  - {name: 🇯🇵 JP|优选反代|275ms, server: 45.76.198.248, port: 443, type: vless, uuid: e47eba6b-05f1-46d9-82e1-0d145faa7d53, tls: true, skip-cert-verify: false, servername: xiaoli0772.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /socks5=123:123@8.210.81.59:3060, headers: {Host: xiaoli0772.ccwu.cc}}, ech-opts: {enable: true, query-server-name: icook.hk}}
+  - {name: 🇯🇵 JP|优选反代|421ms, server: 45.77.19.8, port: 443, type: vless, uuid: e47eba6b-05f1-46d9-82e1-0d145faa7d53, tls: true, skip-cert-verify: false, servername: xiaoli0772.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /socks5=123:123@8.210.81.59:3060, headers: {Host: xiaoli0772.ccwu.cc}}, ech-opts: {enable: true, query-server-name: icook.hk}}
+
+
+
 #CloudFlare
 
   - {name: 🇭🇰 移动-HKG-443-WS-TLS, server: 104.19.48.108, port: 443, client-fingerprint: randomized, type: vless, uuid: 5f84f3c1-0b7b-4607-bca9-f881423e416b, tls: true, tfo: false, servername: modown.sby.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: modown.sby.dpdns.org}}, udp: true}
