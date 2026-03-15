@@ -11,6 +11,20 @@ proxies:
   - {name: GB_AVToday.io_9, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
 
 
+#ManuelBiology
+
+  - {name: 🇭🇰 路边捡的HK 01, server: 193.134.211.97, port: 8443, type: trojan, password: V6Vp8omermO9oJzrCu0d1Q==, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇭🇰 路边捡的HK 03, server: 103.135.250.5, port: 18388, type: ss, cipher: aes-256-gcm, password: YCu6pwa0dKkpR13bZA5Ttg==, udp: true, tfo: false}
+  - {name: 🇯🇵 Tokyo-移动|联通优化 01, server: 103.201.131.170, port: 443, type: hysteria2, password: t47UEPZ3OptfvG1t2xpk7lpB9VGwtWNo, obfs: salamander, obfs-password: XRviYEBnpiM9w37U0RgjzN8VJxRZJLiN, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇯🇵 Tokyo-移动|联通优化 02, server: 103.201.131.170, port: 443, type: vless, tls: true, uuid: 583e0665-57bd-4905-8df8-e3fa10aeab1d, servername: www.microsoft.com, flow: xtls-rprx-vision, reality-opts: {public-key: 39csbUf3OcxMXKDrOk5C69IvQeaHysqvEKT592xu_k8, short-id: 187f404beeeb8294}, client-fingerprint: chrome, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: BWG-HY2, server: bwg.tingjusting.fun, port: 8954, type: hysteria2, password: Ding#220828, sni: bwg.tingjusting.fun, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: BWG-Vless, server: bwg.tingjusting.fun, port: 55188, type: vless, tls: true, uuid: 4ea089b2-53b6-4b20-9c8f-89bae80b93cc, servername: signumtechs.com, flow: xtls-rprx-vision, reality-opts: {public-key: ng3qST-co3TafZ2tykxzICLM1pqzD97wo1weUVceYEs, short-id: 8e91f521}, client-fingerprint: chrome, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: BWG-Vmess, server: bwg.tingjusting.fun, port: 25945, type: vmess, uuid: ea3f63fe-b96c-4113-9b49-a69273ffa00f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ea3f63fe}, udp: true, tfo: false}
+  - {name: RackNeck-HY2, server: rn.tingjusting.fun, port: 8954, type: hysteria2, password: Ding#220828, sni: rn.tingjusting.fun, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: RackNeck-Vless, server: rn.tingjusting.fun, port: 55188, type: vless, tls: true, uuid: 4ea089b2-53b6-4b20-9c8f-89bae80b93cc, servername: signumtechs.com, flow: xtls-rprx-vision, reality-opts: {public-key: ng3qST-co3TafZ2tykxzICLM1pqzD97wo1weUVceYEs, short-id: 8e91f521}, client-fingerprint: chrome, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: RackNeck-Vmess, server: rn.tingjusting.fun, port: 25945, type: vmess, uuid: ea3f63fe-b96c-4113-9b49-a69273ffa00f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ea3f63fe}, udp: true, tfo: false}
+
+
 
 #SmackedUncles
 
