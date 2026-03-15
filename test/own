@@ -1,6 +1,16 @@
 proxies:
 
 
+#CloudFlare
+
+  - {name: 🇭🇰 移动-HKG-443-WS-TLS, server: 104.19.48.108, port: 443, client-fingerprint: randomized, type: vless, uuid: 5f84f3c1-0b7b-4607-bca9-f881423e416b, tls: true, tfo: false, servername: modown.sby.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: modown.sby.dpdns.org}}, udp: true}
+  - {name: 电信-SIN-443-Trojan-WS-TLS, server: 162.159.62.113, port: 443, client-fingerprint: chrome, type: trojan, password: 5f84f3c1-0b7b-4607-bca9-f881423e416b, sni: modown.sby.dpdns.org, skip-cert-verify: true, udp: true}
+  - {name: 联通-SJC-443-WS-TLS, server: 104.17.138.78, port: 443, client-fingerprint: randomized, type: vless, uuid: 5f84f3c1-0b7b-4607-bca9-f881423e416b, tls: true, tfo: false, servername: modown.sby.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: modown.sby.dpdns.org}}, udp: true}
+  - {name: 🇭🇰 移动-HKG-443-WS-TLS (9), server: 2606:4700:9767::3f4e:5910, port: 443, client-fingerprint: randomized, type: vless, uuid: 5f84f3c1-0b7b-4607-bca9-f881423e416b, tls: true, tfo: false, servername: modown.sby.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: modown.sby.dpdns.org}}, udp: true}
+
+
+#GB_AVToday
+
   - {name: GB_AVToday.io_4, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: GB_AVToday.io_5, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: GB_AVToday.io_6, server: 82.198.246.97, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
