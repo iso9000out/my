@@ -2,13 +2,13 @@ proxies:
 
 #ikuuu
 
-  - {name: 🇯🇵 免费-日本1-Ver.7, server: 5dnpddn-g01.jp01-nn-vm0.entry.fr0528.art, port: 21581, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 免费-日本2-Ver.8, server: ygnadda-g01.jp02-e3-vm0.entry.fr0528.art, port: 11773, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 免费-日本3-Ver.7, server: 5d8aed2-g01.jp03-j7-vm0.entry.fr0528.art, port: 21581, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 免费-日本4-Ver.8, server: yg5ar9n-g01.jp04-1d-vm0.entry.fr0528.art, port: 444, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 免费-日本5-Ver.9, server: 545gr1n-g01.jp05-h6-vm0.entry.fr0528.art, port: 46482, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 免费-日本6-Ver.8, server: 5g5pr1a-g01.jp06-jz-vm0.entry.fr0528.art, port: 28783, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 免费-日本7-Ver.2, server: 548ae92-g01.jp07-sh-vm0.entry.fr0528.art, port: 28783, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 ikuuu日本1-Ver.7, server: 5dnpddn-g01.jp01-nn-vm0.entry.fr0528.art, port: 21581, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 ikuuu日本2-Ver.8, server: ygnadda-g01.jp02-e3-vm0.entry.fr0528.art, port: 11773, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 ikuuu日本3-Ver.7, server: 5d8aed2-g01.jp03-j7-vm0.entry.fr0528.art, port: 21581, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 ikuuu日本4-Ver.8, server: yg5ar9n-g01.jp04-1d-vm0.entry.fr0528.art, port: 444, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 ikuuu日本5-Ver.9, server: 545gr1n-g01.jp05-h6-vm0.entry.fr0528.art, port: 46482, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 ikuuu日本6-Ver.8, server: 5g5pr1a-g01.jp06-jz-vm0.entry.fr0528.art, port: 28783, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 ikuuu日本7-Ver.2, server: 548ae92-g01.jp07-sh-vm0.entry.fr0528.art, port: 28783, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
 
 
 
