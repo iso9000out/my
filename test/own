@@ -1,5 +1,10 @@
 proxies:
 
+
+#Over20260410
+  - {name: 🇯🇵 Japan 06hy2, server: jp6.miyazono-kaori.com, port: 43156, client-fingerprint: chrome, type: hysteria2, password: f3be1876-9807-44c6-ba46-040bb8890426, sni: jp6.miyazono-kaori.com, skip-cert-verify: false, obfs: salamander, obfs-password: mBPdh6xeZmU42scZ, udp: true}
+
+
 #ikuuu
 
   - {name: 🇯🇵 ikuuu日本1-Ver.7, server: 5dnpddn-g01.jp01-nn-vm0.entry.fr0528.art, port: 21581, client-fingerprint: chrome, type: vmess, uuid: 2fbf1195-f417-3dd2-8055-5ccf23527e3b, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, udp: true}
