@@ -288,7 +288,7 @@ proxies:
 #CloudFlare
 
   - {name: 🇭🇰 移动-HKG-443-WS-TLS, server: 104.19.48.108, port: 443, client-fingerprint: randomized, type: vless, uuid: 5f84f3c1-0b7b-4607-bca9-f881423e416b, tls: true, tfo: false, servername: modown.sby.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: modown.sby.dpdns.org}}, udp: true}
-
+  - {name: 联通-SJC-443-WS-TLS, server: 104.17.138.78, port: 443, client-fingerprint: randomized, type: vless, uuid: 5f84f3c1-0b7b-4607-bca9-f881423e416b, tls: true, tfo: false, servername: modown.sby.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: modown.sby.dpdns.org}}, udp: true}
 
 #GB_AVToday
 
