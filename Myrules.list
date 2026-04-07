@@ -1,5 +1,7 @@
 # My Rule
 
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,www.yahoo.com
 DOMAIN-KEYWORD,yahoo
 DOMAIN-KEYWORD,ipscore
 DOMAIN-KEYWORD,javchat
