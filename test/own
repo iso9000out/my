@@ -1,5 +1,13 @@
 proxies:
 
+#6789
+
+  - {name: Super4-LosAngeles#5846, server: 82.198.246.233, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: Super4-LosAngeles#5847, server: 82.198.246.9, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: Super4-LosAngeles#5848, server: 82.198.246.214, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: Super4-LosAngeles#5849, server: 82.198.246.37, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+
+
 
 #8EBwillover
 
