@@ -352,7 +352,7 @@ proxies:
   - {name: 🇬🇧 英国-优化3, server: t.cnmjcn.cyou, port: 16645, type: vmess, uuid: 526a5cd8-604e-460d-9d51-54f069d6c86c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 537372fb59b01de2a005b36b1a4ff5f2.mobgslb.tbcache.com}}, udp: true}
 
 
-#KFC
+#anaer
 
   - {name: 🇺🇸 美国-001 |819KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 韩国-001 |691KB/s, server: 121.169.46.116, port: 1090, type: socks5, username: T2clM0QlM0Q6, skip-cert-verify: true, udp: true}
