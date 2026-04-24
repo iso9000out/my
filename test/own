@@ -1,5 +1,28 @@
 proxies:
 
+
+#JuanWang
+
+  - {name: 82.198.246.250:180, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 82.198.246.250:180 2, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 82.198.246.250:180 3, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 82.198.246.250:180 4, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 82.198.246.233:180, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 82.198.246.214:180, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 38.110.1.246:18000, server: 38.110.1.246, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 45.80.215.80:22324, server: 45.80.215.80, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 jp02.a0a.xyz:25686, server: jp02.a0a.xyz, port: 25686, type: vmess, uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fcctv13.m3u8", headers: {Host: jp02.a0a.xyz}}, udp: true}
+  - {name: 103.143.238.196:21879, server: 103.143.238.196, port: 21879, type: vmess, uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fvmesswss", headers: {Host: 103.143.238.196}}, udp: true}
+  - {name: 43.132.192.16:9527, server: 43.132.192.16, port: 9527, type: vmess, uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 119.46.51.45:25689, server: 119.46.51.45, port: 25689, type: vmess, uuid: ae1b23b3-ca47-457f-badf-4748ffef6b0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 119.46.51.45:42553, server: 119.46.51.45, port: 42553, type: vmess, uuid: bc30cc65-bc08-4843-85b6-1cac2b8a9753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 172.232.103.186:22324, server: 172.232.103.186, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca:80, server: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca, port: 80, type: vmess, uuid: e2923bc6-8204-4768-98ea-379d48ea8a7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F1awNzxRSwKsdkPVKP0ZQqlHjt10sp", headers: {Host: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca}}, udp: true}
+  - {name: 🇺🇸 us77.cowjump.site:443, server: us77.cowjump.site, port: 443, type: vmess, uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: us77.cowjump.site}}, udp: true}
+  - {name: 🇺🇸 us02.a0a.xyz:80, server: us02.a0a.xyz, port: 80, type: vmess, uuid: efbcfd80-5f2f-4e34-f4a0-cc75f0f67dec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fcctv13.m3u8", headers: {Host: us02.a0a.xyz}}, udp: true}
+
+
+
 #6789
 
   - {name: Super4-LosAngeles#5846, server: 82.198.246.233, port: 180, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
