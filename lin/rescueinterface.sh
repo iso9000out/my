@@ -20,4 +20,4 @@
 # /sbin/mtd_storage.sh save
 
 # 5. 立即生效 新时间频率立刻爆发
-/usr/bin/killall crond && /usr/sbin/crond
+# /usr/bin/killall crond && /usr/sbin/crond
