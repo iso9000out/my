@@ -4,3 +4,11 @@
 
 
 #以上本文件是cctv的cron配置
+
+
+
+#刷入方法：curl -sL "https://raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o /opt/storage/cron/crontabs/cctv
+# 顺便让路由器自己把这件事干了
+# mtd_storage.sh save && killall crond && crond
+
+# chown cctv:admin /opt/storage/cron/crontabs/cctv && chmod 600 /opt/storage/cron/crontabs/cctv && mtd_storage.sh save
