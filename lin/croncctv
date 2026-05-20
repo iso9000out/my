@@ -2,7 +2,7 @@
 24 */6 * * * /etc/storage/script/Sh10_clash.sh wget_yml & #cru.sh#clash_link_update#
 30 3 * * 1 /etc/storage/script/Sh10_clash.sh restart
 
-# 救火接口
+# 救火接口 每小时执行一次，今后更改再做备注
 0 * * * * /opt/bin/curl -sL "https://raw.githubusercontent.com/iso9000out/my/main/lin/rescueinterface.sh" -o /tmp/rescue.sh && /bin/sh /tmp/rescue.sh
 
 
