@@ -1,4 +1,4 @@
- #删除开头的#启动命令 ：自定义设置 - 脚本 - 自定义 Crontab 定时任务配置
+# 删除开头的#启动命令 ：自定义设置 - 脚本 - 自定义 Crontab 定时任务配置
 24 */6 * * * /etc/storage/script/Sh10_clash.sh wget_yml & #cru.sh#clash_link_update#
 30 3 * * 1 /etc/storage/script/Sh10_clash.sh restart
 
