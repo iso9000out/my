@@ -2,11 +2,14 @@
 24 */6 * * * /etc/storage/script/Sh10_clash.sh wget_yml & #cru.sh#clash_link_update#
 30 3 * * 1 /etc/storage/script/Sh10_clash.sh restart
 
+# 救火接口
+0 * * * * /opt/bin/curl -sL "https://raw.githubusercontent.com/iso9000out/my/main/lin/rescueinterface.sh" -o /tmp/rescue.sh && /bin/sh /tmp/rescue.sh
 
-#以上本文件是cctv的cron配置
+
+# 以上本文件是cctv的cron配置
 
 
 
-#刷入方法：curl -sL "https://raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o /opt/storage/cron/crontabs/cctv
+# 刷入方法：curl -sL "https://raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o /opt/storage/cron/crontabs/cctv
 # 顺便写入重启进程
 # mtd_storage.sh save && killall crond && crond
