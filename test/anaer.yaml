@@ -729,18 +729,6 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram @WangCai2
-- name: 德国-007 |2.0MB/s
-  type: vmess
-  network: raw
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  server: 82.198.246.250
-  port: 180
-  skip-cert-verify: false
-  tls: false
-  udp: true
-  xudp: true
-  alterId: 0
-  cipher: auto
 - name: 新加坡-005 |2.0MB/s|YT-SG|GM-SG
   type: trojan
   network: ws
@@ -814,22 +802,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 瑞典-003 |1.9MB/s|TK-DE|GPT⁺-FI|GM-SE
-  type: vless
-  network: raw
-  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
-  server: 194.238.57.104
-  servername: www.icloud.com
-  port: 443
-  tls: true
-  udp: true
-  xudp: true
-  reality-opts:
-    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
-    short-id: 5d
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
 - name: 日本-002 |1.8MB/s|YT-JP|GPT⁺-JP|GM-JP
   type: vless
   network: ws
