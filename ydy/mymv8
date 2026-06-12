@@ -1,4 +1,4 @@
-# date 2026-05-19
+# date 2026-06-12
 
 
 
@@ -67,14 +67,14 @@ proxy-providers:
       enable: true
       interval: 2400
       url: http://www.gstatic.com/generate_204
-  provider#Onelighter-Site:
-    type: http
-    url: https://v1.mk/cu0c8Fp
-    interval: 86400
-    health-check:
-      enable: true
-      interval: 2405
-      url: http://www.gstatic.com/generate_204
+#  provider#Onelighter-Site:
+#    type: http
+#    url: https://v1.mk/cu0c8Fp
+#    interval: 86400
+#    health-check:
+#      enable: true
+#      interval: 2405
+#      url: http://www.gstatic.com/generate_204
   provider#RiPao-Git:
     type: http
     url: https://v1.mk/gUX6fUH
@@ -115,14 +115,14 @@ proxy-providers:
       enable: true
       interval: 2430
       url: http://www.gstatic.com/generate_204
-  provider#LiNigori:
-    type: http
-    url: https://v1.mk/bZ5RYfe
-    interval: 86433
-    health-check:
-      enable: true
-      interval: 2435
-      url: http://www.gstatic.com/generate_204
+#  provider#LiNigori:
+#    type: http
+#    url: https://v1.mk/bZ5RYfe
+#    interval: 86433
+#    health-check:
+#      enable: true
+#      interval: 2435
+#      url: http://www.gstatic.com/generate_204
   provider#Shahidbhutta-Git:
     type: http
     url: https://suo.yt/gPljrlc
@@ -131,14 +131,14 @@ proxy-providers:
       enable: true
       interval: 2440
       url: http://www.gstatic.com/generate_204
-  provider#Freevv-CFnet:
-    type: http
-    url: https://v1.mk/AhaahyZ
-    interval: 86442
-    health-check:
-      enable: true
-      interval: 2445
-      url: http://www.gstatic.com/generate_204
+#  provider#Freevv-CFnet:
+#    type: http
+#    url: https://v1.mk/AhaahyZ
+#    interval: 86442
+#    health-check:
+#      enable: true
+#      interval: 2445
+#      url: http://www.gstatic.com/generate_204
   provider#Pusytroller:
     exclude-filter: 关键词|关键的词
     type: http
@@ -198,7 +198,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   provider#FeiNiaoYun:
     type: http
-    url: https://v1.mk/g14MFB3
+    url: https://s.imgki.com/9BnK3s2
     interval: 86498
     health-check:
       enable: true
@@ -220,14 +220,14 @@ proxy-providers:
       enable: true
       interval: 2495
       url: http://www.gstatic.com/generate_204
-  provider#ClashNodeV2ray-Git:
-    type: http
-    url: https://v1.mk/SppjDyb
-    interval: 86512
-    health-check:
-      enable: true
-      interval: 2500
-      url: http://www.gstatic.com/generate_204
+#  provider#ClashNodeV2ray-Git:
+#    type: http
+#    url: https://v1.mk/SppjDyb
+#    interval: 86512
+#    health-check:
+#      enable: true
+#      interval: 2500
+#      url: http://www.gstatic.com/generate_204
   provider#Q3dlaXpoaQ-Git:
     type: http
     url: https://suo.yt/UtgiGRS
@@ -388,14 +388,14 @@ proxy-providers:
       enable: true
       interval: 2600
       url: http://www.gstatic.com/generate_204
-  provider#Vanic24-Mix-Git:
-    type: http
-    url: https://v1.mk/eFRiBAo
-    interval: 86645
-    health-check:
-      enable: true
-      interval: 2605
-      url: http://www.gstatic.com/generate_204
+#  provider#Vanic24-Mix-Git:
+#    type: http
+#    url: https://v1.mk/eFRiBAo
+#    interval: 86645
+#    health-check:
+#      enable: true
+#      interval: 2605
+#      url: http://www.gstatic.com/generate_204
   provider#Leon406-Git:
     type: http
     url: https://suo.yt/KKv3qu3
