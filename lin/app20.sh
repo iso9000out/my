@@ -1,4 +1,4 @@
-# date 2026-06-12
+# date 2026-07-17
 
 
 
@@ -148,14 +148,14 @@ proxy-providers:
       enable: true
       interval: 2450
       url: http://www.gstatic.com/generate_204
-  provider#Home999:
-    type: http
-    url: https://v1.mk/dtXqNsB
-    interval: 86456
-    health-check:
-      enable: true
-      interval: 2455
-      url: http://www.gstatic.com/generate_204
+#  provider#Home999:
+#    type: http
+#    url: https://v1.mk/dtXqNsB
+#    interval: 86456
+#    health-check:
+#      enable: true
+#      interval: 2455
+#      url: http://www.gstatic.com/generate_204
   provider#ChenGaoPan-Git:
     type: http
     url: https://s.subcsub.com/mtaeHb6
@@ -228,14 +228,14 @@ proxy-providers:
 #      enable: true
 #      interval: 2500
 #      url: http://www.gstatic.com/generate_204
-  provider#Q3dlaXpoaQ-Git:
-    type: http
-    url: https://suo.yt/UtgiGRS
-    interval: 86519
-    health-check:
-      enable: true
-      interval: 2505
-      url: http://www.gstatic.com/generate_204
+#  provider#Q3dlaXpoaQ-Git:
+#    type: http
+#    url: https://suo.yt/UtgiGRS
+#    interval: 86519
+#    health-check:
+#      enable: true
+#      interval: 2505
+#      url: http://www.gstatic.com/generate_204
   provider#Go4Share-Git:
     type: http
     url: https://v1.mk/y6286iO
