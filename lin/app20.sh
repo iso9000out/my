@@ -1,4 +1,4 @@
-# date 2026-07-17
+# date 2026-08-15
 
 
 
@@ -123,14 +123,14 @@ proxy-providers:
 #      enable: true
 #      interval: 2435
 #      url: http://www.gstatic.com/generate_204
-  provider#Shahidbhutta-Git:
-    type: http
-    url: https://suo.yt/gPljrlc
-    interval: 86435
-    health-check:
-      enable: true
-      interval: 2440
-      url: http://www.gstatic.com/generate_204
+#  provider#Shahidbhutta-Git:
+#    type: http
+#    url: https://suo.yt/gPljrlc
+#    interval: 86435
+#    health-check:
+#      enable: true
+#      interval: 2440
+#      url: http://www.gstatic.com/generate_204
 #  provider#Freevv-CFnet:
 #    type: http
 #    url: https://v1.mk/AhaahyZ
@@ -139,15 +139,15 @@ proxy-providers:
 #      enable: true
 #      interval: 2445
 #      url: http://www.gstatic.com/generate_204
-  provider#Pusytroller:
-    exclude-filter: 关键词|关键的词
-    type: http
-    url: https://v1.mk/HKaoymS
-    interval: 43249
-    health-check:
-      enable: true
-      interval: 2450
-      url: http://www.gstatic.com/generate_204
+#  provider#Pusytroller:
+#    exclude-filter: 关键词|关键的词
+#    type: http
+#    url: https://v1.mk/HKaoymS
+#    interval: 43249
+#    health-check:
+#      enable: true
+#      interval: 2450
+#      url: http://www.gstatic.com/generate_204
 #  provider#Home999:
 #    type: http
 #    url: https://v1.mk/dtXqNsB
@@ -236,14 +236,14 @@ proxy-providers:
 #      enable: true
 #      interval: 2505
 #      url: http://www.gstatic.com/generate_204
-  provider#Go4Share-Git:
-    type: http
-    url: https://v1.mk/y6286iO
-    interval: 86526
-    health-check:
-      enable: true
-      interval: 2510
-      url: http://www.gstatic.com/generate_204
+#  provider#Go4Share-Git:
+#    type: http
+#    url: https://v1.mk/y6286iO
+#    interval: 86526
+#    health-check:
+#      enable: true
+#      interval: 2510
+#      url: http://www.gstatic.com/generate_204
   provider#PawDroid-Git:
     type: http
     url: https://v1.mk/rkUxua6
