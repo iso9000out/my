@@ -440,7 +440,7 @@ proxy-groups:
     hidden: false
     name: 自动选优
     include-all-providers: true
-    exclude-filter: 🇭🇰|香港|HK|🇨🇳|中国|CN|China|TW|重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
+    exclude-filter: 🇭🇰|香港|HK|🇨🇳|中国|CN|China|TW|其他|重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
   - interval: 0
     timeout: 3000
     url: http://www.gstatic.com/generate_204
