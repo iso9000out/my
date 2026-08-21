@@ -83,14 +83,14 @@ proxy-providers:
       enable: true
       interval: 2410
       url: http://www.gstatic.com/generate_204
-  provider#Free18-Git:
-    type: http
-    url: https://v1.mk/BqrDxLy
-    interval: 86414
-    health-check:
-      enable: true
-      interval: 2415
-      url: http://www.gstatic.com/generate_204
+#  provider#Free18-Git暂时停用723个:
+#    type: http
+#    url: https://v1.mk/BqrDxLy
+#    interval: 86414
+#    health-check:
+#      enable: true
+#      interval: 2415
+#      url: http://www.gstatic.com/generate_204
   provider#pgkj0402:
     type: http
     url: https://v1.mk/I2iGw2N
@@ -260,22 +260,22 @@ proxy-providers:
       enable: true
       interval: 2520
       url: http://www.gstatic.com/generate_204
-  provider#ProxyPool-Site:
-    type: http
-    url: https://proxypool.dmit.dpdns.org/clash/proxies
-    interval: 86540
-    health-check:
-      enable: true
-      interval: 2525
-      url: http://www.gstatic.com/generate_204
-  provider#Barabama-Git:
-    type: http
-    url: https://suo.yt/ZXtNBlv
-    interval: 43240
-    health-check:
-      enable: true
-      interval: 2530
-      url: http://www.gstatic.com/generate_204
+#  provider#ProxyPool-Site可能失效了下次替代这个:
+#    type: http
+#    url: https://proxypool.dmit.dpdns.org/clash/proxies
+#    interval: 86540
+#    health-check:
+#      enable: true
+#      interval: 2525
+#      url: http://www.gstatic.com/generate_204
+#  provider#Barabama-Git暂时停用共147个:
+#    type: http
+#    url: https://suo.yt/ZXtNBlv
+#    interval: 43240
+#    health-check:
+#      enable: true
+#      interval: 2530
+#      url: http://www.gstatic.com/generate_204
   provider#ECH-CF:
     type: http
     url: https://v1.mk/nRpxfwk
@@ -300,30 +300,30 @@ proxy-providers:
       enable: true
       interval: 2545
       url: http://www.gstatic.com/generate_204
-  provider#Mahdibland-Git:
-    type: http
-    url: https://v1.mk/qHDu29Z
-    interval: 86568
-    health-check:
-      enable: true
-      interval: 2550
-      url: http://www.gstatic.com/generate_204
-  provider#Mfuu-v2ray-Git:
-    type: http
-    url: https://v1.mk/zsisX5d
-    interval: 86575
-    health-check:
-      enable: true
-      interval: 2555
-      url: http://www.gstatic.com/generate_204
-  provider#ts-sf-Git:
-    type: http
-    url: https://v1.mk/enxRC1t
-    interval: 86582
-    health-check:
-      enable: true
-      interval: 2560
-      url: http://www.gstatic.com/generate_204
+#  provider#Mahdibland-Git暂时停用201个:
+#    type: http
+#    url: https://v1.mk/qHDu29Z
+#    interval: 86568
+#    health-check:
+#      enable: true
+#      interval: 2550
+#      url: http://www.gstatic.com/generate_204
+#  provider#Mfuu-v2ray-Git暂时停用91个:
+#    type: http
+#    url: https://v1.mk/zsisX5d
+#    interval: 86575
+#    health-check:
+#      enable: true
+#      interval: 2555
+#      url: http://www.gstatic.com/generate_204
+#  provider#ts-sf-Git暂时停用85个:
+#    type: http
+#    url: https://v1.mk/enxRC1t
+#    interval: 86582
+#    health-check:
+#      enable: true
+#      interval: 2560
+#      url: http://www.gstatic.com/generate_204
   provider#Peasoft-Git:
     type: http
     url: https://suo.yt/DBwxJDR
@@ -396,22 +396,22 @@ proxy-providers:
 #      enable: true
 #      interval: 2605
 #      url: http://www.gstatic.com/generate_204
-  provider#Leon406-Git:
-    type: http
-    url: https://suo.yt/KKv3qu3
-    interval: 86652
-    health-check:
-      enable: true
-      interval: 2610
-      url: http://www.gstatic.com/generate_204
-  provider#Vanic24-Git-9PB:
-    type: http
-    url: https://v1.mk/nGBdSvd
-    interval: 86659
-    health-check:
-      enable: true
-      interval: 2615
-      url: http://www.gstatic.com/generate_204
+#  provider#Leon406-Git暂时停用654个:
+#    type: http
+#    url: https://suo.yt/KKv3qu3
+#    interval: 86652
+#    health-check:
+#      enable: true
+#      interval: 2610
+#      url: http://www.gstatic.com/generate_204
+#  provider#Vanic24-Git-9PB暂时停用420个:
+#    type: http
+#    url: https://v1.mk/nGBdSvd
+#    interval: 86659
+#    health-check:
+#      enable: true
+#      interval: 2615
+#      url: http://www.gstatic.com/generate_204
 
 
 
