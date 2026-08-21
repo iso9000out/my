@@ -1,4 +1,4 @@
-# date 2026-08-15
+# date 2026-08-21
 
 
 
@@ -67,14 +67,14 @@ proxy-providers:
       enable: true
       interval: 2400
       url: http://www.gstatic.com/generate_204
-#  provider#Onelighter-Site:
-#    type: http
-#    url: https://v1.mk/cu0c8Fp
-#    interval: 86400
-#    health-check:
-#      enable: true
-#      interval: 2405
-#      url: http://www.gstatic.com/generate_204
+  provider#JiangJiang-Site:
+    type: http
+    url: https://s.imgki.com/wn3LHHA
+    interval: 86400
+    health-check:
+      enable: true
+      interval: 2405
+      url: http://www.gstatic.com/generate_204
   provider#RiPao-Git:
     type: http
     url: https://v1.mk/gUX6fUH
@@ -115,14 +115,14 @@ proxy-providers:
       enable: true
       interval: 2430
       url: http://www.gstatic.com/generate_204
-#  provider#LiNigori:
-#    type: http
-#    url: https://v1.mk/bZ5RYfe
-#    interval: 86433
-#    health-check:
-#      enable: true
-#      interval: 2435
-#      url: http://www.gstatic.com/generate_204
+  provider#OneLighter:
+    type: http
+    url: https://download.8886698.xyz/api/v1/client/subscribe?token=8f554686a899ff98a7cd50aedaec98eb
+    interval: 86433
+    health-check:
+      enable: true
+      interval: 2435
+      url: http://www.gstatic.com/generate_204
 #  provider#Shahidbhutta-Git:
 #    type: http
 #    url: https://suo.yt/gPljrlc
@@ -131,14 +131,14 @@ proxy-providers:
 #      enable: true
 #      interval: 2440
 #      url: http://www.gstatic.com/generate_204
-#  provider#Freevv-CFnet:
-#    type: http
-#    url: https://v1.mk/AhaahyZ
-#    interval: 86442
-#    health-check:
-#      enable: true
-#      interval: 2445
-#      url: http://www.gstatic.com/generate_204
+  provider#ZiyouFly-Site:
+    type: http
+    url: https://s.imgki.com/fwCuV8Q
+    interval: 86442
+    health-check:
+      enable: true
+      interval: 2445
+      url: http://www.gstatic.com/generate_204
 #  provider#Pusytroller:
 #    exclude-filter: 关键词|关键的词
 #    type: http
@@ -148,14 +148,14 @@ proxy-providers:
 #      enable: true
 #      interval: 2450
 #      url: http://www.gstatic.com/generate_204
-#  provider#Home999:
-#    type: http
-#    url: https://v1.mk/dtXqNsB
-#    interval: 86456
-#    health-check:
-#      enable: true
-#      interval: 2455
-#      url: http://www.gstatic.com/generate_204
+  provider#shaoyouvip-Git:
+    type: http
+    url: https://s.imgki.com/BrVUSLb
+    interval: 86456
+    health-check:
+      enable: true
+      interval: 2455
+      url: http://www.gstatic.com/generate_204
   provider#ChenGaoPan-Git:
     type: http
     url: https://s.subcsub.com/mtaeHb6
@@ -236,14 +236,14 @@ proxy-providers:
 #      enable: true
 #      interval: 2505
 #      url: http://www.gstatic.com/generate_204
-#  provider#Go4Share-Git:
-#    type: http
-#    url: https://v1.mk/y6286iO
-#    interval: 86526
-#    health-check:
-#      enable: true
-#      interval: 2510
-#      url: http://www.gstatic.com/generate_204
+  provider#go4sharing-Git:
+    type: http
+    url: https://s.imgki.com/ZUTyTJs
+    interval: 86526
+    health-check:
+      enable: true
+      interval: 2510
+      url: http://www.gstatic.com/generate_204
   provider#PawDroid-Git:
     type: http
     url: https://v1.mk/rkUxua6
