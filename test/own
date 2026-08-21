@@ -1,6 +1,16 @@
 proxies:
 
 
+#ziyoufei
+
+  - {name: 🇯🇵 日本高速 11| CTCM, server: cfyes.ziyoufly.xyz, port: 443, type: vless, tls: true, uuid: 4de520cf-ccee-4a18-ab5a-e66d969c7872, servername: cf-uh-jp01.23523463.xyz, network: ws, ws-opts: {path: /ziyou, headers: {Host: cf-uh-jp01.23523463.xyz}}, skip-cert-verify: true, tfo: false}
+  - {name: 🇯🇵 日本高速 12| BGP, server: uh-jp01.ziyoufly.xyz, port: 55555, type: vless, tls: true, uuid: 4de520cf-ccee-4a18-ab5a-e66d969c7872, servername: download-porter.hoyoverse.com, host: download-porter.hoyoverse.com, flow: xtls-rprx-vision, reality-opts: {public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4, short-id: af317506}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: 🇸🇬 新加坡高速 05| CTCM, server: cfyes.ziyoufly.xyz, port: 443, type: vless, tls: true, uuid: 4de520cf-ccee-4a18-ab5a-e66d969c7872, servername: cf-uh-sg01.23523463.xyz, network: ws, ws-opts: {path: /ziyou, headers: {Host: cf-uh-sg01.23523463.xyz}}, skip-cert-verify: true, tfo: false}
+  - {name: 🇸🇬 新加坡高速 06| BGP, server: uh-sg01.ziyoufly.xyz, port: 55555, type: vless, tls: true, uuid: 4de520cf-ccee-4a18-ab5a-e66d969c7872, servername: www.lamer.com.hk, host: www.lamer.com.hk, flow: xtls-rprx-vision, reality-opts: {public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4, short-id: af317506}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国高速 03| CTCM, server: cfyes.ziyoufly.xyz, port: 443, type: vless, tls: true, uuid: 4de520cf-ccee-4a18-ab5a-e66d969c7872, servername: cf-uh-us01.23523463.xyz, network: ws, ws-opts: {path: /ziyou, headers: {Host: cf-uh-us01.23523463.xyz}}, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国高速 04| BGP, server: uh-us01.ziyoufly.xyz, port: 55555, type: vless, tls: true, uuid: 4de520cf-ccee-4a18-ab5a-e66d969c7872, servername: download-porter.hoyoverse.com, host: download-porter.hoyoverse.com, flow: xtls-rprx-vision, reality-opts: {public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4, short-id: af317506}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+
+
 #zwaaa2
 
   - {name: 🇭🇰 香港｜06｜AWS, server: jpaws.ccwink.photos, port: 58044, type: anytls, password: a157bb84-dd84-4ad8-86b0-0656bc76e4d1, skip-cert-verify: true, tfo: false}
