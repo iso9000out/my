@@ -12,6 +12,9 @@ proxies:
   - {name: 3326, server: 82.39.214.95, port: 8443, type: hysteria2, password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC, sni: hopp-us.yyuyy.com, skip-cert-verify: true, tfo: false}
   - {name: 1604, server: 47.128.224.158, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true, tfo: false}
 
+  - {name: 🇸🇬 SG95, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
+
+
 
 #zwaaa2
 
