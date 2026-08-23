@@ -25,6 +25,12 @@ proxies:
   - {name: 172.66.47.132:443, server: 172.66.47.132, port: 443, type: vless, tls: true, uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1, servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev, alpn: [http/1.1], network: ws, ws-opts: {headers: {Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev}}, skip-cert-verify: true, tfo: false}
   - {name: 🇺🇸 162.251.82.131:443, server: 162.251.82.131, port: 443, type: vless, tls: true, uuid: 1078d418-b4e0-4668-9018-dc90c2042d61, servername: workspace.evan00.dpdns.org, network: ws, ws-opts: {path: /fp, headers: {Host: workspace.evan00.dpdns.org}}, skip-cert-verify: true, tfo: false}
 
+  - {name: 🇪🇪 爱沙尼亚, server: cabinet.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX, sni: cabinet.wwwinternetvideo.click, skip-cert-verify: true, tfo: false}
+  - {name: 🇬🇧 英国 2, server: 138.124.0.168, port: 8080, type: hysteria2, ports: 8080, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org, skip-cert-verify: true, tfo: false}
+  - {name: 🇫🇷 法国 2, server: 62.210.147.2, port: 43115, type: hysteria2, ports: 43115, password: github.com/Alvin9999-newpac/fanqiang, sni: www.microsoft.com, skip-cert-verify: true, tfo: false}
+  - {name: 🇬🇧 UK, server: 138.124.0.168, port: 8080, type: hysteria2, ports: 8080, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org, skip-cert-verify: true, tfo: false}
+
+
 
 
 #zwaaa2
