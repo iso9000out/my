@@ -1,4 +1,4 @@
-# date 2026-08-21
+# date 2026-08-25
 
 
 
@@ -115,9 +115,9 @@ proxy-providers:
       enable: true
       interval: 2430
       url: http://www.gstatic.com/generate_204
-  provider#OneLighter:
+  provider#Starlink:
     type: http
-    url: https://download.8886698.xyz/api/v1/client/subscribe?token=8f554686a899ff98a7cd50aedaec98eb
+    url: https://xship.2fa.cat/v1/subscribe?starlink=kcrJFGG_1j8a0tWbVtUL2rIc
     interval: 86433
     health-check:
       enable: true
