@@ -14,6 +14,17 @@ proxies:
 
   - {name: 🇸🇬 SG95, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
 
+  - {name: 172.66.44.124:8443, server: 172.66.44.124, port: 8443, type: vless, tls: true, uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1, servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev, alpn: [http/1.1], network: ws, ws-opts: {headers: {Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev}}, skip-cert-verify: true, tfo: false}
+  - {name: 172.66.44.124:443, server: 172.66.44.124, port: 443, type: vless, tls: true, uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1, servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev, alpn: [http/1.1], network: ws, ws-opts: {headers: {Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev}}, skip-cert-verify: true, tfo: false}
+  - {name: 172.64.156.60:443, server: 172.64.156.60, port: 443, type: vless, tls: true, uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63, servername: powered-by-surena.configfarsi6982dd6e0355e.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: powered-by-surena.configfarsi6982dd6e0355e.workers.dev}}, skip-cert-verify: true, tfo: false}
+  - {name: 104.19.50.28:443, server: 104.19.50.28, port: 443, type: vless, tls: true, uuid: 2b181a3a-c001-4145-845a-5d43a43837d5, servername: vpn-1fj.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: vpn-1fj.pages.dev}}, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 198.202.211.1:443, server: 198.202.211.1, port: 443, type: vless, tls: true, uuid: d171491a-9995-46ce-8719-f64463ca3a45, servername: sertraline.adaspoloandco.com, alpn: ["http/1.1,h2"], network: ws, ws-opts: {path: /download.php, headers: {Host: sertraline.adaspoloandco.com}}, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 198.202.211.1:2087, server: 198.202.211.1, port: 2087, type: vless, tls: true, uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96, servername: amphetamine.adaspoloandco.com, alpn: ["h2,http/1.1"], network: ws, ws-opts: {path: /download.php, headers: {Host: amphetamine.adaspoloandco.com}}, skip-cert-verify: true, tfo: false}
+  - {name: 172.64.52.230:2087, server: 172.64.52.230, port: 2087, type: vless, tls: true, uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2, servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc, network: ws, ws-opts: {path: /, headers: {Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc}}, skip-cert-verify: true, tfo: false}
+  - {name: 185.112.249.201:8443, server: 185.112.249.201, port: 8443, type: vless, tls: true, uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142, servername: web-socket.tgdaosheng.ggff.net, network: ws, ws-opts: {path: /proxyip=bpb.yousef.isegaro.com, headers: {Host: web-socket.tgdaosheng.ggff.net}}, skip-cert-verify: true, tfo: false}
+  - {name: 172.66.47.132:443, server: 172.66.47.132, port: 443, type: vless, tls: true, uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1, servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev, alpn: [http/1.1], network: ws, ws-opts: {headers: {Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev}}, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 162.251.82.131:443, server: 162.251.82.131, port: 443, type: vless, tls: true, uuid: 1078d418-b4e0-4668-9018-dc90c2042d61, servername: workspace.evan00.dpdns.org, network: ws, ws-opts: {path: /fp, headers: {Host: workspace.evan00.dpdns.org}}, skip-cert-verify: true, tfo: false}
+
 
 
 #zwaaa2
