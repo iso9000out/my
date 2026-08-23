@@ -1,6 +1,18 @@
 proxies:
 
 
+#mytest
+
+  - {name: 7971, server: 54.254.190.23, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true, tfo: false}
+  - {name: 3285, server: 168.107.13.220, port: 50160, type: hysteria2, password: c86222db9b5784ef6a2c0ab13f6ef658, sni: www.bing.com, skip-cert-verify: true, tfo: false}
+  - {name: hysteria2-862083237, server: 62.210.147.2, port: 43115, type: hysteria2, password: github.com/Alvin9999-newpac/fanqiang, sni: www.microsoft.com, skip-cert-verify: true, tfo: false}
+  - {name: hysteria2-861385319, server: faq1.wwwinternetvideo.click, port: 443, type: hysteria2, password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX, sni: cabinet.wwwinternetvideo.click, skip-cert-verify: true, tfo: false}
+  - {name: hysteria2-862407208, server: 140.83.85.233, port: 50160, type: hysteria2, password: 3e8790e4fb6629aa819217d9655eafa3, sni: www.bing.com, skip-cert-verify: true, tfo: false}
+  - {name: hysteria2-689011839, server: 62.210.147.2, port: 43115, type: hysteria2, password: github.com/Alvin9999-newpac/fanqiang, sni: www.microsoft.com, skip-cert-verify: true, tfo: false}
+  - {name: hysteria2-818203326, server: 82.39.214.95, port: 8443, type: hysteria2, password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC, sni: hopp-us.yyuyy.com, skip-cert-verify: true, tfo: false}
+  - {name: hysteria2-855401604, server: 47.128.224.158, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true, tfo: false}
+
+
 #zwaaa2
 
   - {name: 🇭🇰 香港｜06｜AWS, server: jpaws.ccwink.photos, port: 58044, type: anytls, password: a157bb84-dd84-4ad8-86b0-0656bc76e4d1, skip-cert-verify: true, tfo: false}
