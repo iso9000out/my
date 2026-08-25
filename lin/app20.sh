@@ -1,4 +1,4 @@
-# date 2026-08-25
+# date 2026-08-26
 
 
 
@@ -26,33 +26,47 @@ skip-auth-prefixes:
 dns:
   cache-algorithm: arc
   enable: true
-  ipv6: true
+  ipv6: false
   use-hosts: true
   respect-rules: true
   proxy-server-nameserver:
-    - 8.8.8.8
-    - 1.1.1.1
-    - 1.0.0.1
-    - tcp://8.8.8.8:53
-    - tcp://dns.google/dns-query
-    - tls://dns.google/dns-query
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - 223.5.5.5
+    - 119.29.29.29
     - https://dns.google/dns-query
-    - 2001:4860:4860::8888
-    - 2606:4700:4700::1111
+    - https://1.1.1.1/dns-query
   nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://dns.google/dns-query
+    - https://1.1.1.1/dns-query
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
     - 8.8.8.8
     - 1.1.1.1
-    - 1.0.0.1
-    - tcp://8.8.8.8:53
-    - tcp://dns.google/dns-query
-    - tls://dns.google/dns-query
+    
+  fallback:
+    - https://1.1.1.1/dns-query
     - https://dns.google/dns-query
-    - 2001:4860:4860::8888
-    - 2606:4700:4700::1111
-    #  - 2400:3200::1
-    #  - tls://dns.alidns.com
-    #  - https://dns.alidns.com/dns-query
-    #  - quic://dns.alidns.com:853
+    - tls://8.8.8.8:853
+    - tls://1.1.1.1:853
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
+    domain:
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+      - "+.twitter.com"
+      - "+.github.com"
 
 
 
