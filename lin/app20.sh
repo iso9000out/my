@@ -26,7 +26,7 @@ skip-auth-prefixes:
 dns:
   cache-algorithm: arc
   enable: true
-  ipv6: false
+  ipv6: true
   use-hosts: true
   respect-rules: true
   proxy-server-nameserver:
