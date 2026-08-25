@@ -1,0 +1,1281 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+ipv6: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+unified-delay: true
+tcp-concurrent: true
+geodata-mode: true
+geo-auto-update: true
+geo-update-interval: 24
+etag-support: true
+dns:
+  enable: true
+  cache-algorithm: arc
+  prefer-h3: false
+  use-hosts: true
+  use-system-hosts: true
+  listen: 0.0.0.0:7874
+  ipv6: true
+  nameserver-policy:
+    6f8b8fc9-9655-4c06-b871-1acf094ac6fb.creshqlrg8.sbs: https://hydrogen1693.com:44443/dns-query/25df4472-8e9f-4d2e-836a-fd0d8285dcb9
+    0fbfc786-172c-484e-af2e-2931706306c2.uvvztzfbir.sbs: https://hydrogen1693.com:44443/dns-query/25df4472-8e9f-4d2e-836a-fd0d8285dcb9
+  default-nameserver:
+    - system
+    - 119.29.29.29
+    - '2402:4e00::'
+  nameserver:
+    - system
+    - 119.29.29.29
+    - '2402:4e00::'
+  proxy-server-nameserver:
+    - udp://127.0.0.1:7874
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    - 6f8b8fc9-9655-4c06-b871-1acf094ac6fb.creshqlrg8.sbs
+    - 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    - 0fbfc786-172c-484e-af2e-2931706306c2.uvvztzfbir.sbs
+    - '*.lan'
+    - '*.local'
+    - '*.arpa'
+    - 'time.*.com'
+    - 'ntp.*.com'
+    - '+.market.xiaomi.com'
+    - 'localhost.ptlogin2.qq.com'
+    - '*.msftncsi.com'
+    - 'www.msftconnecttest.com'
+hosts:
+  caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs: 6f8b8fc9-9655-4c06-b871-1acf094ac6fb.creshqlrg8.sbs
+  04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs: 0fbfc786-172c-484e-af2e-2931706306c2.uvvztzfbir.sbs
+
+proxies:
+  - name: Traffic Reset：25 Days Left
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15026
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: Expire Date：2026/11/19
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15026
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 1.61 GB | 500 GB
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15026
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇭🇰 Hong Kong 01
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15026
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇭🇰 Hong Kong 02
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15023
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇭🇰 Hong Kong 03
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15033
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇭🇰 Hong Kong 04
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15006
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇭🇰 Hong Kong 05
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15019
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇭🇰 Hong Kong 06
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15016
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇭🇰 Hong Kong 07
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15003
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇭🇰 Hong Kong 08
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15029
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇭🇰 Hong Kong 09
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15009
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇭🇰 Hong Kong 10
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 15013
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇸🇬 Singapore 01
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 18809
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇸🇬 Singapore 02
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 18803
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇸🇬 Singapore 03
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 18813
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇸🇬 Singapore 04
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 18806
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇸🇬 Singapore 05
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 18816
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇯🇵 Japan 01
+    type: anytls
+    server: caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    port: 48077
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇯🇵 Japan 02
+    type: anytls
+    server: caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    port: 48314
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇯🇵 Japan 03
+    type: anytls
+    server: caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    port: 48208
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇯🇵 Japan 04
+    type: anytls
+    server: caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    port: 48405
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇯🇵 Japan 05
+    type: anytls
+    server: caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    port: 48136
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇺🇸 United States 01
+    type: anytls
+    server: caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    port: 48534
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇺🇸 United States 02
+    type: anytls
+    server: caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    port: 48820
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇺🇸 United States 03
+    type: anytls
+    server: caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    port: 48713
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇺🇸 United States 04
+    type: anytls
+    server: caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    port: 48917
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇺🇸 United States 05
+    type: anytls
+    server: caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    port: 48621
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇨🇳 Taiwan 01
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 19009
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇨🇳 Taiwan 02
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 19016
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇨🇳 Taiwan 03
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 19006
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇨🇳 Taiwan 04
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 19013
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇨🇳 Taiwan 05
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 19003
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇩🇪 Germany 01
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 21003
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇩🇪 Germany 02
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 21006
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇩🇪 Germany 03
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 21009
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇬🇧 United Kingdom 01
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 22009
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇬🇧 United Kingdom 02
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 22006
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇬🇧 United Kingdom 03
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 22003
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇰🇷 South Korea 01
+    type: anytls
+    server: caac8761-cccc-4cfa-b815-11de29f02f5b.x6qbh8i1nn.sbs
+    port: 48998
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇦🇺 Australia 01
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 29003
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇫🇷 France 01
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 25003
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇨🇭 Switzerland 01
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 30003
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇳🇱 Netherlands 01
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 26003
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+  - name: 🇮🇳 India 01
+    type: anytls
+    server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs
+    port: 27003
+    password: s-uMuzjEf2vPD-bUpHk4ng
+    udp: true
+    fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640
+    client-fingerprint: chrome
+    client-metadata: mihomo
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    min-idle-session: 0
+    sni: ixigua.com
+    alpn:
+      - h2
+
+
+proxy-groups:
+  - name: "Kuromis"
+    type: select
+    proxies:
+      - Auto
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇯🇵 Japan 01
+      - 🇯🇵 Japan 02
+      - 🇯🇵 Japan 03
+      - 🇯🇵 Japan 04
+      - 🇯🇵 Japan 05
+      - 🇺🇸 United States 01
+      - 🇺🇸 United States 02
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 04
+      - 🇺🇸 United States 05
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇨🇳 Taiwan 05
+      - 🇩🇪 Germany 01
+      - 🇩🇪 Germany 02
+      - 🇩🇪 Germany 03
+      - 🇬🇧 United Kingdom 01
+      - 🇬🇧 United Kingdom 02
+      - 🇬🇧 United Kingdom 03
+      - 🇰🇷 South Korea 01
+      - 🇦🇺 Australia 01
+      - 🇫🇷 France 01
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands 01
+      - 🇮🇳 India 01
+  - name: Auto
+    type: fallback
+    proxies:
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+      - 🇯🇵 Japan 01
+      - 🇯🇵 Japan 02
+      - 🇯🇵 Japan 03
+      - 🇯🇵 Japan 04
+      - 🇯🇵 Japan 05
+      - 🇺🇸 United States 01
+      - 🇺🇸 United States 02
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 04
+      - 🇺🇸 United States 05
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇨🇳 Taiwan 05
+      - 🇩🇪 Germany 01
+      - 🇩🇪 Germany 02
+      - 🇩🇪 Germany 03
+      - 🇬🇧 United Kingdom 01
+      - 🇬🇧 United Kingdom 02
+      - 🇬🇧 United Kingdom 03
+      - 🇰🇷 South Korea 01
+      - 🇦🇺 Australia 01
+      - 🇫🇷 France 01
+      - 🇨🇭 Switzerland 01
+      - 🇳🇱 Netherlands 01
+      - 🇮🇳 India 01
+    url: 'https://www.gstatic.com/generate_204'
+    interval: 300
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: BiliBili
+    type: select
+    proxies:
+      - DIRECT
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: Netflix
+    type: select
+    proxies:
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: Disney
+    type: select
+    proxies:
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: TikTok
+    type: select
+    proxies:
+      - DIRECT
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: GlobalMedia
+    type: select
+    proxies:
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: OpenAI
+    type: select
+    proxies:
+      - Kuromis
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: Claude
+    type: select
+    proxies:
+      - Kuromis
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: Google
+    type: select
+    proxies:
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: Microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: SteamCN
+    type: select
+    proxies:
+      - DIRECT
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: Steam
+    type: select
+    proxies:
+      - DIRECT
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: PayPal
+    type: select
+    proxies:
+      - DIRECT
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: Telegram
+    type: select
+    proxies:
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - 🇨🇳 Taiwan
+      - 🇩🇪 Germany
+      - 🇬🇧 United Kingdom
+      - 🇰🇷 South Korea
+      - 🇦🇺 Australia
+      - 🇫🇷 France
+      - 🇨🇭 Switzerland
+      - 🇳🇱 Netherlands
+      - 🇮🇳 India
+  - name: 🇭🇰 Hong Kong
+    type: select
+    proxies:
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 Hong Kong 09
+      - 🇭🇰 Hong Kong 10
+  - name: 🇸🇬 Singapore
+    type: select
+    proxies:
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 05
+  - name: 🇯🇵 Japan
+    type: select
+    proxies:
+      - 🇯🇵 Japan 01
+      - 🇯🇵 Japan 02
+      - 🇯🇵 Japan 03
+      - 🇯🇵 Japan 04
+      - 🇯🇵 Japan 05
+  - name: 🇺🇸 United States
+    type: select
+    proxies:
+      - 🇺🇸 United States 01
+      - 🇺🇸 United States 02
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 04
+      - 🇺🇸 United States 05
+  - name: 🇨🇳 Taiwan
+    type: select
+    proxies:
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇨🇳 Taiwan 05
+  - name: 🇩🇪 Germany
+    type: select
+    proxies:
+      - 🇩🇪 Germany 01
+      - 🇩🇪 Germany 02
+      - 🇩🇪 Germany 03
+  - name: 🇬🇧 United Kingdom
+    type: select
+    proxies:
+      - 🇬🇧 United Kingdom 01
+      - 🇬🇧 United Kingdom 02
+      - 🇬🇧 United Kingdom 03
+  - name: 🇰🇷 South Korea
+    type: select
+    proxies:
+      - 🇰🇷 South Korea 01
+  - name: 🇦🇺 Australia
+    type: select
+    proxies:
+      - 🇦🇺 Australia 01
+  - name: 🇫🇷 France
+    type: select
+    proxies:
+      - 🇫🇷 France 01
+  - name: 🇨🇭 Switzerland
+    type: select
+    proxies:
+      - 🇨🇭 Switzerland 01
+  - name: 🇳🇱 Netherlands
+    type: select
+    proxies:
+      - 🇳🇱 Netherlands 01
+  - name: 🇮🇳 India
+    type: select
+    proxies:
+      - 🇮🇳 India 01
+rule-providers:
+  Apple:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Apple_No_Resolve.yaml
+  BiliBili:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/BiliBili_No_Resolve.yaml
+  Netflix:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Netflix_No_Resolve.yaml
+  Disney:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Disney_No_Resolve.yaml
+  TikTok:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/TikTok_No_Resolve.yaml
+  GlobalMedia:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/GlobalMedia_Classical_No_Resolve.yaml
+  OpenAI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/OpenAI_No_Resolve.yaml
+  Claude:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Claude_No_Resolve.yaml
+  Google:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Google_No_Resolve.yaml
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Microsoft_No_Resolve.yaml
+  PayPal:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/PayPal_No_Resolve.yaml
+  Telegram:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Telegram_No_Resolve.yaml
+  SteamCN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/SteamCN_No_Resolve.yaml
+  Steam:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Steam_No_Resolve.yaml
+  ChinaMax:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/ChinaMax_Classical_No_Resolve.yaml
+  Lan:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Lan_No_Resolve.yaml
+rules:
+  - RULE-SET,Apple,Apple
+  - RULE-SET,BiliBili,BiliBili
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,Disney,Disney
+  - RULE-SET,TikTok,TikTok
+  - RULE-SET,Google,Google
+  - RULE-SET,SteamCN,SteamCN
+  - RULE-SET,Steam,Steam
+  - RULE-SET,Claude,Claude
+  - RULE-SET,OpenAI,OpenAI
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,PayPal,PayPal
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,GlobalMedia,GlobalMedia
+  - RULE-SET,ChinaMax,DIRECT
+  - RULE-SET,Lan,DIRECT
+  - MATCH,Kuromis
