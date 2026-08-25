@@ -1,6 +1,13 @@
 proxies:
 
 
+- {name: Shopify, type: vless, server: www.shopify.com, port: 2095, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, network: ws, ws-opts: {path: /, headers: {Host: cdn.femboy67.dpdns.org}}}
+- {name: Epicgames, type: vless, server: www.epicgames.com, port: 2095, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, network: ws, ws-opts: {path: /, headers: {Host: cdn.femboy67.dpdns.org}}}
+- {name: Cloudflare Support, type: vless, server: support.cloudflare.com, port: 2095, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, network: ws, ws-opts: {path: /, headers: {Host: cdn.femboy67.dpdns.org}}}
+- {name: Cloudflare Developers, type: vless, server: developers.cloudflare.com, port: 2095, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, network: ws, ws-opts: {path: /, headers: {Host: cdn.femboy67.dpdns.org}}}
+- {name: Cdnjs, type: vless, server: cdnjs.com, port: 2095, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, network: ws, ws-opts: {path: /, headers: {Host: cdn.femboy67.dpdns.org}}}
+- {name: ping.pe, type: vless, server: ping.pe, port: 2095, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, network: ws, ws-opts: {path: /, headers: {Host: cdn.femboy67.dpdns.org}}}
+
 #GoodAnytls
 
   - {name: Traffic Reset：25 Days Left, server: 04ac2067-858f-41ad-9c0b-5efd778d206a.q35y23a0u6.sbs, port: 15026, type: anytls, password: s-uMuzjEf2vPD-bUpHk4ng, sni: ixigua.com, alpn: [h2], fingerprint: fac26f65c034829da42d740d23c4a7202475a3834f0ebaecae5f934adbbfd640, skip-cert-verify: true, tfo: false}
