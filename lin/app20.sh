@@ -260,14 +260,14 @@ proxy-providers:
       enable: true
       interval: 2520
       url: http://www.gstatic.com/generate_204
-#  provider#ProxyPool-Site可能失效了下次替代这个:
-#    type: http
-#    url: https://proxypool.dmit.dpdns.org/clash/proxies
-#    interval: 86540
-#    health-check:
-#      enable: true
-#      interval: 2525
-#      url: http://www.gstatic.com/generate_204
+  provider#CFnode-Site:
+    type: http
+    url: https://s.imgki.com/kPyUhXj
+    interval: 86540
+    health-check:
+      enable: true
+      interval: 2525
+      url: http://www.gstatic.com/generate_204
 #  provider#Barabama-Git暂时停用共147个:
 #    type: http
 #    url: https://suo.yt/ZXtNBlv
