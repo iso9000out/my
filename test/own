@@ -21,6 +21,7 @@ proxies:
   - {name: yazhouany02.downapptwo.cc:31289, server: yazhouany02.downapptwo.cc, port: 31289, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
   - {name: yazhouany02.downapptwo.cc:61088, server: yazhouany02.downapptwo.cc, port: 61088, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
   - {name: yzany01.downapptwo.cc:30019, server: yzany01.downapptwo.cc, port: 30019, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
+  - {name: JP_1|1.5MB/s, server: jp200m.jiasu.asia, port: 50000, type: trojan, password: 5259333f-7f21-47a1-80fa-2a0c23db8e4f, sni: jp200m.jiasu.asia, skip-cert-verify: true, tfo: false}
 
 
 
