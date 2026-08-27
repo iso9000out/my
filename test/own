@@ -1,8 +1,13 @@
 proxies:
 
-#MyFind
 
+
+
+#MyFind
+  - {name: 104.24.217.83:8443, server: 104.24.217.83, port: 8443, type: vless, tls: true, uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d, network: ws, ws-opts: {headers: {Host: wzknb.pages.dev}}, skip-cert-verify: true, tfo: false}
   - {name: 🇸🇬 SG95, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
+
+
 
 #https://app.sublink.works/c/YLxDi04
 
