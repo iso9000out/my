@@ -6,6 +6,22 @@ proxies:
 #MyFind
   - {name: 104.24.217.83:8443, server: 104.24.217.83, port: 8443, type: vless, tls: true, uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d, network: ws, ws-opts: {headers: {Host: wzknb.pages.dev}}, skip-cert-verify: true, tfo: false}
   - {name: 🇸🇬 SG95, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
+  - {name: 45.221.98.14:59901, server: 45.221.98.14, port: 59901, type: anytls, password: dongtaiwang.com, skip-cert-verify: true, tfo: false}
+  - {name: anytls.864106.xyz:18001, server: anytls.864106.xyz, port: 18001, type: anytls, password: fanvpn.net, skip-cert-verify: true, tfo: false}
+  - {name: dafeizhu.xxxyun.top:55003, server: dafeizhu.xxxyun.top, port: 55003, type: anytls, password: 5b2012ba-d040-4281-b92c-4f005badd179, skip-cert-verify: true, tfo: false}
+  - {name: ip4.934618.xyz:51133, server: ip4.934618.xyz, port: 51133, type: anytls, password: github.com/Alvin9999-newpac/fanqiang, skip-cert-verify: true, tfo: false}
+  - {name: jjz.jjznodenode.top:17966, server: jjz.jjznodenode.top, port: 17966, type: anytls, password: 752a9aac-91a7-4284-9d6e-234efae318b6, skip-cert-verify: true, tfo: false}
+  - {name: jjz.jjznodenode.top:17967, server: jjz.jjznodenode.top, port: 17967, type: anytls, password: 752a9aac-91a7-4284-9d6e-234efae318b6, skip-cert-verify: true, tfo: false}
+  - {name: 🇯🇵 jp01.duotg.top:28080, server: jp01.duotg.top, port: 28080, type: anytls, password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e, skip-cert-verify: true, tfo: false}
+  - {name: sivp666.ipad1el.com:60572, server: sivp666.ipad1el.com, port: 60572, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
+  - {name: svip.skycon808.com:60005, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
+  - {name: 🇨🇳 tw71.cybergalaxy.me:443, server: tw71.cybergalaxy.me, port: 443, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
+  - {name: 🇨🇳 tw72.cybergalaxy.me:443, server: tw72.cybergalaxy.me, port: 443, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
+  - {name: yazhouany02.downapptwo.cc:11447, server: yazhouany02.downapptwo.cc, port: 11447, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
+  - {name: yazhouany02.downapptwo.cc:31289, server: yazhouany02.downapptwo.cc, port: 31289, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
+  - {name: yazhouany02.downapptwo.cc:61088, server: yazhouany02.downapptwo.cc, port: 61088, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
+  - {name: yzany01.downapptwo.cc:30019, server: yzany01.downapptwo.cc, port: 30019, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
+
 
 
 
