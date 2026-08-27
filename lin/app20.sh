@@ -1,4 +1,4 @@
-# date 2026-08-27
+# date 2026-08-28
 
 
 
@@ -234,15 +234,15 @@ proxy-providers:
       enable: true
       interval: 7295
       url: http://www.gstatic.com/generate_204
-#  provider#ClashNodeV2ray-Git:
-#    type: http
-#    url: https://v1.mk/SppjDyb
-#    interval: 86512
-#    health-check:
-#      enable: true
-#      interval: 7300
-#      url: http://www.gstatic.com/generate_204
-#  provider#Q3dlaXpoaQ-Git:
+  provider#udptoos-Site:
+    type: http
+    url: https://s.imgki.com/ZhK7Ikm
+    interval: 86512
+    health-check:
+      enable: true
+      interval: 7300
+      url: http://www.gstatic.com/generate_204
+#  provider#Q3dlaXpoaQ-Git特别多:
 #    type: http
 #    url: https://suo.yt/UtgiGRS
 #    interval: 86519
@@ -362,14 +362,14 @@ proxy-providers:
       enable: true
       interval: 7375
       url: http://www.gstatic.com/generate_204
-#  provider#LittleRey-Git设备过多停用:
-#    type: http
-#    url: https://v1.mk/B3ju8dE
-#    interval: 86610
-#    health-check:
-#      enable: true
-#      interval: 7380
-#      url: http://www.gstatic.com/generate_204
+  provider#ZhuhaiUK-Git:
+    type: http
+    url: https://s.imgki.com/UlPRCmR
+    interval: 86610
+    health-check:
+      enable: true
+      interval: 7380
+      url: http://www.gstatic.com/generate_204
   provider#Valvatacea-Git:
     type: http
     url: https://v1.mk/c5spm88
