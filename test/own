@@ -5,8 +5,12 @@ proxies:
 
 #MyFind
 
-  - {name: 104.24.217.83:8443, server: 104.24.217.83, port: 8443, type: vless, tls: true, uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d, network: ws, ws-opts: {headers: {Host: wzknb.pages.dev}}, skip-cert-verify: true, tfo: false}
+  - {name: JP_1|1.5MB/s, server: jp200m.jiasu.asia, port: 50000, type: trojan, password: 5259333f-7f21-47a1-80fa-2a0c23db8e4f, sni: jp200m.jiasu.asia, skip-cert-verify: true, tfo: false}
+  - {name: USA 121, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true, tfo: false}
+  - {name: USA 212, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
   - {name: 🇸🇬 SG95, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
+
+  - {name: 104.24.217.83:8443, server: 104.24.217.83, port: 8443, type: vless, tls: true, uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d, network: ws, ws-opts: {headers: {Host: wzknb.pages.dev}}, skip-cert-verify: true, tfo: false}
   - {name: 45.221.98.14:59901, server: 45.221.98.14, port: 59901, type: anytls, password: dongtaiwang.com, skip-cert-verify: true, tfo: false}
   - {name: anytls.864106.xyz:18001, server: anytls.864106.xyz, port: 18001, type: anytls, password: fanvpn.net, skip-cert-verify: true, tfo: false}
   - {name: dafeizhu.xxxyun.top:55003, server: dafeizhu.xxxyun.top, port: 55003, type: anytls, password: 5b2012ba-d040-4281-b92c-4f005badd179, skip-cert-verify: true, tfo: false}
@@ -22,7 +26,6 @@ proxies:
   - {name: yazhouany02.downapptwo.cc:31289, server: yazhouany02.downapptwo.cc, port: 31289, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
   - {name: yazhouany02.downapptwo.cc:61088, server: yazhouany02.downapptwo.cc, port: 61088, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
   - {name: yzany01.downapptwo.cc:30019, server: yzany01.downapptwo.cc, port: 30019, type: anytls, password: 29204996-a723-4291-8c70-30843b592d40, skip-cert-verify: true, tfo: false}
-  - {name: JP_1|1.5MB/s, server: jp200m.jiasu.asia, port: 50000, type: trojan, password: 5259333f-7f21-47a1-80fa-2a0c23db8e4f, sni: jp200m.jiasu.asia, skip-cert-verify: true, tfo: false}
 
 
 
