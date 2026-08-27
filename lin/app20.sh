@@ -1,4 +1,4 @@
-# date 2026-08-26
+# date 2026-08-27
 
 
 
@@ -178,9 +178,9 @@ proxy-providers:
       enable: true
       interval: 2460
       url: http://www.gstatic.com/generate_204
-  provider#1breath-Git:
+  provider#ikuu-Site:
     type: http
-    url: https://suo.yt/aUogB7K
+    url: https://s.imgki.com/ZmLbhyK
     interval: 86470
     health-check:
       enable: true
@@ -432,110 +432,63 @@ proxy-providers:
 
 
 proxy-groups:
-  - interval: 0
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    lazy: true
-    max-failed-times: 3
-    hidden: false
-    name: 节点选择
+  - name: 节点选择
     type: select
     proxies:
       - 自动选优
     include-all-providers: true
     exclude-filter: 重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
-  - interval: 720
-    timeout: 3000
+  - name: 自动选优
+    interval: 720
+    timeout: 2000
     type: url-test
     tolerance: 999
     url: http://www.gstatic.com/generate_204
     lazy: true
     max-failed-times: 3
-    hidden: false
-    name: 自动选优
     include-all-providers: true
     exclude-filter: 🇭🇰|香港|HK|🇨🇳|中国|CN|China|TW|其他|重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
-  - interval: 0
-    timeout: 3000
-    url: http://www.gstatic.com/generate_204
-    lazy: true
-    hidden: false
-    name: 谷歌服务
+  - name: 谷歌服务
     type: select
     proxies:
       - 节点选择
       - 自动选优
       - 全局直连
-  - interval: 0
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    lazy: true
-    hidden: false
-    name: 国外媒体
+  - name: 国外媒体
     type: select
     proxies:
       - 节点选择
       - 自动选优
       - 全局直连
-  - interval: 0
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    lazy: true
-    hidden: false
-    name: 微软服务
+  - name: 微软服务
     type: select
     proxies:
       - 全局直连
       - 节点选择
       - 自动选优
-  - interval: 0
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    lazy: true
-    hidden: false
-    name: 苹果服务
+  - name: 苹果服务
     type: select
     proxies:
       - 全局直连
       - 节点选择
       - 自动选优
-  - interval: 0
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    lazy: true
-    hidden: false
-    name: 广告过滤
+  - name: 广告过滤
     type: select
     proxies:
       - REJECT
       - DIRECT
-  - interval: 0
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    lazy: true
-    hidden: false
-    name: 全局直连
+  - name: 全局直连
     type: select
     proxies:
       - DIRECT
       - 节点选择
       - 自动选优
-  - interval: 0
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    lazy: true
-    hidden: false
-    name: 全局拦截
+  - name: 全局拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-  - interval: 0
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    lazy: true
-    hidden: false
-    name: 漏网之鱼
+  - name: 漏网之鱼
     type: select
     proxies:
       - 全局直连
