@@ -16,6 +16,11 @@ proxies:
   - {name: "🇪🇪 Estonia 2", server: faq2.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX, sni: cabinet.wwwinternetvideo.click, skip-cert-verify: true, tfo: false}
   - {name: "Anycast-IP | 🇧🇷 🇵🇱 | [BL]", server: node.embrofree.org, port: 443, type: hysteria2, password: 4a6c225b-46a2-494d-a190-0b0a7c5205d4, sni: node.embrofree.org, skip-cert-verify: true, udp: true, tfo: false}
   - {name: "Anycast-IP | 🇧🇷 🇵🇱 [*CIDR]", server: node.embrofree.org, port: 443, type: hysteria2, password: 4a6c225b-46a2-494d-a190-0b0a7c5205d4, sni: node.embrofree.org, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "🇨🇦 Canada | 🌐 [*CIDR]", server: node.embrofree.org, port: 443, type: hysteria2, password: 4a6c225b-46a2-494d-a190-0b0a7c5205d4, sni: node.embrofree.org, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "🇬🇧 United Kingdom, London | [BL]", server: 103.246.248.233, port: 8080, type: hysteria2, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "🇬🇧 United Kingdom, London | [BL]_1", server: 205.237.109.166, port: 8443, type: hysteria2, password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s, sni: hopp-netherland-new.dynuddns.net, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "United Arab Emirates, Abu Dhabi (Al Ras Al Akhdar) | [BL]", server: 85.204.107.177, port: 8080, type: hysteria2, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: hopp-romania-new.roxa.org, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "🇰🇷 Incheon, KR · G-Core Labs | a11.toppp.cc", server: a11.toppp.cc, port: 42311, type: anytls, password: cba96915-8098-41a7-9997-efb01ccc598a, sni: osxapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
 
 
 
