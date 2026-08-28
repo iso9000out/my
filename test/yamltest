@@ -1,0 +1,79 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: freedom.chenlan.top:12765, server: freedom.chenlan.top, port: 12765, type: hysteria2, ports: 12765, password: STYyftThFn, sni: whatsapp.com, skip-cert-verify: true, tfo: false}
+  - {name: 85.121.122.25:12765, server: 85.121.122.25, port: 12765, type: hysteria2, ports: 12765, password: STYyftThFn, sni: freedom.chenlan.top, skip-cert-verify: true, tfo: false}
+  - {name: 45.88.43.116:52454, server: 45.88.43.116, port: 52454, type: hysteria2, ports: 52454, password: 6c077487-06af-4fb1-9e46-d485d98f0a31, sni: www.bing.com, skip-cert-verify: true, tfo: false}
+  - {name: 202.146.222.29:443, server: 202.146.222.29, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: 202.146.222.29, skip-cert-verify: true, tfo: false}
+  - {name: 3.148.164.219:443, server: 3.148.164.219, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-us-003.fastervpn.world, skip-cert-verify: true, tfo: false}
+  - {name: 18.162.42.61:16001, server: 18.162.42.61, port: 16001, type: hysteria2, ports: 16001, password: 9q3Mb0IzSVbnwaqK, sni: hk-ls-r-1.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true, tfo: false}
+  - {name: xjp1.mangshe.xyz:2056, server: xjp1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 41f0d6d3-4a45-4635-8225-2abd2284189b, sni: xjp1.mangshe.xyz, skip-cert-verify: true, tfo: false}
+  - {name: 130.49.161.70:443, server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: true, tfo: false}
+  - {name: hy2.561891.xyz:44356, server: hy2.561891.xyz, port: 44356, type: hysteria2, ports: 44356, password: dongtaiwang.com, skip-cert-verify: true, tfo: false}
+  - {name: 44.255.13.86:443, server: 44.255.13.86, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: 44.255.13.86, skip-cert-verify: true, tfo: false}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+rules:
