@@ -237,9 +237,3 @@
 ||gdt.qq.com^
 ||adservice.qq.com^
 
-! ===== 美团白名单 =====
-@@||pubmsg.meituan.com^
-@@||api.meituan.com^
-@@||wmapi.meituan.com^
-@@||meituan.net^$important
-@@||meituan.com^$important
