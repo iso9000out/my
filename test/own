@@ -11,3 +11,9 @@ proxies:
   - {name: ip4.934618.xyz:51133, server: ip4.934618.xyz, port: 51133, type: anytls, password: github.com/Alvin9999-newpac/fanqiang, skip-cert-verify: true, tfo: false}
   - {name: svip.skycon808.com:60005, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
 
+
+  - {name: "🇪🇪 Estonia", server: faq2.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX, sni: cabinet.wwwinternetvideo.click, skip-cert-verify: true, tfo: false}
+  - {name: "🇪🇪 Estonia 2", server: faq2.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX, sni: cabinet.wwwinternetvideo.click, skip-cert-verify: true, tfo: false}
+
+
+
