@@ -1,9 +1,76 @@
+# date 2026-08-28
+
+
+
+
+
 port: 7890
 socks-port: 7891
 allow-lan: true
-mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
+ipv6: true
+mode: rule
+log-level: error
+tcp-concurrent: true
+external-controller: 0.0.0.0:9090
+lan-allowed-ips:
+  - 0.0.0.0/0
+  - ::/0
+skip-auth-prefixes:
+  - 0.0.0.0/0
+  - ::/0
+
+
+
+
+
+dns:
+  cache-algorithm: arc
+  enable: true
+  ipv6: true
+  use-hosts: true
+  respect-rules: true
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - 223.5.5.5
+    - 119.29.29.29
+    - https://dns.google/dns-query
+    - https://1.1.1.1/dns-query
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://dns.google/dns-query
+    - https://1.1.1.1/dns-query
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 8.8.8.8
+    - 1.1.1.1
+    
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    - tls://8.8.8.8:853
+    - tls://1.1.1.1:853
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
+    domain:
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+      - "+.twitter.com"
+      - "+.github.com"
+
+
+
+
 proxies:
   - {"type":"hysteria2","name":"🇵🇱 Poland, Warsaw | [BL]","server":"infra-core.cvedcdigital.vip","port":1443,"password":"1b6e3f04-cfb9-464b-b603-79c04ad80d99","sni":"infra-core.cvedcdigital.vip"}
   - {"type":"hysteria2","name":"🇸🇪 Sweden, Stockholm | [BL]","server":"swe.frkn.org","port":8443,"password":"3b8c82ed-fe66-472d-915e-034ccb57103f"}
@@ -13,65 +80,219 @@ proxies:
   - {"type":"hysteria2","name":"3150 | 🌐 Unknown | 🏳️ SNI-VK | HYSTERIA2 | TG: @YoutubeUnBlockRu","server":"vpn-sg-002.fastervpn.world","port":443,"password":"H7mP2xY9kJ4nQ9wR5tF6vB3z","sni":"vk.com"}
   - {"type":"hysteria2","name":"3252 | 🇸🇬 Singapore | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu","server":"54.254.241.184","port":443,"password":"qQe1z5kU8kN6SlKnDt9Ru3Qp","sni":"vk.com"}
   - {"type":"hysteria2","name":"3314 | 🇸🇬 Singapore | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu","server":"54.255.1.222","port":443,"password":"qQe1z5kU8kN6SlKnDt9Ru3Qp","sni":"vk.com"}
+
+
+
 proxy-groups:
-  - name: 🚀 节点选择
+  - name: 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择
-      - DIRECT
-  - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+      - 自动选优
     include-all-providers: true
-  - name: 🌍 国外媒体
+    exclude-filter: 重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
+  - name: 自动选优
+    interval: 720
+    timeout: 5000
+    type: url-test
+    tolerance: 999
+    url: http://www.gstatic.com/generate_204
+    lazy: true
+    max-failed-times: 3
+    include-all-providers: true
+    exclude-filter: 🇭🇰|香港|HK|🇨🇳|中国|CN|China|TW|其他|重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
+  - name: 谷歌服务
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-  - name: 📲 电报信息
+      - 节点选择
+      - 自动选优
+      - 全局直连
+  - name: 国外媒体
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-  - name: Ⓜ️ 微软服务
+      - 节点选择
+      - 自动选优
+      - 全局直连
+  - name: 微软服务
     type: select
     proxies:
-      - 🎯 全球直连
-      - 🚀 节点选择
-  - name: 🍎 苹果服务
+      - 全局直连
+      - 节点选择
+      - 自动选优
+  - name: 苹果服务
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-  - name: 🎯 全球直连
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
-  - name: 🛑 全球拦截
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: 🍃 应用净化
+      - 全局直连
+      - 节点选择
+      - 自动选优
+  - name: 广告过滤
     type: select
     proxies:
       - REJECT
       - DIRECT
-  - name: 🐟 漏网之鱼
+  - name: 全局直连
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
+      - DIRECT
+      - 节点选择
+      - 自动选优
+  - name: 全局拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 漏网之鱼
+    type: select
+    proxies:
+      - 全局直连
+      - 节点选择
+      - 自动选优
+
+
+
+
+
+rule-providers:
+  LocalAreaNetwork:
+    type: http
+    format: text
+    interval: 86400
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.yaml
+  SteamCN:
+    type: http
+    format: text
+    interval: 86403
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./ruleset/SteamCN.yaml
+  GoogleCN:
+    type: http
+    format: text
+    interval: 86406
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./ruleset/GoogleCN.yaml
+  ChinaDomain:
+    type: http
+    format: text
+    interval: 86409
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.yaml
+  ChinaCompanyIp:
+    type: http
+    format: text
+    interval: 86412
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.yaml
+  ProxyMedia:
+    type: http
+    format: text
+    interval: 86415
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./ruleset/ProxyMedia.yaml
+  ProxyGFWlist:
+    type: http
+    format: text
+    interval: 86418
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.yaml
+  Telegram:
+    type: http
+    format: text
+    interval: 86421
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./ruleset/Telegram.yaml
+  Apple:
+    type: http
+    format: text
+    interval: 86424
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./ruleset/Apple.yaml
+  Microsoft:
+    type: http
+    format: text
+    interval: 86427
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./ruleset/Microsoft.yaml
+  Applications:
+    type: http
+    format: yaml
+    interval: 86430
+    behavior: classical
+    url: https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
+    path: ./ruleset/applications.yaml
+  BanAD:
+    type: http
+    format: text
+    interval: 86433
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./ruleset/BanAD.yaml
+  BanProgramAD:
+    type: http
+    format: text
+    interval: 86436
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./ruleset/BanProgramAD.yaml
+  Myrules:
+    type: http
+    format: text
+    interval: 3603
+    behavior: classical
+    url: https://raw.githubusercontent.com/iso9000out/my/main/Myrules.list
+    path: ./ruleset/Myrules.yaml
+  Myrulesbai:
+    type: http
+    format: text
+    interval: 3606
+    behavior: classical
+    url: https://raw.githubusercontent.com/iso9000out/my/main/Myrulesbai.list
+    path: ./ruleset/Myrulesbai.yaml
+
+
+
+
+#--------------------------------------------------#
+#  ProxyLite:
+#    type: http
+#    format: text
+#    interval: 86400
+#    behavior: classical
+#    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+#    path: ./ruleset/ProxyLite.yaml
+#--------------------------------------------------#
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
+
+
+
+
+
 rules:
+  - RULE-SET,LocalAreaNetwork,全局直连
+  - RULE-SET,SteamCN,全局直连
+  - RULE-SET,GoogleCN,全局直连
+  - RULE-SET,ChinaDomain,全局直连
+  - RULE-SET,ChinaCompanyIp,全局直连
+  - RULE-SET,Myrulesbai,全局直连
+  - RULE-SET,ProxyMedia,节点选择
+  - RULE-SET,ProxyGFWlist,节点选择
+  #- RULE-SET,ProxyLite,节点选择
+  - RULE-SET,Telegram,节点选择
+  - RULE-SET,Myrules,节点选择
+  - RULE-SET,Apple,苹果服务
+  - RULE-SET,Microsoft,微软服务
+  - RULE-SET,Applications,全局直连
+  - RULE-SET,BanAD,广告过滤
+  - RULE-SET,BanProgramAD,广告过滤
+  - GEOIP,LAN,全局直连,no-resolve
+  - GEOIP,CN,全局直连,no-resolve
+  - MATCH,漏网之鱼
