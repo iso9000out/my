@@ -238,7 +238,7 @@
 ||adservice.qq.com^
 
 
-! YouTube / Google 广告相关（DNS 可拦部分）
+! ===== YouTube / Google 广告 + 反广告检测 / 诱饵域名 =====
 ||doubleclick.net^
 ||googlesyndication.com^
 ||googleadservices.com^
@@ -250,7 +250,19 @@
 ||pubads.g.doubleclick.net^
 ||securepubads.g.doubleclick.net^
 ||static.doubleclick.net^
+||ad.doubleclick.net^
+||tpc.googlesyndication.com^
+||partner.googleadservices.com^
+||adservice.google.com^
+||adservice.google.*^
 ||moatads.com^
 ||innovid.com^
 ||fwmrm.net^
-
+||adserver.*^
+||adblock*.*^
+||blockadblock.com^
+||fuckadblock.*^
+||prebid.org^
+||adsafeprotected.com^
+||scorecardresearch.com^
+||quantserve.com^
