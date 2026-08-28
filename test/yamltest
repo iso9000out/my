@@ -24,7 +24,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies:
+    include-all-providers: true
   - name: 🌍 国外媒体
     type: select
     proxies:
