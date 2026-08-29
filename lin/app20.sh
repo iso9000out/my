@@ -84,7 +84,7 @@ proxy-providers:
   provider#JiangJiang-Site:
     type: http
     url: https://s.imgki.com/wn3LHHA
-    interval: 86400
+    interval: 172400
     health-check:
       enable: true
       interval: 7205
@@ -92,7 +92,7 @@ proxy-providers:
   provider#RiPao-Git:
     type: http
     url: https://v1.mk/gUX6fUH
-    interval: 86407
+    interval: 172407
     health-check:
       enable: true
       interval: 7210
@@ -108,7 +108,7 @@ proxy-providers:
   provider#pgkj0402:
     type: http
     url: https://v1.mk/I2iGw2N
-    interval: 86421
+    interval: 172421
     health-check:
       enable: true
       interval: 7220
@@ -116,7 +116,7 @@ proxy-providers:
   provider#Snakem982-Git:
     type: http
     url: https://v1.mk/qDNsMW4
-    interval: 86428
+    interval: 172428
     health-check:
       enable: true
       interval: 7225
@@ -165,7 +165,7 @@ proxy-providers:
   provider#shaoyouvip-Git:
     type: http
     url: https://s.imgki.com/BrVUSLb
-    interval: 86456
+    interval: 172456
     health-check:
       enable: true
       interval: 7255
@@ -173,7 +173,7 @@ proxy-providers:
   provider#ChenGaoPan-Git:
     type: http
     url: https://s.subcsub.com/mtaeHb6
-    interval: 86463
+    interval: 172463
     health-check:
       enable: true
       interval: 7260
@@ -189,7 +189,7 @@ proxy-providers:
   provider#Meng-Littlebais-Git:
     type: http
     url: https://s.subcsub.com/c3pJjc5
-    interval: 86477
+    interval: 172477
     health-check:
       enable: true
       interval: 7270
@@ -197,7 +197,7 @@ proxy-providers:
   provider#YuYan-BJD:
     type: http
     url: https://v1.mk/nGckgm4
-    interval: 86484
+    interval: 172484
     health-check:
       enable: true
       interval: 7275
@@ -205,7 +205,7 @@ proxy-providers:
   provider#ZhouRunFa-Git:
     type: http
     url: https://v1.mk/iOHCWFc
-    interval: 86491
+    interval: 172491
     health-check:
       enable: true
       interval: 7280
@@ -221,7 +221,7 @@ proxy-providers:
   provider#ChuanZhuo-Git:
     type: http
     url: https://v1.mk/FI6ZQSS
-    interval: 86505
+    interval: 172505
     health-check:
       enable: true
       interval: 7290
@@ -229,7 +229,7 @@ proxy-providers:
   provider#Anaer-Git:
     type: http
     url: https://suo.yt/lZaOlEh
-    interval: 86505
+    interval: 172505
     health-check:
       enable: true
       interval: 7295
@@ -237,7 +237,7 @@ proxy-providers:
   provider#udptoos-Site:
     type: http
     url: https://s.imgki.com/ZhK7Ikm
-    interval: 86512
+    interval: 172512
     health-check:
       enable: true
       interval: 7300
@@ -253,7 +253,7 @@ proxy-providers:
   provider#go4sharing-Git:
     type: http
     url: https://s.imgki.com/ZUTyTJs
-    interval: 86526
+    interval: 172526
     health-check:
       enable: true
       interval: 7310
@@ -269,7 +269,7 @@ proxy-providers:
   provider#Zhangkaiitugithub-PassCRO-Git:
     type: http
     url: https://s.subcsub.com/sJtwgj8
-    interval: 86540
+    interval: 172540
     health-check:
       enable: true
       interval: 7320
@@ -285,7 +285,7 @@ proxy-providers:
   provider#Barabama-cfmem-Git:
     type: http
     url: https://s.imgki.com/MMG3FsE
-    interval: 43240
+    interval: 172240
     health-check:
       enable: true
       interval: 7330
@@ -301,7 +301,7 @@ proxy-providers:
   provider#PuddinCat-Git:
     type: http
     url: https://v1.mk/r0wuDub
-    interval: 86554
+    interval: 172554
     health-check:
       enable: true
       interval: 7340
@@ -309,7 +309,7 @@ proxy-providers:
   provider#Misaka-blog-Git:
     type: http
     url: https://v1.mk/tuntD1k
-    interval: 86561
+    interval: 172561
     health-check:
       enable: true
       interval: 7345
@@ -341,7 +341,7 @@ proxy-providers:
   provider#Peasoft-Git:
     type: http
     url: https://suo.yt/DBwxJDR
-    interval: 86589
+    interval: 172589
     health-check:
       enable: true
       interval: 7365
@@ -349,7 +349,7 @@ proxy-providers:
   provider#itsyebekhe-Git:
     type: http
     url: https://v1.mk/cEV1C8m
-    interval: 86596
+    interval: 172596
     health-check:
       enable: true
       interval: 7370
@@ -357,7 +357,7 @@ proxy-providers:
   provider#132X2-Site:
     type: http
     url: https://v1.mk/OIa61XP
-    interval: 86603
+    interval: 172603
     health-check:
       enable: true
       interval: 7375
@@ -365,7 +365,7 @@ proxy-providers:
   provider#ZhuhaiUK-Git:
     type: http
     url: https://s.imgki.com/UlPRCmR
-    interval: 86610
+    interval: 172610
     health-check:
       enable: true
       interval: 7380
@@ -373,7 +373,7 @@ proxy-providers:
   provider#Valvatacea-Git:
     type: http
     url: https://v1.mk/c5spm88
-    interval: 86617
+    interval: 172617
     health-check:
       enable: true
       interval: 7385
@@ -381,7 +381,7 @@ proxy-providers:
   provider#ShuaiDaoYa-Git:
     type: http
     url: https://v1.mk/WYg2u6P
-    interval: 86624
+    interval: 172624
     health-check:
       enable: true
       interval: 7390
@@ -389,7 +389,7 @@ proxy-providers:
   provider#o00o:
     type: http
     url: https://v1.mk/C9zAjfj
-    interval: 86631
+    interval: 172631
     health-check:
       enable: true
       interval: 7395
@@ -397,7 +397,7 @@ proxy-providers:
   provider#Firefoxmmx2-Git:
     type: http
     url: https://s.subcsub.com/CrvXoUi
-    interval: 86638
+    interval: 172638
     health-check:
       enable: true
       interval: 7400
