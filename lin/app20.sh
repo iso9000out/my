@@ -1,4 +1,4 @@
-# date 2026-08-28
+# date 2026-08-29
 
 
 
@@ -137,7 +137,7 @@ proxy-providers:
 #      enable: true
 #      interval: 7235
 #      url: http://www.gstatic.com/generate_204
-#  provider#Shahidbhutta-Git:
+#  provider#Shahidbhutta-Git停止维护了:
 #    type: http
 #    url: https://suo.yt/gPljrlc
 #    interval: 86435
@@ -153,7 +153,7 @@ proxy-providers:
       enable: true
       interval: 7245
       url: http://www.gstatic.com/generate_204
-#  provider#Pusytroller:
+#  provider#Pusytroller停止维护了:
 #    exclude-filter: 关键词|关键的词
 #    type: http
 #    url: https://v1.mk/HKaoymS
@@ -258,14 +258,14 @@ proxy-providers:
       enable: true
       interval: 7310
       url: http://www.gstatic.com/generate_204
-  provider#PawDroid-Git:
-    type: http
-    url: https://v1.mk/rkUxua6
-    interval: 86533
-    health-check:
-      enable: true
-      interval: 7315
-      url: http://www.gstatic.com/generate_204
+#  provider#PawDroid-Git不好转CF:
+#    type: http
+#    url: https://v1.mk/rkUxua6
+#    interval: 86533
+#    health-check:
+#      enable: true
+#      interval: 7315
+#      url: http://www.gstatic.com/generate_204
   provider#Zhangkaiitugithub-PassCRO-Git:
     type: http
     url: https://s.subcsub.com/sJtwgj8
@@ -282,14 +282,14 @@ proxy-providers:
 #      enable: true
 #      interval: 7325
 #      url: http://www.gstatic.com/generate_204
-#  provider#Barabama-Git暂时停用共147个:
-#    type: http
-#    url: https://suo.yt/ZXtNBlv
-#    interval: 43240
-#    health-check:
-#      enable: true
-#      interval: 7330
-#      url: http://www.gstatic.com/generate_204
+  provider#Barabama-cfmem-Git:
+    type: http
+    url: https://s.imgki.com/MMG3FsE
+    interval: 43240
+    health-check:
+      enable: true
+      interval: 7330
+      url: http://www.gstatic.com/generate_204
 #  provider#ECH-CF不好转CF:
 #    type: http
 #    url: https://v1.mk/nRpxfwk
@@ -314,7 +314,7 @@ proxy-providers:
       enable: true
       interval: 7345
       url: http://www.gstatic.com/generate_204
-#  provider#Mahdibland-Git暂时停用201个:
+#  provider#Mahdibland-Git暂时停用201个英国不通的多:
 #    type: http
 #    url: https://v1.mk/qHDu29Z
 #    interval: 86568
