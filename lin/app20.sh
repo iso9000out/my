@@ -274,14 +274,14 @@ proxy-providers:
       enable: true
       interval: 7320
       url: http://www.gstatic.com/generate_204
-  provider#CFnode-Site:
-    type: http
-    url: https://s.imgki.com/kPyUhXj
-    interval: 86540
-    health-check:
-      enable: true
-      interval: 7325
-      url: http://www.gstatic.com/generate_204
+#  provider#CFnode-Site不好转CF:
+#    type: http
+#    url: https://s.imgki.com/kPyUhXj
+#    interval: 86540
+#    health-check:
+#      enable: true
+#      interval: 7325
+#      url: http://www.gstatic.com/generate_204
 #  provider#Barabama-Git暂时停用共147个:
 #    type: http
 #    url: https://suo.yt/ZXtNBlv
@@ -290,14 +290,14 @@ proxy-providers:
 #      enable: true
 #      interval: 7330
 #      url: http://www.gstatic.com/generate_204
-  provider#ECH-CF:
-    type: http
-    url: https://v1.mk/nRpxfwk
-    interval: 86547
-    health-check:
-      enable: true
-      interval: 7335
-      url: http://www.gstatic.com/generate_204
+#  provider#ECH-CF不好转CF:
+#    type: http
+#    url: https://v1.mk/nRpxfwk
+#    interval: 86547
+#    health-check:
+#      enable: true
+#      interval: 7335
+#      url: http://www.gstatic.com/generate_204
   provider#PuddinCat-Git:
     type: http
     url: https://v1.mk/r0wuDub
