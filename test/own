@@ -27,7 +27,8 @@ proxies:
 
 
 
-#悦
+#yue
+
   - {hop-interval: 30, max-connection-receive-window: 83886080, max-stream-receive-window: 41943040, name: "\U0001F1ED\U0001F1F0香港1", obfs: salamander, obfs-password: 4mcqiPwfROfrKkIKx1WO32Va, password: 99d2ece1-088f-451d-a8af-8dd9f9302085, port: 20000, ports: 20000-40000, server: 72llqohokapfggwt.b1230f12.e.yuetong.online, server_id: 43, skip-cert-verify: false, sni: gw-fe7d4070.yuetong.online, type: hysteria2}
   - {alterId: 0, cipher: auto, client-fingerprint: chrome, encryption: none, flow: xtls-rprx-vision, name: "\U0001F1ED\U0001F1F0香港2", network: tcp, port: 443, reality-opts: {public-key: MK4dhFeNu8RYMuZAl7yM6tu7CqUn4NueJfr4vJKnslE, short-id: f8af0dc5}, server: 72llqohokapfggwt.b1230f12.e.yuetong.online, server_id: 45, servername: www.infineon.com, skip-cert-verify: false, tls: true, type: vless, udp: true, uuid: 99d2ece1-088f-451d-a8af-8dd9f9302085}
   - {hop-interval: 30, max-connection-receive-window: 83886080, max-stream-receive-window: 41943040, name: "\U0001F1F9\U0001F1FC台湾1", obfs: salamander, obfs-password: Z5TxH7o14Yj6xC9kmQYNSFCz, password: 99d2ece1-088f-451d-a8af-8dd9f9302085, port: 20000, ports: 20000-40000, server: hugfqytf2gku2b2z.717e3adc.e.yuetong.online, server_id: 47, skip-cert-verify: false, sni: gw-d2f9d453.yuetong.online, type: hysteria2}
@@ -90,6 +91,22 @@ proxies:
   - {alterId: 0, cipher: auto, client-fingerprint: chrome, encryption: none, flow: xtls-rprx-vision, name: "\U0001F1EE\U0001F1E9印度尼西亚2", network: tcp, port: 443, reality-opts: {public-key: CyKM_F2iyQQXdhPa4gbDAmS3r1KsOKTxKekAQiUwH3U, short-id: b77fe5c4}, server: uoowxvigz6dukc6e.89dc3f43.e.yuetong.online, server_id: 169, servername: www.cisco.com, skip-cert-verify: false, tls: true, type: vless, udp: true, uuid: 99d2ece1-088f-451d-a8af-8dd9f9302085}
 
 
+@some
 
+  - {name: 🇩🇪 德国, server: 150.241.72.143, port: 12200, type: vless, tls: true, uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd, servername: au.windconnect.pro, host: au.windconnect.pro, flow: xtls-rprx-vision, reality-opts: {public-key: Kjw_K41-jWxqzAMtOby5y0KREhyjybuHsAHfCEFo6Sc, short-id: 222afa5374b722b9}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: 🇫🇷 法国, server: 85.209.157.177, port: 8080, type: hysteria2, ports: 8080, password: dsmO0439gj_nX942GJRE_9j39fbcxv52_R, sni: hopp-transit.1cooldns.com, skip-cert-verify: true, tfo: false}
+  - {name: 🇩🇪 德国 2, server: 85.204.107.178, port: 8080, type: hysteria2, ports: 8080, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: hopp-romania-new.roxa.org, skip-cert-verify: true, tfo: false}
+  - {name: 🇹🇭 泰国, server: 103.169.67.34, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
+  - {name: 🇮🇳 印度, server: 65.20.84.60, port: 443, type: vless, tls: true, uuid: OwLimbo, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, reality-opts: {public-key: rW32mnGIawfF0HfU6-NYsue8jXVfGIBgEwgIEHC-FBY, short-id: 485c0fafd745}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港, server: 188.253.123.164, port: 38507, type: vless, tls: true, uuid: f06c6039-a489-3d78-a676-ed43be6deca3, servername: cdnjs.cloudflare.com, host: cdnjs.cloudflare.com, flow: xtls-rprx-vision, reality-opts: {public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA, short-id: bc8e3658db7d1323}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国, server: rm-eco-us-01.409648.xyz, port: 443, type: hysteria2, ports: 443, password: 6dcb725e-947e-4bbe-bb35-903374d57179, sni: mkm.icu, skip-cert-verify: true, tfo: false}
+  - {name: 🇳🇱 荷兰, server: 150.129.10.119, port: 2087, type: vless, tls: true, uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a, servername: ibm3.tsumshop.org, alpn: [h2%2Chttp%2F1.1], host: ibm3.tsumshop.org, flow: xtls-rprx-vision, skip-cert-verify: true, tfo: false}
+  - {name: 🇬🇧 英国, server: 18.132.203.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇳🇱 荷兰 2, server: 217.60.24.23, port: 8443, type: vless, tls: true, uuid: 758f49d3-5f5f-47e7-bfa4-4ce96faf800d, servername: cdn.shopify.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ""}, reality-opts: {public-key: NI5Rkfn6zO_gF-UC1nuvJwu4SDakCXh3ygJOKU1EITU, short-id: f747a7a5793b5714}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: 🇫🇮 芬兰, server: fin14qr.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs%3D, sni: fin14qr.wwwinternetvideo.click, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 2, server: 155.117.199.13, port: 31723, type: vless, tls: true, uuid: f06c6039-a489-3d78-a676-ed43be6deca3, servername: cdnjs.cloudflare.com, host: cdnjs.cloudflare.com, flow: xtls-rprx-vision, reality-opts: {public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA, short-id: bc8e3658db7d1323}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: 🇲🇩 摩尔多瓦, server: md1.cnyvpn.com, port: 443, type: hysteria2, ports: 443, password: 60e2a548-96aa-4850-a279-1edab743c39b, sni: md1.cnyvpn.com, skip-cert-verify: true, tfo: false}
+  - {name: 🇸🇬 新加坡, server: 155.117.199.13, port: 31873, type: vless, tls: true, uuid: f06c6039-a489-3d78-a676-ed43be6deca3, servername: cdnjs.cloudflare.com, host: cdnjs.cloudflare.com, flow: xtls-rprx-vision, reality-opts: {public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA, short-id: bc8e3658db7d1323}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: 🇰🇷 韩国, server: a11.toppp.cc, port: 42311, type: anytls, password: cba96915-8098-41a7-9997-efb01ccc598a, skip-cert-verify: true, tfo: false}
 
 
