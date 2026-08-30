@@ -50,3 +50,8 @@ ping0.cc###check > div.container:nth-child(2) > div.xaeles:nth-child(5)
 ping0.cc###check > div.container:nth-child(2) > div.xaeles.toprow:first-child
 ping0.cc###adfright
 ping0.cc###check > div.container:nth-child(2) > div.xaeles:nth-child(5)
+ping0.cc###check > div.container:nth-child(2) > div.xceles.toprow:first-child
+ping0.cc###check > div.container:nth-child(2) > div.xceles:nth-child(5)
+itdog.cn##div.top-recruit-notice-wrap:nth-child(2)
+ping0.cc###check > div.container:nth-child(2) > div.xdeles.toprow:first-child
+ping0.cc###check > div.container:nth-child(2) > div.xdeles:nth-child(5)
