@@ -91,7 +91,7 @@ proxies:
   - {alterId: 0, cipher: auto, client-fingerprint: chrome, encryption: none, flow: xtls-rprx-vision, name: "\U0001F1EE\U0001F1E9印度尼西亚2", network: tcp, port: 443, reality-opts: {public-key: CyKM_F2iyQQXdhPa4gbDAmS3r1KsOKTxKekAQiUwH3U, short-id: b77fe5c4}, server: uoowxvigz6dukc6e.89dc3f43.e.yuetong.online, server_id: 169, servername: www.cisco.com, skip-cert-verify: false, tls: true, type: vless, udp: true, uuid: 99d2ece1-088f-451d-a8af-8dd9f9302085}
 
 
-@some
+#some
 
   - {name: 🇩🇪 德国, server: 150.241.72.143, port: 12200, type: vless, tls: true, uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd, servername: au.windconnect.pro, host: au.windconnect.pro, flow: xtls-rprx-vision, reality-opts: {public-key: Kjw_K41-jWxqzAMtOby5y0KREhyjybuHsAHfCEFo6Sc, short-id: 222afa5374b722b9}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
   - {name: 🇫🇷 法国, server: 85.209.157.177, port: 8080, type: hysteria2, ports: 8080, password: dsmO0439gj_nX942GJRE_9j39fbcxv52_R, sni: hopp-transit.1cooldns.com, skip-cert-verify: true, tfo: false}
