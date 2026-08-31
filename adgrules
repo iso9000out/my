@@ -99,4 +99,22 @@ sohu.com##main.wrapper-box:nth-child(5) > div.god_header.clearfix.area:first-chi
 baidu.com###s-top-left > a.mnav.c-font-normal.c-color-t:nth-child(2)
 news.sky.com###main > div.page-content.wrap.wrap-auto-align.wrap-gutter.wrap-site-width.group-gap:last-child > div.ui-box.padt-300.padb-300:nth-child(3)
 news.sky.com###main > div.page-content.wrap.wrap-auto-align.wrap-gutter.wrap-site-width.group-gap:last-child > div.ui-box.padt-300.padb-300:nth-child(6)
-flickr.com###allsizes-photo > div.spaceball:first-child
+flickr.com##.feed-b
+flickr.com##.gn-get-pro
+flickr.com##.spaceball
+flickr.com##.info-column
+flickr.com##.upgrade-to-pro-cta
+flickr.com##.sidebar-column
+flickr.com##.photo-list-static-item-container
+flickr.com##.nav-ad-container, .desktop-nav-ad
+flickr.com##[id^="yui_3_18_1_1_"][id$="_123"]
+flickr.com##[id^="yui_3_18_1_1_"][id$="_124"]
+flickr.com##[id^="yui_3_18_1_1_"][id$="_127"]
+flickr.com##[id^="yui_3_18_1_1_"][id$="_128"]
+flickr.com##[id^="yui_3_18_1_1_"][id$="_1097"]
+flickr.com##[id^="yui_3_18_1_1_"][id$="_1099"]
+flickr.com##[id^="yui_3_18_1_1_"][id$="_1101"]
+flickr.com##[id^="yui_3_18_1_1_"][id$="_1103"]
+flickr.com##[id^="yui_3_18_1_1_"][id$="_2688"]
+flickr.com###gn-wrap > div.nav.small-logo.new-logo:nth-child(2) > ul.top-nav > li.gn-menu-parent.toplink.ActiveButt.open:last-child
+flickr.com##.gn-menu-parent, .toplink, .ActiveButt, .open
