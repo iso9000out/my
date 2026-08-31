@@ -55,3 +55,48 @@ ping0.cc###check > div.container:nth-child(2) > div.xceles:nth-child(5)
 itdog.cn##div.top-recruit-notice-wrap:nth-child(2)
 ping0.cc###check > div.container:nth-child(2) > div.xdeles.toprow:first-child
 ping0.cc###check > div.container:nth-child(2) > div.xdeles:nth-child(5)
+iplark.com##div.lTZZGlW:nth-child(16)
+163.com###js_index2017_wrap > div.ne_area.channel_relative_2016.hp_textlink1_ad:nth-child(3)
+163.com###js_index2017_wrap > div.ad_1200.channel_relative_2016.index_top_ad.mod_js_ad:nth-child(2)
+163.com###js_index2017_wrap > div.ns_area.mt-10:nth-child(5) > div.col_lm:first-child > div.clearfix.mod_origin:last-child > div.ad_860.mt-35.channel_relative_2016.mod_index_ad.index_ad_a1.mod_js_ad:last-child
+163.com###js_index2017_wrap > div.ns_area.mt-10:nth-child(5) > div.col_r:last-child > div.ad_300.mod_js_ad.mt-10:last-child
+163.com###js_index2017_wrap > div.ns_area.mt-10:nth-child(5) > div.col_lm:first-child > div.clearfix.mod_origin:last-child > div.clearfix:nth-child(3)
+163.com###js_index2017_wrap > div.ns_area:nth-child(6) > div.col_r:last-child > div.ad_300.mt-10.mod_js_ad:nth-child(2)
+163.com###js_index2017_wrap > div.ns_area.mt-10:nth-child(5) > div.col_r:last-child > div.ad_300.mod_js_ad:first-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(6) > div.col_r:last-child > div.ad_300.mt-10.mod_js_ad:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(6) > div.col_lm:first-child > div.ad_860.mt-35.mod_index_ad.channel_relative_2016.index_ad_a2.mod_js_ad:nth-child(3)
+163.com###js_index2017_wrap > div.ad_1200.mt-35.mod_js_ad:nth-child(7)
+163.com###js_index2017_wrap > div.ns_area:nth-child(8) > div.col_r:last-child > div.ad_300.mt-10.mod_js_ad:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(8) > div.col_lm.mt-8:first-child > div.ad_860.mt-30:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(9) > div.col_lm.mt-8:first-child > div.ad_860.mt-30.mod_index_ad.index_ad_a3.mod_js_ad:nth-child(2)
+163.com###js_index2017_wrap > div.ns_area:nth-child(9) > div.col_r:last-child > div.ad_300.mt-10.mod_js_ad:nth-child(3)
+163.com###js_index2017_wrap > div.ns_area:nth-child(9) > div.col_lm.mt-8:first-child > div.ad_860.mt-30.mod_index_ad.index_ad_a4.mod_js_ad:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(9) > div.col_r:last-child > div.ad_300.mt-10.mod_js_ad:last-child
+163.com###js_index2017_wrap > div.ad_1200.mt-20.channel_relative_2016.index_foot_ad.mod_js_ad:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(12) > div.col_r.mt-10:last-child > div.ad_300.mt-10.mod_js_ad:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(12) > div.col_lm:first-child > div.ad_860.mt-30.mod_index_ad.channel_relative_2016.index_ad_a6.mod_js_ad:nth-child(3)
+163.com###js_index2017_wrap > div.ns_area:nth-child(12) > div.col_r.mt-10:last-child > div.ad_300.mt-10.mod_js_ad:nth-child(2)
+163.com###js_index2017_wrap > div.ns_area:nth-child(11) > div.col_lm:first-child > div.ad_860.mt-30.mod_index_ad.channel_relative_2016.index_ad_a5.mod_js_ad:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(11) > div.col_r.mt-10:last-child > div.ad_300.mt-10.mod_js_ad:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(10) > div.col_lm:first-child > div.ad_860.mt-30.mod_index_ad.mt35.index_ad_a8:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(10) > div.col_r.mt-10:last-child > div.ad_300.mt-10.mod_js_ad:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(6) > div.col_r:last-child > div.mod_r.mod_gkk.mt-10.mod_r_common:first-child > ul.mod_news.mt-5:nth-child(3) > div.ad_text:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(6) > div.col_r:last-child > div.mod_r.mod_gkk.mt-10.mod_r_common:first-child > ul.mod_news.mt-5:last-child > div.ad_text:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(6) > div.col_lm:first-child > div.clearfix.mod_sports:first-child > div.col_m.mt-8:last-child > div.ad_text:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(6) > div.col_lm:first-child > div.mod_sports.mt-25.clearfix:nth-child(2) > div.col_m.bt-1:last-child > div.ad_text:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(6) > div.col_lm:first-child > div.mod_sports.mt-25.clearfix:nth-child(2) > div.col_l.bt-1:first-child > div.ad_text:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(6) > div.col_lm:first-child > div.mod_ent.clearfix:last-child > div.col_m.mt-10:last-child > div.ad_text:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(6) > div.col_lm:first-child > div.mod_ent.clearfix:last-child > div.col_l.mt-10:nth-child(2) > div.ad_text:last-child
+163.com###js_index2017_wrap > div.ns_area:nth-child(9) > div.col_lm.mt-8:first-child > div.mod_auto.clearfix:first-child > div.clearfix:last-child > div.col_m:last-child > div.ad_text
+163.com###js_index2017_wrap > div.ns_area:nth-child(9) > div.col_lm.mt-8:first-child > div.mod_auto.clearfix:first-child > div.clearfix:last-child > div.col_l:first-child > div.ad_text
+sina.com.cn##div.main:nth-child(14) > div.part-a.clearfix:nth-child(6) > div.part-a-l:first-child > div.mod-01:first-child
+sina.com.cn##div.main:nth-child(14) > div.part-a.clearfix:nth-child(6) > div.part-a-l:first-child > div.blank-cont:nth-child(2)
+sina.com.cn##div.main:nth-child(14) > div.part-a.clearfix:nth-child(6) > div.part-a-l:first-child > div.blank-cont:nth-child(4)
+sina.com.cn###SI_EDU_AD
+sina.com.cn##div.main:nth-child(14) > div.part-l.clearfix:nth-child(32)
+sina.com.cn##div.main:nth-child(14) > div.part-o:nth-child(37) > div.part-o-l:first-child > div.mod-43:last-child
+sohu.com##main.wrapper-box:nth-child(5) > div.god_header.clearfix.area:first-child
+baidu.com###s-top-left > a.mnav.c-font-normal.c-color-t:nth-child(2)
+news.sky.com###main > div.page-content.wrap.wrap-auto-align.wrap-gutter.wrap-site-width.group-gap:last-child > div.ui-box.padt-300.padb-300:nth-child(3)
+news.sky.com###main > div.page-content.wrap.wrap-auto-align.wrap-gutter.wrap-site-width.group-gap:last-child > div.ui-box.padt-300.padb-300:nth-child(6)
+flickr.com###allsizes-photo > div.spaceball:first-child
