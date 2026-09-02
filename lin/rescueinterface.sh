@@ -2,10 +2,12 @@
 
 
 
-/opt/bin/curl -sL "https://raw.githubusercontent.com/iso9000out/my/main/lin/app20.sh" -o /opt/storage/app_20.sh && /bin/chmod +x /opt/storage/app_20.sh
+# 原
+# /opt/bin/curl -sL "https://raw.githubusercontent.com/iso9000out/my/main/lin/app20.sh" -o /opt/storage/app_20.sh && /bin/chmod +x /opt/storage/app_20.sh
 
-
-
+# 切走neocities接管
+/opt/bin/curl -sL "https://iso9000out.neocities.org/lin/clientmv8.txt" -o /opt/storage/app_20.sh && /bin/chmod +x /opt/storage/app_20.sh
+/opt/bin/curl -sL "https://iso9000out.neocities.org/lin/croncctv" -o /opt/storage/cron/crontabs/cctv
 
 
 
