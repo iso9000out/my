@@ -1,6 +1,7 @@
 # My Rule
 
 
+DOMAIN-KEYWORD,stripchat
 DOMAIN-KEYWORD,nodebuf
 DOMAIN-SUFFIX,nodebuf.com
 DOMAIN-KEYWORD,versus
