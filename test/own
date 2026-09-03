@@ -11,7 +11,7 @@ proxies:
   - {name: 🇺🇸 US-CCS-330T-无限, server: ccs1g.pai50288.uk, port: 443, type: vless, tls: true, uuid: ec1c1d50-d774-464c-a1e2-c150a802666b, servername: ccs1g.pai50288.uk, alpn: [h2%2Chttp%2F1.1%2Ch3], network: ws, ws-opts: {path: /pai50288, headers: {Host: ccs1g.pai50288.uk}}, skip-cert-verify: true, tfo: false}
   - {name: 🇷🇺 俄罗斯 | RUS, server: ru05.abvpn.ru, port: 443, type: vless, tls: true, uuid: a289a3d3-5833-4b28-8809-ae72898a98d0, servername: ru05.abvpn.ru, network: ws, ws-opts: {path: /websocket, headers: {Host: ru05.abvpn.ru}}, skip-cert-verify: true, tfo: false}
   - {name: 🇨🇭 瑞士 苏黎世Oracle云计算数据中心, server: 140.238.213.114, port: 50160, type: hysteria2, password: 84a506ca5aca505696a454d828420b3f, auth: 84a506ca5aca505696a454d828420b3f, sni: www.bing.com, skip-cert-verify: true, udp: true}
-
+  - {name: 🇸🇬 新加坡05, server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, tls: true, uuid: d1a09411-cb5e-4e9c-98fa-85faa0be9936, servername: sgp1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/sg1, headers: {Host: sgp1.xn--ghq880n3na965a.com}}, skip-cert-verify: true, tfo: false}
 
 
   - {name: "🇪🇪 Estonia", server: faq2.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX, sni: cabinet.wwwinternetvideo.click, skip-cert-verify: true, tfo: false}
