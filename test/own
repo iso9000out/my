@@ -47,7 +47,7 @@ proxies:
   - {name: 🇨🇳 台湾01, server: pq-hinet.tw1.yydjc.top, port: 443, type: hysteria2, ports: 443, password: d1a09411-cb5e-4e9c-98fa-85faa0be9936, sni: www.apple.com, skip-cert-verify: true, tfo: false}
   - {name: 🇨🇳 台湾02, server: pq-hinet.tw2.yydjc.top, port: 443, type: hysteria2, ports: 443, password: d1a09411-cb5e-4e9c-98fa-85faa0be9936, sni: www.apple.com, skip-cert-verify: true, tfo: false}
   - {name: 🇨🇳 台湾03, server: pq-hinet.tw3.yydjc.top, port: 443, type: hysteria2, ports: 443, password: d1a09411-cb5e-4e9c-98fa-85faa0be9936, sni: www.apple.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇸🇬 新加坡01 2, server: aws-linkhy9.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: iosapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
+  - {name: 🇸🇬 新加坡01, server: aws-linkhy9.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: iosapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
   - {name: 🇸🇬 新加坡02, server: aws-linkhy10.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: iosapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
   - {name: 🇸🇬 新加坡03, server: aws-linkhy11.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: iosapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
   - {name: 🇸🇬 新加坡04, server: aws-linkhy12.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: iosapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
