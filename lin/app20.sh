@@ -1,4 +1,4 @@
-# date 2026-09-01
+# date 2026-09-03
 
 
 
@@ -129,14 +129,14 @@ proxy-providers:
       enable: true
       interval: 7230
       url: http://www.gstatic.com/generate_204
-#  provider#Starlink-Git设备过多停用:
-#    type: http
-#    url: https://xship.2fa.cat/v1/subscribe?starlink=kcrJFGG_1j8a0tWbVtUL2rIc
-#    interval: 86433
-#    health-check:
-#      enable: true
-#      interval: 7235
-#      url: http://www.gstatic.com/generate_204
+  provider#Shaojiyi-Site:
+    type: http
+    url: https://s.imgki.com/Xh15Q3T
+    interval: 86433
+    health-check:
+      enable: true
+      interval: 7235
+      url: http://www.gstatic.com/generate_204
 #  provider#Shahidbhutta-Git停止维护了:
 #    type: http
 #    url: https://suo.yt/gPljrlc
@@ -153,15 +153,15 @@ proxy-providers:
       enable: true
       interval: 7245
       url: http://www.gstatic.com/generate_204
-#  provider#Pusytroller停止维护了:
-#    exclude-filter: 关键词|关键的词
-#    type: http
-#    url: https://v1.mk/HKaoymS
-#    interval: 43249
-#    health-check:
-#      enable: true
-#      interval: 7250
-#      url: http://www.gstatic.com/generate_204
+  provider#YouZiLite-Site:
+    exclude-filter: 关键词|关键的词
+    type: http
+    url: https://s.imgki.com/yVKqMg3
+    interval: 43249
+    health-check:
+      enable: true
+      interval: 7250
+      url: http://www.gstatic.com/generate_204
   provider#shaoyouvip-Git:
     type: http
     url: https://s.imgki.com/BrVUSLb
