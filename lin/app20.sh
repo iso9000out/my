@@ -274,14 +274,14 @@ proxy-providers:
       enable: true
       interval: 7320
       url: http://www.gstatic.com/generate_204
-  provider#XueShan168-Site:
-    type: http
-    url: https://s.imgki.com/7MHpYA9
-    interval: 86540
-    health-check:
-      enable: true
-      interval: 7325
-      url: http://www.gstatic.com/generate_204
+#  provider#XueShan168-Site失效了下次替代这个:
+#    type: http
+#    url: https://s.imgki.com/7MHpYA9
+#    interval: 86540
+#    health-check:
+#      enable: true
+#      interval: 7325
+#      url: http://www.gstatic.com/generate_204
   provider#Barabama-cfmem-Git:
     type: http
     url: https://s.imgki.com/MMG3FsE
