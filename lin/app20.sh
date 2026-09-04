@@ -129,9 +129,9 @@ proxy-providers:
       enable: true
       interval: 7230
       url: http://www.gstatic.com/generate_204
-  provider#Shaojiyi-Site:
+  provider#ssrsub-Git:
     type: http
-    url: https://s.imgki.com/Xh15Q3T
+    url: https://s.imgki.com/Z0rsYKI
     interval: 86433
     health-check:
       enable: true
