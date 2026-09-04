@@ -322,14 +322,14 @@ proxy-providers:
 #      enable: true
 #      interval: 7350
 #      url: http://www.gstatic.com/generate_204
-#  provider#Mfuu-v2ray-Git暂时停用91个:
-#    type: http
-#    url: https://v1.mk/zsisX5d
-#    interval: 86575
-#    health-check:
-#      enable: true
-#      interval: 7355
-#      url: http://www.gstatic.com/generate_204
+  provider#Mfuu-Git:
+    type: http
+    url: https://s.imgki.com/tptsxwn
+    interval: 86575
+    health-check:
+      enable: true
+      interval: 7355
+      url: http://www.gstatic.com/generate_204
 #  provider#ts-sf-Git暂时停用85个:
 #    type: http
 #    url: https://v1.mk/enxRC1t
@@ -402,30 +402,30 @@ proxy-providers:
       enable: true
       interval: 7400
       url: http://www.gstatic.com/generate_204
-#  provider#Vanic24-Mix-Git:
-#    type: http
-#    url: https://v1.mk/eFRiBAo
-#    interval: 86645
-#    health-check:
-#      enable: true
-#      interval: 7405
-#      url: http://www.gstatic.com/generate_204
-#  provider#Leon406-Git暂时停用654个:
-#    type: http
-#    url: https://suo.yt/KKv3qu3
-#    interval: 86652
-#    health-check:
-#      enable: true
-#      interval: 7410
-#      url: http://www.gstatic.com/generate_204
-#  provider#Vanic24-Git-9PB暂时停用420个:
-#    type: http
-#    url: https://v1.mk/nGBdSvd
-#    interval: 86659
-#    health-check:
-#      enable: true
-#      interval: 7415
-#      url: http://www.gstatic.com/generate_204
+  provider#Vanic24-8EB-Git:
+    type: http
+    url: https://s.imgki.com/3lZemyQ
+    interval: 86645
+    health-check:
+      enable: true
+      interval: 7405
+      url: http://www.gstatic.com/generate_204
+  provider#Leon406-a11-Git:
+    type: http
+    url: https://s.imgki.com/cU5vQmq
+    interval: 86652
+    health-check:
+      enable: true
+      interval: 7410
+      url: http://www.gstatic.com/generate_204
+  provider#Vanic24-9PB-Git:
+    type: http
+    url: https://s.imgki.com/tnjZ95Y
+    interval: 86659
+    health-check:
+      enable: true
+      interval: 7415
+      url: http://www.gstatic.com/generate_204
 
 
 
