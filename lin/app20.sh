@@ -1,4 +1,4 @@
-# date 2026-09-03
+# date 2026-09-06
 
 
 
@@ -105,14 +105,14 @@ proxy-providers:
 #      enable: true
 #      interval: 7215
 #      url: http://www.gstatic.com/generate_204
-  provider#pgkj0402:
-    type: http
-    url: https://v1.mk/I2iGw2N
-    interval: 172421
-    health-check:
-      enable: true
-      interval: 7220
-      url: http://www.gstatic.com/generate_204
+#  provider#pgkj0402太多不通130个暂时隐藏:
+#    type: http
+#    url: https://v1.mk/I2iGw2N
+#    interval: 172421
+#    health-check:
+#      enable: true
+#      interval: 7220
+#      url: http://www.gstatic.com/generate_204
   provider#Snakem982-Git:
     type: http
     url: https://v1.mk/qDNsMW4
@@ -170,14 +170,14 @@ proxy-providers:
       enable: true
       interval: 7255
       url: http://www.gstatic.com/generate_204
-  provider#ChenGaoPan-Git:
-    type: http
-    url: https://s.subcsub.com/mtaeHb6
-    interval: 172463
-    health-check:
-      enable: true
-      interval: 7260
-      url: http://www.gstatic.com/generate_204
+#  provider#ChenGaoPan-Git爬别人的暂时隐藏:
+#    type: http
+#    url: https://s.subcsub.com/mtaeHb6
+#    interval: 172463
+#    health-check:
+#      enable: true
+#      interval: 7260
+#      url: http://www.gstatic.com/generate_204
   provider#ikuu-Site:
     type: http
     url: https://s.imgki.com/ZmLbhyK
@@ -394,38 +394,38 @@ proxy-providers:
       enable: true
       interval: 7395
       url: http://www.gstatic.com/generate_204
-  provider#Firefoxmmx2-Git:
-    type: http
-    url: https://s.subcsub.com/CrvXoUi
-    interval: 172638
-    health-check:
-      enable: true
-      interval: 7400
-      url: http://www.gstatic.com/generate_204
-  provider#Vanic24-8EB-Git:
-    type: http
-    url: https://s.imgki.com/3lZemyQ
-    interval: 86645
-    health-check:
-      enable: true
-      interval: 7405
-      url: http://www.gstatic.com/generate_204
-  provider#Leon406-a11-Git:
-    type: http
-    url: https://s.imgki.com/cU5vQmq
-    interval: 86652
-    health-check:
-      enable: true
-      interval: 7410
-      url: http://www.gstatic.com/generate_204
-  provider#Vanic24-9PB-Git:
-    type: http
-    url: https://s.imgki.com/tnjZ95Y
-    interval: 86659
-    health-check:
-      enable: true
-      interval: 7415
-      url: http://www.gstatic.com/generate_204
+#  provider#Firefoxmmx2-Git不通数量少暂时隐藏:
+#    type: http
+#    url: https://s.subcsub.com/CrvXoUi
+#    interval: 172638
+#    health-check:
+#      enable: true
+#      interval: 7400
+#      url: http://www.gstatic.com/generate_204
+#  provider#Vanic24-8EB-Git维护经常混入出错暂时隐藏:
+#    type: http
+#    url: https://s.imgki.com/3lZemyQ
+#    interval: 86645
+#    health-check:
+#      enable: true
+#      interval: 7405
+#      url: http://www.gstatic.com/generate_204
+#  provider#Leon406-a11-Git都不通100个暂时隐藏:
+#    type: http
+#    url: https://s.imgki.com/cU5vQmq
+#    interval: 86652
+#    health-check:
+#      enable: true
+#      interval: 7410
+#      url: http://www.gstatic.com/generate_204
+#  provider#Vanic24-9PB-Git假通400多个暂时隐藏:
+#    type: http
+#    url: https://s.imgki.com/tnjZ95Y
+#    interval: 86659
+#    health-check:
+#      enable: true
+#      interval: 7415
+#      url: http://www.gstatic.com/generate_204
 
 
 
