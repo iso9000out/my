@@ -118,3 +118,27 @@ flickr.com##[id^="yui_3_18_1_1_"][id$="_1103"]
 flickr.com##[id^="yui_3_18_1_1_"][id$="_2688"]
 flickr.com###gn-wrap > div.nav.small-logo.new-logo:nth-child(2) > ul.top-nav > li.gn-menu-parent.toplink.ActiveButt.open:last-child
 flickr.com##.gn-menu-parent, .toplink, .ActiveButt, .open
+outlook.live.com##.GssDD
+outlook.live.com##.Ogt7j】
+xvideos.com##[class^="ntv"]
+xvideos.com##.thumb-ad, .thumb-nat-ad, .thumb-nat-exo-ad
+xvideos.com##div[id]:not([id=""]):style(data-ad)
+xvideos.com##.ad-header, .ad-footer, .under-player-ad
+xvideos.com##div[class*="-ad-"], div[id*="-ad-"]
+xvideos.com##div:has(a[href*="exoclick.com"])
+xvideos.com##div:has(a[href*="juicyads.com"])
+xvideos.com##div:has(a[href*="trafficjunky.net"])
+pornhub.com##.sniperModeEngaged, .alpha
+pornhub.com##.emptyBlockSpace
+pornhub.com###hd-leftColVideoPage > div.topSectionGrid:first-child > div.sideColumn.original:last-child
+pornhub.com##.js-nativeTjVideoGrid, .js_promoItem
+ping0.cc###websites-wrap
+ping0.cc##.xdeles
+ping0.cc###check > div.container:nth-child(2) > div.asninfo:nth-child(15)
+mail.163.com##.Fx1
+cctv.com##.wrapper_extra, .ELMTqKmJEukbxaQesn3yZKJs220204
+weibo.com##.wbpro-side-copy
+news.sky.com##.u-sticky-target
+ping0.cc##.xeeles, .toprow
+iplark.com##.promo-rail, .show
+news.sky.com##.ui-box, .padt-300, .padb-300
