@@ -228,7 +228,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   provider#Anaer-Git:
     type: http
-    url: https://suo.yt/lZaOlEh
+    url: https://s.imgki.com/4ycdzo8
     interval: 172505
     health-check:
       enable: true
@@ -439,11 +439,11 @@ proxy-groups:
     include-all-providers: true
     exclude-filter: 重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
   - name: 自动选优
-    interval: 600
-    timeout: 2000
+    url: https://www.gstatic.com/generate_204
+    interval: 720
+    timeout: 3800
     type: url-test
     tolerance: 800
-    url: http://www.gstatic.com/generate_204
     lazy: true
     max-failed-times: 3
     include-all-providers: true
