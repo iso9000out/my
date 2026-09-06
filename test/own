@@ -29,26 +29,8 @@ proxies:
 #some
 
 
-  - {name: 🇭🇰 香港02, server: cfyes.777078.xyz, port: 443, type: vless, tls: true, uuid: 79af0702-bc84-4acc-a1fe-b048b7669d86, servername: lx-hk3.7770008.xyz, network: ws, ws-opts: {path: /liangxin/data/hk3, headers: {Host: lx-hk3.7770008.xyz}}, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港03, server: cfyes.777078.xyz, port: 443, type: vless, tls: true, uuid: 79af0702-bc84-4acc-a1fe-b048b7669d86, servername: lx-hk4.7770008.xyz, network: ws, ws-opts: {path: /liangxin/data/hk4, headers: {Host: lx-hk4.7770008.xyz}}, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港04, server: cfyes.777078.xyz, port: 443, type: vless, tls: true, uuid: 79af0702-bc84-4acc-a1fe-b048b7669d86, servername: lx-hk5.7770008.xyz, network: ws, ws-opts: {path: /liangxin/data/hk5, headers: {Host: lx-hk5.7770008.xyz}}, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港05, server: aws-linkhy1.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: download-porter.hoyoverse.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港06, server: aws-linkhy2.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: www.hoyoverse.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇸🇬 新加坡01, server: aws-linkhy9.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: iosapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇸🇬 新加坡05, server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, tls: true, uuid: d1a09411-cb5e-4e9c-98fa-85faa0be9936, servername: sgp1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/sg1, headers: {Host: sgp1.xn--ghq880n3na965a.com}}, skip-cert-verify: true, tfo: false}
-  - {name: 🇸🇬 新加坡06, server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, tls: true, uuid: d1a09411-cb5e-4e9c-98fa-85faa0be9936, servername: sgp1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/sg1, headers: {Host: sgp1.xn--ghq880n3na965a.com}}, skip-cert-verify: true, tfo: false}
-  - {name: 🇯🇵 日本01, server: pq.aws48.yydjc.top, port: 443, type: vless, tls: true, uuid: d1a09411-cb5e-4e9c-98fa-85faa0be9936, servername: iosapps.itunes.apple.com, host: iosapps.itunes.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: ybBxu1pW3O9Me954LCDfXgHW6lIYepAbnla82yaZ5HE, short-id: 6a1faecb}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
-  - {name: 🇯🇵 日本02, server: pq.aws49.yydjc.top, port: 443, type: vless, tls: true, uuid: d1a09411-cb5e-4e9c-98fa-85faa0be9936, servername: support.apple.com, host: support.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: f1131S_7UjEFSAbjkkPrSp4wdjZwG5otAmHd9Naxcj4, short-id: 701fcb1f}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
-  - {name: 🇯🇵 日本03, server: pq.aws50.yydjc.top, port: 443, type: vless, tls: true, uuid: d1a09411-cb5e-4e9c-98fa-85faa0be9936, servername: iosapps.itunes.apple.com, host: iosapps.itunes.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: pR8CV43xvSgvzSXPVLCVomjw-yZvNyqU32kietO2pEc, short-id: a6115a2c}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
-  - {name: 🇯🇵 日本04, server: pq.aws51.yydjc.top, port: 443, type: vless, tls: true, uuid: d1a09411-cb5e-4e9c-98fa-85faa0be9936, servername: cdn-dynmedia-1.microsoft.com, host: cdn-dynmedia-1.microsoft.com, flow: xtls-rprx-vision, reality-opts: {public-key: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo, short-id: f3b38af2}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国09, server: pq.us01.yydjc.top, port: 443, type: vless, tls: true, uuid: d1a09411-cb5e-4e9c-98fa-85faa0be9936, servername: updates.cdn-apple.com, host: updates.cdn-apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: XpaYw0-hwSPxgV8K-WUbEaxbAwxjYVpDkDGOMONwUiA, short-id: 79f44f5c}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国10, server: pq.us02.yydjc.top, port: 443, type: vless, tls: true, uuid: d1a09411-cb5e-4e9c-98fa-85faa0be9936, servername: updates.cdn-apple.com, host: updates.cdn-apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: AzQlCUikY30iQK5pgK2nW_AiYJkvi2Lm5rDjWGHvzUo, short-id: 182dc224}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国11, server: pq.us03.yydjc.top, port: 443, type: vless, tls: true, uuid: d1a09411-cb5e-4e9c-98fa-85faa0be9936, servername: iosapps.itunes.apple.com, host: iosapps.itunes.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: -Cc9Wduo_L3TI70LPHFamFOaQer2Lzzux-vwAVDn5ns, short-id: f0dc50e8}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
-  - {name: 🇨🇳 台湾01, server: pq-hinet.tw1.yydjc.top, port: 443, type: hysteria2, ports: 443, password: d1a09411-cb5e-4e9c-98fa-85faa0be9936, sni: www.apple.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇨🇳 台湾02, server: pq-hinet.tw2.yydjc.top, port: 443, type: hysteria2, ports: 443, password: d1a09411-cb5e-4e9c-98fa-85faa0be9936, sni: www.apple.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇨🇳 台湾03, server: pq-hinet.tw3.yydjc.top, port: 443, type: hysteria2, ports: 443, password: d1a09411-cb5e-4e9c-98fa-85faa0be9936, sni: www.apple.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇸🇬 新加坡01, server: aws-linkhy9.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: iosapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇸🇬 新加坡02, server: aws-linkhy10.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: iosapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇸🇬 新加坡03, server: aws-linkhy11.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: iosapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇸🇬 新加坡04, server: aws-linkhy12.lxyun.xyz, port: 443, type: hysteria2, ports: 443, password: 79af0702-bc84-4acc-a1fe-b048b7669d86, sni: iosapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
+
+
+
+
 
