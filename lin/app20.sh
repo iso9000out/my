@@ -115,7 +115,7 @@ proxy-providers:
 #      url: http://www.gstatic.com/generate_204
   provider#Snakem982-Git:
     type: http
-    url: https://v1.mk/qDNsMW4
+    url: https://s.imgki.com/Ooef6rP
     interval: 172428
     health-check:
       enable: true
