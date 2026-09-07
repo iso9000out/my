@@ -1,4 +1,4 @@
-# date 2026-09-07
+# date 2026-09-08
 
 
 
@@ -79,7 +79,7 @@ proxy-providers:
     interval: 86449
     health-check:
       enable: true
-      interval: 7200
+      interval: 3600
       url: http://www.gstatic.com/generate_204
   provider#JiangJiang-Site:
     type: http
@@ -87,7 +87,7 @@ proxy-providers:
     interval: 172400
     health-check:
       enable: true
-      interval: 7205
+      interval: 3605
       url: http://www.gstatic.com/generate_204
   provider#RiPao-Git:
     type: http
@@ -95,7 +95,7 @@ proxy-providers:
     interval: 172407
     health-check:
       enable: true
-      interval: 7210
+      interval: 3610
       url: http://www.gstatic.com/generate_204
 #  provider#Free18-Git暂时停用723个:
 #    type: http
@@ -103,7 +103,7 @@ proxy-providers:
 #    interval: 86414
 #    health-check:
 #      enable: true
-#      interval: 7215
+#      interval: 3615
 #      url: http://www.gstatic.com/generate_204
 #  provider#pgkj0402太多不通130个暂时隐藏:
 #    type: http
@@ -111,7 +111,7 @@ proxy-providers:
 #    interval: 172421
 #    health-check:
 #      enable: true
-#      interval: 7220
+#      interval: 3620
 #      url: http://www.gstatic.com/generate_204
   provider#Snakem982-Git:
     type: http
@@ -119,7 +119,7 @@ proxy-providers:
     interval: 172428
     health-check:
       enable: true
-      interval: 7225
+      interval: 3625
       url: http://www.gstatic.com/generate_204
   provider#Xrayvip-Site:
     type: http
@@ -127,7 +127,7 @@ proxy-providers:
     interval: 86428
     health-check:
       enable: true
-      interval: 7230
+      interval: 3630
       url: http://www.gstatic.com/generate_204
   provider#ssrsub-Git:
     type: http
@@ -135,7 +135,7 @@ proxy-providers:
     interval: 86433
     health-check:
       enable: true
-      interval: 7235
+      interval: 3635
       url: http://www.gstatic.com/generate_204
 #  provider#Shahidbhutta-Git停止维护了:
 #    type: http
@@ -143,7 +143,7 @@ proxy-providers:
 #    interval: 86435
 #    health-check:
 #      enable: true
-#      interval: 7240
+#      interval: 3640
 #      url: http://www.gstatic.com/generate_204
   provider#ZiyouFly-Site:
     type: http
@@ -151,7 +151,7 @@ proxy-providers:
     interval: 86442
     health-check:
       enable: true
-      interval: 7245
+      interval: 3645
       url: http://www.gstatic.com/generate_204
   provider#YouZiLite-Site:
     exclude-filter: 关键词|关键的词
@@ -160,7 +160,7 @@ proxy-providers:
     interval: 43249
     health-check:
       enable: true
-      interval: 7250
+      interval: 3650
       url: http://www.gstatic.com/generate_204
   provider#shaoyouvip-Git:
     type: http
@@ -168,7 +168,7 @@ proxy-providers:
     interval: 172456
     health-check:
       enable: true
-      interval: 7255
+      interval: 3655
       url: http://www.gstatic.com/generate_204
 #  provider#ChenGaoPan-Git爬别人的暂时隐藏:
 #    type: http
@@ -176,7 +176,7 @@ proxy-providers:
 #    interval: 172463
 #    health-check:
 #      enable: true
-#      interval: 7260
+#      interval: 3660
 #      url: http://www.gstatic.com/generate_204
   provider#ikuu-Site:
     type: http
@@ -184,7 +184,7 @@ proxy-providers:
     interval: 86470
     health-check:
       enable: true
-      interval: 7265
+      interval: 3665
       url: http://www.gstatic.com/generate_204
   provider#Meng-Littlebais-Git:
     type: http
@@ -192,7 +192,7 @@ proxy-providers:
     interval: 172477
     health-check:
       enable: true
-      interval: 7270
+      interval: 3670
       url: http://www.gstatic.com/generate_204
   provider#YuYan-BJD:
     type: http
@@ -200,7 +200,7 @@ proxy-providers:
     interval: 172484
     health-check:
       enable: true
-      interval: 7275
+      interval: 3675
       url: http://www.gstatic.com/generate_204
   provider#ZhouRunFa-Git:
     type: http
@@ -208,7 +208,7 @@ proxy-providers:
     interval: 172491
     health-check:
       enable: true
-      interval: 7280
+      interval: 3680
       url: http://www.gstatic.com/generate_204
   provider#FeiNiaoYun:
     type: http
@@ -216,7 +216,7 @@ proxy-providers:
     interval: 86498
     health-check:
       enable: true
-      interval: 7285
+      interval: 3685
       url: http://www.gstatic.com/generate_204
   provider#ChuanZhuo-Git:
     type: http
@@ -224,7 +224,7 @@ proxy-providers:
     interval: 172505
     health-check:
       enable: true
-      interval: 7290
+      interval: 3690
       url: http://www.gstatic.com/generate_204
   provider#Anaer-Git:
     type: http
@@ -232,7 +232,7 @@ proxy-providers:
     interval: 172505
     health-check:
       enable: true
-      interval: 7295
+      interval: 3695
       url: http://www.gstatic.com/generate_204
   provider#udptoos-Site:
     type: http
@@ -240,7 +240,7 @@ proxy-providers:
     interval: 172512
     health-check:
       enable: true
-      interval: 7300
+      interval: 3700
       url: http://www.gstatic.com/generate_204
 #  provider#Q3dlaXpoaQ-Git特别多:
 #    type: http
@@ -248,7 +248,7 @@ proxy-providers:
 #    interval: 86519
 #    health-check:
 #      enable: true
-#      interval: 7305
+#      interval: 3705
 #      url: http://www.gstatic.com/generate_204
   provider#go4sharing-Git:
     type: http
@@ -256,7 +256,7 @@ proxy-providers:
     interval: 172526
     health-check:
       enable: true
-      interval: 7310
+      interval: 3710
       url: http://www.gstatic.com/generate_204
 #  provider#PawDroid-Git不好转CF:
 #    type: http
@@ -264,7 +264,7 @@ proxy-providers:
 #    interval: 86533
 #    health-check:
 #      enable: true
-#      interval: 7315
+#      interval: 3715
 #      url: http://www.gstatic.com/generate_204
   provider#Zhangkaiitugithub-PassCRO-Git:
     type: http
@@ -272,7 +272,7 @@ proxy-providers:
     interval: 172540
     health-check:
       enable: true
-      interval: 7320
+      interval: 3720
       url: http://www.gstatic.com/generate_204
   provider#cnqq-Site:
     type: http
@@ -280,7 +280,7 @@ proxy-providers:
     interval: 86540
     health-check:
       enable: true
-      interval: 7325
+      interval: 3725
       url: http://www.gstatic.com/generate_204
   provider#Barabama-cfmem-Git:
     type: http
@@ -288,7 +288,7 @@ proxy-providers:
     interval: 172240
     health-check:
       enable: true
-      interval: 7330
+      interval: 3730
       url: http://www.gstatic.com/generate_204
 #  provider#ECH-CF不好转CF:
 #    type: http
@@ -296,7 +296,7 @@ proxy-providers:
 #    interval: 86547
 #    health-check:
 #      enable: true
-#      interval: 7335
+#      interval: 3735
 #      url: http://www.gstatic.com/generate_204
   provider#PuddinCat-Git:
     type: http
@@ -304,7 +304,7 @@ proxy-providers:
     interval: 172554
     health-check:
       enable: true
-      interval: 7340
+      interval: 3740
       url: http://www.gstatic.com/generate_204
   provider#Misaka-blog-Git:
     type: http
@@ -312,7 +312,7 @@ proxy-providers:
     interval: 172561
     health-check:
       enable: true
-      interval: 7345
+      interval: 3745
       url: http://www.gstatic.com/generate_204
 #  provider#Mahdibland-Git暂时停用201个英国不通的多:
 #    type: http
@@ -320,7 +320,7 @@ proxy-providers:
 #    interval: 86568
 #    health-check:
 #      enable: true
-#      interval: 7350
+#      interval: 3750
 #      url: http://www.gstatic.com/generate_204
   provider#Mfuu-Git:
     type: http
@@ -328,7 +328,7 @@ proxy-providers:
     interval: 86575
     health-check:
       enable: true
-      interval: 7355
+      interval: 3755
       url: http://www.gstatic.com/generate_204
 #  provider#ts-sf-Git暂时停用85个:
 #    type: http
@@ -336,7 +336,7 @@ proxy-providers:
 #    interval: 86582
 #    health-check:
 #      enable: true
-#      interval: 7360
+#      interval: 3760
 #      url: http://www.gstatic.com/generate_204
   provider#Peasoft-Git:
     type: http
@@ -344,7 +344,7 @@ proxy-providers:
     interval: 172589
     health-check:
       enable: true
-      interval: 7365
+      interval: 3765
       url: http://www.gstatic.com/generate_204
   provider#itsyebekhe-Git:
     type: http
@@ -352,7 +352,7 @@ proxy-providers:
     interval: 172596
     health-check:
       enable: true
-      interval: 7370
+      interval: 3770
       url: http://www.gstatic.com/generate_204
   provider#132X2-Site:
     type: http
@@ -360,7 +360,7 @@ proxy-providers:
     interval: 172603
     health-check:
       enable: true
-      interval: 7375
+      interval: 3775
       url: http://www.gstatic.com/generate_204
   provider#ZhuhaiUK-Git:
     type: http
@@ -368,7 +368,7 @@ proxy-providers:
     interval: 172610
     health-check:
       enable: true
-      interval: 7380
+      interval: 3780
       url: http://www.gstatic.com/generate_204
   provider#Valvatacea-Git:
     type: http
@@ -376,7 +376,7 @@ proxy-providers:
     interval: 172617
     health-check:
       enable: true
-      interval: 7385
+      interval: 3785
       url: http://www.gstatic.com/generate_204
   provider#ShuaiDaoYa-Git:
     type: http
@@ -384,7 +384,7 @@ proxy-providers:
     interval: 172624
     health-check:
       enable: true
-      interval: 7390
+      interval: 3790
       url: http://www.gstatic.com/generate_204
   provider#o00o:
     type: http
@@ -392,7 +392,7 @@ proxy-providers:
     interval: 172631
     health-check:
       enable: true
-      interval: 7395
+      interval: 3795
       url: http://www.gstatic.com/generate_204
 #  provider#Firefoxmmx2-Git不通数量少暂时隐藏:
 #    type: http
@@ -400,7 +400,7 @@ proxy-providers:
 #    interval: 172638
 #    health-check:
 #      enable: true
-#      interval: 7400
+#      interval: 3800
 #      url: http://www.gstatic.com/generate_204
 #  provider#Vanic24-8EB-Git维护经常混入出错暂时隐藏:
 #    type: http
@@ -408,7 +408,7 @@ proxy-providers:
 #    interval: 86645
 #    health-check:
 #      enable: true
-#      interval: 7405
+#      interval: 3805
 #      url: http://www.gstatic.com/generate_204
 #  provider#Leon406-a11-Git都不通100个暂时隐藏:
 #    type: http
@@ -416,7 +416,7 @@ proxy-providers:
 #    interval: 86652
 #    health-check:
 #      enable: true
-#      interval: 7410
+#      interval: 3810
 #      url: http://www.gstatic.com/generate_204
 #  provider#Vanic24-9PB-Git假通400多个暂时隐藏:
 #    type: http
@@ -424,7 +424,7 @@ proxy-providers:
 #    interval: 86659
 #    health-check:
 #      enable: true
-#      interval: 7415
+#      interval: 3815
 #      url: http://www.gstatic.com/generate_204
 
 
@@ -440,8 +440,8 @@ proxy-groups:
     exclude-filter: 重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     url: http://www.gstatic.com/generate_204
-    interval: 720
-    timeout: 3800
+    interval: 360
+    timeout: 2000
     type: url-test
     tolerance: 800
     lazy: true
