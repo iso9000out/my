@@ -7,6 +7,7 @@ proxies:
   - {name: USA 212, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
   - {name: 🇸🇬 SG95, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
   - {name: ip4.934618.xyz:51133, server: ip4.934618.xyz, port: 51133, type: anytls, password: github.com/Alvin9999-newpac/fanqiang, skip-cert-verify: true, tfo: false}
+  - {name: ip5.934618.xyz:30099, server: ip5.934618.xyz, port: 30099, type: anytls, password: github.com/Alvin9999-newpac/fanqiang, skip-cert-verify: true, tfo: false}
   - {name: svip.skycon808.com:60005, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
   - {name: 🇺🇸 US-CCS-330T-无限, server: ccs1g.pai50288.uk, port: 443, type: vless, tls: true, uuid: ec1c1d50-d774-464c-a1e2-c150a802666b, servername: ccs1g.pai50288.uk, alpn: [h2%2Chttp%2F1.1%2Ch3], network: ws, ws-opts: {path: /pai50288, headers: {Host: ccs1g.pai50288.uk}}, skip-cert-verify: true, tfo: false}
   - {name: 🇷🇺 俄罗斯 | RUS, server: ru05.abvpn.ru, port: 443, type: vless, tls: true, uuid: a289a3d3-5833-4b28-8809-ae72898a98d0, servername: ru05.abvpn.ru, network: ws, ws-opts: {path: /websocket, headers: {Host: ru05.abvpn.ru}}, skip-cert-verify: true, tfo: false}
