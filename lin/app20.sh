@@ -505,105 +505,105 @@ rule-providers:
     format: text
     interval: 86400
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
     path: ./ruleset/LocalAreaNetwork.yaml
   SteamCN:
     type: http
     format: text
     interval: 86403
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
     path: ./ruleset/SteamCN.yaml
   GoogleCN:
     type: http
     format: text
     interval: 86406
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
     path: ./ruleset/GoogleCN.yaml
   ChinaDomain:
     type: http
     format: text
     interval: 86409
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
     path: ./ruleset/ChinaDomain.yaml
   ChinaCompanyIp:
     type: http
     format: text
     interval: 86412
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
     path: ./ruleset/ChinaCompanyIp.yaml
   ProxyMedia:
     type: http
     format: text
     interval: 86415
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
     path: ./ruleset/ProxyMedia.yaml
   ProxyGFWlist:
     type: http
     format: text
     interval: 86418
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
     path: ./ruleset/ProxyGFWlist.yaml
   Telegram:
     type: http
     format: text
     interval: 86421
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
     path: ./ruleset/Telegram.yaml
   Apple:
     type: http
     format: text
     interval: 86424
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
     path: ./ruleset/Apple.yaml
   Microsoft:
     type: http
     format: text
     interval: 86427
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
     path: ./ruleset/Microsoft.yaml
   Applications:
     type: http
     format: yaml
     interval: 86430
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt
     path: ./ruleset/applications.yaml
   BanAD:
     type: http
     format: text
     interval: 86433
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
     path: ./ruleset/BanAD.yaml
   BanProgramAD:
     type: http
     format: text
     interval: 86436
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
     path: ./ruleset/BanProgramAD.yaml
   Myrules:
     type: http
     format: text
     interval: 3603
     behavior: classical
-    url: https://raw.githubusercontent.com/iso9000out/my/main/Myrules.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/Myrules.list
     path: ./ruleset/Myrules.yaml
   Myrulesbai:
     type: http
     format: text
     interval: 3606
     behavior: classical
-    url: https://raw.githubusercontent.com/iso9000out/my/main/Myrulesbai.list
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/Myrulesbai.list
     path: ./ruleset/Myrulesbai.yaml
 
 
