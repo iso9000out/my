@@ -25,6 +25,10 @@ proxies:
   - {name: "🇰🇷 Incheon, KR · G-Core Labs | a11.toppp.cc", server: a11.toppp.cc, port: 42311, type: anytls, password: cba96915-8098-41a7-9997-efb01ccc598a, sni: osxapps.itunes.apple.com, skip-cert-verify: true, tfo: false}
 
 
+  - {name: udptoos 115, server: 31.59.150.174, port: 9443, type: vless, tls: true, uuid: 92089155-6602-4122-86d4-fe6de20e8c4d, servername: hotcoals.aeternavpn.space, host: hotcoals.aeternavpn.space, flow: xtls-rprx-vision, reality-opts: {public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI, short-id: a1b2c3d4}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: udptoos 74, server: pr-media.pepro.site, port: 14443, type: vless, tls: true, uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299, servername: pr-media.pepro.site, network: ws, ws-opts: {path: /ws, headers: {Host: pr-media.pepro.site}}, skip-cert-verify: true, tfo: false}
+  - {name: udptoos 110, server: pr-media.pepro.site, port: 14443, type: vless, tls: true, uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299, servername: pr-media.pepro.site, network: ws, ws-opts: {path: /ws, headers: {Host: pr-media.pepro.site}}, skip-cert-verify: true, tfo: false}
+
 
 #some
 
