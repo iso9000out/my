@@ -75,7 +75,7 @@ dns:
 proxy-providers:
   provider#own-Git:
     type: http
-    url: https://raw.githubusercontent.com/iso9000out/my/main/test/own
+    url: https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/test/own
     interval: 86449
     health-check:
       enable: true
@@ -178,9 +178,9 @@ proxy-providers:
 #      enable: true
 #      interval: 3660
 #      url: http://www.gstatic.com/generate_204
-  provider#ikuu-Site:
+  provider#iKuuu-Site:
     type: http
-    url: https://s.imgki.com/ZmLbhyK
+    url: https://s.imgki.com/wfiZ8mg
     interval: 86470
     health-check:
       enable: true
@@ -440,7 +440,7 @@ proxy-groups:
     exclude-filter: 重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     url: http://www.gstatic.com/generate_204
-    interval: 360
+    interval: 737
     timeout: 2000
     type: url-test
     tolerance: 800
