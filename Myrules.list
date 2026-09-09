@@ -1,6 +1,7 @@
 # My Rule
 
 
+DOMAIN-SUFFIX,ip.sb
 DOMAIN-KEYWORD,stripchat
 DOMAIN-KEYWORD,nodebuf
 DOMAIN-SUFFIX,nodebuf.com
