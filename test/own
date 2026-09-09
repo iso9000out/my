@@ -15,6 +15,10 @@ proxies:
   - {name: 🇸🇬 新加坡05, server: downloadcfpro.xn--ghq880n3na965a.com, port: 443, type: vless, tls: true, uuid: d1a09411-cb5e-4e9c-98fa-85faa0be9936, servername: sgp1.xn--ghq880n3na965a.com, network: ws, ws-opts: {path: /pq/sg1, headers: {Host: sgp1.xn--ghq880n3na965a.com}}, skip-cert-verify: true, tfo: false}
 
 
+  - {name: 🇸🇬 end-gfw.com12@sg89, server: 13.214.162.49, port: 8686, type: vless, tls: true, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, servername: www.apple.com, reality-opts: {public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw, short-id: 628b3c90c98ead4f}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+  - {name: 🇰🇷 end-gfw.com22@kr64, server: 54.180.93.12, port: 8686, type: vless, tls: true, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, servername: www.apple.com, reality-opts: {public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw, short-id: 628b3c90c98ead4f}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
+
+
   - {name: "🇪🇪 Estonia", server: faq2.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX, sni: cabinet.wwwinternetvideo.click, skip-cert-verify: true, tfo: false}
   - {name: "🇪🇪 Estonia 2", server: faq2.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX, sni: cabinet.wwwinternetvideo.click, skip-cert-verify: true, tfo: false}
   - {name: "Anycast-IP | 🇧🇷 🇵🇱 | [BL]", server: node.embrofree.org, port: 443, type: hysteria2, password: 4a6c225b-46a2-494d-a190-0b0a7c5205d4, sni: node.embrofree.org, skip-cert-verify: true, udp: true, tfo: false}
