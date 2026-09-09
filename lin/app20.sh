@@ -1,4 +1,4 @@
-# date 2026-09-08
+# date 2026-09-09
 
 
 
@@ -338,14 +338,14 @@ proxy-providers:
       enable: true
       interval: 3765
       url: http://www.gstatic.com/generate_204
-  provider#itsyebekhe-Git:
-    type: http
-    url: https://v1.mk/cEV1C8m
-    interval: 172596
-    health-check:
-      enable: true
-      interval: 3770
-      url: http://www.gstatic.com/generate_204
+#  provider#itsyebekhe-Git共20个没通的:
+#    type: http
+#    url: https://v1.mk/cEV1C8m
+#    interval: 172596
+#    health-check:
+#      enable: true
+#      interval: 3770
+#      url: http://www.gstatic.com/generate_204
   provider#132X2-Site:
     type: http
     url: https://v1.mk/OIa61XP
@@ -418,7 +418,22 @@ proxy-providers:
 #      enable: true
 #      interval: 3815
 #      url: http://www.gstatic.com/generate_204
-
+  provider#Giize-Site:
+    type: http
+    url: https://s.imgki.com/kA8sxSd
+    interval: 86666
+    health-check:
+      enable: true
+      interval: 3820
+      url: http://www.gstatic.com/generate_204
+  provider#HelloWorld-Git:
+    type: http
+    url: https://s.imgki.com/NEosjQD
+    interval: 86673
+    health-check:
+      enable: true
+      interval: 3825
+      url: http://www.gstatic.com/generate_204
 
 
 
