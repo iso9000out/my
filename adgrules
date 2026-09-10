@@ -142,3 +142,17 @@ news.sky.com##.u-sticky-target
 ping0.cc##.xeeles, .toprow
 iplark.com##.promo-rail, .show
 news.sky.com##.ui-box, .padt-300, .padb-300
+baidu.com###s-top-left > div.s-top-tabs.skipAutoFix:first-child > a.mnav.c-font-normal.c-color-t.skipAutoFix:last-child
+boce.com##div.index-bg2.pt-16:nth-child(8) > div.w1200.mt-24.pb-24:last-child
+gh-proxy.com##div.max-w-5xl.mx-auto.px-4.sm\:px-6.py-6.w-full.flex-grow:nth-child(2) > main:last-child > div.mb-8.w-full:nth-child(2)
+gh-proxy.com##div.max-w-5xl.mx-auto.px-4.sm\:px-6.py-6.w-full.flex-grow:nth-child(2) > main:last-child > div.mt-8.mb-8.w-full.max-w-\[800px\].mx-auto.space-y-4:nth-child(6)
+2026.ip138.com##div.view:first-child > span:nth-child(2) > a:last-child > img
+2026.ip138.com##p:nth-child(5)
+2026.ip138.com##p:nth-child(8)
+ipcheck.ing###mainpart > div.rounded-md > section.ip-data-section.mb-10.mt-2:first-child > div.jn-banner.mt-3.flex.flex-col.md\:flex-row.items-start.gap-3.rounded-lg.border.border-info\/30.bg-info\/5.p-4.md\:p-5:last-child
+cleanip.io##.reco-rail--left, .reco-rail
+cleanip.io##.reco-tiles, .reco-tiles--home
+cleanip.io##.reco-card
+cleanip.io##.footer-watermark-wrap
+ping0.cc##.xfeles
+xvideos.com###full-video-link-btn
