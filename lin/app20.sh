@@ -11,6 +11,10 @@ ipv6: true
 mode: rule
 log-level: error
 tcp-concurrent: true
+unified-delay: true
+keep-alive-idle: 600
+keep-alive-interval: 30
+disable-keep-alive: false
 external-controller: 0.0.0.0:9090
 lan-allowed-ips:
   - 0.0.0.0/0
@@ -28,24 +32,40 @@ dns:
   use-hosts: true
   respect-rules: true
   cache-algorithm: arc
+  
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
+    
   proxy-server-nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
     - 223.5.5.5
     - 119.29.29.29
+    
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
     - https://dns.google/dns-query
-    - https://1.1.1.1/dns-query
-  fallback:
-    - https://1.1.1.1/dns-query
-    - https://dns.google/dns-query
-    - tls://1.1.1.1:853
     - tls://8.8.8.8:853
+    
+  nameserver-policy:
+    "+.googleapis.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "+.google.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "geosite:cn,private":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+      - 223.5.5.5
+      
+  fallback:
+    - https://dns.google/dns-query
+    - tls://8.8.8.8:853
+    - tls://dns.google:853
+    
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -61,6 +81,26 @@ dns:
       - "+.youtube.com"
       - "+.twitter.com"
       - "+.github.com"
+
+
+
+
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "+.push.apple.com"
+    - "Mijia Cloud"
+
 
 
 
