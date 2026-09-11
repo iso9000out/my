@@ -388,7 +388,7 @@ proxy-providers:
 #      url: http://www.gstatic.com/generate_204
   provider#132X2-Site:
     type: http
-    url: https://v1.mk/OIa61XP
+    url: https://s.imgki.com/7JT4UXw
     interval: 172603
     health-check:
       enable: true
