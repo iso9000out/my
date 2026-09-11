@@ -4,11 +4,11 @@
 
 
 # 更换sub订阅接口 每6小时22分 执行一次
-22 */6 * * * /opt/bin/curl -sL "https://iso9000out.neocities.org/lin/sub" -o /tmp/sub.sh && /bin/sh /tmp/sub.sh
+22 */6 * * * /opt/bin/curl -sL "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/lin/sub" -o /tmp/sub.sh && /bin/sh /tmp/sub.sh
 
 
 # Cron自我复写
-22 5 * * * /opt/bin/curl -sL "https://iso9000out.neocities.org/lin/croncctv" -o /opt/storage/cron/crontabs/cctv && mtd_storage.sh save
+22 5 * * * /opt/bin/curl -sL "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o /opt/storage/cron/crontabs/cctv && mtd_storage.sh save
 
 
 # 定时存储
@@ -16,15 +16,15 @@
 
 
 # 钩子救火res接口 每6小时29分 执行一次 钩子只做执行命令作用，本身不存储文件，几个钩子不要同时启用
-29 */6 * * * /opt/bin/curl -sL "https://iso9000out.neocities.org/lin/rescueinterface" -o /tmp/rescue.sh && /bin/sh /tmp/rescue.sh
-# 钩子2 备用钩子 Git
-# 29 */6 * * * /opt/bin/curl -sL "https://raw.githubusercontent.com/iso9000out/my/main/lin/rescueinterface.sh" -o /tmp/rescue.sh && /bin/sh /tmp/rescue.sh
+29 */6 * * * /opt/bin/curl -sL "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/lin/rescueinterface.sh" -o /tmp/rescue.sh && /bin/sh /tmp/rescue.sh
+# 钩子2 备用钩子 Neo
+# 29 */6 * * * /opt/bin/curl -sL "https://iso9000out.neocities.org/lin/rescueinterface" -o /tmp/rescue.sh && /bin/sh /tmp/rescue.sh
 # 钩子3 备用钩子 ydy空间https解析总出问题
 # 29 */6 * * * /opt/bin/curl -sL "https://ydy.rf.gd/lin/rescueinterface.sh" -o /tmp/rescue.sh && /bin/sh /tmp/rescue.sh
 
 
 
-# cron刷入方法：/opt/bin/curl -sL "https://iso9000out.neocities.org/lin/croncctv" -o /opt/storage/cron/crontabs/cctv
+# cron刷入方法：/opt/bin/curl -sL "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o /opt/storage/cron/crontabs/cctv
 # 顺便写入重启进程
 # mtd_storage.sh save && killall crond && crond
-# 连写加存整句：/opt/bin/curl -sL "https://iso9000out.neocities.org/lin/croncctv" -o /opt/storage/cron/crontabs/cctv && mtd_storage.sh save
+# 连写加存整句：/opt/bin/curl -sL "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o /opt/storage/cron/crontabs/cctv && mtd_storage.sh save
