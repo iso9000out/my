@@ -501,8 +501,8 @@ proxy-groups:
     interval: 960
     timeout: 3000
     tolerance: 800
-    lazy: true
     max-failed-times: 3
+    lazy: true
     include-all-providers: true
     filter: ^🇺🇸|US|🇸🇬|SG|🇹🇭|🇲🇾|🇵🇭|🇻🇳|🇮🇳|🇯🇵|🇰🇷|🇳🇱|🇬🇧|🇩🇪|🇫🇷|🇷🇴|🇨🇦|🇦🇺
   - name: 国外媒体
