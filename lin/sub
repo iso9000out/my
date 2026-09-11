@@ -1,0 +1,3 @@
+# 订阅地址切换接口
+
+nvram set app_91="https://v1.mk/DHgpqza" && mtd_storage.sh save
