@@ -1,4 +1,4 @@
-# date 2026-09-09
+# date 2026-09-11
 
 
 
@@ -107,7 +107,7 @@ sniffer:
 proxy-providers:
   provider#own-Git:
     type: http
-    url: https://raw.githubusercontent.com/iso9000out/my/main/test/own
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/test/own
     interval: 86449
     health-check:
       enable: true
@@ -486,21 +486,25 @@ proxy-groups:
     include-all-providers: true
     exclude-filter: 重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
   - name: 自动选优
+    type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 737
     timeout: 2000
+    tolerance: 800
+    max-failed-times: 3
+    lazy: true
+    include-all-providers: true
+    exclude-filter: 🇭🇰|香港|HK|hk|🇨🇳|中国|CN|cn|China|TW|tw|其他|重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
+  - name: 谷歌服务
     type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 960
+    timeout: 3000
     tolerance: 800
     lazy: true
     max-failed-times: 3
     include-all-providers: true
-    exclude-filter: 🇭🇰|香港|HK|🇨🇳|中国|CN|China|TW|其他|重置|更新|下次|刷新|机场|剩余|到期|电报|过期|页|官网|交流|群组|账号|无法
-  - name: 谷歌服务
-    type: select
-    proxies:
-      - 节点选择
-      - 自动选优
-      - 全局直连
+    filter: ^🇺🇸|US|🇸🇬|SG|🇹🇭|🇲🇾|🇵🇭|🇻🇳|🇮🇳|🇯🇵|🇰🇷|🇳🇱|🇬🇧|🇩🇪|🇫🇷|🇷🇴|🇨🇦|🇦🇺
   - name: 国外媒体
     type: select
     proxies:
@@ -552,106 +556,135 @@ rule-providers:
     format: text
     interval: 86400
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
     path: ./ruleset/LocalAreaNetwork.yaml
   SteamCN:
     type: http
     format: text
     interval: 86403
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
     path: ./ruleset/SteamCN.yaml
   GoogleCN:
     type: http
     format: text
     interval: 86406
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
     path: ./ruleset/GoogleCN.yaml
   ChinaDomain:
     type: http
     format: text
     interval: 86409
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
     path: ./ruleset/ChinaDomain.yaml
   ChinaCompanyIp:
     type: http
     format: text
     interval: 86412
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
     path: ./ruleset/ChinaCompanyIp.yaml
   ProxyMedia:
     type: http
     format: text
     interval: 86415
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
     path: ./ruleset/ProxyMedia.yaml
   ProxyGFWlist:
     type: http
     format: text
     interval: 86418
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
     path: ./ruleset/ProxyGFWlist.yaml
   Telegram:
     type: http
     format: text
     interval: 86421
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
     path: ./ruleset/Telegram.yaml
   Apple:
     type: http
     format: text
     interval: 86424
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
     path: ./ruleset/Apple.yaml
   Microsoft:
     type: http
     format: text
     interval: 86427
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
     path: ./ruleset/Microsoft.yaml
   Applications:
     type: http
     format: yaml
     interval: 86430
     behavior: classical
-    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt
     path: ./ruleset/applications.yaml
   BanAD:
     type: http
     format: text
     interval: 86433
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
     path: ./ruleset/BanAD.yaml
   BanProgramAD:
     type: http
     format: text
     interval: 86436
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
     path: ./ruleset/BanProgramAD.yaml
   Myrules:
     type: http
     format: text
     interval: 1203
     behavior: classical
-    url: https://raw.githubusercontent.com/iso9000out/my/main/Myrules.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/Myrules.list
     path: ./ruleset/Myrules.yaml
   Myrulesbai:
     type: http
     format: text
     interval: 1206
     behavior: classical
-    url: https://raw.githubusercontent.com/iso9000out/my/main/Myrulesbai.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/Myrulesbai.list
     path: ./ruleset/Myrulesbai.yaml
+  Gemini:
+    type: http
+    format: text
+    interval: 86439
+    behavior: classical
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Gemini.list
+    path: ./ruleset/Gemini.yaml
+  Claude:
+    type: http
+    format: text
+    interval: 86442
+    behavior: classical
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list
+    path: ./ruleset/Claude.yaml
+  OpenAi:
+    type: http
+    format: text
+    interval: 86445
+    behavior: classical
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+    path: ./ruleset/OpenAi.yaml
+  AI:
+    type: http
+    format: text
+    interval: 86448
+    behavior: classical
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list
+    path: ./ruleset/AI.yaml
+    
 
 
 
@@ -662,10 +695,10 @@ rule-providers:
 #    format: text
 #    interval: 86400
 #    behavior: classical
-#    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+#    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 #    path: ./ruleset/ProxyLite.yaml
 #--------------------------------------------------#
-# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
+# https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
 
 
 
@@ -675,14 +708,18 @@ rules:
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
+  - RULE-SET,Gemini,谷歌服务
+  - RULE-SET,Claude,谷歌服务
+  - RULE-SET,OpenAi,谷歌服务
+  - RULE-SET,AI,谷歌服务
   - RULE-SET,ChinaDomain,全局直连
   - RULE-SET,ChinaCompanyIp,全局直连
   - RULE-SET,Myrulesbai,全局直连
+  - RULE-SET,Myrules,节点选择
   - RULE-SET,ProxyMedia,节点选择
   - RULE-SET,ProxyGFWlist,节点选择
   #- RULE-SET,ProxyLite,节点选择
   - RULE-SET,Telegram,节点选择
-  - RULE-SET,Myrules,节点选择
   - RULE-SET,Apple,苹果服务
   - RULE-SET,Microsoft,微软服务
   - RULE-SET,Applications,全局直连
