@@ -250,14 +250,14 @@ proxy-providers:
       enable: true
       interval: 3685
       url: http://www.gstatic.com/generate_204
-  provider#ChuanZhuo-Git:
-    type: http
-    url: https://v1.mk/FI6ZQSS
-    interval: 172505
-    health-check:
-      enable: true
-      interval: 3690
-      url: http://www.gstatic.com/generate_204
+#  provider#ChuanZhuo-Git十几个都不通还是ripao:
+#    type: http
+#    url: https://v1.mk/FI6ZQSS
+#    interval: 172505
+#    health-check:
+#      enable: true
+#      interval: 3690
+#      url: http://www.gstatic.com/generate_204
   provider#Anaer-Git:
     type: http
     url: https://s.imgki.com/4ycdzo8
