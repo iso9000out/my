@@ -32,10 +32,10 @@ DOMAIN-KEYWORD,jiux001
 DOMAIN-KEYWORD,vercel
 DOMAIN-KEYWORD,meihuavpn
 DOMAIN-KEYWORD,huasuan666
-DOMAIN-KEYWORD,infinityfree
-DOMAIN-SUFFIX,infinityfree.com
-DOMAIN-SUFFIX,dash.infinityfree.com
-DOMAIN-SUFFIX,filemanager.ai
+#DOMAIN-KEYWORD,infinityfree
+#DOMAIN-SUFFIX,infinityfree.com
+#DOMAIN-SUFFIX,dash.infinityfree.com
+#DOMAIN-SUFFIX,filemanager.ai
 DOMAIN-SUFFIX,freedom.gov
 DOMAIN-SUFFIX,ippure.com
 DOMAIN-SUFFIX,iplark.com
