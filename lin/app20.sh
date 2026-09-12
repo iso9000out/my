@@ -105,7 +105,7 @@ sniffer:
 
 
 proxy-providers:
-  provider#own-Git:
+  own-Git:
     type: http
     url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/test/own
     interval: 86449
@@ -113,7 +113,7 @@ proxy-providers:
       enable: true
       interval: 3600
       url: http://www.gstatic.com/generate_204
-  provider#JiangJiang-Site:
+  JiangJiang-Site:
     type: http
     url: https://s.imgki.com/wn3LHHA
     interval: 172400
@@ -121,7 +121,7 @@ proxy-providers:
       enable: true
       interval: 3605
       url: http://www.gstatic.com/generate_204
-#  provider#RiPao-Git十几个全不通:
+#  RiPao-Git十几个全不通:
 #    type: http
 #    url: https://v1.mk/gUX6fUH
 #    interval: 172407
@@ -129,7 +129,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3610
 #      url: http://www.gstatic.com/generate_204
-#  provider#Free18-Git暂时停用723个:
+#  Free18-Git暂时停用723个:
 #    type: http
 #    url: https://v1.mk/BqrDxLy
 #    interval: 86414
@@ -137,7 +137,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3615
 #      url: http://www.gstatic.com/generate_204
-#  provider#pgkj0402太多不通130个暂时隐藏:
+#  pgkj0402太多不通130个暂时隐藏:
 #    type: http
 #    url: https://v1.mk/I2iGw2N
 #    interval: 172421
@@ -145,7 +145,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3620
 #      url: http://www.gstatic.com/generate_204
-  provider#Snakem982-Git:
+  Snakem982-Git:
     type: http
     url: https://s.imgki.com/Ooef6rP
     interval: 172428
@@ -153,7 +153,7 @@ proxy-providers:
       enable: true
       interval: 3625
       url: http://www.gstatic.com/generate_204
-  provider#Xrayvip-Site:
+  Xrayvip-Site:
     type: http
     url: https://v1.mk/w1YKCpb
     interval: 86428
@@ -161,7 +161,7 @@ proxy-providers:
       enable: true
       interval: 3630
       url: http://www.gstatic.com/generate_204
-  provider#ssrsub-Git:
+  ssrsub-Git:
     type: http
     url: https://s.imgki.com/Z0rsYKI
     interval: 86433
@@ -169,7 +169,7 @@ proxy-providers:
       enable: true
       interval: 3635
       url: http://www.gstatic.com/generate_204
-#  provider#Shahidbhutta-Git停止维护了:
+#  Shahidbhutta-Git停止维护了:
 #    type: http
 #    url: https://suo.yt/gPljrlc
 #    interval: 86435
@@ -177,7 +177,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3640
 #      url: http://www.gstatic.com/generate_204
-  provider#ZiyouFly-Site:
+  ZiyouFly-Site:
     type: http
     url: https://s.imgki.com/fwCuV8Q
     interval: 86442
@@ -185,7 +185,7 @@ proxy-providers:
       enable: true
       interval: 3645
       url: http://www.gstatic.com/generate_204
-  provider#YouZiLite-Site:
+  YouZiLite-Site:
     exclude-filter: 关键词|关键的词
     type: http
     url: https://s.imgki.com/yVKqMg3
@@ -194,7 +194,7 @@ proxy-providers:
       enable: true
       interval: 3650
       url: http://www.gstatic.com/generate_204
-  provider#shaoyouvip-Git:
+  shaoyouvip-Git:
     type: http
     url: https://s.imgki.com/BrVUSLb
     interval: 172456
@@ -202,7 +202,7 @@ proxy-providers:
       enable: true
       interval: 3655
       url: http://www.gstatic.com/generate_204
-#  provider#ChenGaoPan-Git爬别人的暂时隐藏:
+#  ChenGaoPan-Git爬别人的暂时隐藏:
 #    type: http
 #    url: https://s.subcsub.com/mtaeHb6
 #    interval: 172463
@@ -210,7 +210,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3660
 #      url: http://www.gstatic.com/generate_204
-  provider#iKuuu-Site:
+  iKuuu-Site:
     type: http
     url: https://s.imgki.com/wfiZ8mg
     interval: 86470
@@ -218,7 +218,7 @@ proxy-providers:
       enable: true
       interval: 3665
       url: http://www.gstatic.com/generate_204
-  provider#Meng-Littlebais-Git:
+  Meng-Littlebais-Git:
     type: http
     url: https://s.subcsub.com/c3pJjc5
     interval: 172477
@@ -226,7 +226,7 @@ proxy-providers:
       enable: true
       interval: 3670
       url: http://www.gstatic.com/generate_204
-  provider#YuYan-BJD:
+  YuYan-BJD:
     type: http
     url: https://v1.mk/nGckgm4
     interval: 172484
@@ -234,7 +234,7 @@ proxy-providers:
       enable: true
       interval: 3675
       url: http://www.gstatic.com/generate_204
-  provider#ZhouRunFa-Git:
+  ZhouRunFa-Git:
     type: http
     url: https://v1.mk/iOHCWFc
     interval: 172491
@@ -242,7 +242,7 @@ proxy-providers:
       enable: true
       interval: 3680
       url: http://www.gstatic.com/generate_204
-  provider#FeiNiaoYun:
+  FeiNiaoYun:
     type: http
     url: https://s.imgki.com/9BnK3s2
     interval: 86498
@@ -250,7 +250,7 @@ proxy-providers:
       enable: true
       interval: 3685
       url: http://www.gstatic.com/generate_204
-#  provider#ChuanZhuo-Git十几个都不通还是ripao:
+#  ChuanZhuo-Git十几个都不通还是ripao:
 #    type: http
 #    url: https://v1.mk/FI6ZQSS
 #    interval: 172505
@@ -258,7 +258,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3690
 #      url: http://www.gstatic.com/generate_204
-  provider#Anaer-Git:
+  Anaer-Git:
     type: http
     url: https://s.imgki.com/4ycdzo8
     interval: 172505
@@ -266,7 +266,7 @@ proxy-providers:
       enable: true
       interval: 3695
       url: http://www.gstatic.com/generate_204
-  provider#udptoos-Site:
+  udptoos-Site:
     type: http
     url: https://s.imgki.com/ZhK7Ikm
     interval: 172512
@@ -274,7 +274,7 @@ proxy-providers:
       enable: true
       interval: 3700
       url: http://www.gstatic.com/generate_204
-#  provider#Q3dlaXpoaQ-Git特别多:
+#  Q3dlaXpoaQ-Git特别多:
 #    type: http
 #    url: https://suo.yt/UtgiGRS
 #    interval: 86519
@@ -282,7 +282,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3705
 #      url: http://www.gstatic.com/generate_204
-  provider#go4sharing-Git:
+  go4sharing-Git:
     type: http
     url: https://s.imgki.com/ZUTyTJs
     interval: 172526
@@ -290,7 +290,7 @@ proxy-providers:
       enable: true
       interval: 3710
       url: http://www.gstatic.com/generate_204
-#  provider#PawDroid-Git不好转CF:
+#  PawDroid-Git不好转CF:
 #    type: http
 #    url: https://v1.mk/rkUxua6
 #    interval: 86533
@@ -298,7 +298,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3715
 #      url: http://www.gstatic.com/generate_204
-  provider#Zhangkaiitugithub-PassCRO-Git:
+  Zhangkaiitugithub-PassCRO-Git:
     type: http
     url: https://s.subcsub.com/sJtwgj8
     interval: 172540
@@ -306,7 +306,7 @@ proxy-providers:
       enable: true
       interval: 3720
       url: http://www.gstatic.com/generate_204
-  provider#cnqq-Site:
+  cnqq-Site:
     type: http
     url: https://s.imgki.com/FckE08j
     interval: 86540
@@ -314,7 +314,7 @@ proxy-providers:
       enable: true
       interval: 3725
       url: http://www.gstatic.com/generate_204
-  provider#Barabama-cfmem-Git:
+  Barabama-cfmem-Git:
     type: http
     url: https://s.imgki.com/MMG3FsE
     interval: 172240
@@ -322,7 +322,7 @@ proxy-providers:
       enable: true
       interval: 3730
       url: http://www.gstatic.com/generate_204
-#  provider#ECH-CF不好转CF:
+#  ECH-CF不好转CF:
 #    type: http
 #    url: https://v1.mk/nRpxfwk
 #    interval: 86547
@@ -330,7 +330,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3735
 #      url: http://www.gstatic.com/generate_204
-#  provider#PuddinCat-Git十几个都不通了:
+#  PuddinCat-Git十几个都不通了:
 #    type: http
 #    url: https://v1.mk/r0wuDub
 #    interval: 172554
@@ -338,7 +338,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3740
 #      url: http://www.gstatic.com/generate_204
-  provider#Misaka-blog-Git:
+  Misaka-blog-Git:
     type: http
     url: https://v1.mk/tuntD1k
     interval: 172561
@@ -346,7 +346,7 @@ proxy-providers:
       enable: true
       interval: 3745
       url: http://www.gstatic.com/generate_204
-#  provider#Mahdibland-Git暂时停用201个英国不通的多:
+#  Mahdibland-Git暂时停用201个英国不通的多:
 #    type: http
 #    url: https://v1.mk/qHDu29Z
 #    interval: 86568
@@ -354,7 +354,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3750
 #      url: http://www.gstatic.com/generate_204
-  provider#Mfuu-Git:
+  Mfuu-Git:
     type: http
     url: https://s.imgki.com/tptsxwn
     interval: 86575
@@ -362,7 +362,7 @@ proxy-providers:
       enable: true
       interval: 3755
       url: http://www.gstatic.com/generate_204
-#  provider#ts-sf-Git暂时停用85个:
+#  ts-sf-Git暂时停用85个:
 #    type: http
 #    url: https://v1.mk/enxRC1t
 #    interval: 86582
@@ -370,7 +370,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3760
 #      url: http://www.gstatic.com/generate_204
-#  provider#Peasoft-Git十几个都不通还是ripao:
+#  Peasoft-Git十几个都不通还是ripao:
 #    type: http
 #    url: https://suo.yt/DBwxJDR
 #    interval: 172589
@@ -378,7 +378,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3765
 #      url: http://www.gstatic.com/generate_204
-#  provider#itsyebekhe-Git共20个没通的:
+#  itsyebekhe-Git共20个没通的:
 #    type: http
 #    url: https://v1.mk/cEV1C8m
 #    interval: 172596
@@ -386,7 +386,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3770
 #      url: http://www.gstatic.com/generate_204
-  provider#132X2-Site:
+  132X2-Site:
     type: http
     url: https://s.imgki.com/7JT4UXw
     interval: 172603
@@ -394,7 +394,7 @@ proxy-providers:
       enable: true
       interval: 3775
       url: http://www.gstatic.com/generate_204
-  provider#ZhuhaiUK-Git:
+  ZhuhaiUK-Git:
     type: http
     url: https://s.imgki.com/UlPRCmR
     interval: 172610
@@ -402,7 +402,7 @@ proxy-providers:
       enable: true
       interval: 3780
       url: http://www.gstatic.com/generate_204
-  provider#Valvatacea-Git:
+  Valvatacea-Git:
     type: http
     url: https://v1.mk/c5spm88
     interval: 172617
@@ -410,7 +410,7 @@ proxy-providers:
       enable: true
       interval: 3785
       url: http://www.gstatic.com/generate_204
-#  provider#ShuaiDaoYa-Git十几个都不通了:
+#  ShuaiDaoYa-Git十几个都不通了:
 #    type: http
 #    url: https://v1.mk/WYg2u6P
 #    interval: 172624
@@ -418,7 +418,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3790
 #      url: http://www.gstatic.com/generate_204
-  provider#o00o:
+  o00o:
     type: http
     url: https://v1.mk/C9zAjfj
     interval: 172631
@@ -426,7 +426,7 @@ proxy-providers:
       enable: true
       interval: 3795
       url: http://www.gstatic.com/generate_204
-#  provider#Firefoxmmx2-Git不通数量少暂时隐藏:
+#  Firefoxmmx2-Git不通数量少暂时隐藏:
 #    type: http
 #    url: https://s.subcsub.com/CrvXoUi
 #    interval: 172638
@@ -434,7 +434,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3800
 #      url: http://www.gstatic.com/generate_204
-#  provider#Vanic24-8EB-Git维护经常混入出错暂时隐藏:
+#  Vanic24-8EB-Git维护经常混入出错暂时隐藏:
 #    type: http
 #    url: https://s.imgki.com/3lZemyQ
 #    interval: 86645
@@ -442,7 +442,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3805
 #      url: http://www.gstatic.com/generate_204
-#  provider#Leon406-a11-Git都不通100个暂时隐藏:
+#  Leon406-a11-Git都不通100个暂时隐藏:
 #    type: http
 #    url: https://s.imgki.com/cU5vQmq
 #    interval: 86652
@@ -450,7 +450,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3810
 #      url: http://www.gstatic.com/generate_204
-#  provider#Vanic24-9PB-Git假通400多个暂时隐藏:
+#  Vanic24-9PB-Git假通400多个暂时隐藏:
 #    type: http
 #    url: https://s.imgki.com/tnjZ95Y
 #    interval: 86659
@@ -458,7 +458,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3815
 #      url: http://www.gstatic.com/generate_204
-  provider#Giize-Site:
+  Giize-Site:
     type: http
     url: https://s.imgki.com/kA8sxSd
     interval: 86666
@@ -466,7 +466,7 @@ proxy-providers:
       enable: true
       interval: 3820
       url: http://www.gstatic.com/generate_204
-  provider#HelloWorld-Git:
+  HelloWorld-Git:
     type: http
     url: https://s.imgki.com/NEosjQD
     interval: 86673
