@@ -410,14 +410,14 @@ proxy-providers:
       enable: true
       interval: 3785
       url: http://www.gstatic.com/generate_204
-  provider#ShuaiDaoYa-Git:
-    type: http
-    url: https://v1.mk/WYg2u6P
-    interval: 172624
-    health-check:
-      enable: true
-      interval: 3790
-      url: http://www.gstatic.com/generate_204
+#  provider#ShuaiDaoYa-Git十几个都不通了:
+#    type: http
+#    url: https://v1.mk/WYg2u6P
+#    interval: 172624
+#    health-check:
+#      enable: true
+#      interval: 3790
+#      url: http://www.gstatic.com/generate_204
   provider#o00o:
     type: http
     url: https://v1.mk/C9zAjfj
