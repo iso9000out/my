@@ -121,14 +121,14 @@ proxy-providers:
       enable: true
       interval: 3605
       url: http://www.gstatic.com/generate_204
-  provider#RiPao-Git:
-    type: http
-    url: https://v1.mk/gUX6fUH
-    interval: 172407
-    health-check:
-      enable: true
-      interval: 3610
-      url: http://www.gstatic.com/generate_204
+#  provider#RiPao-Git十几个全不通:
+#    type: http
+#    url: https://v1.mk/gUX6fUH
+#    interval: 172407
+#    health-check:
+#      enable: true
+#      interval: 3610
+#      url: http://www.gstatic.com/generate_204
 #  provider#Free18-Git暂时停用723个:
 #    type: http
 #    url: https://v1.mk/BqrDxLy
