@@ -155,7 +155,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   Xrayvip-Site:
     type: http
-    url: https://v1.mk/w1YKCpb
+    url: https://s.imgki.com/jeOQoEk
     interval: 86428
     health-check:
       enable: true
@@ -706,7 +706,6 @@ rule-providers:
 
 
 rules:
-  - DOMAIN-KEYWORD,nodebuf,谷歌服务
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
