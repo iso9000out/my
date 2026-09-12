@@ -506,7 +506,6 @@ proxy-groups:
     include-all-providers: true
     filter: ^🇺🇸|US|🇸🇬|SG|🇹🇭|🇲🇾|🇵🇭|🇻🇳|🇮🇳|🇯🇵|🇰🇷|🇳🇱|🇬🇧|🇩🇪|🇫🇷|🇷🇴|🇨🇦|🇦🇺
     exclude-filter: speednode
-    exclude-type: http|socks5
   - name: 国外媒体
     type: select
     proxies:
