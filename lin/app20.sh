@@ -330,14 +330,14 @@ proxy-providers:
 #      enable: true
 #      interval: 3735
 #      url: http://www.gstatic.com/generate_204
-  provider#PuddinCat-Git:
-    type: http
-    url: https://v1.mk/r0wuDub
-    interval: 172554
-    health-check:
-      enable: true
-      interval: 3740
-      url: http://www.gstatic.com/generate_204
+#  provider#PuddinCat-Git十几个都不通了:
+#    type: http
+#    url: https://v1.mk/r0wuDub
+#    interval: 172554
+#    health-check:
+#      enable: true
+#      interval: 3740
+#      url: http://www.gstatic.com/generate_204
   provider#Misaka-blog-Git:
     type: http
     url: https://v1.mk/tuntD1k
