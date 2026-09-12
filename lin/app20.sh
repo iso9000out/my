@@ -370,14 +370,14 @@ proxy-providers:
 #      enable: true
 #      interval: 3760
 #      url: http://www.gstatic.com/generate_204
-  provider#Peasoft-Git:
-    type: http
-    url: https://suo.yt/DBwxJDR
-    interval: 172589
-    health-check:
-      enable: true
-      interval: 3765
-      url: http://www.gstatic.com/generate_204
+#  provider#Peasoft-Git十几个都不通还是ripao:
+#    type: http
+#    url: https://suo.yt/DBwxJDR
+#    interval: 172589
+#    health-check:
+#      enable: true
+#      interval: 3765
+#      url: http://www.gstatic.com/generate_204
 #  provider#itsyebekhe-Git共20个没通的:
 #    type: http
 #    url: https://v1.mk/cEV1C8m
