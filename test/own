@@ -11,8 +11,6 @@ proxies:
   - {name: svip.skycon808.com:60005, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
 
 
-  - {name: 🇸🇬 end-gfw.com12@sg89, server: 13.214.162.49, port: 8686, type: vless, tls: true, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, servername: www.apple.com, reality-opts: {public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw, short-id: 628b3c90c98ead4f}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
-  - {name: 🇰🇷 end-gfw.com22@kr64, server: 54.180.93.12, port: 8686, type: vless, tls: true, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, servername: www.apple.com, reality-opts: {public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw, short-id: 628b3c90c98ead4f}, client-fingerprint: chrome, skip-cert-verify: true, tfo: false}
 
 
 
