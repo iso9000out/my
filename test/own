@@ -30,8 +30,15 @@ proxies:
   - {name: 🇺🇸 tuic-Gemini, server: 198.200.42.129, port: 52649, type: tuic, uuid: 2f6f1856-5466-4078-b1f0-d3f977211ada, password: 2f6f1856-5466-4078-b1f0-d3f977211ada, alpn: [h3], udp-relay-mode: native, congestion-controller: bbr, sni: www.bing.com, skip-cert-verify: true, tfo: false}
 
   - {name: Gemini-ProxySeller, server: 77.47.159.51, port: 50100, type: http, username: zyxgudu962464, password: PZIyS8T4CF, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 Gemini--US, server: 23.92.145.225, port: 47899, type: http, username: rh33qa6Qn7PIsNw, password: Wv3RZlP1yaruzi3, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 Gemini-US, server: 23.92.145.225, port: 47899, type: http, username: rh33qa6Qn7PIsNw, password: Wv3RZlP1yaruzi3, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇺🇸 Gemini-Decodo-US, server: isp.decodo.com, port: 10001, type: http, username: user-sp9sbkxijl-country-us, password: +xsMTc0AO9p9xryvo0, tls: false, skip-cert-verify: true, tfo: false}
+
+  - {name: Gemini-Reality, server: 198.46.215.223, port: 8443, type: vless, tls: true, uuid: 6346ee2b-aefa-4a58-963a-bb851ed08f41, servername: www.intel.com, flow: xtls-rprx-vision, reality-opts: {public-key: L817rvnreaFtFfcqfOizxgY7ZzFeSdtopH9HVrB56hk, short-id: 0b3bf761ca812ee9}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: VL-Gemini, server: proxy.bingtao.xyz, port: 443, type: vless, tls: true, uuid: 6346ee2b-aefa-4a58-963a-bb851ed08f41, servername: proxy.bingtao.xyz, network: ws, ws-opts: {path: /vless, headers: {Host: proxy.bingtao.xyz}}, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: VM-Gemini, server: proxy.bingtao.xyz, port: 443, type: vmess, uuid: 6346ee2b-aefa-4a58-963a-bb851ed08f41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: proxy.bingtao.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: proxy.bingtao.xyz}}, udp: true, tfo: false}
+  - {name: Gemini-HY2, server: 198.46.215.223, port: 4443, type: hysteria2, password: 31329f25, sni: proxy.bingtao.xyz, skip-cert-verify: true, tfo: false}
+  - {name: Gemini-TUIC, server: 198.46.215.223, port: 4444, type: tuic, uuid: 6346ee2b-aefa-4a58-963a-bb851ed08f41, password: 0b628b17, alpn: [h3], udp-relay-mode: native, congestion-controller: bbr, sni: proxy.bingtao.xyz, skip-cert-verify: true, tfo: false}
+
 
   - {name: "type: pay", server: jprbawsyydsgs.jiedddym.com, port: 46245, type: vless, tls: true, uuid: 6dbb8854-17a5-4684-b930-c11f022975ec, servername: www.lamer.com.hk, host: www.lamer.com.hk, flow: xtls-rprx-vision, reality-opts: {public-key: aWMfCBQ9iCtBORwgfJsxnMD_yAdzwhi1-armG4zIHQY, short-id: 39158f9cca6e}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
   - {name: "Gemini JP 2", server: jprbhhzalybqwjok.jiedddym.com, port: 49921, type: vless, tls: true, uuid: 6dbb8854-17a5-4684-b930-c11f022975ec, servername: www.apple.com, host: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: 1ejQLdV5c4EDRnsR56OJzNBRNE1SR59vF9ZR2FYTonI, short-id: 5a80eca0ce05a6}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
