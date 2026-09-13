@@ -488,9 +488,9 @@ proxy-groups:
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 737
+    interval: 600
     timeout: 2000
-    tolerance: 600
+    tolerance: 300
     max-failed-times: 3
     lazy: true
     include-all-providers: true
@@ -506,7 +506,7 @@ proxy-groups:
     include-all-providers: true
     #filter: (?i)^(🇺🇸|US|🇸🇬|SG|🇹🇭|🇲🇾|🇵🇭|🇻🇳|🇮🇳|🇯🇵|🇰🇷|🇳🇱|🇬🇧|🇩🇪|🇫🇷|🇷🇴|🇨🇦|🇦🇺)
     filter: (?i)gemini|aws|iKuuu|(美国|英国1?)v4|_SG_|DE 02|英国 04|法国 06
-    exclude-filter: (?i)speednode|香港|hk|美国0[1-6]|新加坡(0[3678]|1[0])|日本(0[579]|1[0])
+    exclude-filter: (?i)speednode|香港|hk|美国0[1-6]|新加坡(0[13678]|1[0])|日本(0[579]|1[0])
   - name: 国外媒体
     type: select
     proxies:
