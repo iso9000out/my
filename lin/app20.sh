@@ -498,8 +498,8 @@ proxy-groups:
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 960
-    timeout: 3000
+    interval: 777
+    timeout: 2200
     tolerance: 800
     max-failed-times: 3
     lazy: true
