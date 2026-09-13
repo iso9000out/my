@@ -44,6 +44,7 @@ proxies:
 
   - {name: "Gemini JP 5", server: wwbqwqqnlyydssc.cfooov.xyz, port: 39817, type: vless, tls: true, uuid: 6dbb8854-17a5-4684-b930-c11f022975ec, servername: www.apple.com, host: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: uzaav8KrDeu1P9qdg6fDfxmq9Z6vV6a-WVPTWX1zIj4, short-id: 0044d4f490e795b8}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
   - {name: "Gemini JP 6", server: wwbqwqqnlyydssc.cfooov.xyz, port: 39817, type: vless, tls: true, uuid: 6dbb8854-17a5-4684-b930-c11f022975ec, servername: www.apple.com, host: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: uzaav8KrDeu1P9qdg6fDfxmq9Z6vV6a-WVPTWX1zIj4, short-id: 0044d4f490e795b8}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: "Gemini JP i2", server: xinjiapoalysg.cfooov.xyz, port: 44675, type: vless, tls: true, uuid: 6dbb8854-17a5-4684-b930-c11f022975ec, servername: www.apple.com, host: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: sPFHQHyHwgZp5JNgUttZspa4GJbHI0E_S9AkxAR_j1c, short-id: 2eb1388ca0155700}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
 
 #Gemini
 
