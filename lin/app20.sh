@@ -505,8 +505,8 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     #filter: (?i)^(🇺🇸|US|🇸🇬|SG|🇹🇭|🇲🇾|🇵🇭|🇻🇳|🇮🇳|🇯🇵|🇰🇷|🇳🇱|🇬🇧|🇩🇪|🇫🇷|🇷🇴|🇨🇦|🇦🇺)
-    filter: (?i)aws|v4|_SG_|_US_|DE 02|英国 04|法国 06
-    exclude-filter: (?i)speednode|香港|hk|日本05|美国0[1-6]|iKuuu
+    filter: (?i)aws|iKuuu|(美国|英国1?)v4|_SG_|_US_|DE 02|英国 04|法国 06
+    exclude-filter: (?i)speednode|香港|hk|美国0[1-6]|新加坡03|日本0[59]
   - name: 国外媒体
     type: select
     proxies:
