@@ -42,6 +42,9 @@ proxies:
   - {name: "type: pay 7", server: clrpbqwolexxn.cfooov.xyz, port: 49120, type: vless, tls: true, uuid: 6dbb8854-17a5-4684-b930-c11f022975ec, servername: www.lamer.com.hk, host: www.lamer.com.hk, flow: xtls-rprx-vision, reality-opts: {public-key: 1h6RALL3XxV1ycc0Fs-9UWoxscumAUYkakszZMOrz1Q, short-id: d3a6bfdaa8c732}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
   - {name: "type: pay 8", server: clrpbqwolexxn.cfooov.xyz, port: 49120, type: vless, tls: true, uuid: 6dbb8854-17a5-4684-b930-c11f022975ec, servername: www.lamer.com.hk, host: www.lamer.com.hk, flow: xtls-rprx-vision, reality-opts: {public-key: 1h6RALL3XxV1ycc0Fs-9UWoxscumAUYkakszZMOrz1Q, short-id: d3a6bfdaa8c732}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
 
+  - {name: "Gemini JP 5", server: wwbqwqqnlyydssc.cfooov.xyz, port: 39817, type: vless, tls: true, uuid: 6dbb8854-17a5-4684-b930-c11f022975ec, servername: www.apple.com, host: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: uzaav8KrDeu1P9qdg6fDfxmq9Z6vV6a-WVPTWX1zIj4, short-id: 0044d4f490e795b8}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+  - {name: "Gemini JP 6", server: wwbqwqqnlyydssc.cfooov.xyz, port: 39817, type: vless, tls: true, uuid: 6dbb8854-17a5-4684-b930-c11f022975ec, servername: www.apple.com, host: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: uzaav8KrDeu1P9qdg6fDfxmq9Z6vV6a-WVPTWX1zIj4, short-id: 0044d4f490e795b8}, client-fingerprint: random, skip-cert-verify: true, tfo: false}
+
 #Gemini
 
 
