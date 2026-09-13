@@ -24,6 +24,11 @@ proxies:
   - {name: 🇺🇸 Gemini-Reality-US, server: 67.230.190.246, port: 443, type: vless, tls: true, uuid: 9b377315-9a6d-4bfe-b266-2b7f677aa219, servername: www.apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: _4DdFdXqgsD-ZK_NcoMeUPXaImlVqIP8RH9vVvZ5m1c, short-id: bd72f70024236e3f}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
   - {name: 🇺🇸 Gemini-Hysteria2-US, server: 67.230.190.246, port: 8443, type: hysteria2, password: Fb+xeHxQKwnqymgy, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], udp: true, tfo: false}
   - {name: 🇺🇸 Gemini-AnyTLS-US, server: 67.230.190.246, port: 2096, type: anytls, password: Ka33bnx7XhnAt2wX, sni: www.bing.com, skip-cert-verify: true, tfo: false}
+
+  - {name: 🇺🇸 hy2-Gemini, server: 198.200.42.129, port: 49547, type: hysteria2, password: 2f6f1856-5466-4078-b1f0-d3f977211ada, obfs: salamander, obfs-password: dcCGm2e8PpzO2Ye0G5gDJ9El, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], tfo: false}
+  - {name: 🇺🇸 reality-Gemini, server: 198.200.42.129, port: 52977, type: vless, tls: true, uuid: 2f6f1856-5466-4078-b1f0-d3f977211ada, servername: apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: X-DQShHbh23E3SeJjZzC-WStkChJU0lxgktpGalzjw4, short-id: 0fb9c965}, client-fingerprint: chrome, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: 🇺🇸 tuic-Gemini, server: 198.200.42.129, port: 52649, type: tuic, uuid: 2f6f1856-5466-4078-b1f0-d3f977211ada, password: 2f6f1856-5466-4078-b1f0-d3f977211ada, alpn: [h3], udp-relay-mode: native, congestion-controller: bbr, sni: www.bing.com, skip-cert-verify: true, tfo: false}
+
   - {name: Gemini-ProxySeller, server: 77.47.159.51, port: 50100, type: http, username: zyxgudu962464, password: PZIyS8T4CF, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇺🇸 Gemini--US, server: 23.92.145.225, port: 47899, type: http, username: rh33qa6Qn7PIsNw, password: Wv3RZlP1yaruzi3, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇺🇸 Gemini-Decodo-US, server: isp.decodo.com, port: 10001, type: http, username: user-sp9sbkxijl-country-us, password: +xsMTc0AO9p9xryvo0, tls: false, skip-cert-verify: true, tfo: false}
