@@ -502,7 +502,6 @@ proxy-groups:
     timeout: 2200
     tolerance: 500
     max-failed-times: 3
-    lazy: true
     include-all-providers: true
     #filter: (?i)^(🇺🇸|US|🇸🇬|SG|🇹🇭|🇲🇾|🇵🇭|🇻🇳|🇮🇳|🇯🇵|🇰🇷|🇳🇱|🇬🇧|🇩🇪|🇫🇷|🇷🇴|🇨🇦|🇦🇺)
     filter: (?i)gemini|gpt|aws|iKuuu|(美国|英国1?)v4|_SG_|DE 02|英国 04|法国 06
@@ -514,9 +513,8 @@ proxy-groups:
     timeout: 2100
     tolerance: 400
     max-failed-times: 3
-    lazy: true
     include-all-providers: true
-    filter: (?i)gemini|gpt|aws|iKuuu|speednode
+    filter: (?i)gemini|gpt|aws|iKuuu|speednode|https
   - name: 微软服务
     type: select
     proxies:
