@@ -474,7 +474,14 @@ proxy-providers:
       enable: true
       interval: 3825
       url: http://www.gstatic.com/generate_204
-
+  gSafe-Sitex2:
+    type: http
+    url: https://s.imgki.com/NLRfkCp
+    interval: 86680
+    health-check:
+      enable: true
+      interval: 3830
+      url: http://www.gstatic.com/generate_204
 
 
 
