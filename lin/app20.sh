@@ -711,6 +711,11 @@ rule-providers:
 
 rules:
   - DOMAIN-SUFFIX,gemini.gstatic.com,谷歌服务
+  - DOMAIN-SUFFIX,nodebuf.com,国外媒体
+  - DOMAIN-KEYWORD,nodebuf,国外媒体
+
+
+  
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
