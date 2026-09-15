@@ -516,8 +516,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    #filter: (?i)^(🇺🇸|US|🇸🇬|SG|🇹🇭|🇲🇾|🇵🇭|🇻🇳|🇮🇳|🇯🇵|🇰🇷|🇳🇱|🇬🇧|🇩🇪|🇫🇷|🇷🇴|🇨🇦|🇦🇺)
-    filter: (?i)gemini|gpt|aws|iKuuu|speednode|(美国|英国1?)v4|_SG_|DE 02|英国 04|法国 06
+    filter: (?i)gemini|gpt|aws|iKuuu|speednode
   - name: 微软服务
     type: select
     proxies:
