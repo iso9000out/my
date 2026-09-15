@@ -511,7 +511,7 @@ proxy-groups:
     max-failed-times: 3
     include-all-providers: true
     filter: (?i)gemini|aws|iKuuu|github|🇷🇴|RO|罗马尼亚|🇹🇼|台湾|TW|瑞士|澳大利亚|_SG_|_JP_|ip5|DE 02|KR 02|GB 02|NL 02|US 0[35678]|USA 9|GBR 2|英国 0[24]|法国 06|德国01 4|荷兰01 4|美国-006|荷兰-001|洛杉矶-3|阿姆斯特丹-[26]|NL_speednode_000[58]|(美国|英国1?)v4
-    exclude-filter: (?i)speednode|gpt|新加坡(0[13678]|1[02])|日本(0[12356789]|1[02])|00[126]|vless新加坡02
+    exclude-filter: (?i)speednode|gpt|美国0[12345]aws|新加坡(0[13456789]|1[02])|日本(0[12356789]|1[02])|00[126]|vless新加坡02
   - name: 国外媒体
     type: url-test
     url: http://www.gstatic.com/generate_204
