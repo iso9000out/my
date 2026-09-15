@@ -506,7 +506,7 @@ proxy-groups:
     include-all-providers: true
     #filter: (?i)^(🇺🇸|US|🇸🇬|SG|🇹🇭|🇲🇾|🇵🇭|🇻🇳|🇮🇳|🇯🇵|🇰🇷|🇳🇱|🇬🇧|🇩🇪|🇫🇷|🇷🇴|🇨🇦|🇦🇺)
     filter: (?i)gemini|gpt|aws|iKuuu|(美国|英国1?)v4|_SG_|DE 02|英国 04|法国 06
-    exclude-filter: (?i)speednode|香港|hk|美国0[1-6]|新加坡(0[1346789]|1[0])|日本(0[1235789]|1[02])|vless新加坡02
+    exclude-filter: (?i)speednode|香港|hk|美国0[1-6]|新加坡(0[1346789]|1[02])|日本(0[1235789]|1[02])|vless新加坡02
   - name: 国外媒体
     type: select
     proxies:
