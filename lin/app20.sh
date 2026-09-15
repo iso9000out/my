@@ -505,7 +505,7 @@ proxy-groups:
     include-all-providers: true
     #filter: (?i)^(🇺🇸|US|🇸🇬|SG|🇹🇭|🇲🇾|🇵🇭|🇻🇳|🇮🇳|🇯🇵|🇰🇷|🇳🇱|🇬🇧|🇩🇪|🇫🇷|🇷🇴|🇨🇦|🇦🇺)
     filter: (?i)gemini|gpt|aws|iKuuu|(美国|英国1?)v4|_SG_|DE 02|英国 04|法国 06
-    exclude-filter: (?i)speednode|香港|hk|美国|澳大利亚|荷兰|美国0[1-6]|新加坡(0[1346789]|1[02])|日本(0[12356789]|1[02])|006|002|001|vless新加坡02
+    exclude-filter: (?i)speednode|香港|hk|美国|澳大利亚|荷兰|美国0[1-6]|新加坡(0[1346789]|1[02])|日本(0[12356789]|1[02])|00[126]|vless新加坡02
   - name: 国外媒体
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -713,7 +713,7 @@ rules:
   - DOMAIN-SUFFIX,gemini.gstatic.com,谷歌服务
   - DOMAIN-SUFFIX,nodebuf.com,国外媒体
   - DOMAIN-KEYWORD,nodebuf,国外媒体
-  - DOMAIN-SUFFIX,github.com,全局直连
+#  - DOMAIN-SUFFIX,github.com,全局直连
 
 
   
@@ -730,7 +730,7 @@ rules:
   - RULE-SET,Myrules,节点选择
   - RULE-SET,ProxyMedia,节点选择
   - RULE-SET,ProxyGFWlist,节点选择
-  #- RULE-SET,ProxyLite,节点选择
+#  - RULE-SET,ProxyLite,节点选择
   - RULE-SET,Telegram,节点选择
   - RULE-SET,Apple,苹果服务
   - RULE-SET,Microsoft,微软服务
