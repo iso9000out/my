@@ -508,11 +508,16 @@ proxy-groups:
     filter: (?i)gemini|gpt|aws|iKuuu|(美国|英国1?)v4|_SG_|DE 02|英国 04|法国 06
     exclude-filter: (?i)speednode|香港|hk|美国0[1-6]|新加坡(0[1346789]|1[02])|日本(0[1235789]|1[02])|vless新加坡02
   - name: 国外媒体
-    type: select
-    proxies:
-      - 节点选择
-      - 自动选优
-      - 全局直连
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 510
+    timeout: 2100
+    tolerance: 400
+    max-failed-times: 3
+    lazy: true
+    include-all-providers: true
+    #filter: (?i)^(🇺🇸|US|🇸🇬|SG|🇹🇭|🇲🇾|🇵🇭|🇻🇳|🇮🇳|🇯🇵|🇰🇷|🇳🇱|🇬🇧|🇩🇪|🇫🇷|🇷🇴|🇨🇦|🇦🇺)
+    filter: (?i)gemini|gpt|aws|iKuuu|speednode|(美国|英国1?)v4|_SG_|DE 02|英国 04|法国 06
   - name: 微软服务
     type: select
     proxies:
@@ -711,9 +716,9 @@ rules:
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
   - RULE-SET,Gemini,谷歌服务
-  - RULE-SET,Claude,谷歌服务
-  - RULE-SET,OpenAi,谷歌服务
-  - RULE-SET,AI,谷歌服务
+  - RULE-SET,Claude,国外媒体
+  - RULE-SET,OpenAi,国外媒体
+  - RULE-SET,AI,国外媒体
   - RULE-SET,ChinaDomain,全局直连
   - RULE-SET,ChinaCompanyIp,全局直连
   - RULE-SET,Myrulesbai,全局直连
