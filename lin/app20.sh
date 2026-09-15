@@ -488,9 +488,9 @@ proxy-groups:
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 520
+    interval: 680
     timeout: 2000
-    tolerance: 300
+    tolerance: 520
     max-failed-times: 3
     lazy: true
     include-all-providers: true
@@ -498,7 +498,7 @@ proxy-groups:
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 500
+    interval: 580
     timeout: 2200
     tolerance: 800
     max-failed-times: 3
@@ -509,7 +509,7 @@ proxy-groups:
   - name: 国外媒体
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 510
+    interval: 600
     timeout: 2100
     tolerance: 400
     max-failed-times: 3
