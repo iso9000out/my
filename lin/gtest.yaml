@@ -501,28 +501,19 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)aws|ikuuu|gemini|🇭🇰|香港|\bhk\b|🇨🇳|中国|\bcn\b|china|\btw\b|其他|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+#    exclude-filter: (?i)其他|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 580
-    timeout: 3000
-    tolerance: 800
-    max-failed-times: 3
-    include-all-providers: true
-    #filter: (?i)^(🇺🇸|US|🇸🇬|SG|🇹🇭|🇲🇾|🇵🇭|🇻🇳|🇮🇳|🇯🇵|🇰🇷|🇳🇱|🇬🇧|🇩🇪|🇫🇷|🇷🇴|🇨🇦|🇦🇺)
-    filter: (?i)gemini|gpt|aws|iKuuu|(美国|英国1?)v4|_SG_|DE 02|英国 04|法国 06
-    exclude-filter: (?i)speednode|香港|hk|美国|澳大利亚|荷兰|美国0[1-6]|新加坡(0[1346789]|1[02])|日本(0[12356789]|1[02])|00[126]|vless新加坡02
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选优
+      - 全局直连
   - name: 国外媒体
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 600
-    timeout: 2100
-    tolerance: 400
-    max-failed-times: 3
-    include-all-providers: true
-    filter: (?i)gemini|gpt|aws|iKuuu|speednode|https
-    exclude-filter: (?i)香港|hk|中国|china|cn
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选优
+      - 全局直连
   - name: 微软服务
     type: select
     proxies:
