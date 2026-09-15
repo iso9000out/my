@@ -494,7 +494,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)🇭🇰|香港|\bhk\b|🇨🇳|中国|\bcn\b|china|\btw\b|其他|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)aws|ikuuu|gemini|🇭🇰|香港|\bhk\b|🇨🇳|中国|\bcn\b|china|\btw\b|其他|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
