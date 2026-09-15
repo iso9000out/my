@@ -515,7 +515,7 @@ proxy-groups:
     max-failed-times: 3
     include-all-providers: true
     filter: (?i)gemini|gpt|aws|iKuuu|speednode|https
-    exclude-filter: (?i)香港|hk
+    exclude-filter: (?i)香港|hk|中国|china|cn
   - name: 微软服务
     type: select
     proxies:
