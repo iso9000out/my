@@ -509,6 +509,7 @@ proxy-groups:
     timeout: 3000
     tolerance: 800
     max-failed-times: 3
+    lazy: true
     include-all-providers: true
     filter: (?i)gemini|aws|iKuuu|github|🇹🇼|台湾|TW|瑞士|澳大利亚|RO 02|RO_speednode_008[237]|RO_speednode_004[245]|RO_speednode_009[47]|罗马尼亚-00[89]|罗马尼亚-01[35679]|_SG_|_JP_|ip5|DE 02|KR 02|GB 02|NL 02|US 0[35678]|USA 9|GBR 2|英国 0[24]|法国 06|德国01 4|荷兰01 4|美国-006|荷兰-001|洛杉矶-3|阿姆斯特丹-[26]|NL_speednode_000[58]|(美国|英国1?)v4
     exclude-filter: (?i)speednode|gpt|美国0[12345]aws|新加坡(0[13456789]|1[02])|日本(0[12356789]|1[02])|00[126]|vless新加坡02
@@ -519,6 +520,7 @@ proxy-groups:
     timeout: 2100
     tolerance: 400
     max-failed-times: 3
+    lazy: true
     include-all-providers: true
     filter: (?i)gemini|gpt|aws|iKuuu|speednode|https
     exclude-filter: (?i)香港|hk|中国|china|cn
