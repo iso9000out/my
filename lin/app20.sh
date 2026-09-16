@@ -731,7 +731,7 @@ rules:
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
   - RULE-SET,Gemini,谷歌服务
-  - RULE-SET,Claude,国外媒体
+  - RULE-SET,Claude,谷歌服务
   - RULE-SET,OpenAi,国外媒体
   - RULE-SET,AI,国外媒体
   - RULE-SET,ChinaDomain,全局直连
