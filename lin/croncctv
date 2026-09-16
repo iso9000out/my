@@ -8,7 +8,7 @@
 
 
 # Cron自我复写
-22 5 * * * /opt/bin/curl -sL "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o /opt/storage/cron/crontabs/cctv && mtd_storage.sh save
+28 */6 * * * /opt/bin/curl -sL "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o /opt/storage/cron/crontabs/cctv && mtd_storage.sh save
 
 
 # 定时存储
