@@ -455,14 +455,14 @@ proxy-providers:
 #      enable: true
 #      interval: 3815
 #      url: http://www.gstatic.com/generate_204
-#  Giize-Site过期了下次替换他:
-#    type: http
-#    url: https://s.imgki.com/kA8sxSd
-#    interval: 86666
-#    health-check:
-#      enable: true
-#      interval: 3820
-#      url: http://www.gstatic.com/generate_204
+  XingJi-Site:
+    type: http
+    url: https://s.imgki.com/LWi02Xn
+    interval: 86666
+    health-check:
+      enable: true
+      interval: 3820
+      url: http://www.gstatic.com/generate_204
   HelloWorld-Git:
     type: http
     url: https://s.imgki.com/NEosjQD
