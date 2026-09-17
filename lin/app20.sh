@@ -716,6 +716,7 @@ rule-providers:
 
 rules:
   - DOMAIN-SUFFIX,gemini.gstatic.com,谷歌服务
+  - DOMAIN-SUFFIX,claude.com,谷歌服务
   - DOMAIN-SUFFIX,apis.google.com,节点选择
   - DOMAIN-SUFFIX,challenges.cloudflare.com,节点选择
   - DOMAIN-SUFFIX,business-api.tiktok.com,节点选择
