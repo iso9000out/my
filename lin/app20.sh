@@ -721,7 +721,6 @@ rules:
   - DOMAIN-SUFFIX,gemini.gstatic.com,谷歌服务
   - DOMAIN-SUFFIX,apis.google.com,节点选择
   - DOMAIN-SUFFIX,business-api.tiktok.com,节点选择
-
   - DOMAIN-SUFFIX,nodebuf.com,国外媒体
   - DOMAIN-KEYWORD,nodebuf,国外媒体
   
@@ -733,7 +732,7 @@ rules:
   - RULE-SET,Gemini,谷歌服务
   - RULE-SET,Claude,谷歌服务
   - RULE-SET,OpenAi,国外媒体
-  - RULE-SET,AI,国外媒体
+#  - RULE-SET,AI,国外媒体
   - RULE-SET,ChinaDomain,全局直连
   - RULE-SET,ChinaCompanyIp,全局直连
   - RULE-SET,Myrulesbai,全局直连
