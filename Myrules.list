@@ -9,14 +9,14 @@ DOMAIN-KEYWORD,bat08
 DOMAIN-SUFFIX,lf-main-gecko-source.tiktokcdn.com
 DOMAIN-SUFFIX,lf16-gecko-source.tiktokcdn.com
 DOMAIN-SUFFIX,lf19-gecko-source.tiktokcdn.com
-# DOMAIN-SUFFIX,ip.sb
-# DOMAIN-SUFFIX,ipwho.is
-# DOMAIN-SUFFIX,ipapi.is
-# DOMAIN-SUFFIX,ipscore.im
-# DOMAIN-KEYWORD,ipscore
-# DOMAIN-SUFFIX,ipinfo.io
-# DOMAIN-SUFFIX,pingip.cn
-# DOMAIN-SUFFIX,ipcheck.ing
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ipwho.is
+DOMAIN-SUFFIX,ipapi.is
+DOMAIN-SUFFIX,ipscore.im
+DOMAIN-KEYWORD,ipscore
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,pingip.cn
+DOMAIN-SUFFIX,ipcheck.ing
 DOMAIN-KEYWORD,stripchat
 DOMAIN-KEYWORD,nodebuf
 DOMAIN-SUFFIX,nodebuf.com
@@ -41,10 +41,10 @@ DOMAIN-KEYWORD,jiux001
 DOMAIN-KEYWORD,vercel
 DOMAIN-KEYWORD,meihuavpn
 DOMAIN-KEYWORD,huasuan666
-#DOMAIN-KEYWORD,infinityfree
-#DOMAIN-SUFFIX,infinityfree.com
-#DOMAIN-SUFFIX,dash.infinityfree.com
-#DOMAIN-SUFFIX,filemanager.ai
+# DOMAIN-KEYWORD,infinityfree
+# DOMAIN-SUFFIX,infinityfree.com
+# DOMAIN-SUFFIX,dash.infinityfree.com
+# DOMAIN-SUFFIX,filemanager.ai
 DOMAIN-SUFFIX,freedom.gov
 DOMAIN-SUFFIX,ippure.com
 DOMAIN-SUFFIX,iplark.com
