@@ -502,9 +502,9 @@ proxy-groups:
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 580
+    interval: 360
     timeout: 3000
-    tolerance: 800
+    tolerance: 500
     max-failed-times: 3
     lazy: true
     include-all-providers: true
@@ -513,8 +513,8 @@ proxy-groups:
   - name: 国外媒体
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 600
-    timeout: 2100
+    interval: 380
+    timeout: 2200
     tolerance: 400
     max-failed-times: 3
     lazy: true
