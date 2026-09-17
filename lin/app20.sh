@@ -719,9 +719,9 @@ rules:
   - DOMAIN-SUFFIX,claude.com,谷歌服务
   - DOMAIN-SUFFIX,apis.google.com,节点选择
   - DOMAIN-SUFFIX,challenges.cloudflare.com,节点选择
-  - DOMAIN-SUFFIX,business-api.tiktok.com,节点选择
-  - DOMAIN-SUFFIX,nodebuf.com,国外媒体
-  - DOMAIN-KEYWORD,nodebuf,国外媒体
+
+# 以上特殊扭转摆正强调的
+
   
 #  - DOMAIN-SUFFIX,github.com,全局直连
 
