@@ -1,9 +1,6 @@
 # date 2026-09-15
 
 
-
-
-
 port: 7890
 socks-port: 7891
 allow-lan: true
