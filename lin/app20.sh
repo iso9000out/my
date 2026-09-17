@@ -725,8 +725,6 @@ rules:
   
 #  - DOMAIN-SUFFIX,github.com,全局直连
 
-  - RULE-SET,Myrulesbai,全局直连
-  - RULE-SET,Myrules,节点选择
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
@@ -734,6 +732,8 @@ rules:
   - RULE-SET,Claude,谷歌服务
   - RULE-SET,OpenAi,国外媒体
 #  - RULE-SET,AI,国外媒体
+  - RULE-SET,Myrulesbai,全局直连
+  - RULE-SET,Myrules,节点选择
   - RULE-SET,ChinaDomain,全局直连
   - RULE-SET,ChinaCompanyIp,全局直连
   - RULE-SET,ProxyMedia,节点选择
