@@ -263,9 +263,9 @@ proxy-providers:
       enable: true
       interval: 3695
       url: http://www.gstatic.com/generate_204
-  udptoos-Site:
+  AllinOne-Site:
     type: http
-    url: https://s.imgki.com/ZhK7Ikm
+    url: https://3x.lbruh.xyz:2096/clash/all_in_one
     interval: 172512
     health-check:
       enable: true
