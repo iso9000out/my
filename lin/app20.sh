@@ -501,8 +501,10 @@ proxy-groups:
     exclude-filter: (?i)aws|ikuuu|gemini|🇭🇰|香港|\bhk\b|🇨🇳|中国|\bcn\b|china|\btw\b|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 360
+    #url: http://www.gstatic.com/generate_204
+    url: https://api.anthropic.com/v1/messages
+    expected-status: 401/403/404
+    interval: 600
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
@@ -513,7 +515,7 @@ proxy-groups:
   - name: 国外媒体
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 380
+    interval: 580
     timeout: 2200
     tolerance: 400
     max-failed-times: 3
