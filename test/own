@@ -11,7 +11,7 @@ proxies:
   - {name: svip.skycon808.com:60005, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
 
 
-  - {name: 🇭🇰 香港 Anytls gemini, server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, port: 443, type: anytls, password: 9sK2mP8xQ7vL3nZ6, alpn: [http%2F1.1], skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 Anytls, server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, port: 443, type: anytls, password: 9sK2mP8xQ7vL3nZ6, alpn: [http%2F1.1], skip-cert-verify: true, tfo: false}
   - {name: 🇺🇸 美国, server: awefd2313fefarg23fr24.pnuqcnp.cn, port: 443, type: anytls, password: 9sK2mP8xQ7vL3nZ6, alpn: [http%2F1.1], skip-cert-verify: true, tfo: false}
   - {name: 🇸🇬 新加坡 Anytls gemini, server: 6ivh.pnuqcnp.cn, port: 443, type: anytls, password: 9sK2mP8xQ7vL3nZ6, alpn: [http%2F1.1], skip-cert-verify: true, tfo: false}
 
