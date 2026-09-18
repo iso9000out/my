@@ -509,18 +509,20 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)gemini|aws|iKuuu|🇹🇼|台湾|tw|🇷🇴|罗马尼亚|ro|🇺🇸|美国|us|🇳🇱|荷兰|nl|🇩🇪|德国|de|🇨🇿|捷克|🇬🇧|英国|gb|🇫🇷|法国|fr|🇯🇵|日本|jp|🇰🇷|韩国|kr|🇸🇬|新加坡|sg|🇹🇭|泰国|th|瑞士|澳大利亚
-    exclude-filter: (?i)speednode|gpt|https|🇭🇰|香港|hk|ntls|mb|kb
+    #filter: (?i)gemini|aws|iKuuu|🇹🇼|台湾|tw|🇷🇴|罗马尼亚|ro|🇺🇸|美国|us|🇳🇱|荷兰|nl|🇩🇪|德国|de|🇨🇿|捷克|🇬🇧|英国|gb|🇫🇷|法国|fr|🇯🇵|日本|jp|🇰🇷|韩国|kr|🇸🇬|新加坡|sg|🇹🇭|泰国|th|瑞士|澳大利亚
+    filter: (?i)gemini|aws|iKuuu|gpt|🇹🇼|台湾|tw|🇷🇴|罗马尼亚|ro
+    #exclude-filter: (?i)speednode|gpt|https|🇭🇰|香港|hk|ntls|mb|kb
   - name: 国外媒体
     type: url-test
     url: http://api.anthropic.com/v1/messages
+    expected-status: 401/403/404
     interval: 580
     timeout: 2200
     tolerance: 400
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)gemini|gpt|aws|iKuuu|speednode|https|ntls|mb
+    filter: (?i)gemini|gpt|aws|iKuuu|speednode|https|ntls|mb|kb
     exclude-filter: (?i)🇭🇰|香港|hk|🇨🇳|中国|china|cn
   - name: 微软服务
     type: select
