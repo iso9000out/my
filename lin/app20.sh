@@ -513,7 +513,7 @@ proxy-groups:
     exclude-filter: (?i)speednode|gpt|https|🇭🇰|香港|hk|ntls
   - name: 国外媒体
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://api.anthropic.com/v1/messages
     interval: 580
     timeout: 2200
     tolerance: 400
@@ -717,7 +717,7 @@ rule-providers:
 
 rules:
   - DOMAIN-SUFFIX,gemini.gstatic.com,谷歌服务
-  - DOMAIN-SUFFIX,claude.com,谷歌服务
+  - DOMAIN-SUFFIX,claude.com,国外媒体
   - DOMAIN-SUFFIX,apis.google.com,节点选择
   - DOMAIN-SUFFIX,challenges.cloudflare.com,节点选择
 
@@ -730,7 +730,7 @@ rules:
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
   - RULE-SET,Gemini,谷歌服务
-  - RULE-SET,Claude,谷歌服务
+  - RULE-SET,Claude,国外媒体
   - RULE-SET,OpenAi,国外媒体
 #  - RULE-SET,AI,国外媒体
   - RULE-SET,Myrulesbai,全局直连
