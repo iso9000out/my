@@ -520,7 +520,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)gpt
+    filter: (?i)gpt|ikuuu
   - name: 微软服务
     type: select
     proxies:
