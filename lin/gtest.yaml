@@ -509,7 +509,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)gemini|gpt|ikuuu|https
+    filter: (?i)gemini|gpt|ikuuu|https|anytls|vless|hy2
   - name: 国外媒体
     type: url-test
     url: http://api.anthropic.com/v1/messages
@@ -520,7 +520,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)gemini|gpt|ikuuu|https
+    filter: (?i)gemini|gpt|ikuuu|https|anytls|vless|hy2
   - name: 微软服务
     type: select
     proxies:
