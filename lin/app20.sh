@@ -502,8 +502,8 @@ proxy-groups:
   - name: 谷歌服务
     type: url-test
     #url: http://www.gstatic.com/generate_204
-    url: https://api.anthropic.com/v1/messages
-    expected-status: 401/403/404
+    url: https://console.anthropic.com
+    expected-status: 200-399
     interval: 600
     timeout: 3000
     tolerance: 500
