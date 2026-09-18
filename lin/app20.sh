@@ -501,7 +501,7 @@ proxy-groups:
     exclude-filter: (?i)aws|ikuuu|gemini|🇭🇰|香港|\bhk\b|🇨🇳|中国|\bcn\b|china|\btw\b|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
-    url: https://api.anthropic.com/v1/messages
+    url: http://generativelanguage.googleapis.com/
     expected-status: 401/403/404
     interval: 600
     timeout: 3000
@@ -510,7 +510,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)gemini|aws|iKuuu|🇹🇼|台湾|tw|🇷🇴|罗马尼亚|ro|🇺🇸|美国|us|🇳🇱|荷兰|nl|🇩🇪|德国|de|🇬🇧|英国|gb|🇫🇷|法国|fr|🇯🇵|日本|jp|🇰🇷|韩国|kr|🇸🇬|新加坡|sg|🇹🇭|泰国|th|瑞士|澳大利亚
-    exclude-filter: (?i)speednode|gpt
+    exclude-filter: (?i)speednode|gpt|https|🇭🇰|香港|hk
   - name: 国外媒体
     type: url-test
     url: http://www.gstatic.com/generate_204
