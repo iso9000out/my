@@ -509,7 +509,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)gemini
+    filter: (?i)gemini|gpt|ikuuu
   - name: 国外媒体
     type: url-test
     url: https://api.anthropic.com/v1/messages
