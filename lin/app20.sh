@@ -492,7 +492,7 @@ proxy-groups:
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 600
+    interval: 620
     timeout: 2000
     tolerance: 520
     max-failed-times: 3
@@ -503,24 +503,24 @@ proxy-groups:
     type: url-test
     url: http://generativelanguage.googleapis.com/
     expected-status: 401/403/404
-    interval: 330
+    interval: 630
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)gemini
+    filter: (?i)gemini|gpt|ikuuu|https|anytls|vless|hy2
   - name: 国外媒体
     type: url-test
     url: http://api.anthropic.com/v1/messages
     expected-status: 401/403/404
-    interval: 300
+    interval: 600
     timeout: 2800
     tolerance: 520
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)gpt|ikuuu
+    filter: (?i)gemini|gpt|ikuuu|https|anytls|vless|hy2
   - name: 微软服务
     type: select
     proxies:
