@@ -1,7 +1,4 @@
-# date 2026-09-11
-
-
-
+# date 2026-09-18
 
 
 port: 7890
@@ -177,14 +174,14 @@ proxy-providers:
 #      enable: true
 #      interval: 3640
 #      url: http://www.gstatic.com/generate_204
-  ZiyouFly-Site:
-    type: http
-    url: https://s.imgki.com/fwCuV8Q
-    interval: 86442
-    health-check:
-      enable: true
-      interval: 3645
-      url: http://www.gstatic.com/generate_204
+#  ZiyouFly-Site失效了下次替换它:
+#    type: http
+#    url: https://s.imgki.com/fwCuV8Q
+#    interval: 86442
+#    health-check:
+#      enable: true
+#      interval: 3645
+#      url: http://www.gstatic.com/generate_204
   YouZiLite-Site:
     exclude-filter: 关键词|关键的词
     type: http
@@ -242,14 +239,14 @@ proxy-providers:
       enable: true
       interval: 3680
       url: http://www.gstatic.com/generate_204
-  FeiNiaoYun:
-    type: http
-    url: https://s.imgki.com/9BnK3s2
-    interval: 86498
-    health-check:
-      enable: true
-      interval: 3685
-      url: http://www.gstatic.com/generate_204
+#  FeiNiaoYun过期了:
+#    type: http
+#    url: https://s.imgki.com/9BnK3s2
+#    interval: 86498
+#    health-check:
+#      enable: true
+#      interval: 3685
+#      url: http://www.gstatic.com/generate_204
 #  ChuanZhuo-Git十几个都不通还是ripao:
 #    type: http
 #    url: https://v1.mk/FI6ZQSS
@@ -266,9 +263,9 @@ proxy-providers:
       enable: true
       interval: 3695
       url: http://www.gstatic.com/generate_204
-  udptoos-Site:
+  AllinOne-Site:
     type: http
-    url: https://s.imgki.com/ZhK7Ikm
+    url: https://3x.lbruh.xyz:2096/clash/all_in_one
     interval: 172512
     health-check:
       enable: true
@@ -458,14 +455,14 @@ proxy-providers:
 #      enable: true
 #      interval: 3815
 #      url: http://www.gstatic.com/generate_204
-#  Giize-Site过期了下次替换他:
-#    type: http
-#    url: https://s.imgki.com/kA8sxSd
-#    interval: 86666
-#    health-check:
-#      enable: true
-#      interval: 3820
-#      url: http://www.gstatic.com/generate_204
+  XingJi-Site:
+    type: http
+    url: https://s.imgki.com/LWi02Xn
+    interval: 86666
+    health-check:
+      enable: true
+      interval: 3820
+      url: http://www.gstatic.com/generate_204
   HelloWorld-Git:
     type: http
     url: https://s.imgki.com/NEosjQD
@@ -491,29 +488,39 @@ proxy-groups:
     proxies:
       - 自动选优
     include-all-providers: true
-    exclude-filter: 重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: 其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 680
+    interval: 600
     timeout: 2000
     tolerance: 520
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-#    exclude-filter: (?i)其他|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)aws|ikuuu|gpt|gemini|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
-    type: select
-    proxies:
-      - 节点选择
-      - 自动选优
-      - 全局直连
+    type: url-test
+    url: http://generativelanguage.googleapis.com/
+    expected-status: 401/403/404
+    interval: 330
+    timeout: 3000
+    tolerance: 500
+    max-failed-times: 3
+    lazy: true
+    include-all-providers: true
+    filter: (?i)gemini
   - name: 国外媒体
-    type: select
-    proxies:
-      - 节点选择
-      - 自动选优
-      - 全局直连
+    type: url-test
+    url: http://api.anthropic.com/v1/messages
+    expected-status: 401/403/404
+    interval: 300
+    timeout: 2800
+    tolerance: 520
+    max-failed-times: 3
+    lazy: true
+    include-all-providers: true
+    filter: (?i)gpt|ikuuu
   - name: 微软服务
     type: select
     proxies:
@@ -709,25 +716,26 @@ rule-providers:
 
 rules:
   - DOMAIN-SUFFIX,gemini.gstatic.com,谷歌服务
+  - DOMAIN-SUFFIX,claude.com,国外媒体
   - DOMAIN-SUFFIX,apis.google.com,节点选择
-  - DOMAIN-SUFFIX,business-api.tiktok.com,节点选择
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,节点选择
 
-  - DOMAIN-SUFFIX,nodebuf.com,国外媒体
-  - DOMAIN-KEYWORD,nodebuf,国外媒体
+# 以上特殊扭转摆正强调的
+
   
 #  - DOMAIN-SUFFIX,github.com,全局直连
 
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
-  - RULE-SET,Gemini,节点选择
+  - RULE-SET,Gemini,谷歌服务
   - RULE-SET,Claude,国外媒体
   - RULE-SET,OpenAi,国外媒体
-  - RULE-SET,AI,国外媒体
-  - RULE-SET,ChinaDomain,全局直连
-  - RULE-SET,ChinaCompanyIp,全局直连
+#  - RULE-SET,AI,国外媒体
   - RULE-SET,Myrulesbai,全局直连
   - RULE-SET,Myrules,节点选择
+  - RULE-SET,ChinaDomain,全局直连
+  - RULE-SET,ChinaCompanyIp,全局直连
   - RULE-SET,ProxyMedia,节点选择
   - RULE-SET,ProxyGFWlist,节点选择
 #  - RULE-SET,ProxyLite,节点选择
