@@ -510,6 +510,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)gemini|gpt|ikuuu|https|anytls|vless|hy2|美国 0[127]|美国 1[78]|美国 2[456]|美国-08|荷兰 0[345789]|ip5|104|172|162|TLS
+    exclude-filter: (?i)香港
   - name: 国外媒体
     type: url-test
     url: http://api.anthropic.com/v1/messages
@@ -521,6 +522,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)gemini|gpt|ikuuu|https|anytls|vless|hy2|美国 0[127]|美国 1[78]|美国 2[4569]|美国-08|美国 30|荷兰 0[345789]|ip5|104|172|162|0133|USA [39]|SG95
+    exclude-filter: (?i)香港
   - name: 微软服务
     type: select
     proxies:
