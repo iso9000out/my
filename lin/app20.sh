@@ -494,7 +494,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 720
     timeout: 2000
-    tolerance: 800
+    tolerance: 600
     max-failed-times: 3
     lazy: true
     include-all-providers: true
@@ -505,7 +505,7 @@ proxy-groups:
     expected-status: 401/403/404
     interval: 840
     timeout: 3000
-    tolerance: 800
+    tolerance: 999
     max-failed-times: 3
     lazy: true
     include-all-providers: true
@@ -520,7 +520,7 @@ proxy-groups:
     expected-status: 401/403/404
     interval: 960
     timeout: 2800
-    tolerance: 800
+    tolerance: 999
     max-failed-times: 3
     lazy: true
     include-all-providers: true
