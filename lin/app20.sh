@@ -510,7 +510,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2
-    exclude-filter: (?i)香港|中国|未知
+    exclude-filter: (?i)未知|香港|中国|委内瑞拉
     proxies:
       - 节点选择
       - 自动选优
@@ -525,7 +525,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2
-    exclude-filter: (?i)香港|中国|未知
+    exclude-filter: (?i)未知|香港|中国|委内瑞拉
     proxies:
       - 谷歌服务
   - name: 微软服务
