@@ -736,8 +736,8 @@ rules:
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
   - RULE-SET,Gemini,谷歌服务
+  - RULE-SET,OpenAi,谷歌服务
   - RULE-SET,Claude,国外媒体
-  - RULE-SET,OpenAi,国外媒体
 #  - RULE-SET,AI,国外媒体
   - RULE-SET,Myrulesbai,全局直连
   - RULE-SET,Myrules,节点选择
