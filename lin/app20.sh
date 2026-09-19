@@ -509,8 +509,8 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2
-    exclude-filter: (?i)未知|香港|中国|委内瑞拉|claude|home
+    filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2|claude|home
+    exclude-filter: (?i)未知|香港|中国|委内瑞拉
     proxies:
       - 节点选择
       - 自动选优
@@ -524,7 +524,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2
+    filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2|美国Gemini 8|claude|home
     exclude-filter: (?i)未知|香港|中国|委内瑞拉
     proxies:
       - 谷歌服务
