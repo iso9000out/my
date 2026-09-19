@@ -489,6 +489,7 @@ proxy-groups:
     exclude-filter: 其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
     proxies:
       - 自动选优
+    default-selected: 自动选优
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
