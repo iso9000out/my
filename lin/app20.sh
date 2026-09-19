@@ -457,7 +457,7 @@ proxy-providers:
 #      url: http://www.gstatic.com/generate_204
   XingJi-Site:
     type: http
-    url: https://s.imgki.com/LWi02Xn
+    url: https://s.imgki.com/0DEjjg5
     interval: 86666
     health-check:
       enable: true
