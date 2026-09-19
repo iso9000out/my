@@ -509,7 +509,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)gemini|gpt|ikuuu|anytls|vless|hy2|美国 0[127]|美国 1[78]|美国 2[456]|美国-08|荷兰 0[345789]|ip5|104|172|162|TLS
+    filter: (?i)gemini|gpt|ikuuu|anytls|vless|hy2|美国 0[127]|美国 1[78]|美国 2[456]|美国-08|荷兰 0[345789]|ip5|TLS
     exclude-filter: (?i)香港
   - name: 国外媒体
     type: url-test
