@@ -528,7 +528,6 @@ proxy-groups:
     exclude-filter: (?i)香港|未知
     proxies:
       - 节点选择
-      - 自动选优
       - 谷歌服务
   - name: 微软服务
     type: select
