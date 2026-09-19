@@ -521,7 +521,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)gemini|gpt|ikuuu|anytls|vless|hy2|美国 0[127]|美国 1[78]|美国 2[4569]|美国-08|美国 30|荷兰 0[345789]|ip5|104|172|162|0133|USA [39]|SG95
+    filter: (?i)gemini|gpt|ikuuu|anytls|vless|hy2|美国 0[127]|美国 1[78]|美国 2[4569]|美国-08|美国 30|荷兰 0[345789]|ip5|0133|USA [39]|SG95
     exclude-filter: (?i)香港
   - name: 微软服务
     type: select
