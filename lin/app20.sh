@@ -524,7 +524,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2|美国Gemini 8|claude|home
+    filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2|claude|home|美国Gemini [6789]|美国Gemini 1 2|新加坡 Anytls gemini|家宽
     exclude-filter: (?i)未知|香港|中国|委内瑞拉
     proxies:
       - 谷歌服务
