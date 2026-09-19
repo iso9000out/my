@@ -510,7 +510,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2
-    exclude-filter: (?i)未知|香港|中国|委内瑞拉
+    exclude-filter: (?i)未知|香港|中国|委内瑞拉|claude|home
     proxies:
       - 节点选择
       - 自动选优
