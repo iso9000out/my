@@ -514,6 +514,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选优
+      - 国外媒体
   - name: 国外媒体
     type: url-test
     url: https://api.anthropic.com/v1/messages
@@ -528,6 +529,7 @@ proxy-groups:
     exclude-filter: (?i)香港|未知
     proxies:
       - 节点选择
+      - 自动选优
       - 谷歌服务
   - name: 微软服务
     type: select
