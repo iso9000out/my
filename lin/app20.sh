@@ -492,34 +492,43 @@ proxy-groups:
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 620
+    interval: 720
     timeout: 2000
-    tolerance: 520
+    tolerance: 800
     max-failed-times: 3
     lazy: true
     include-all-providers: true
     exclude-filter: (?i)aws|ikuuu|gpt|gemini|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
-    url: http://generativelanguage.googleapis.com
+    url: https://generativelanguage.googleapis.com/
     expected-status: 401/403/404
-    interval: 630
+    interval: 840
     timeout: 3000
-    tolerance: 500
+    tolerance: 800
     max-failed-times: 3
     lazy: true
+    proxies:
+      - 节点选择
+      - 自动选优
+      - 全局直连
     include-all-providers: true
     filter: (?i)gemini|gpt|ikuuu|anytls|vless|hy2|美国 0[127]|美国 1[78]|美国 2[456]|美国-08|荷兰 0[345789]|ip5|TLS
     exclude-filter: (?i)香港
   - name: 国外媒体
     type: url-test
-    url: http://api.anthropic.com/v1/messages
+    url: https://api.anthropic.com/v1/messages
     expected-status: 401/403/404
-    interval: 600
+    interval: 960
     timeout: 2800
-    tolerance: 520
+    tolerance: 800
     max-failed-times: 3
     lazy: true
+    proxies:
+      - 节点选择
+      - 自动选优
+      - 谷歌服务
+      - 全局直连
     include-all-providers: true
     filter: (?i)gemini|gpt|ikuuu|anytls|vless|hy2|美国 0[127]|美国 1[78]|美国 2[4569]|美国-08|美国 30|荷兰 0[345789]|ip5|0133|USA [39]|SG95
     exclude-filter: (?i)香港
