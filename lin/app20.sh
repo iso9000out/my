@@ -485,10 +485,10 @@ proxy-providers:
 proxy-groups:
   - name: 节点选择
     type: select
-    proxies:
-      - 自动选优
     include-all-providers: true
     exclude-filter: 其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    proxies:
+      - 自动选优
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -512,9 +512,9 @@ proxy-groups:
     filter: (?i)gemini|gpt|ikuuu|anytls|vless|hy2|美国 0[127]|美国 1[78]|美国 2[456]|美国-08|荷兰 0[345789]|ip5|TLS
     exclude-filter: (?i)香港
     proxies:
+      - 全局直连
       - 节点选择
       - 自动选优
-      - 全局直连
   - name: 国外媒体
     type: url-test
     url: https://api.anthropic.com/v1/messages
@@ -528,10 +528,10 @@ proxy-groups:
     filter: (?i)gemini|gpt|ikuuu|anytls|vless|hy2|美国 0[127]|美国 1[78]|美国 2[4569]|美国-08|美国 30|荷兰 0[345789]|ip5|0133|USA [39]|SG95
     exclude-filter: (?i)香港
     proxies:
+      - 全局直连
       - 节点选择
       - 自动选优
       - 谷歌服务
-      - 全局直连
   - name: 微软服务
     type: select
     proxies:
