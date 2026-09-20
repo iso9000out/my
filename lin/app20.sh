@@ -439,22 +439,22 @@ proxy-providers:
 #      enable: true
 #      interval: 3805
 #      url: https://www.gstatic.com/generate_204
-#  Leon406-a11-Git都不通100个暂时隐藏:
-#    type: http
-#    url: https://s.imgki.com/cU5vQmq
-#    interval: 43452
-#    health-check:
-#      enable: true
-#      interval: 3810
-#      url: https://www.gstatic.com/generate_204
-#  Vanic24-9PB-Git假通400多个暂时隐藏:
-#    type: http
-#    url: https://s.imgki.com/tnjZ95Y
-#    interval: 43459
-#    health-check:
-#      enable: true
-#      interval: 3815
-#      url: https://www.gstatic.com/generate_204
+  Leon406-a11-Git:
+    type: http
+    url: https://s.imgki.com/XhwUw5X
+    interval: 43452
+    health-check:
+      enable: true
+      interval: 3810
+      url: https://www.gstatic.com/generate_204
+  Vanic24-9PB-Git:
+    type: http
+    url: https://s.imgki.com/BgsOOzm
+    interval: 43459
+    health-check:
+      enable: true
+      interval: 3815
+      url: https://www.gstatic.com/generate_204
   XingJi-Site:
     type: http
     url: https://s.imgki.com/C8SNzpZ
