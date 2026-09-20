@@ -507,7 +507,7 @@ proxy-groups:
     timeout: 3000
     tolerance: 600
     max-failed-times: 3
-    lazy: true
+    #lazy: true
     #proxies:
       #- 节点选择
       #- 自动选优
@@ -522,7 +522,7 @@ proxy-groups:
     timeout: 2800
     tolerance: 600
     max-failed-times: 3
-    lazy: true
+    #lazy: true
     #proxies:
       #- 谷歌服务
     include-all-providers: true
