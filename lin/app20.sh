@@ -508,9 +508,9 @@ proxy-groups:
     tolerance: 600
     max-failed-times: 3
     lazy: true
-    proxies:
-      - 节点选择
-      - 自动选优
+    #proxies:
+      #- 节点选择
+      #- 自动选优
     include-all-providers: true
     filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2|claude|home
     exclude-filter: (?i)未知|新加坡 0[14]|香港|中国|委内瑞拉
@@ -523,8 +523,8 @@ proxy-groups:
     tolerance: 600
     max-failed-times: 3
     lazy: true
-    proxies:
-      - 谷歌服务
+    #proxies:
+      #- 谷歌服务
     include-all-providers: true
     filter: (?i)anytls|美国Gemini [6789]
     exclude-filter: (?i)未知|新加坡 0[14]|🇭🇰|香港|hk|🇨🇳|中国|cn|china
