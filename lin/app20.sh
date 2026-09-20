@@ -110,7 +110,7 @@ proxy-providers:
       enable: true
       interval: 3600
       url: https://www.gstatic.com/generate_204
-#  JiangJiang-Site暂时停用360多个:
+#  JiangJiang-Site暂时停用360多个 低不通 新加坡 04:
 #    type: http
 #    url: https://s.imgki.com/wn3LHHA
 #    interval: 43200
@@ -415,14 +415,14 @@ proxy-providers:
 #      enable: true
 #      interval: 3790
 #      url: https://www.gstatic.com/generate_204
-  o00o:
-    type: http
-    url: https://v1.mk/C9zAjfj
-    interval: 43431
-    health-check:
-      enable: true
-      interval: 3795
-      url: https://www.gstatic.com/generate_204
+#  o00o三十多个暂时停掉 低不通 新加坡 04:
+#    type: http
+#    url: https://v1.mk/C9zAjfj
+#    interval: 43431
+#    health-check:
+#      enable: true
+#      interval: 3795
+#      url: https://www.gstatic.com/generate_204
 #  Firefoxmmx2-Git不通数量少暂时隐藏:
 #    type: http
 #    url: https://s.subcsub.com/CrvXoUi
