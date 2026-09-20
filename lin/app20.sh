@@ -492,7 +492,7 @@ proxy-groups:
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 720
+    interval: 600
     timeout: 2000
     tolerance: 600
     max-failed-times: 3
@@ -503,9 +503,9 @@ proxy-groups:
     type: url-test
     url: https://generativelanguage.googleapis.com/
     expected-status: 401/403/404
-    interval: 840
+    interval: 360
     timeout: 3000
-    tolerance: 999
+    tolerance: 600
     max-failed-times: 3
     lazy: true
     proxies:
@@ -518,9 +518,9 @@ proxy-groups:
     type: url-test
     url: https://api.anthropic.com/v1/messages
     expected-status: 401/403/404
-    interval: 780
+    interval: 300
     timeout: 2800
-    tolerance: 999
+    tolerance: 600
     max-failed-times: 3
     lazy: true
     proxies:
