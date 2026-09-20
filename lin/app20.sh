@@ -508,12 +508,12 @@ proxy-groups:
     tolerance: 999
     max-failed-times: 3
     lazy: true
-    include-all-providers: true
-    filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2|claude|home
-    exclude-filter: (?i)未知|新加坡 0[14]|香港|中国|委内瑞拉
     proxies:
       - 节点选择
       - 自动选优
+    include-all-providers: true
+    filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2|claude|home
+    exclude-filter: (?i)未知|新加坡 0[14]|香港|中国|委内瑞拉
   - name: 国外媒体
     type: url-test
     url: https://api.anthropic.com/v1/messages
