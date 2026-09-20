@@ -152,7 +152,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
   Xrayvip-Site:
     type: http
-    url: https://s.imgki.com/jeOQoEk
+    url: https://s.imgki.com/cPzWgO9
     interval: 43228
     health-check:
       enable: true
@@ -247,14 +247,14 @@ proxy-providers:
 #      enable: true
 #      interval: 3685
 #      url: https://www.gstatic.com/generate_204
-#  ChuanZhuo-Git十几个都不通还是ripao:
-#    type: http
-#    url: https://v1.mk/FI6ZQSS
-#    interval: 43205
-#    health-check:
-#      enable: true
-#      interval: 3690
-#      url: https://www.gstatic.com/generate_204
+  ChuanZhuo-Git:
+    type: http
+    url: https://s.imgki.com/DCYoyot
+    interval: 43205
+    health-check:
+      enable: true
+      interval: 3690
+      url: https://www.gstatic.com/generate_204
   Anaer-Git:
     type: http
     url: https://s.imgki.com/4ycdzo8
@@ -271,7 +271,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3700
 #      url: https://www.gstatic.com/generate_204
-#  Q3dlaXpoaQ-Git特别多:
+#  Q3dlaXpoaQ-Git特别多更新不勤不通:
 #    type: http
 #    url: https://suo.yt/UtgiGRS
 #    interval: 43319
@@ -287,14 +287,14 @@ proxy-providers:
       enable: true
       interval: 3710
       url: https://www.gstatic.com/generate_204
-#  PawDroid-Git不好转CF:
-#    type: http
-#    url: https://v1.mk/rkUxua6
-#    interval: 43333
-#    health-check:
-#      enable: true
-#      interval: 3715
-#      url: https://www.gstatic.com/generate_204
+  PawDroid-CF-Git:
+    type: http
+    url: https://s.imgki.com/DOffMBA
+    interval: 39600
+    health-check:
+      enable: true
+      interval: 3715
+      url: https://www.gstatic.com/generate_204
   Zhangkaiitugithub-PassCRO-Git:
     type: http
     url: https://s.subcsub.com/sJtwgj8
@@ -319,7 +319,7 @@ proxy-providers:
       enable: true
       interval: 3730
       url: https://www.gstatic.com/generate_204
-#  ECH-CF不好转CF:
+#  ECH-CF不好转CF失效了下次替换:
 #    type: http
 #    url: https://v1.mk/nRpxfwk
 #    interval: 43347
@@ -327,14 +327,14 @@ proxy-providers:
 #      enable: true
 #      interval: 3735
 #      url: https://www.gstatic.com/generate_204
-#  PuddinCat-Git十几个都不通了:
-#    type: http
-#    url: https://v1.mk/r0wuDub
-#    interval: 43354
-#    health-check:
-#      enable: true
-#      interval: 3740
-#      url: https://www.gstatic.com/generate_204
+  PuddinCat-Git:
+    type: http
+    url: https://s.imgki.com/OtnN7rU
+    interval: 39607
+    health-check:
+      enable: true
+      interval: 3740
+      url: https://www.gstatic.com/generate_204
   Misaka-blog-Git:
     type: http
     url: https://v1.mk/tuntD1k
@@ -407,7 +407,7 @@ proxy-providers:
       enable: true
       interval: 3785
       url: https://www.gstatic.com/generate_204
-#  ShuaiDaoYa-Git十几个都不通了:
+#  ShuaiDaoYa-Git休假呢:
 #    type: http
 #    url: https://v1.mk/WYg2u6P
 #    interval: 43424
@@ -423,14 +423,14 @@ proxy-providers:
       enable: true
       interval: 3795
       url: https://www.gstatic.com/generate_204
-#  Firefoxmmx2-Git不通数量少暂时隐藏:
-#    type: http
-#    url: https://s.subcsub.com/CrvXoUi
-#    interval: 43438
-#    health-check:
-#      enable: true
-#      interval: 3800
-#      url: https://www.gstatic.com/generate_204
+  Firefoxmmx2-Git:
+    type: http
+    url: https://s.imgki.com/9F1XXfy
+    interval: 43438
+    health-check:
+      enable: true
+      interval: 3800
+      url: https://www.gstatic.com/generate_204
 #  Vanic24-8EB-Git维护经常混入出错暂时隐藏:
 #    type: http
 #    url: https://s.imgki.com/3lZemyQ
