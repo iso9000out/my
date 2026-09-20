@@ -105,7 +105,7 @@ proxy-providers:
   own-Git:
     type: http
     url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/test/own
-    interval: 86449
+    interval: 43200
     health-check:
       enable: true
       interval: 3600
@@ -113,7 +113,7 @@ proxy-providers:
 #  JiangJiang-Site暂时停用360多个:
 #    type: http
 #    url: https://s.imgki.com/wn3LHHA
-#    interval: 172400
+#    interval: 43200
 #    health-check:
 #      enable: true
 #      interval: 3605
@@ -121,7 +121,7 @@ proxy-providers:
 #  RiPao-Git十几个全不通:
 #    type: http
 #    url: https://v1.mk/gUX6fUH
-#    interval: 172407
+#    interval: 43207
 #    health-check:
 #      enable: true
 #      interval: 3610
@@ -129,7 +129,7 @@ proxy-providers:
 #  Free18-Git暂时停用723个:
 #    type: http
 #    url: https://v1.mk/BqrDxLy
-#    interval: 86414
+#    interval: 43214
 #    health-check:
 #      enable: true
 #      interval: 3615
@@ -137,7 +137,7 @@ proxy-providers:
 #  pgkj0402太多不通130个暂时隐藏:
 #    type: http
 #    url: https://v1.mk/I2iGw2N
-#    interval: 172421
+#    interval: 43221
 #    health-check:
 #      enable: true
 #      interval: 3620
@@ -145,7 +145,7 @@ proxy-providers:
   Snakem982-Git:
     type: http
     url: https://s.imgki.com/Ooef6rP
-    interval: 172428
+    interval: 43228
     health-check:
       enable: true
       interval: 3625
@@ -153,7 +153,7 @@ proxy-providers:
   Xrayvip-Site:
     type: http
     url: https://s.imgki.com/jeOQoEk
-    interval: 86428
+    interval: 43228
     health-check:
       enable: true
       interval: 3630
@@ -161,7 +161,7 @@ proxy-providers:
   ssrsub-Git:
     type: http
     url: https://s.imgki.com/Z0rsYKI
-    interval: 86433
+    interval: 43235
     health-check:
       enable: true
       interval: 3635
@@ -169,7 +169,7 @@ proxy-providers:
 #  Shahidbhutta-Git停止维护了:
 #    type: http
 #    url: https://suo.yt/gPljrlc
-#    interval: 86435
+#    interval: 43235
 #    health-check:
 #      enable: true
 #      interval: 3640
@@ -177,7 +177,7 @@ proxy-providers:
 #  ZiyouFly-Site失效了下次替换它:
 #    type: http
 #    url: https://s.imgki.com/fwCuV8Q
-#    interval: 86442
+#    interval: 43242
 #    health-check:
 #      enable: true
 #      interval: 3645
@@ -194,7 +194,7 @@ proxy-providers:
   shaoyouvip-Git:
     type: http
     url: https://s.imgki.com/BrVUSLb
-    interval: 172456
+    interval: 43256
     health-check:
       enable: true
       interval: 3655
@@ -202,7 +202,7 @@ proxy-providers:
 #  ChenGaoPan-Git爬别人的暂时隐藏:
 #    type: http
 #    url: https://s.subcsub.com/mtaeHb6
-#    interval: 172463
+#    interval: 43263
 #    health-check:
 #      enable: true
 #      interval: 3660
@@ -210,7 +210,7 @@ proxy-providers:
   iKuuu-Site:
     type: http
     url: https://s.imgki.com/wfiZ8mg
-    interval: 86470
+    interval: 43270
     health-check:
       enable: true
       interval: 3665
@@ -218,7 +218,7 @@ proxy-providers:
   Meng-Littlebais-Git:
     type: http
     url: https://s.subcsub.com/c3pJjc5
-    interval: 172477
+    interval: 43277
     health-check:
       enable: true
       interval: 3670
@@ -226,7 +226,7 @@ proxy-providers:
   YuYan-BJD:
     type: http
     url: https://v1.mk/nGckgm4
-    interval: 172484
+    interval: 43284
     health-check:
       enable: true
       interval: 3675
@@ -234,7 +234,7 @@ proxy-providers:
   ZhouRunFa-Git:
     type: http
     url: https://v1.mk/iOHCWFc
-    interval: 172491
+    interval: 43291
     health-check:
       enable: true
       interval: 3680
@@ -242,7 +242,7 @@ proxy-providers:
 #  FeiNiaoYun过期了:
 #    type: http
 #    url: https://s.imgki.com/9BnK3s2
-#    interval: 86498
+#    interval: 43298
 #    health-check:
 #      enable: true
 #      interval: 3685
@@ -250,7 +250,7 @@ proxy-providers:
 #  ChuanZhuo-Git十几个都不通还是ripao:
 #    type: http
 #    url: https://v1.mk/FI6ZQSS
-#    interval: 172505
+#    interval: 43205
 #    health-check:
 #      enable: true
 #      interval: 3690
@@ -258,7 +258,7 @@ proxy-providers:
   Anaer-Git:
     type: http
     url: https://s.imgki.com/4ycdzo8
-    interval: 172505
+    interval: 43205
     health-check:
       enable: true
       interval: 3695
@@ -266,7 +266,7 @@ proxy-providers:
 #  AllinOne-Site失效了下次替换:
 #    type: http
 #    url: https://3x.lbruh.xyz:2096/clash/all_in_one
-#    interval: 172512
+#    interval: 43312
 #    health-check:
 #      enable: true
 #      interval: 3700
@@ -274,7 +274,7 @@ proxy-providers:
 #  Q3dlaXpoaQ-Git特别多:
 #    type: http
 #    url: https://suo.yt/UtgiGRS
-#    interval: 86519
+#    interval: 43319
 #    health-check:
 #      enable: true
 #      interval: 3705
@@ -282,7 +282,7 @@ proxy-providers:
   go4sharing-Git:
     type: http
     url: https://s.imgki.com/ZUTyTJs
-    interval: 172526
+    interval: 43326
     health-check:
       enable: true
       interval: 3710
@@ -290,7 +290,7 @@ proxy-providers:
 #  PawDroid-Git不好转CF:
 #    type: http
 #    url: https://v1.mk/rkUxua6
-#    interval: 86533
+#    interval: 43333
 #    health-check:
 #      enable: true
 #      interval: 3715
@@ -298,7 +298,7 @@ proxy-providers:
   Zhangkaiitugithub-PassCRO-Git:
     type: http
     url: https://s.subcsub.com/sJtwgj8
-    interval: 172540
+    interval: 43340
     health-check:
       enable: true
       interval: 3720
@@ -306,7 +306,7 @@ proxy-providers:
   cnqq-Site:
     type: http
     url: https://s.imgki.com/FckE08j
-    interval: 86540
+    interval: 43340
     health-check:
       enable: true
       interval: 3725
@@ -314,7 +314,7 @@ proxy-providers:
   Barabama-cfmem-Git:
     type: http
     url: https://s.imgki.com/MMG3FsE
-    interval: 172240
+    interval: 43340
     health-check:
       enable: true
       interval: 3730
@@ -322,7 +322,7 @@ proxy-providers:
 #  ECH-CF不好转CF:
 #    type: http
 #    url: https://v1.mk/nRpxfwk
-#    interval: 86547
+#    interval: 43347
 #    health-check:
 #      enable: true
 #      interval: 3735
@@ -330,7 +330,7 @@ proxy-providers:
 #  PuddinCat-Git十几个都不通了:
 #    type: http
 #    url: https://v1.mk/r0wuDub
-#    interval: 172554
+#    interval: 43354
 #    health-check:
 #      enable: true
 #      interval: 3740
@@ -338,7 +338,7 @@ proxy-providers:
   Misaka-blog-Git:
     type: http
     url: https://v1.mk/tuntD1k
-    interval: 172561
+    interval: 43361
     health-check:
       enable: true
       interval: 3745
@@ -346,7 +346,7 @@ proxy-providers:
 #  Mahdibland-Git暂时停用201个英国不通的多:
 #    type: http
 #    url: https://v1.mk/qHDu29Z
-#    interval: 86568
+#    interval: 43368
 #    health-check:
 #      enable: true
 #      interval: 3750
@@ -354,7 +354,7 @@ proxy-providers:
   Mfuu-Git:
     type: http
     url: https://s.imgki.com/tptsxwn
-    interval: 86575
+    interval: 43375
     health-check:
       enable: true
       interval: 3755
@@ -362,7 +362,7 @@ proxy-providers:
 #  ts-sf-Git暂时停用85个:
 #    type: http
 #    url: https://v1.mk/enxRC1t
-#    interval: 86582
+#    interval: 43382
 #    health-check:
 #      enable: true
 #      interval: 3760
@@ -370,7 +370,7 @@ proxy-providers:
 #  Peasoft-Git十几个都不通还是ripao:
 #    type: http
 #    url: https://suo.yt/DBwxJDR
-#    interval: 172589
+#    interval: 43389
 #    health-check:
 #      enable: true
 #      interval: 3765
@@ -378,7 +378,7 @@ proxy-providers:
 #  itsyebekhe-Git共20个没通的:
 #    type: http
 #    url: https://v1.mk/cEV1C8m
-#    interval: 172596
+#    interval: 43396
 #    health-check:
 #      enable: true
 #      interval: 3770
@@ -386,7 +386,7 @@ proxy-providers:
   132X2-Site:
     type: http
     url: https://s.imgki.com/7JT4UXw
-    interval: 172603
+    interval: 43403
     health-check:
       enable: true
       interval: 3775
@@ -394,7 +394,7 @@ proxy-providers:
   ZhuhaiUK-Git:
     type: http
     url: https://s.imgki.com/UlPRCmR
-    interval: 172610
+    interval: 43410
     health-check:
       enable: true
       interval: 3780
@@ -402,7 +402,7 @@ proxy-providers:
   Valvatacea-Git:
     type: http
     url: https://v1.mk/c5spm88
-    interval: 172617
+    interval: 43417
     health-check:
       enable: true
       interval: 3785
@@ -410,7 +410,7 @@ proxy-providers:
 #  ShuaiDaoYa-Git十几个都不通了:
 #    type: http
 #    url: https://v1.mk/WYg2u6P
-#    interval: 172624
+#    interval: 43424
 #    health-check:
 #      enable: true
 #      interval: 3790
@@ -418,7 +418,7 @@ proxy-providers:
   o00o:
     type: http
     url: https://v1.mk/C9zAjfj
-    interval: 172631
+    interval: 43431
     health-check:
       enable: true
       interval: 3795
@@ -426,7 +426,7 @@ proxy-providers:
 #  Firefoxmmx2-Git不通数量少暂时隐藏:
 #    type: http
 #    url: https://s.subcsub.com/CrvXoUi
-#    interval: 172638
+#    interval: 43438
 #    health-check:
 #      enable: true
 #      interval: 3800
@@ -434,7 +434,7 @@ proxy-providers:
 #  Vanic24-8EB-Git维护经常混入出错暂时隐藏:
 #    type: http
 #    url: https://s.imgki.com/3lZemyQ
-#    interval: 86645
+#    interval: 43445
 #    health-check:
 #      enable: true
 #      interval: 3805
@@ -442,7 +442,7 @@ proxy-providers:
 #  Leon406-a11-Git都不通100个暂时隐藏:
 #    type: http
 #    url: https://s.imgki.com/cU5vQmq
-#    interval: 86652
+#    interval: 43452
 #    health-check:
 #      enable: true
 #      interval: 3810
@@ -450,7 +450,7 @@ proxy-providers:
 #  Vanic24-9PB-Git假通400多个暂时隐藏:
 #    type: http
 #    url: https://s.imgki.com/tnjZ95Y
-#    interval: 86659
+#    interval: 43459
 #    health-check:
 #      enable: true
 #      interval: 3815
@@ -458,7 +458,7 @@ proxy-providers:
   XingJi-Site:
     type: http
     url: https://s.imgki.com/C8SNzpZ
-    interval: 86666
+    interval: 43466
     health-check:
       enable: true
       interval: 3820
@@ -466,7 +466,7 @@ proxy-providers:
   HelloWorld-Git:
     type: http
     url: https://s.imgki.com/NEosjQD
-    interval: 86673
+    interval: 43473
     health-check:
       enable: true
       interval: 3825
@@ -474,7 +474,7 @@ proxy-providers:
   gSafe-Sitex2:
     type: http
     url: https://s.imgki.com/NLRfkCp
-    interval: 86680
+    interval: 43480
     health-check:
       enable: true
       interval: 3830
