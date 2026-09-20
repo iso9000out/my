@@ -518,14 +518,14 @@ proxy-groups:
     type: url-test
     url: https://api.anthropic.com/v1/messages
     expected-status: 401/403/404
-    interval: 960
+    interval: 780
     timeout: 2800
     tolerance: 999
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2|claude|home|美国Gemini [6789]|美国Gemini 1 2|新加坡 Anytls gemini|家宽
-    exclude-filter: (?i)未知|香港|中国|委内瑞拉
+    filter: (?i)mb|美国Gemini [6789]|美国Gemini 1 2|新加坡 Anytls gemini|家宽
+    exclude-filter: (?i)未知|香港|中国|aws|gemini|gpt|ikuuu
     proxies:
       - 谷歌服务
   - name: 微软服务
