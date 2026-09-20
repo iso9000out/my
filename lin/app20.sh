@@ -523,11 +523,11 @@ proxy-groups:
     tolerance: 999
     max-failed-times: 3
     lazy: true
+    proxies:
+      - 谷歌服务
     include-all-providers: true
     filter: (?i)mb|美国Gemini [6789]|美国Gemini 1 2|新加坡 Anytls gemini|家宽
     exclude-filter: (?i)未知|新加坡 0[14]|香港|中国|aws|gemini|gpt|ikuuu
-    proxies:
-      - 谷歌服务
   - name: 微软服务
     type: select
     proxies:
