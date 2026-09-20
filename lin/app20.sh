@@ -498,7 +498,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)aws|gemini|gpt|ikuuu|新加坡 04|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)aws|gemini|gpt|ikuuu|新加坡 0[14]|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: https://generativelanguage.googleapis.com/
@@ -510,7 +510,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2|claude|home
-    exclude-filter: (?i)未知|新加坡 04|香港|中国|委内瑞拉
+    exclude-filter: (?i)未知|新加坡 0[14]|香港|中国|委内瑞拉
     proxies:
       - 节点选择
       - 自动选优
@@ -525,7 +525,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)mb|美国Gemini [6789]|美国Gemini 1 2|新加坡 Anytls gemini|家宽
-    exclude-filter: (?i)未知|新加坡 04|香港|中国|aws|gemini|gpt|ikuuu
+    exclude-filter: (?i)未知|新加坡 0[14]|香港|中国|aws|gemini|gpt|ikuuu
     proxies:
       - 谷歌服务
   - name: 微软服务
