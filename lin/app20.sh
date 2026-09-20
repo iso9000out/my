@@ -134,7 +134,7 @@ proxy-providers:
 #      enable: true
 #      interval: 3615
 #      url: https://www.gstatic.com/generate_204
-#  pgkj0402太多不通130个暂时隐藏:
+#  pgkj0402 dapei太多不通130个暂时隐藏:
 #    type: http
 #    url: https://v1.mk/I2iGw2N
 #    interval: 43221
@@ -166,7 +166,7 @@ proxy-providers:
       enable: true
       interval: 3635
       url: https://www.gstatic.com/generate_204
-#  Shahidbhutta-Git停止维护了:
+#  Shahidbhutta-Git停止维护了下次替换它:
 #    type: http
 #    url: https://suo.yt/gPljrlc
 #    interval: 43235
@@ -199,7 +199,7 @@ proxy-providers:
       enable: true
       interval: 3655
       url: https://www.gstatic.com/generate_204
-#  ChenGaoPan-Git爬别人的暂时隐藏:
+#  ChenGaoPan-Git爬别人的zhangkai暂时隐藏:
 #    type: http
 #    url: https://s.subcsub.com/mtaeHb6
 #    interval: 43263
