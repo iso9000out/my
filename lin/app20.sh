@@ -110,14 +110,14 @@ proxy-providers:
       enable: true
       interval: 3600
       url: https://www.gstatic.com/generate_204
-#  JiangJiang-Site暂时停用360多个 低不通 新加坡 04:
-#    type: http
-#    url: https://s.imgki.com/wn3LHHA
-#    interval: 43200
-#    health-check:
-#      enable: true
-#      interval: 3605
-#      url: https://www.gstatic.com/generate_204
+   JiangJiang-Site:
+     type: http
+     url: https://s.imgki.com/wn3LHHA
+     interval: 43200
+     health-check:
+       enable: true
+       interval: 3605
+       url: https://www.gstatic.com/generate_204
 #  RiPao-Git十几个全不通:
 #    type: http
 #    url: https://v1.mk/gUX6fUH
@@ -415,14 +415,14 @@ proxy-providers:
 #      enable: true
 #      interval: 3790
 #      url: https://www.gstatic.com/generate_204
-#  o00o三十多个暂时停掉 低不通 新加坡 04:
-#    type: http
-#    url: https://v1.mk/C9zAjfj
-#    interval: 43431
-#    health-check:
-#      enable: true
-#      interval: 3795
-#      url: https://www.gstatic.com/generate_204
+   o00o:
+     type: http
+     url: https://v1.mk/C9zAjfj
+     interval: 43431
+     health-check:
+       enable: true
+       interval: 3795
+       url: https://www.gstatic.com/generate_204
 #  Firefoxmmx2-Git不通数量少暂时隐藏:
 #    type: http
 #    url: https://s.subcsub.com/CrvXoUi
@@ -498,7 +498,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)aws|gemini|gpt|ikuuu|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)aws|gemini|gpt|ikuuu|新加坡 04|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: https://generativelanguage.googleapis.com/
@@ -510,7 +510,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2|claude|home
-    exclude-filter: (?i)未知|香港|中国|委内瑞拉
+    exclude-filter: (?i)未知|新加坡 04|香港|中国|委内瑞拉
     proxies:
       - 节点选择
       - 自动选优
@@ -525,7 +525,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)mb|美国Gemini [6789]|美国Gemini 1 2|新加坡 Anytls gemini|家宽
-    exclude-filter: (?i)未知|香港|中国|aws|gemini|gpt|ikuuu
+    exclude-filter: (?i)未知|新加坡 04|香港|中国|aws|gemini|gpt|ikuuu
     proxies:
       - 谷歌服务
   - name: 微软服务
