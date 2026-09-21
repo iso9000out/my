@@ -516,8 +516,10 @@ proxy-groups:
     exclude-filter: (?i)未知|新加坡 0[14]|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru|委内瑞拉
   - name: 国外媒体
     type: url-test
-    url: https://api.anthropic.com/v1/messages
-    expected-status: 401/403/404
+    #url: https://api.anthropic.com/v1/messages
+    url: https://claude.ai
+    expected-status: 200
+    #expected-status: 401/403/404
     interval: 300
     timeout: 2800
     tolerance: 600
