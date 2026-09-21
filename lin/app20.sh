@@ -501,9 +501,9 @@ proxy-groups:
     exclude-filter: (?i)aws|gemini|gpt|ikuuu|新加坡 0[14]|美国 0[5]|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
-    url: https://generativelanguage.googleapis.com/
+    url: http://generativelanguage.googleapis.com/
     expected-status: 401/403/404
-    interval: 360
+    interval: 620
     timeout: 3000
     tolerance: 600
     max-failed-times: 3
@@ -512,13 +512,13 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)aws|gemini|gpt|vless
-    exclude-filter: (?i)ikuuu|未知|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru|委内瑞拉|新加坡 0[14]|美国 0[5]
+    filter: (?i)aws|vless|anytls|hyst|gemini|gpt|claude|美国Gemini [6789]
+    exclude-filter: (?i)ikuuu|未知|其他|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru|委内瑞拉|新加坡 0[14]|美国 0[5]
   - name: 国外媒体
     type: url-test
-    url: https://api.anthropic.com/v1/messages
+    url: http://api.anthropic.com/v1/messages
     expected-status: 401/403/404
-    interval: 300
+    interval: 630
     timeout: 2800
     tolerance: 600
     max-failed-times: 3
@@ -526,7 +526,6 @@ proxy-groups:
     proxies:
       - 谷歌服务
     include-all-providers: true
-    #filter: (?i)hyst|ikuuu|claude|anytls|美国Gemini [6789]
     filter: (?i)ikuuu
     exclude-filter: (?i)未知|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru|新加坡 0[14]|美国 0[5]
   - name: 微软服务
