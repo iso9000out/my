@@ -512,7 +512,7 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)aws|gemini|gpt|ikuuu|anytls|vless|hy2|claude|home
+    filter: (?i)aws|gemini|gpt|vless|home
     exclude-filter: (?i)未知|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru|委内瑞拉|新加坡 0[14]|美国 0[5]
   - name: 国外媒体
     type: url-test
@@ -526,7 +526,7 @@ proxy-groups:
     #proxies:
       #- 谷歌服务
     include-all-providers: true
-    filter: (?i)hyst|美国Gemini [6789]
+    filter: (?i)hyst|ikuuu|claude|anytls|美国Gemini [6789]
     exclude-filter: (?i)未知|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru|新加坡 0[14]|美国 0[5]
   - name: 微软服务
     type: select
