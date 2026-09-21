@@ -523,8 +523,8 @@ proxy-groups:
     tolerance: 600
     max-failed-times: 3
     lazy: true
-    #proxies:
-      #- 谷歌服务
+    proxies:
+      - 谷歌服务
     include-all-providers: true
     #filter: (?i)hyst|ikuuu|claude|anytls|美国Gemini [6789]
     filter: (?i)ikuuu
