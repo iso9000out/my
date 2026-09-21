@@ -512,7 +512,7 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)aws|gemini|gpt|vless|home
+    filter: (?i)aws|gemini|gpt|vless
     exclude-filter: (?i)ikuuu|未知|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru|委内瑞拉|新加坡 0[14]|美国 0[5]
   - name: 国外媒体
     type: url-test
