@@ -528,7 +528,7 @@ proxy-groups:
     #proxies:
       #- 谷歌服务
     include-all-providers: true
-    filter: (?i)anytls|美国Gemini [6789]
+    filter: (?i)hyst|美国Gemini [6789]
     exclude-filter: (?i)未知|新加坡 0[14]|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru
   - name: 微软服务
     type: select
