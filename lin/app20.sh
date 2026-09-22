@@ -321,7 +321,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   NodeBuf-My:
     type: http
-    url: https://nodebuf.com/dynamic?path=sub-i552wi0hn5&security=9lruKIZBICV8oqWV08jjPoocN7sP&type=mihomo
+    url: https://s.imgki.com/CmlokR8
     interval: 86547
     health-check:
       enable: true
