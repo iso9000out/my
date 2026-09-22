@@ -498,7 +498,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)aws|claude|gemini|gpt|ikuuu|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)aws|gemini|gpt|ikuuu|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: https://generativelanguage.googleapis.com/
@@ -513,10 +513,19 @@ proxy-groups:
       #- 自动选优
     filter: (?i)claude
   - name: 国外媒体
+    type: url-test
+    url: https://api.anthropic.com/v1/messages
+    expected-status: 401/403/404
+    interval: 800
+    timeout: 2800
+    tolerance: 600
+    max-failed-times: 3
+    lazy: true
     proxies:
-      - 节点选择
-      - 自动选优
-      - 全局直连
+      - 谷歌服务
+    include-all-providers: true
+    filter: (?i)ikuuu
+    exclude-filter: (?i)未知|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru
   - name: 微软服务
     type: select
     proxies:
@@ -712,10 +721,9 @@ rule-providers:
 
 rules:
   - DOMAIN-SUFFIX,gemini.gstatic.com,谷歌服务
-  - DOMAIN-SUFFIX,claude.com,谷歌服务
+  - DOMAIN-SUFFIX,claude.com,国外媒体
   - DOMAIN-SUFFIX,apis.google.com,节点选择
-  - DOMAIN-SUFFIX,challenges.cloudflare.com,谷歌服务
-  - DOMAIN-KEYWORD,nodebuf,谷歌服务
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,节点选择
 
 # 以上特殊扭转摆正强调的
 
@@ -727,7 +735,7 @@ rules:
   - RULE-SET,GoogleCN,全局直连
   - RULE-SET,Gemini,谷歌服务
   - RULE-SET,OpenAi,谷歌服务
-  - RULE-SET,Claude,谷歌服务
+  - RULE-SET,Claude,国外媒体
 #  - RULE-SET,AI,国外媒体
   - RULE-SET,Myrulesbai,全局直连
   - RULE-SET,Myrules,节点选择
