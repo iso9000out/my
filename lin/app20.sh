@@ -512,22 +512,12 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)aws|vless|anytls|hyst|gemini|gpt|claude|美国Gemini [6789]
-    exclude-filter: (?i)ikuuu|未知|其他|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru
+    filter: (?i)claude
   - name: 国外媒体
-    type: url-test
-    url: https://api.anthropic.com/v1/messages
-    expected-status: 401/403/404
-    interval: 800
-    timeout: 2800
-    tolerance: 600
-    max-failed-times: 3
-    lazy: true
     proxies:
-      - 谷歌服务
-    include-all-providers: true
-    filter: (?i)ikuuu
-    exclude-filter: (?i)未知|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru
+      - 节点选择
+      - 自动选优
+      - 全局直连
   - name: 微软服务
     type: select
     proxies:
@@ -723,7 +713,7 @@ rule-providers:
 
 rules:
   - DOMAIN-SUFFIX,gemini.gstatic.com,谷歌服务
-  - DOMAIN-SUFFIX,claude.com,国外媒体
+  - DOMAIN-SUFFIX,claude.com,谷歌服务
   - DOMAIN-SUFFIX,apis.google.com,节点选择
   - DOMAIN-SUFFIX,challenges.cloudflare.com,节点选择
 
@@ -737,7 +727,7 @@ rules:
   - RULE-SET,GoogleCN,全局直连
   - RULE-SET,Gemini,谷歌服务
   - RULE-SET,OpenAi,谷歌服务
-  - RULE-SET,Claude,国外媒体
+  - RULE-SET,Claude,谷歌服务
 #  - RULE-SET,AI,国外媒体
   - RULE-SET,Myrulesbai,全局直连
   - RULE-SET,Myrules,节点选择
