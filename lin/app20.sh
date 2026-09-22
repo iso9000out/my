@@ -513,7 +513,7 @@ proxy-groups:
       #- 自动选优
     include-all-providers: true
     filter: (?i)aws|vless|anytls|hyst|gemini|gpt|claude|美国Gemini [6789]
-    exclude-filter: (?i)ikuuu|未知|其他|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru|委内瑞拉|新加坡 0[14]|美国 0[5]|日本 1[3]
+    exclude-filter: (?i)ikuuu|未知|其他|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru
   - name: 国外媒体
     type: url-test
     url: http://api.anthropic.com/v1/messages
@@ -527,7 +527,7 @@ proxy-groups:
       - 谷歌服务
     include-all-providers: true
     filter: (?i)ikuuu
-    exclude-filter: (?i)未知|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru|新加坡 0[14]|美国 0[5]|日本 1[3]
+    exclude-filter: (?i)未知|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇺|俄罗斯|ru
   - name: 微软服务
     type: select
     proxies:
