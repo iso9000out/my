@@ -41,9 +41,9 @@ DOMAIN-KEYWORD,jiux001
 DOMAIN-KEYWORD,vercel
 DOMAIN-KEYWORD,meihuavpn
 DOMAIN-KEYWORD,huasuan666
-DOMAIN-KEYWORD,infinityfree
-DOMAIN-SUFFIX,infinityfree.com
 DOMAIN-SUFFIX,dash.infinityfree.com
+DOMAIN-SUFFIX,infinityfree.com
+DOMAIN-KEYWORD,infinityfree
 DOMAIN-SUFFIX,filemanager.ai
 DOMAIN-SUFFIX,freedom.gov
 DOMAIN-SUFFIX,ippure.com
@@ -57,8 +57,8 @@ DOMAIN-KEYWORD,whatismyipaddress
 DOMAIN-KEYWORD,showmyip
 DOMAIN-KEYWORD,whatismyv6
 DOMAIN-SUFFIX,sspanel.net
-DOMAIN-KEYWORD,ping0
 DOMAIN-SUFFIX,ping0.cc
+DOMAIN-KEYWORD,ping0
 DOMAIN-SUFFIX,ip4.me
 DOMAIN-SUFFIX,ip6.me
 DOMAIN-SUFFIX,ip4only.me
@@ -96,8 +96,8 @@ DOMAIN-KEYWORD,nordvpn
 DOMAIN-KEYWORD,500px
 DOMAIN-SUFFIX,digg.com
 DOMAIN-KEYWORD,aptoide
-DOMAIN-KEYWORD,surfshark
 DOMAIN-SUFFIX,surfshark.com
+DOMAIN-KEYWORD,surfshark
 DOMAIN-KEYWORD,feedburner
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,threads.com
