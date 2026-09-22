@@ -319,14 +319,14 @@ proxy-providers:
       enable: true
       interval: 3730
       url: http://www.gstatic.com/generate_204
-#  ECH-CF不好转CF失效了下次替换:
-#    type: http
-#    url: https://v1.mk/nRpxfwk
-#    interval: 86547
-#    health-check:
-#      enable: true
-#      interval: 3735
-#      url: http://www.gstatic.com/generate_204
+  NodeBuf-My:
+    type: http
+    url: https://nodebuf.com/dynamic?path=sub-i552wi0hn5&security=9lruKIZBICV8oqWV08jjPoocN7sP&type=mihomo
+    interval: 86547
+    health-check:
+      enable: true
+      interval: 3735
+      url: http://www.gstatic.com/generate_204
   PuddinCat-Git:
     type: http
     url: https://s.imgki.com/OtnN7rU
