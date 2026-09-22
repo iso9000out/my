@@ -287,10 +287,10 @@ proxy-providers:
       enable: true
       interval: 3710
       url: http://www.gstatic.com/generate_204
-  PawDroid-CF-Git:
+  PawDroid-CF-Git UPD 7h:
     type: http
     url: https://s.imgki.com/DOffMBA
-    interval: 86533
+    interval: 25200
     health-check:
       enable: true
       interval: 3715
