@@ -258,7 +258,7 @@ proxy-providers:
   Anaer-Git:
     type: http
     url: https://s.imgki.com/4ycdzo8
-    interval: 86509
+    interval: 86512
     health-check:
       enable: true
       interval: 3695
@@ -298,7 +298,7 @@ proxy-providers:
   Zhangkaiitugithub-PassCRO-Git:
     type: http
     url: https://s.subcsub.com/sJtwgj8
-    interval: 86540
+    interval: 86533
     health-check:
       enable: true
       interval: 3720
@@ -314,7 +314,7 @@ proxy-providers:
   Barabama-cfmem-Git:
     type: http
     url: https://s.imgki.com/MMG3FsE
-    interval: 86540
+    interval: 86547
     health-check:
       enable: true
       interval: 3730
@@ -386,7 +386,7 @@ proxy-providers:
   132X2-Site:
     type: http
     url: https://s.imgki.com/7JT4UXw
-    interval: 43403
+    interval: 86603
     health-check:
       enable: true
       interval: 3775
@@ -394,7 +394,7 @@ proxy-providers:
   ZhuhaiUK-Git:
     type: http
     url: https://s.imgki.com/UlPRCmR
-    interval: 43410
+    interval: 86610
     health-check:
       enable: true
       interval: 3780
@@ -402,7 +402,7 @@ proxy-providers:
   Valvatacea-Git:
     type: http
     url: https://v1.mk/c5spm88
-    interval: 43417
+    interval: 86617
     health-check:
       enable: true
       interval: 3785
@@ -410,7 +410,7 @@ proxy-providers:
 #  ShuaiDaoYa-Git休假呢:
 #    type: http
 #    url: https://v1.mk/WYg2u6P
-#    interval: 43424
+#    interval: 86624
 #    health-check:
 #      enable: true
 #      interval: 3790
@@ -418,7 +418,7 @@ proxy-providers:
 #  o00o抓的45个污染厉害:
 #    type: http
 #    url: https://v1.mk/C9zAjfj
-#    interval: 43431
+#    interval: 86631
 #    health-check:
 #      enable: true
 #      interval: 3795
@@ -426,7 +426,7 @@ proxy-providers:
   Firefoxmmx2-Git:
     type: http
     url: https://s.imgki.com/9F1XXfy
-    interval: 43438
+    interval: 86638
     health-check:
       enable: true
       interval: 3800
@@ -434,7 +434,7 @@ proxy-providers:
 #  Vanic24-8EB-Git维护经常混入出错暂时隐藏:
 #    type: http
 #    url: https://s.imgki.com/3lZemyQ
-#    interval: 43445
+#    interval: 86645
 #    health-check:
 #      enable: true
 #      interval: 3805
@@ -442,7 +442,7 @@ proxy-providers:
   Leon406-a11-Git:
     type: http
     url: https://s.imgki.com/XhwUw5X
-    interval: 43452
+    interval: 86652
     health-check:
       enable: true
       interval: 3810
@@ -450,7 +450,7 @@ proxy-providers:
   Vanic24-9PB-Git:
     type: http
     url: https://s.imgki.com/BgsOOzm
-    interval: 43459
+    interval: 86659
     health-check:
       enable: true
       interval: 3815
@@ -458,7 +458,7 @@ proxy-providers:
   XingJi-Site:
     type: http
     url: https://s.imgki.com/C8SNzpZ
-    interval: 43466
+    interval: 86666
     health-check:
       enable: true
       interval: 3820
@@ -466,7 +466,7 @@ proxy-providers:
   HelloWorld-Git:
     type: http
     url: https://s.imgki.com/NEosjQD
-    interval: 43473
+    interval: 86673
     health-check:
       enable: true
       interval: 3825
@@ -474,7 +474,7 @@ proxy-providers:
   gSafe-Sitex2:
     type: http
     url: https://s.imgki.com/NLRfkCp
-    interval: 43480
+    interval: 86680
     health-check:
       enable: true
       interval: 3830
