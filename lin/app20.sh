@@ -511,7 +511,6 @@ proxy-groups:
     #proxies:
       #- 节点选择
       #- 自动选优
-    include-all-providers: true
     filter: (?i)claude
   - name: 国外媒体
     proxies:
