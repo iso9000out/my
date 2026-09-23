@@ -493,7 +493,7 @@ proxy-groups:
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 600
-    timeout: 3800
+    timeout: 2000
     tolerance: 600
     max-failed-times: 3
     lazy: true
