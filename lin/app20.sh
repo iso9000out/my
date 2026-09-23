@@ -512,7 +512,7 @@ proxy-groups:
       #- 自动选优
     include-all-providers: true
     filter: (?i)claude
-    exclude-filter: (?i)vmess|relay
+    exclude-filter: (?i)vmess|relay|ss
   - name: 国外媒体
     type: select
     proxies:
