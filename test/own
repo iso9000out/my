@@ -3,8 +3,6 @@ proxies:
 
 #MyFind
 
-  - {name: USA 121, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true, tfo: false}
-  - {name: USA 212, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, tfo: false}
   - {name: 🇸🇬 SG95, server: svip.skycon808.com, port: 60005, type: anytls, password: 13f0acfa-38c1-4e82-a758-583aa31740df, skip-cert-verify: true, tfo: false}
   - {name: ip4.934618.xyz:51133, server: ip4.934618.xyz, port: 51133, type: anytls, password: github.com/Alvin9999-newpac/fanqiang, skip-cert-verify: true, tfo: false}
   - {name: ip5.934618.xyz:30099, server: ip5.934618.xyz, port: 30099, type: anytls, password: github.com/Alvin9999-newpac/fanqiang, skip-cert-verify: true, tfo: false}
@@ -14,9 +12,6 @@ proxies:
 
 #some
 
-  - {name: 🇺🇸 _US_美国_1, server: 3.144.113.215, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true, tfo: false}
-  - {name: 🇭🇰 _HK_中国香港->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡, server: 124.151.45.60, port: 38320, type: vmess, uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
 
 
 #Gemini
