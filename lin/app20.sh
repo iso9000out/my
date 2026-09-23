@@ -491,9 +491,9 @@ proxy-groups:
     exclude-filter: (?i)🇨🇳|中国|cn|china|claude|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    timeout: 2000
+    url: https://www.gstatic.com/generate_204
+    interval: 600
+    timeout: 3800
     tolerance: 600
     max-failed-times: 3
     lazy: true
