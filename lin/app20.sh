@@ -492,8 +492,8 @@ proxy-groups:
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 720
-    timeout: 5000
+    interval: 600
+    timeout: 2000
     tolerance: 600
     max-failed-times: 3
     lazy: true
