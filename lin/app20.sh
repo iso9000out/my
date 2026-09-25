@@ -263,14 +263,14 @@ proxy-providers:
       enable: true
       interval: 3695
       url: http://www.gstatic.com/generate_204
-#  AllinOne-Site失效了下次替换:
-#    type: http
-#    url: https://3x.lbruh.xyz:2096/clash/all_in_one
-#    interval: 43312
-#    health-check:
-#      enable: true
-#      interval: 3700
-#      url: http://www.gstatic.com/generate_204
+  HKG-Site:
+    type: http
+    url: https://s.imgki.com/xJC2t90
+    interval: 43312
+    health-check:
+      enable: true
+      interval: 3700
+      url: http://www.gstatic.com/generate_204
 #  Q3dlaXpoaQ-Git特别多更新不勤不通:
 #    type: http
 #    url: https://suo.yt/UtgiGRS
@@ -511,7 +511,7 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)claude
+    filter: (?i)claude|google
     exclude-filter: (?i)vmess|relay|ss
   - name: 国外媒体
     type: select
