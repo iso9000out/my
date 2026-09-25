@@ -303,14 +303,14 @@ proxy-providers:
       enable: true
       interval: 3720
       url: http://www.gstatic.com/generate_204
-  cnqq-Site:
-    type: http
-    url: https://s.imgki.com/FckE08j
-    interval: 43340
-    health-check:
-      enable: true
-      interval: 3725
-      url: http://www.gstatic.com/generate_204
+#  cnqq-Site一段时期内满了:
+#    type: http
+#    url: https://s.imgki.com/FckE08j
+#    interval: 43340
+#    health-check:
+#      enable: true
+#      interval: 3725
+#      url: http://www.gstatic.com/generate_204
   Barabama-cfmem-Git:
     type: http
     url: https://s.imgki.com/MMG3FsE
@@ -471,14 +471,14 @@ proxy-providers:
 #      enable: true
 #      interval: 3825
 #      url: http://www.gstatic.com/generate_204
-  gSafe-Sitex2:
-    type: http
-    url: https://s.imgki.com/NLRfkCp
-    interval: 43480
-    health-check:
-      enable: true
-      interval: 3830
-      url: http://www.gstatic.com/generate_204
+#  gSafe-Sitex2一段时期内满了:
+#    type: http
+#    url: https://s.imgki.com/NLRfkCp
+#    interval: 43480
+#    health-check:
+#      enable: true
+#      interval: 3830
+#      url: http://www.gstatic.com/generate_204
 
 
 
@@ -492,13 +492,13 @@ proxy-groups:
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 600
+    interval: 800
     timeout: 2000
     tolerance: 600
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)claude|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)claude|s0|relay|🇭🇰|香港|hk|🇨🇳|中国|cn|china|🇷🇴|罗马尼亚|ro|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
