@@ -327,6 +327,14 @@ proxy-providers:
       enable: true
       interval: 3735
       url: http://www.gstatic.com/generate_204
+  NodeBuf2-My:
+    type: http
+    url: https://s.imgki.com/5zCbYAb
+    interval: 43354
+    health-check:
+      enable: true
+      interval: 3733
+      url: http://www.gstatic.com/generate_204
   PuddinCat-Git:
     type: http
     url: https://s.imgki.com/OtnN7rU
