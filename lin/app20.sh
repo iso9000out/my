@@ -174,6 +174,14 @@ proxy-providers:
 #      enable: true
 #      interval: 3640
 #      url: http://www.gstatic.com/generate_204
+#  ZiyouFly-Site失效了下次替换它:
+#    type: http
+#    url: https://s.imgki.com/fwCuV8Q
+#    interval: 43242
+#    health-check:
+#      enable: true
+#      interval: 3645
+#      url: http://www.gstatic.com/generate_204
   YouZiLite-Site:
     exclude-filter: 关键词|关键的词
     type: http
@@ -318,14 +326,6 @@ proxy-providers:
     health-check:
       enable: true
       interval: 3735
-      url: http://www.gstatic.com/generate_204
-  NodeBuf-My2:
-    type: http
-    url: https://s.imgki.com/5zCbYAb
-    interval: 43242
-    health-check:
-      enable: true
-      interval: 3645
       url: http://www.gstatic.com/generate_204
   PuddinCat-Git:
     type: http
