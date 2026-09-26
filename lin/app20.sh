@@ -667,7 +667,7 @@ rule-providers:
   Mygoogle:
     type: http
     format: text
-    interval: 86451
+    interval: 1209
     behavior: classical
     url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/Mygoogle.list
     path: ./ruleset/Mygoogle.yaml
