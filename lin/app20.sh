@@ -664,6 +664,13 @@ rule-providers:
     behavior: classical
     url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/Myrulesbai.list
     path: ./ruleset/Myrulesbai.yaml
+  Mygoogle:
+    type: http
+    format: text
+    interval: 86451
+    behavior: classical
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/Mygoogle.list
+    path: ./ruleset/Mygoogle.yaml
   Gemini:
     type: http
     format: text
@@ -713,18 +720,8 @@ rule-providers:
 
 
 rules:
-  - DOMAIN-SUFFIX,gemini.gstatic.com,谷歌服务
-  - DOMAIN-SUFFIX,claude.com,谷歌服务
-  - DOMAIN-SUFFIX,apis.google.com,节点选择
-  - DOMAIN-SUFFIX,challenges.cloudflare.com,谷歌服务
-  - DOMAIN-SUFFIX,nodebuf.com,谷歌服务
-  - DOMAIN-KEYWORD,nodebuf,谷歌服务
 
-# 以上特殊扭转摆正强调的
-
-  
-#  - DOMAIN-SUFFIX,github.com,全局直连
-
+  - RULE-SET,Mygoogle,谷歌服务
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
