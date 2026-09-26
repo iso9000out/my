@@ -720,12 +720,6 @@ rule-providers:
 
 
 rules:
-  - DOMAIN-SUFFIX,gemini.gstatic.com,谷歌服务
-  - DOMAIN-SUFFIX,claude.com,谷歌服务
-  - DOMAIN-SUFFIX,apis.google.com,节点选择
-  - DOMAIN-SUFFIX,challenges.cloudflare.com,谷歌服务
-  - DOMAIN-SUFFIX,nodebuf.com,谷歌服务
-  - DOMAIN-KEYWORD,nodebuf,谷歌服务
 
   - RULE-SET,Mygoogle,谷歌服务
   - RULE-SET,LocalAreaNetwork,全局直连
