@@ -2,6 +2,8 @@ DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,accounts.youtube.com
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,youtubei.googleapis.com
 DOMAIN-SUFFIX,nodebuf.com
 DOMAIN-KEYWORD,nodebuf
