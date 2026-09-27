@@ -247,7 +247,7 @@ proxy-providers:
       enable: true
       interval: 3695
       url: http://www.gstatic.com/generate_204
-#  HKG-Site:
+#  HKG-Site失效了下次替换:
 #    type: http
 #    url: https://s.imgki.com/xJC2t90
 #    interval: 43312
