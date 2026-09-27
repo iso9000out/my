@@ -110,14 +110,14 @@ proxy-providers:
       enable: true
       interval: 3600
       url: http://www.gstatic.com/generate_204
-  JiangJiang-Site:
-    type: http
-    url: https://s.imgki.com/wn3LHHA
-    interval: 43200
-    health-check:
-      enable: true
-      interval: 3605
-      url: http://www.gstatic.com/generate_204
+#  JiangJiang-Site太多太杂通的不多:
+#    type: http
+#    url: https://s.imgki.com/wn3LHHA
+#    interval: 43200
+#    health-check:
+#      enable: true
+#      interval: 3605
+#      url: http://www.gstatic.com/generate_204
 #  RiPao-Git十几个全不通:
 #    type: http
 #    url: https://v1.mk/gUX6fUH
