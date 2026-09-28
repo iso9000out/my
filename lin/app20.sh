@@ -29,23 +29,23 @@ dns:
   use-hosts: true
   respect-rules: true
   cache-algorithm: arc
-  
+
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
-    
+
   proxy-server-nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
     - 223.5.5.5
     - 119.29.29.29
-    
+
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
     - https://dns.google/dns-query
     - tls://8.8.8.8:853
-    
+
   nameserver-policy:
     "+.googleapis.com":
       - https://dns.google/dns-query
@@ -57,12 +57,12 @@ dns:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
       - 223.5.5.5
-      
+
   fallback:
     - https://dns.google/dns-query
     - tls://8.8.8.8:853
     - tls://dns.google:853
-    
+
   fallback-filter:
     geoip: true
     geoip-code: CN
