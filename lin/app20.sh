@@ -272,7 +272,7 @@ proxy-providers:
 #      url: http://www.gstatic.com/generate_204
   go4sharing-Git:
     type: http
-    url: https://s.imgki.com/ZUTyTJs
+    url: https://s.imgki.com/ygWru6f
     interval: 43326
     health-check:
       enable: true
