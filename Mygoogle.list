@@ -6,3 +6,7 @@ DOMAIN-SUFFIX,accounts.google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,nodebuf.com
 DOMAIN-KEYWORD,nodebuf
+DOMAIN-SUFFIX,dash.infinityfree.com
+DOMAIN-SUFFIX,infinityfree.com
+DOMAIN-KEYWORD,infinityfree
+DOMAIN-SUFFIX,filemanager.ai
