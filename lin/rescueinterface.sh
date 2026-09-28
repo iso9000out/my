@@ -2,6 +2,8 @@
 
 
 /opt/bin/curl -sL "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/lin/app20.sh" -o /opt/storage/app_20.sh
+/opt/bin/curl -sL "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/lin/app21.sh" -o /opt/storage/app_21.sh
+
 
 
 # 以下这条48小时后下发完成后删除
