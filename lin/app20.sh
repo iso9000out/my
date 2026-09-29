@@ -1,4 +1,4 @@
-# date 2026-09-28
+# date 2026-09-30
 
 port: 7890
 socks-port: 7891
@@ -310,22 +310,22 @@ proxy-providers:
       enable: true
       interval: 3730
       url: http://www.gstatic.com/generate_204
-  NodeBuf-My:
+  MyNode5:
     type: http
-    url: https://s.imgki.com/CmlokR8
+    url: https://v1.mk/mtTEUUS
     interval: 43347
     health-check:
       enable: true
       interval: 3735
       url: http://www.gstatic.com/generate_204
-  NodeBuf2-My:
-    type: http
-    url: https://s.imgki.com/5zCbYAb
-    interval: 43354
-    health-check:
-      enable: true
-      interval: 3733
-      url: http://www.gstatic.com/generate_204
+#  NodeBuf2整合过了下次替换掉:
+#    type: http
+#    url: https://s.imgki.com/5zCbYAb
+#    interval: 43354
+#    health-check:
+#      enable: true
+#      interval: 3733
+#      url: http://www.gstatic.com/generate_204
   PuddinCat-Git:
     type: http
     url: https://s.imgki.com/OtnN7rU
