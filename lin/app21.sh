@@ -15,12 +15,17 @@ dns:
     - https://dns.alidns.com/dns-query
     - 223.5.5.5
     - 119.29.29.29
-    
+
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
     - https://dns.google/dns-query
     - tls://8.8.8.8:853
+
+  hosts:
+    'google.cn': google.com
+    'www.google.cn': google.com
+    '*.google.cn': google.com
 
   nameserver-policy:
     "+.googleapis.com":
@@ -81,10 +86,6 @@ sniffer:
     http: { ports: [80, 8080] }
     tls: { ports: [443, 8443] }
   skip-domain:
-    #Apple
     - 'courier.push.apple.com'
-    #mi
     - 'Mijia Cloud'
 
-
-#2026-09-28
