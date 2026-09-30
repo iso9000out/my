@@ -43,6 +43,11 @@ dns:
     - https://dns.google/dns-query
     - tls://8.8.8.8:853
 
+  hosts:
+    'google.cn': google.com
+    'www.google.cn': google.com
+    '*.google.cn': google.com
+
   nameserver-policy:
     "+.googleapis.com":
       - https://dns.google/dns-query
