@@ -4,3 +4,9 @@ DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-KEYWORD,bytedance
+
+#weixin
+DOMAIN-SUFFIX,channels.weixin.qq.com
+DOMAIN-SUFFIX,finder.video.qq.com
+DOMAIN-SUFFIX,vwechat.com
+DOMAIN-KEYWORD,finder
