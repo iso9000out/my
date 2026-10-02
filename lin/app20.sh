@@ -711,10 +711,10 @@ rule-providers:
     path: ./ruleset/AI.yaml
   ChangeIP:
     type: http
-    format: text
+    format: yaml
     interval: 86451
-    behavior: classical
-    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/ChangeIP.list
+    behavior: domain
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/ChangeIP.yaml
     path: ./ruleset/ChangeIP.yaml
     
 
