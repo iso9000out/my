@@ -692,6 +692,21 @@ rule-providers:
 #--------------------------------------------------#
 # https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
 rules:
+  # =====================================================================
+  # 抖音定向改 IP 规则（最高优先级，放在 rules: 最上方）
+  # =====================================================================
+  - DOMAIN-SUFFIX,douyin.com,谷歌服务
+  - DOMAIN-SUFFIX,douyin-static.com,谷歌服务
+  - DOMAIN-SUFFIX,douyin-static.net,谷歌服务
+  - DOMAIN-SUFFIX,snssdk.com,谷歌服务
+  - DOMAIN-SUFFIX,amemv.com,谷歌服务
+  - DOMAIN-SUFFIX,ixigua.com,谷歌服务
+  - DOMAIN-SUFFIX,byteoversea.com,谷歌服务
+  - DOMAIN-SUFFIX,ibytedtos.com,谷歌服务
+  - DOMAIN-KEYWORD,toutiaocloud,谷歌服务
+  - DOMAIN-KEYWORD,bytedance,谷歌服务
+  # =====================================================================
+
   - RULE-SET,Mygoogle,谷歌服务
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
