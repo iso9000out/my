@@ -517,6 +517,12 @@ proxy-groups:
     include-all-providers: true
     filter: (?i)claude|google
     exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan
+  - name: 修改IP
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选优
+      - 全局直连
   - name: 国外媒体
     type: select
     proxies:
@@ -703,6 +709,13 @@ rule-providers:
     behavior: classical
     url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list
     path: ./ruleset/AI.yaml
+  ChangeIP:
+    type: http
+    format: text
+    interval: 86448
+    behavior: classical
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/ChangeIP.list
+    path: ./ruleset/ChangeIP.yaml
     
 
 
@@ -725,6 +738,7 @@ rule-providers:
 
 rules:
 
+  - RULE-SET,ChangeIP,修改IP
   - RULE-SET,Mygoogle,谷歌服务
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
