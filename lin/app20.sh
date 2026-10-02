@@ -517,12 +517,6 @@ proxy-groups:
     include-all-providers: true
     filter: (?i)claude|google
     exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan
-  - name: 修改IP
-    type: select
-    proxies:
-      - 节点选择
-      - 自动选优
-      - 全局直连
   - name: 国外媒体
     type: select
     proxies:
@@ -569,13 +563,6 @@ proxy-groups:
 
 
 rule-providers:
-  ChangeIP:
-    type: http
-    format: text
-    interval: 86451
-    behavior: classical
-    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/ChangeIP.list
-    path: ./ruleset/ChangeIP.yaml
   LocalAreaNetwork:
     type: http
     format: text
@@ -738,7 +725,6 @@ rule-providers:
 
 rules:
 
-  - RULE-SET,ChangeIP,修改IP
   - RULE-SET,Mygoogle,谷歌服务
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
