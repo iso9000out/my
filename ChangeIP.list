@@ -1,6 +1,4 @@
 # douyin
 payload:
-  snssdk.com
-  amemv.com
-  *.snssdk.com
-  *.amemv.com
+  DOMAIN-SUFFIX,snssdk.com
+  DOMAIN-SUFFIX,amemv.com
