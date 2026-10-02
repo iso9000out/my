@@ -1,4 +1,5 @@
 # douyin
 payload:
+  DOMAIN-SUFFIX,douyin.com
   DOMAIN-SUFFIX,snssdk.com
   DOMAIN-SUFFIX,amemv.com
