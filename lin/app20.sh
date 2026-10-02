@@ -571,10 +571,10 @@ proxy-groups:
 rule-providers:
   ChangeIP:
     type: http
-    format: yaml
+    format: text
     interval: 86451
-    behavior: domain
-    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/ChangeIP.yaml
+    behavior: classical
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/ChangeIP.list
     path: ./ruleset/ChangeIP.yaml
   LocalAreaNetwork:
     type: http
