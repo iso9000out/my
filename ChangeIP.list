@@ -1,8 +1,6 @@
 # douyin
 DOMAIN-SUFFIX,douyin.com
-DOMAIN-SUFFIX,douyin-static.com
-DOMAIN-SUFFIX,douyin-static.net
+DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,ixigua.com
-DOMAIN-KEYWORD,toutiaocloud
+DOMAIN-KEYWORD,bytedance
