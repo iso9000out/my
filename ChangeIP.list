@@ -10,3 +10,9 @@ DOMAIN-SUFFIX,channels.weixin.qq.com
 DOMAIN-SUFFIX,finder.video.qq.com
 DOMAIN-SUFFIX,vwechat.com
 DOMAIN-KEYWORD,finder
+
+#sina
+DOMAIN,weibo.com
+DOMAIN,m.weibo.cn
+DOMAIN,api.weibo.cn
+DOMAIN,api.weibo.com
