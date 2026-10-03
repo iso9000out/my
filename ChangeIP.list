@@ -6,14 +6,14 @@ DOMAIN-SUFFIX,amemv.com
 DOMAIN-KEYWORD,bytedance
 
 #weixin
-DOMAIN-SUFFIX,channels.weixin.qq.com
-DOMAIN-SUFFIX,finder.video.qq.com
-DOMAIN-SUFFIX,vwechat.com
-DOMAIN-KEYWORD,finder
+#DOMAIN-SUFFIX,channels.weixin.qq.com
+#DOMAIN-SUFFIX,finder.video.qq.com
+#DOMAIN-SUFFIX,vwechat.com
+#DOMAIN-KEYWORD,finder
 
 #sina
-DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,m.weibo.cn
-DOMAIN-SUFFIX,mcp.weibo.cn
-DOMAIN-SUFFIX,api.weibo.cn
-DOMAIN-SUFFIX,api.weibo.com
+#DOMAIN-SUFFIX,weibo.com
+#DOMAIN-SUFFIX,m.weibo.cn
+#DOMAIN-SUFFIX,mcp.weibo.cn
+#DOMAIN-SUFFIX,api.weibo.cn
+#DOMAIN-SUFFIX,api.weibo.com
