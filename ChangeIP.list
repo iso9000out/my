@@ -12,7 +12,8 @@ DOMAIN-SUFFIX,vwechat.com
 DOMAIN-KEYWORD,finder
 
 #sina
-DOMAIN,weibo.com
-DOMAIN,m.weibo.cn
-DOMAIN,api.weibo.cn
-DOMAIN,api.weibo.com
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,m.weibo.cn
+DOMAIN-SUFFIX,mcp.weibo.cn
+DOMAIN-SUFFIX,api.weibo.cn
+DOMAIN-SUFFIX,api.weibo.com
