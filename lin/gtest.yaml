@@ -121,78 +121,6 @@ proxy-providers:
     health-check:
       enable: true
       interval: 3600
-  Snakem982-Git:
-    type: http
-    url: https://s.imgki.com/Ooef6rP
-    interval: 43228
-    health-check:
-      enable: true
-      interval: 3625
-      url: http://www.gstatic.com/generate_204
-  Xrayvip-Site:
-    type: http
-    url: https://s.imgki.com/cPzWgO9
-    interval: 43233
-    health-check:
-      enable: true
-      interval: 3630
-      url: http://www.gstatic.com/generate_204
-  YouZiLite-Site:
-    exclude-filter: 关键词|关键的词
-    type: http
-    url: https://s.imgki.com/yVKqMg3
-    interval: 43249
-    health-check:
-      enable: true
-      interval: 3650
-      url: http://www.gstatic.com/generate_204
-  shaoyouvip-Git:
-    type: http
-    url: https://s.imgki.com/BrVUSLb
-    interval: 43256
-    health-check:
-      enable: true
-      interval: 3655
-      url: http://www.gstatic.com/generate_204
-  iKuuu-Site-upd 24:
-    type: http
-    url: https://s.imgki.com/wfiZ8mg
-    interval: 86470
-    health-check:
-      enable: true
-      interval: 3665
-      url: http://www.gstatic.com/generate_204
-  Meng-Littlebais-Git:
-    type: http
-    url: https://s.subcsub.com/c3pJjc5
-    interval: 43277
-    health-check:
-      enable: true
-      interval: 3670
-      url: http://www.gstatic.com/generate_204
-  YuYan-BJD:
-    type: http
-    url: https://v1.mk/nGckgm4
-    interval: 43284
-    health-check:
-      enable: true
-      interval: 3675
-      url: http://www.gstatic.com/generate_204
-  ZhouRunFa-Git:
-    type: http
-    url: https://v1.mk/iOHCWFc
-    interval: 43291
-    health-check:
-      enable: true
-      interval: 3680
-      url: http://www.gstatic.com/generate_204
-  ChuanZhuo-Git:
-    type: http
-    url: https://s.imgki.com/DCYoyot
-    interval: 43305
-    health-check:
-      enable: true
-      interval: 3690
       url: http://www.gstatic.com/generate_204
   Anaer-Git:
     type: http
@@ -210,102 +138,6 @@ proxy-providers:
       enable: true
       interval: 3710
       url: http://www.gstatic.com/generate_204
-  PawDroid-CF-Git UPD 7h:
-    type: http
-    url: https://s.imgki.com/DOffMBA
-    interval: 25200
-    health-check:
-      enable: true
-      interval: 3715
-      url: http://www.gstatic.com/generate_204
-  Zhangkaiitugithub-PassCRO-Git:
-    type: http
-    url: https://s.subcsub.com/sJtwgj8
-    interval: 43333
-    health-check:
-      enable: true
-      interval: 3720
-      url: http://www.gstatic.com/generate_204
-  Barabama-cfmem-Git:
-    type: http
-    url: https://s.imgki.com/MMG3FsE
-    interval: 43347
-    health-check:
-      enable: true
-      interval: 3730
-      url: http://www.gstatic.com/generate_204
-  MyNode5:
-    type: http
-    url: https://v1.mk/mtTEUUS
-    interval: 43347
-    health-check:
-      enable: true
-      interval: 3735
-      url: http://www.gstatic.com/generate_204
-  PuddinCat-Git:
-    type: http
-    url: https://s.imgki.com/OtnN7rU
-    interval: 39607
-    health-check:
-      enable: true
-      interval: 3740
-      url: http://www.gstatic.com/generate_204
-  Misaka-blog-Git:
-    type: http
-    url: https://v1.mk/tuntD1k
-    interval: 43361
-    health-check:
-      enable: true
-      interval: 3745
-      url: http://www.gstatic.com/generate_204
-  Mfuu-Git:
-    type: http
-    url: https://s.imgki.com/tptsxwn
-    interval: 43375
-    health-check:
-      enable: true
-      interval: 3755
-      url: http://www.gstatic.com/generate_204
-  132X2-Site:
-    type: http
-    url: https://s.imgki.com/7JT4UXw
-    interval: 43403
-    health-check:
-      enable: true
-      interval: 3775
-      url: http://www.gstatic.com/generate_204
-  ZhuhaiUK-Git:
-    type: http
-    url: https://s.imgki.com/UlPRCmR
-    interval: 43410
-    health-check:
-      enable: true
-      interval: 3780
-      url: http://www.gstatic.com/generate_204
-  Valvatacea-Git:
-    type: http
-    url: https://v1.mk/c5spm88
-    interval: 43417
-    health-check:
-      enable: true
-      interval: 3785
-      url: http://www.gstatic.com/generate_204
-  Firefoxmmx2-Git:
-    type: http
-    url: https://s.imgki.com/9F1XXfy
-    interval: 43438
-    health-check:
-      enable: true
-      interval: 3800
-      url: http://www.gstatic.com/generate_204
-  Leon406-a11-Git:
-    type: http
-    url: https://s.imgki.com/XhwUw5X
-    interval: 43452
-    health-check:
-      enable: true
-      interval: 3810
-      url: http://www.gstatic.com/generate_204
   Vanic24-9PB-Git:
     type: http
     url: https://s.imgki.com/BgsOOzm
@@ -313,14 +145,6 @@ proxy-providers:
     health-check:
       enable: true
       interval: 3815
-      url: http://www.gstatic.com/generate_204
-  XingJi-Site:
-    type: http
-    url: https://s.imgki.com/onPCbxG
-    interval: 43466
-    health-check:
-      enable: true
-      interval: 3820
       url: http://www.gstatic.com/generate_204
 
 
