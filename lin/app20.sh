@@ -443,14 +443,14 @@ proxy-providers:
 #      enable: false
 #      interval: 3805
 #      url: http://www.gstatic.com/generate_204
-  Leon406-a11-Git:
-    type: http
-    url: https://s.imgki.com/XhwUw5X
-    interval: 43452
-    health-check:
-      enable: false
-      interval: 3810
-      url: http://www.gstatic.com/generate_204
+#  Leon406-a11-Git都不通125个还都中转还都ss:
+#    type: http
+#    url: https://s.imgki.com/XhwUw5X
+#    interval: 43452
+#    health-check:
+#      enable: false
+#      interval: 3810
+#      url: http://www.gstatic.com/generate_204
   Vanic24-9PB-Git:
     type: http
     url: https://s.imgki.com/BgsOOzm
