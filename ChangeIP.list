@@ -5,12 +5,6 @@ DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-KEYWORD,bytedance
 
-payload: 
-  DOMAIN-SUFFIX,douyin.com
-  DOMAIN-SUFFIX,zijieapi.com
-  DOMAIN-SUFFIX,snssdk.com
-  DOMAIN-SUFFIX,amemv.com
-  DOMAIN-KEYWORD,bytedance
 
 #weixin
 #DOMAIN-SUFFIX,channels.weixin.qq.com
