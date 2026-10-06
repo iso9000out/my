@@ -59,36 +59,6 @@ dns:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
       - 223.5.5.5
-    "amemv.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
-    "*.amemv.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
-    "douyin.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
-    "*.douyin.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
-    "snssdk.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
-    "*.snssdk.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
-    "zijieapi.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
-    "*.zijieapi.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
-    "bytedance.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
-    "*.bytedance.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
 
   fallback:
     - https://dns.google/dns-query
@@ -742,7 +712,7 @@ rule-providers:
   ChangeIP:
     type: http
     format: text
-    interval: 86448
+    interval: 1212
     behavior: classical
     url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/ChangeIP.list
     path: ./ruleset/ChangeIP.yaml
