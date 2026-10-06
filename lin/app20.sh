@@ -339,14 +339,14 @@ proxy-providers:
       enable: false
       interval: 3740
       url: http://www.gstatic.com/generate_204
-  Misaka-blog-Git:
-    type: http
-    url: https://v1.mk/tuntD1k
-    interval: 43361
-    health-check:
-      enable: false
-      interval: 3745
-      url: http://www.gstatic.com/generate_204
+#  Misaka-blog-Git很多280个都不通还ss:
+#    type: http
+#    url: https://v1.mk/tuntD1k
+#    interval: 43361
+#    health-check:
+#      enable: false
+#      interval: 3745
+#      url: http://www.gstatic.com/generate_204
 #  Mahdibland-Git暂时停用201个英国不通的多:
 #    type: http
 #    url: https://v1.mk/qHDu29Z
