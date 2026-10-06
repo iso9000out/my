@@ -595,7 +595,7 @@ rule-providers:
     format: text
     interval: 86409
     behavior: classical
-    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/ChinaDomain.list
     path: ./ruleset/ChinaDomain.yaml
   ChinaCompanyIp:
     type: http
