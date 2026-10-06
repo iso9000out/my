@@ -5,10 +5,17 @@ DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-KEYWORD,bytedance
 
-DOMAIN-SUFFIX,api-play.amemv.com
-DOMAIN-SUFFIX,log5-misc-hl.amemv.com
-DOMAIN-SUFFIX,mon0-misc-hl.amemv.com
-DOMAIN-SUFFIX,api3-platform-m-hj.amemv.com
+payload: |
+  - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,zijieapi.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,*.snssdk.com
+  - DOMAIN-SUFFIX,*.amemv.com
+  - DOMAIN-SUFFIX,*.douyin.com
+  - DOMAIN-KEYWORD,bytedance
+  - DOMAIN-SUFFIX,*.bytedance.com
+  - DOMAIN-SUFFIX,*.byteoversea.com
 
 #weixin
 #DOMAIN-SUFFIX,channels.weixin.qq.com
