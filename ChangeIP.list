@@ -7,16 +7,10 @@ DOMAIN-KEYWORD,bytedance
 
 payload: |
   DOMAIN-SUFFIX,douyin.com
-  DOMAIN-SUFFIX,*.douyin.com
   DOMAIN-SUFFIX,zijieapi.com
-  DOMAIN-SUFFIX,*.zijieapi.com
   DOMAIN-SUFFIX,snssdk.com
-  DOMAIN-SUFFIX,*.snssdk.com
   DOMAIN-SUFFIX,amemv.com
-  DOMAIN-SUFFIX,*.amemv.com
   DOMAIN-KEYWORD,bytedance
-  DOMAIN-SUFFIX,*.bytedance.com
-  DOMAIN-SUFFIX,*.byteoversea.com
 
 #weixin
 #DOMAIN-SUFFIX,channels.weixin.qq.com
