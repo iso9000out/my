@@ -459,14 +459,14 @@ proxy-providers:
       enable: false
       interval: 3815
       url: http://www.gstatic.com/generate_204
-  XingJi-Site:
-    type: http
-    url: https://s.imgki.com/onPCbxG
-    interval: 43466
-    health-check:
-      enable: false
-      interval: 3820
-      url: http://www.gstatic.com/generate_204
+#  XingJi-Site失效了下次替换:
+#    type: http
+#    url: https://s.imgki.com/onPCbxG
+#    interval: 43466
+#    health-check:
+#      enable: false
+#      interval: 3820
+#      url: http://www.gstatic.com/generate_204
 #  HelloWorld-Git就两个无意义:
 #    type: http
 #    url: https://s.imgki.com/NEosjQD
