@@ -59,6 +59,36 @@ dns:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
       - 223.5.5.5
+    "amemv.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "*.amemv.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "douyin.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "*.douyin.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "snssdk.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "*.snssdk.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "zijieapi.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "*.zijieapi.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "bytedance.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "*.bytedance.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
 
   fallback:
     - https://dns.google/dns-query
