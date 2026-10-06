@@ -5,7 +5,7 @@ DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-KEYWORD,bytedance
 
-payload: |
+payload: 
   DOMAIN-SUFFIX,douyin.com
   DOMAIN-SUFFIX,zijieapi.com
   DOMAIN-SUFFIX,snssdk.com
