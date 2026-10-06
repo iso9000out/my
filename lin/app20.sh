@@ -162,14 +162,14 @@ proxy-providers:
       enable: false
       interval: 3625
       url: http://www.gstatic.com/generate_204
-  Xrayvip-Site:
-    type: http
-    url: https://s.imgki.com/cPzWgO9
-    interval: 43233
-    health-check:
-      enable: false
-      interval: 3630
-      url: http://www.gstatic.com/generate_204
+#  Xrayvip-Site很多100个都不通了vless:
+#    type: http
+#    url: https://s.imgki.com/cPzWgO9
+#    interval: 43233
+#    health-check:
+#      enable: false
+#      interval: 3630
+#      url: http://www.gstatic.com/generate_204
 #  ssrsub-Git太多450个污染厉害:
 #    type: http
 #    url: https://s.imgki.com/Z0rsYKI
@@ -178,15 +178,15 @@ proxy-providers:
 #      enable: false
 #      interval: 3635
 #      url: http://www.gstatic.com/generate_204
-  YouZiLite-Site:
-    exclude-filter: 关键词|关键的词
-    type: http
-    url: https://s.imgki.com/yVKqMg3
-    interval: 43249
-    health-check:
-      enable: false
-      interval: 3650
-      url: http://www.gstatic.com/generate_204
+#  YouZiLite-Site都过期了不通了10个:
+#    exclude-filter: 关键词|关键的词
+#    type: http
+#    url: https://s.imgki.com/yVKqMg3
+#    interval: 43249
+#    health-check:
+#      enable: false
+#      interval: 3650
+#      url: http://www.gstatic.com/generate_204
   shaoyouvip-Git:
     type: http
     url: https://s.imgki.com/BrVUSLb
@@ -219,14 +219,14 @@ proxy-providers:
       enable: false
       interval: 3670
       url: http://www.gstatic.com/generate_204
-  YuYan-BJD:
-    type: http
-    url: https://v1.mk/nGckgm4
-    interval: 43284
-    health-check:
-      enable: false
-      interval: 3675
-      url: http://www.gstatic.com/generate_204
+#  YuYan-BJD好多BGP和anytls都不通了:
+#    type: http
+#    url: https://v1.mk/nGckgm4
+#    interval: 43284
+#    health-check:
+#      enable: false
+#      interval: 3675
+#      url: http://www.gstatic.com/generate_204
   ZhouRunFa-Git:
     type: http
     url: https://v1.mk/iOHCWFc
