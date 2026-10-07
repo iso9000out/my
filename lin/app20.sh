@@ -506,9 +506,9 @@ proxy-groups:
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 500
+    interval: 900
     timeout: 3000
-    tolerance: 600
+    tolerance: 500
     max-failed-times: 3
     lazy: true
     #proxies:
