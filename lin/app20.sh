@@ -1,4 +1,4 @@
-# date 2026-10-06
+# date 2026-10-07
 
 port: 7890
 socks-port: 7891
@@ -506,7 +506,7 @@ proxy-groups:
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 900
+    interval: 500
     timeout: 3000
     tolerance: 600
     max-failed-times: 3
