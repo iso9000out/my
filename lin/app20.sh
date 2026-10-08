@@ -117,7 +117,7 @@ proxy-providers:
   own-Git:
     type: http
     url: https://cdn.gh-proxy.org/https://raw.githubusercontent.com/iso9000out/my/main/test/own
-    interval: 43133
+    interval: 86400
     health-check:
       enable: false
       interval: 3600
@@ -125,7 +125,7 @@ proxy-providers:
   Snakem982-Git:
     type: http
     url: https://s.imgki.com/Ooef6rP
-    interval: 43228
+    interval: 28800
     health-check:
       enable: false
       interval: 3625
@@ -133,7 +133,7 @@ proxy-providers:
   shaoyouvip-Git:
     type: http
     url: https://s.imgki.com/BrVUSLb
-    interval: 43256
+    interval: 28807
     health-check:
       enable: false
       interval: 3655
@@ -141,7 +141,7 @@ proxy-providers:
   iKuuu-Site-upd 24:
     type: http
     url: https://s.imgki.com/wfiZ8mg
-    interval: 86470
+    interval: 86407
     health-check:
       enable: false
       interval: 3665
@@ -149,7 +149,7 @@ proxy-providers:
   Meng-Littlebais-Git:
     type: http
     url: https://s.subcsub.com/c3pJjc5
-    interval: 43277
+    interval: 28814
     health-check:
       enable: false
       interval: 3670
@@ -157,7 +157,7 @@ proxy-providers:
   ZhouRunFa-Git:
     type: http
     url: https://v1.mk/iOHCWFc
-    interval: 43291
+    interval: 28821
     health-check:
       enable: false
       interval: 3680
@@ -165,7 +165,7 @@ proxy-providers:
   ChuanZhuo-Git:
     type: http
     url: https://s.imgki.com/DCYoyot
-    interval: 43305
+    interval: 28828
     health-check:
       enable: false
       interval: 3690
@@ -173,7 +173,7 @@ proxy-providers:
   Anaer-Git:
     type: http
     url: https://s.imgki.com/4ycdzo8
-    interval: 43312
+    interval: 28835
     health-check:
       enable: false
       interval: 3695
@@ -181,7 +181,7 @@ proxy-providers:
   go4sharing-Git:
     type: http
     url: https://s.imgki.com/ygWru6f
-    interval: 43326
+    interval: 28842
     health-check:
       enable: false
       interval: 3710
@@ -197,7 +197,7 @@ proxy-providers:
   Zhangkaiitugithub-PassCRO-Git:
     type: http
     url: https://s.subcsub.com/sJtwgj8
-    interval: 43333
+    interval: 28849
     health-check:
       enable: false
       interval: 3720
@@ -205,7 +205,7 @@ proxy-providers:
   Barabama-cfmem-Git:
     type: http
     url: https://s.imgki.com/MMG3FsE
-    interval: 43347
+    interval: 28856
     health-check:
       enable: false
       interval: 3730
@@ -213,7 +213,7 @@ proxy-providers:
   MyNode5:
     type: http
     url: https://v1.mk/mtTEUUS
-    interval: 43347
+    interval: 28863
     health-check:
       enable: false
       interval: 3735
@@ -221,7 +221,7 @@ proxy-providers:
   PuddinCat-Git:
     type: http
     url: https://s.imgki.com/OtnN7rU
-    interval: 39607
+    interval: 28870
     health-check:
       enable: false
       interval: 3740
@@ -229,7 +229,7 @@ proxy-providers:
   Mfuu-Git:
     type: http
     url: https://s.imgki.com/tptsxwn
-    interval: 43375
+    interval: 28877
     health-check:
       enable: false
       interval: 3755
@@ -237,7 +237,7 @@ proxy-providers:
   132X2-Site:
     type: http
     url: https://s.imgki.com/7JT4UXw
-    interval: 43403
+    interval: 28884
     health-check:
       enable: false
       interval: 3775
@@ -245,7 +245,7 @@ proxy-providers:
   ZhuhaiUK-Git:
     type: http
     url: https://s.imgki.com/SiR9aNj
-    interval: 43410
+    interval: 28891
     health-check:
       enable: false
       interval: 3780
@@ -253,7 +253,7 @@ proxy-providers:
   Valvatacea-Git:
     type: http
     url: https://v1.mk/c5spm88
-    interval: 43417
+    interval: 28898
     health-check:
       enable: false
       interval: 3785
@@ -261,7 +261,7 @@ proxy-providers:
   Firefoxmmx2-Git:
     type: http
     url: https://s.imgki.com/9F1XXfy
-    interval: 43438
+    interval: 28905
     health-check:
       enable: false
       interval: 3800
@@ -269,7 +269,7 @@ proxy-providers:
   Vanic24-9PB-Git:
     type: http
     url: https://s.imgki.com/BgsOOzm
-    interval: 43459
+    interval: 28912
     health-check:
       enable: false
       interval: 3815
