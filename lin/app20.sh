@@ -515,7 +515,7 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)claude|google|hysteria2|(d)|(da)|(baz)|USA|SGP|JPN|KOR|FR|PL
+    filter: (?i)claude|google|hysteria2|(d)|(da)|(baz)|USA|SGP|JPN|FR|PL
     exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan
   - name: 修改IP
     type: select
