@@ -496,8 +496,8 @@ proxy-groups:
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 800
-    timeout: 2000
+    interval: 720
+    timeout: 3000
     tolerance: 600
     max-failed-times: 3
 #    lazy: true
@@ -506,7 +506,7 @@ proxy-groups:
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 900
+    interval: 780
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
@@ -515,7 +515,7 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)claude|google|hysteria2
+    filter: (?i)claude|google|hysteria2|(d)|(da)|(baz)|USA|SGP|JPN|KOR|FR|PL
     exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan
   - name: 修改IP
     type: select
