@@ -124,7 +124,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   Snakem982-Git:
     type: http
-    url: https://s.imgki.com/Ooef6rP
+    url: https://s.imgki.com/EPUIxlN
     interval: 28800
     health-check:
       enable: false
@@ -148,7 +148,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   Meng-Littlebais-Git:
     type: http
-    url: https://s.subcsub.com/c3pJjc5
+    url: https://s.imgki.com/8cqJvKX
     interval: 28814
     health-check:
       enable: false
@@ -228,7 +228,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   Mfuu-Git:
     type: http
-    url: https://s.imgki.com/tptsxwn
+    url: https://s.imgki.com/lhHyGWy
     interval: 28877
     health-check:
       enable: false
