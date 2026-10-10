@@ -1,4 +1,4 @@
-# date 2026-10-08
+# date 2026-10-10
 
 port: 7890
 socks-port: 7891
@@ -515,7 +515,7 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)claude|google|hysteria2|\(d\)|\(da\)|\(baz\)|USA|SGP|JPN|FR|PL
+    filter: (?i)claude|google|hysteria2|\(d\)|\(da\)|\(baz\)|USA|SGP|JPN|FR|PL|ws
     exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan
   - name: 修改IP
     type: select
