@@ -506,7 +506,12 @@ proxy-groups:
   - name: 谷歌服务
     type: url-test
     url: https://generativelanguage.googleapis.com/
-    expected-status: 401/403/404
+    expected-status:
+      - 200
+      - 400
+      - 401
+      - 403
+      - 404
     interval: 780
     timeout: 3000
     tolerance: 500
