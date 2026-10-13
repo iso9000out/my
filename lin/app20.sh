@@ -505,7 +505,8 @@ proxy-groups:
     exclude-filter: (?i)claude|104|162|172|s[0123]|s9999|\[ss\]|\[SS\]|xx|ro_|1x|bgp|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: https://generativelanguage.googleapis.com/
+    expected-status: 401/403/404
     interval: 780
     timeout: 3000
     tolerance: 500
