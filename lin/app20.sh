@@ -1,4 +1,4 @@
-# date 2026-10-15
+# date 2026-10-16
 
 port: 7890
 socks-port: 7891
@@ -212,7 +212,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   MyNode5:
     type: http
-    url: https://v1.mk/5jaszT2
+    url: https://v1.mk/A6upSuQ
     interval: 28863
     health-check:
       enable: false
@@ -492,7 +492,7 @@ proxy-groups:
     proxies:
       - 自动选优
     include-all-providers: true
-    exclude-filter: (?i)其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)claude|roxi|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -502,7 +502,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)claude|104|162|172|s[0123]|s9999|\[ss\]|\[SS\]|xx|ro_|1x|bgp|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)claude|roxi|104|162|172|s[0123]|s9999|\[ss\]|\[SS\]|xx|ro_|1x|bgp|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: https://generativelanguage.googleapis.com/
