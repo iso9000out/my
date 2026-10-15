@@ -212,7 +212,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   MyNode5:
     type: http
-    url: https://v1.mk/mtTEUUS
+    url: https://v1.mk/5jaszT2
     interval: 28863
     health-check:
       enable: false
