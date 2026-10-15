@@ -130,9 +130,9 @@ proxy-providers:
       enable: false
       interval: 3625
       url: http://www.gstatic.com/generate_204
-  shaoyouvip-Git:
+  ShaoyouVIPx2-Git:
     type: http
-    url: https://s.imgki.com/BrVUSLb
+    url: https://s.imgki.com/FavDsTK
     interval: 28807
     health-check:
       enable: false
@@ -154,14 +154,14 @@ proxy-providers:
       enable: false
       interval: 3670
       url: http://www.gstatic.com/generate_204
-  ZhouRunFa-Git:
-    type: http
-    url: https://v1.mk/iOHCWFc
-    interval: 28821
-    health-check:
-      enable: false
-      interval: 3680
-      url: http://www.gstatic.com/generate_204
+#  ZhouRunFa-Git:
+#    type: http
+#    url: https://s.imgki.com/nHL6nVv
+#    interval: 28821
+#    health-check:
+#      enable: false
+#      interval: 3680
+#      url: http://www.gstatic.com/generate_204
   ChuanZhuo-Git:
     type: http
     url: https://s.imgki.com/DCYoyot
