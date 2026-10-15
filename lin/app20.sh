@@ -204,7 +204,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   Barabama-cfmem-Git:
     type: http
-    url: https://s.imgki.com/MMG3FsE
+    url: https://s.imgki.com/yahKFvL
     interval: 28856
     health-check:
       enable: false
