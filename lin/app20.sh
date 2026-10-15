@@ -172,7 +172,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   Anaer-Git:
     type: http
-    url: https://s.imgki.com/4ycdzo8
+    url: https://s.imgki.com/2LobkRg
     interval: 28835
     health-check:
       enable: false
