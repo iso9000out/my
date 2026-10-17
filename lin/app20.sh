@@ -196,7 +196,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   Zhangkaiitugithub-PassCRO-Git:
     type: http
-    url: https://s.imgki.com/FKUWrYQ
+    url: https://s.imgki.com/Ty4sWoo
     interval: 28849
     health-check:
       enable: false
