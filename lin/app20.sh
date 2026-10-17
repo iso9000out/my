@@ -274,9 +274,9 @@ proxy-providers:
       enable: false
       interval: 3815
       url: http://www.gstatic.com/generate_204
-  LoveHK-SiteX7:
+  LoveHK-SiteX2:
     type: http
-    url: https://s.imgki.com/ZLTzteQ
+    url: https://s.imgki.com/8ki4oTi
     interval: 86414
     health-check:
       enable: false
