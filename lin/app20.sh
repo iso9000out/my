@@ -517,7 +517,7 @@ proxy-groups:
       #- 自动选优
     include-all-providers: true
     filter: (?i)claude|google|hysteria2|ssr|\(d\)|\(da\)|\(baz\)|USA|SGP|JPN|FR|PL|🇷🇴|ro_
-    exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|🇭🇰|🇨🇳
+    exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|https_|🇭🇰|🇨🇳
   - name: 修改IP
     type: select
     proxies:
