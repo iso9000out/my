@@ -15,3 +15,9 @@ DOMAIN-SUFFIX,filemanager.ai
 DOMAIN-SUFFIX,www.google.com.hk
 DOMAIN-SUFFIX,www.google.cn
 DOMAIN-SUFFIX,muse.ai
+
+
+#tiktok
+DOMAIN-KEYWORD,tiktokv
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.us
