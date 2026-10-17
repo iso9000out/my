@@ -516,7 +516,7 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)claude|google|lovehk|hysteria2|ssr|USA|de_1|机房|住宅
+    filter: (?i)claude|google|love|hysteria2|ssr|USA|de_1|机房|住宅
     exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|https_|9pb|🇭🇰|🇨🇳
   - name: 修改IP
     type: select
