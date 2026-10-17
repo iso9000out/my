@@ -236,7 +236,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   132X2-Site:
     type: http
-    url: https://s.imgki.com/7JT4UXw
+    url: https://s.imgki.com/XocsQmj
     interval: 28884
     health-check:
       enable: false
@@ -502,7 +502,7 @@ proxy-groups:
     max-failed-times: 3
 #    lazy: true
     include-all-providers: true
-    exclude-filter: (?i)claude|roxi|104|162|172|s[0123]|s9999|\[http|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)claude|roxi|104|162|172|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|hk|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: https://generativelanguage.googleapis.com/
