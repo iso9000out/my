@@ -1,6 +1,14 @@
 # My Rule
 
 
+DOMAIN-SUFFIX,ffq.la
+DOMAIN-SUFFIX,sub.ffq.la
+DOMAIN-SUFFIX,nodebuf.com
+DOMAIN-KEYWORD,nodebuf
+DOMAIN-SUFFIX,dash.infinityfree.com
+DOMAIN-SUFFIX,infinityfree.com
+DOMAIN-KEYWORD,infinityfree
+DOMAIN-SUFFIX,filemanager.ai
 DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,vscode.dev
 DOMAIN-SUFFIX,lovehk.xyz
