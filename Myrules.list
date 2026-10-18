@@ -162,7 +162,7 @@ DOMAIN-SUFFIX,tiktokd.org
 DOMAIN-SUFFIX,business-api.tiktok.com
 DOMAIN-SUFFIX,us.tiktok.com
 
-#cloudflare
+#CloudFlare
 DOMAIN-SUFFIX,dash.cloudflare.com
 DOMAIN-SUFFIX,dnshe.com
 
