@@ -284,7 +284,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   MyClaude:
     type: http
-    url: https://s.imgki.com/K7obbZB
+    url: https://cfnew.xy.kg/sub?host=https%3A%2F%2Fraspy-voice-6f45.iso9000out.workers.dev&uuid=277fa640-e8c7-4cc9-afe4-f1579c233b9a
     interval: 86421
     health-check:
       enable: false
