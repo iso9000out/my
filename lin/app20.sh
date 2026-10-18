@@ -282,14 +282,14 @@ proxy-providers:
       enable: false
       interval: 3820
       url: http://www.gstatic.com/generate_204
-#  HelloWorld-Git就两个无意义:
-#    type: http
-#    url: https://s.imgki.com/NEosjQD
-#    interval: 43473
-#    health-check:
-#      enable: false
-#      interval: 3825
-#      url: http://www.gstatic.com/generate_204
+  MyClaude:
+    type: http
+    url: https://s.imgki.com/K7obbZB
+    interval: 86421
+    health-check:
+      enable: false
+      interval: 3825
+      url: http://www.gstatic.com/generate_204
 #  gSafe-Sitex2一段时期内满了:
 #    type: http
 #    url: https://s.imgki.com/NLRfkCp
