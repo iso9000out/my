@@ -738,6 +738,8 @@ rule-providers:
 
 rules:
 
+  - RULE-SET,Myrulesbai,全局直连
+  - RULE-SET,Myrules,节点选择
   - RULE-SET,ChangeIP,修改IP
   - RULE-SET,Mygoogle,谷歌服务
   - RULE-SET,LocalAreaNetwork,全局直连
@@ -747,8 +749,6 @@ rules:
   - RULE-SET,OpenAi,谷歌服务
   - RULE-SET,Claude,谷歌服务
 #  - RULE-SET,AI,国外媒体
-  - RULE-SET,Myrulesbai,全局直连
-  - RULE-SET,Myrules,节点选择
   - RULE-SET,ChinaDomain,全局直连
   - RULE-SET,ChinaCompanyIp,全局直连
   - RULE-SET,ProxyMedia,节点选择
