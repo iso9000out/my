@@ -99,11 +99,6 @@ dns:
 experimental:
   quic-go-disable-gso: true
   quic-go-disable-ecn: true
-  ignore-resolve-fail: true
-#  cfw-latency-url: http://www.gstatic.com/generate_204
-#  cfw-latency-type: 1
-#  cfw-latency-timeout: 5000
-  cfw-conn-break-strategy: true
 
 sniffer:
   enable: true
