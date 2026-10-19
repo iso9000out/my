@@ -100,8 +100,8 @@ experimental:
   quic-go-disable-gso: true
   quic-go-disable-ecn: true
   ignore-resolve-fail: true
-  cfw-latency-url: https://connectivitycheck.gstatic.com/generate_204
-  cfw-latency-type: 1
+  cfw-latency-url: http://www.gstatic.com/generate_204
+#  cfw-latency-type: 1
   cfw-latency-timeout: 5000
   cfw-conn-break-strategy: true
 
@@ -500,7 +500,7 @@ proxy-groups:
 #    exclude-filter: (?i)claude|roxi|google|love|机房|住宅|优选域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     type: url-test
-    url: https://connectivitycheck.gstatic.com/generate_204
+    url: http://www.gstatic.com/generate_204
     interval: 720
     timeout: 3000
     tolerance: 600
