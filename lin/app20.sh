@@ -500,7 +500,7 @@ proxy-groups:
 #    exclude-filter: (?i)claude|roxi|google|love|机房|住宅|优选域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: https://connectivitycheck.gstatic.com/generate_204
     interval: 720
     timeout: 3000
     tolerance: 600
@@ -510,7 +510,8 @@ proxy-groups:
     exclude-filter: (?i)claude|roxi|google|love|机房|住宅|优选域名|电信|联通|移动|多线|ipv6|104|162|172|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
-    url: https://connectivitycheck.gstatic.com/generate_204
+    url: https://generativelanguage.googleapis.com/
+    expected-status: 200/400/401/403/404
     interval: 780
     timeout: 3000
     tolerance: 500
