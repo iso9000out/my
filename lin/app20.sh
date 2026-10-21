@@ -1,4 +1,4 @@
-# date 2026-10-21
+# date 2026-10-21-23
 
 port: 7890
 socks-port: 7891
@@ -274,7 +274,7 @@ proxy-providers:
       enable: false
       interval: 3815
       url: http://www.gstatic.com/generate_204
-#  LoveHK-SiteX2:
+#  LoveHK-SiteX2跑了:
 #    type: http
 #    url: https://s.imgki.com/8ki4oTi
 #    interval: 86414
@@ -515,7 +515,7 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)claude|roxi|google|机房|住宅|联通|多线
+    filter: (?i)claude|roxi|google|机房|住宅|🇺🇸|美国|us|🇸🇬|新加坡|sg|🇯🇵|日本|jp
     exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|https_|9pb|🇭🇰|🇨🇳
   - name: 修改IP
     type: select
