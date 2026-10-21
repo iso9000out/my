@@ -515,7 +515,7 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)claude|roxi|google|love|机房|住宅
+    filter: (?i)claude|roxi|google|love|机房|住宅|联通|多线
     exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|https_|9pb|🇭🇰|🇨🇳
   - name: 修改IP
     type: select
