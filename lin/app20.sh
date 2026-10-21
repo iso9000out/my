@@ -274,14 +274,14 @@ proxy-providers:
       enable: false
       interval: 3815
       url: http://www.gstatic.com/generate_204
-  LoveHK-SiteX2:
-    type: http
-    url: https://s.imgki.com/8ki4oTi
-    interval: 86414
-    health-check:
-      enable: false
-      interval: 3820
-      url: http://www.gstatic.com/generate_204
+#  LoveHK-SiteX2:
+#    type: http
+#    url: https://s.imgki.com/8ki4oTi
+#    interval: 86414
+#    health-check:
+#      enable: false
+#      interval: 3820
+#      url: http://www.gstatic.com/generate_204
   MyClaude:
     type: http
     url: https://cfnew.xy.kg/sub?host=https%3A%2F%2Fraspy-voice-6f45.iso9000out.workers.dev&uuid=277fa640-e8c7-4cc9-afe4-f1579c233b9a
@@ -492,7 +492,7 @@ proxy-groups:
     proxies:
       - 自动选优
 #    include-all-providers: true
-#    exclude-filter: (?i)claude|roxi|google|love|机房|住宅|优选域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+#    exclude-filter: (?i)claude|roxi|google|机房|住宅|优选域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -502,7 +502,7 @@ proxy-groups:
     max-failed-times: 3
 #    lazy: true
     include-all-providers: true
-    exclude-filter: (?i)claude|roxi|google|love|机房|住宅|104|162|172|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)claude|roxi|google|机房|住宅|104|162|172|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: http://connectivitycheck.gstatic.com/generate_204
@@ -515,7 +515,7 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)claude|roxi|google|love|机房|住宅|联通|多线
+    filter: (?i)claude|roxi|google|机房|住宅|联通|多线
     exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|https_|9pb|🇭🇰|🇨🇳
   - name: 修改IP
     type: select
