@@ -162,14 +162,14 @@ proxy-providers:
 #      enable: false
 #      interval: 3680
 #      url: http://www.gstatic.com/generate_204
-  ChuanZhuo-Git:
-    type: http
-    url: https://s.imgki.com/DCYoyot
-    interval: 28828
-    health-check:
-      enable: false
-      interval: 3690
-      url: http://www.gstatic.com/generate_204
+#  ChuanZhuo-Git都是转发不干净:
+#    type: http
+#    url: https://s.imgki.com/DCYoyot
+#    interval: 28828
+#    health-check:
+#      enable: false
+#      interval: 3690
+#      url: http://www.gstatic.com/generate_204
   Anaer-Git:
     type: http
     url: https://s.imgki.com/2LobkRg
