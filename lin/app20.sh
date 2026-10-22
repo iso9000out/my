@@ -186,22 +186,22 @@ proxy-providers:
 #      enable: false
 #      interval: 3710
 #      url: http://www.gstatic.com/generate_204
-  PawDroid-CF-Git UPD 7h:
-    type: http
-    url: https://s.imgki.com/DOffMBA
-    interval: 25200
-    health-check:
-      enable: false
-      interval: 3715
-      url: http://www.gstatic.com/generate_204
-  Zhangkaiitugithub-PassCRO-Git:
-    type: http
-    url: https://s.imgki.com/Ty4sWoo
-    interval: 28849
-    health-check:
-      enable: false
-      interval: 3720
-      url: http://www.gstatic.com/generate_204
+#  PawDroid-CF-Git UPD 7h一些cross杂乱:
+#    type: http
+#    url: https://s.imgki.com/DOffMBA
+#    interval: 25200
+#    health-check:
+#      enable: false
+#      interval: 3715
+#      url: http://www.gstatic.com/generate_204
+#  Zhangkaiitugithub-PassCRO-Git十几个ss杂乱:
+#    type: http
+#    url: https://s.imgki.com/Ty4sWoo
+#    interval: 28849
+#    health-check:
+#      enable: false
+#      interval: 3720
+#      url: http://www.gstatic.com/generate_204
   Barabama-cfmem-Git:
     type: http
     url: https://s.imgki.com/yahKFvL
@@ -226,14 +226,14 @@ proxy-providers:
       enable: false
       interval: 3740
       url: http://www.gstatic.com/generate_204
-  Mfuu-Git:
-    type: http
-    url: https://s.imgki.com/lhHyGWy
-    interval: 28877
-    health-check:
-      enable: false
-      interval: 3755
-      url: http://www.gstatic.com/generate_204
+#  Mfuu-Git一些cross杂乱:
+#    type: http
+#    url: https://s.imgki.com/lhHyGWy
+#    interval: 28877
+#    health-check:
+#      enable: false
+#      interval: 3755
+#      url: http://www.gstatic.com/generate_204
   132X2-Site:
     type: http
     url: https://s.imgki.com/XocsQmj
