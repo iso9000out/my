@@ -1,5 +1,10 @@
 # 计划任务
 24 */6 * * * /etc/storage/script/Sh10_clash.sh wget_yml & #cru.sh#clash_link_update#
+
+# 定时每周一2点30判断版本
+30 2 * * 1 /opt/bin/curl -sL "https://cdn.gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/clashver.sh" -o /tmp/clashver.sh && /bin/bash /tmp/clashver.sh
+
+# 定时每周一3点30重启
 30 3 * * 1 killall clash
 
 
