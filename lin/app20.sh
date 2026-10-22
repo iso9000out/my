@@ -491,6 +491,7 @@ proxy-groups:
     type: select
     proxies:
       - 自动选优
+    hidden: true
 #    include-all-providers: true
 #    exclude-filter: (?i)claude|roxi|google|机房|住宅|优选域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
