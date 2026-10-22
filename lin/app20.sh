@@ -765,8 +765,8 @@ rules:
   - RULE-SET,Apple,苹果服务
   - RULE-SET,Microsoft,微软服务
   - RULE-SET,Applications,全局直连
-  - RULE-SET,BanAD,广告过滤
-  - RULE-SET,BanProgramAD,广告过滤
+#  - RULE-SET,BanAD,广告过滤
+#  - RULE-SET,BanProgramAD,广告过滤
   - GEOIP,LAN,全局直连,no-resolve
   - GEOIP,CN,全局直连,no-resolve
   - MATCH,漏网之鱼
