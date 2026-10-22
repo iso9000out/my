@@ -274,6 +274,14 @@ proxy-providers:
       enable: false
       interval: 3815
       url: http://www.gstatic.com/generate_204
+  ssrsub-Git:
+    type: http
+    url: https://s.imgki.com/O6tvOB9
+    interval: 28919
+    health-check:
+      enable: false
+      interval: 3790
+      url: http://www.gstatic.com/generate_204
 #  LoveHK-SiteX2跑了:
 #    type: http
 #    url: https://s.imgki.com/8ki4oTi
@@ -465,14 +473,6 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3630
-#      url: http://www.gstatic.com/generate_204
-#  ssrsub-Git太多450个污染厉害:
-#    type: http
-#    url: https://s.imgki.com/Z0rsYKI
-#    interval: 43235
-#    health-check:
-#      enable: false
-#      interval: 3635
 #      url: http://www.gstatic.com/generate_204
 #  YouZiLite-Site都过期了不通了10个:
 #    exclude-filter: 关键词|关键的词
