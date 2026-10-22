@@ -530,34 +530,40 @@ proxy-groups:
       - 节点选择
       - 自动选优
       - 全局直连
+    hidden: true
   - name: 微软服务
     type: select
     proxies:
       - 全局直连
       - 节点选择
       - 自动选优
+    hidden: true
   - name: 苹果服务
     type: select
     proxies:
       - 全局直连
       - 节点选择
       - 自动选优
+    hidden: true
   - name: 广告过滤
     type: select
     proxies:
       - REJECT
       - DIRECT
+    hidden: true
   - name: 全局直连
     type: select
     proxies:
       - DIRECT
       - 节点选择
       - 自动选优
+    hidden: true
   - name: 全局拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
+    hidden: true
   - name: 漏网之鱼
     type: select
     proxies:
