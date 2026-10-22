@@ -503,7 +503,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)claude|roxi|google|机房|住宅|新加坡 0|新加坡 1|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)claude|roxi|google|机房|住宅|新加坡 0|新加坡 1|ro|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: http://connectivitycheck.gstatic.com/generate_204
@@ -517,7 +517,7 @@ proxy-groups:
       #- 自动选优
     include-all-providers: true
     filter: (?i)claude|roxi|google|机房|住宅|🇺🇸|美国|us
-    exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172
+    exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172|ro
   - name: 修改IP
     type: select
     proxies:
