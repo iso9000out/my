@@ -178,14 +178,14 @@ proxy-providers:
       enable: false
       interval: 3695
       url: http://www.gstatic.com/generate_204
-  go4sharing-Git:
-    type: http
-    url: https://s.imgki.com/ygWru6f
-    interval: 28842
-    health-check:
-      enable: false
-      interval: 3710
-      url: http://www.gstatic.com/generate_204
+#  go4sharing-Git十几个ss杂乱:
+#    type: http
+#    url: https://s.imgki.com/ygWru6f
+#    interval: 28842
+#    health-check:
+#      enable: false
+#      interval: 3710
+#      url: http://www.gstatic.com/generate_204
   PawDroid-CF-Git UPD 7h:
     type: http
     url: https://s.imgki.com/DOffMBA
