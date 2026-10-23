@@ -526,6 +526,7 @@ proxy-groups:
     tolerance: 500
     max-failed-times: 3
     lazy: true
+    include-all-providers: true
     filter: (?i)gm
   - name: 修改IP
     type: select
