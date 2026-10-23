@@ -519,10 +519,14 @@ proxy-groups:
     filter: (?i)claude|roxi|google|机房|住宅|🇺🇸|美国|us
     exclude-filter: (?i)vmess|relay|ws|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172|美国 40|->|ro
   - name: Gemini
-    type: select
-    proxies:
-      - 自动选优
-    filter: (?i)claude|roxi|google|机房|住宅|🇺🇸|美国|us
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 800
+    timeout: 3000
+    tolerance: 500
+    max-failed-times: 3
+    lazy: true
+    filter: (?i)gm
   - name: 修改IP
     type: select
     proxies:
