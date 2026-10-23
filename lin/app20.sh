@@ -3,7 +3,7 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-ipv6: false
+ipv6: true
 mode: rule
 log-level: error
 tcp-concurrent: true
@@ -21,7 +21,7 @@ skip-auth-prefixes:
 
 dns:
   enable: true
-  ipv6: false
+  ipv6: true
   use-hosts: true
   respect-rules: true
   cache-algorithm: arc
