@@ -511,13 +511,13 @@ proxy-groups:
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
-    #lazy: true
+    lazy: true
     #proxies:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
     filter: (?i)claude|roxi|google|机房|住宅|🇺🇸|美国|us
-    exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172|ro|美国 40
+    exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172|美国 40|ro
   - name: 修改IP
     type: select
     proxies:
