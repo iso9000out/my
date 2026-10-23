@@ -21,7 +21,7 @@
 
 
 # 钩子救火res接口 每6小时29分 执行一次 钩子只做执行命令作用，本身不存储文件，几个钩子不要同时启用
-29 */6 * * * /opt/bin/curl -sL "https://cdn.gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/rescueinterface.sh" -o /tmp/rescue.sh && /bin/sh /tmp/rescue.sh
+29 */6 * * * /opt/bin/curl -sL "https://cdn.gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/rescueinterface.sh" -o /tmp/rescue.sh && /bin/bash /tmp/rescue.sh
 # 钩子2 备用钩子 Neo
 # 29 */6 * * * /opt/bin/curl -sL "https://iso9000out.neocities.org/lin/rescueinterface" -o /tmp/rescue.sh && /bin/sh /tmp/rescue.sh
 # 钩子3 备用钩子 ydy空间https解析总出问题
