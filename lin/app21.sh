@@ -1,6 +1,6 @@
 dns:
   enable: true
-  ipv6: false
+  ipv6: true
   use-hosts: true
   respect-rules: true
   cache-algorithm: arc
