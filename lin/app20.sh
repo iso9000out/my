@@ -517,7 +517,7 @@ proxy-groups:
       #- 自动选优
     include-all-providers: true
     filter: (?i)claude|roxi|google|机房|住宅|🇺🇸|美国|us
-    exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172|美国 40|ro
+    exclude-filter: (?i)vmess|relay|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172|美国 40|->|ro
   - name: 修改IP
     type: select
     proxies:
