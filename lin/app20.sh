@@ -218,14 +218,14 @@ proxy-providers:
       enable: false
       interval: 3735
       url: http://www.gstatic.com/generate_204
-  PuddinCat-Git:
-    type: http
-    url: https://s.imgki.com/OtnN7rU
-    interval: 28870
-    health-check:
-      enable: false
-      interval: 3740
-      url: http://www.gstatic.com/generate_204
+#  PuddinCat-Git十几个hy ss太杂:
+#    type: http
+#    url: https://s.imgki.com/OtnN7rU
+#    interval: 28870
+#    health-check:
+#      enable: false
+#      interval: 3740
+#      url: http://www.gstatic.com/generate_204
 #  Mfuu-Git一些cross杂乱:
 #    type: http
 #    url: https://s.imgki.com/lhHyGWy
