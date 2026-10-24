@@ -517,7 +517,7 @@ proxy-groups:
       #- 自动选优
     include-all-providers: true
     filter: (?i)claude|roxi|google|机房|住宅|🇺🇸|美国|us
-    exclude-filter: (?i)vmess|relay|ws|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172|美国 40|->|ro
+    exclude-filter: (?i)vmess|relay|ws|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172|美国 40|美国 38|->|ro
   - name: Gemini
     type: url-test
     url: http://www.gstatic.com/generate_204
