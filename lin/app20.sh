@@ -511,7 +511,7 @@ proxy-groups:
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
-    lazy: true
+    #lazy: true
     #proxies:
       #- 节点选择
       #- 自动选优
@@ -525,7 +525,7 @@ proxy-groups:
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
-    lazy: true
+    #lazy: true
     include-all-providers: true
     filter: (?i)claude|roxi|google|机房|住宅|美国-00[13]
     exclude-filter: (?i)🇭🇰|🇨🇳
