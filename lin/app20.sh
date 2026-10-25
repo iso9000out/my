@@ -290,13 +290,29 @@ proxy-providers:
 #      enable: false
 #      interval: 3820
 #      url: http://www.gstatic.com/generate_204
-  MyClaude:
+  MyClaude1:
     type: http
-    url: https://cfnew.xy.kg/sub?host=https%3A%2F%2Fraspy-voice-6f45.iso9000out.workers.dev&uuid=277fa640-e8c7-4cc9-afe4-f1579c233b9a
+    url: https://cfnew.xy.kg/sub?host=https%3A%2F%2Fraspy-voice-6f45.iso9000out.workers.dev&uuid=277fa640-e8c7-4cc9-afe4-f1579c233b9a&target=vg
     interval: 86421
     health-check:
       enable: false
       interval: 3825
+      url: http://www.gstatic.com/generate_204
+  MyClaude2:
+    type: http
+    url: https://cfnew.xy.kg/sub?host=https%3A%2F%2Faged-night-bcca.iso9001out.workers.dev&uuid=15512025-99a2-4128-95a9-d86147047036&target=vg
+    interval: 86428
+    health-check:
+      enable: false
+      interval: 3830
+      url: http://www.gstatic.com/generate_204
+  MyClaude3:
+    type: http
+    url: https://cfnew.xy.kg/sub?host=https%3A%2F%2Fspring-cherry-aad1.iso9002out.workers.dev&uuid=fa16ba77-0745-464b-b55d-8e32eaf74265&target=vg
+    interval: 86435
+    health-check:
+      enable: false
+      interval: 3835
       url: http://www.gstatic.com/generate_204
 #  gSafe-Sitex2一段时期内满了:
 #    type: http
@@ -503,7 +519,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)claude|roxi|google|ipv6|ws|域名|机房|住宅|新加坡 0|新加坡 1|美国 40|ro|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)claude|roxi|google|ipv6|ws|域名|新加坡 0|新加坡 1|美国 40|ro|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -516,18 +532,18 @@ proxy-groups:
       #- 节点选择
       #- 自动选优
     include-all-providers: true
-    filter: (?i)claude|roxi|google|机房|住宅|🇺🇸|美国|us
+    filter: (?i)claude|roxi|google|🇺🇸|美国|us
     exclude-filter: (?i)vmess|relay|ws|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172|美国 40|美国 38|->|ro
   - name: Gemini
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 800
+    interval: 1200
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
     #lazy: true
     include-all-providers: true
-    filter: (?i)claude|roxi|google|机房|住宅|美国-001|德国 03|移动-0[135789]|移动-2[3579]
+    filter: (?i)claude|roxi|google|美国-001|德国 03|移动-0[13579]|移动-2[379]|联通-3[0]
     exclude-filter: (?i)🇭🇰|🇨🇳
   - name: 修改IP
     type: select
