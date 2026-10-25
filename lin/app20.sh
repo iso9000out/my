@@ -527,7 +527,7 @@ proxy-groups:
     max-failed-times: 3
     #lazy: true
     include-all-providers: true
-    filter: (?i)claude|roxi|google|机房|住宅|美国-00[13]
+    filter: (?i)claude|roxi|google|机房|住宅|美国-001|德国 03|移动-0[135789]|移动-2[3579]
     exclude-filter: (?i)🇭🇰|🇨🇳
   - name: 修改IP
     type: select
