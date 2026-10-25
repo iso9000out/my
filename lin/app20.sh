@@ -509,17 +509,17 @@ proxy-groups:
       - 自动选优
     hidden: true
 #    include-all-providers: true
-#    exclude-filter: (?i)claude|roxi|google|机房|住宅|优选域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+#    exclude-filter: (?i)claude|roxi|google|机房|住宅|家宽|域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     type: url-test
     url: http://connectivitycheck.gstatic.com/generate_204
-    interval: 720
+    interval: 1200
     timeout: 3000
     tolerance: 600
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)claude|roxi|google|ipv6|ws|域名|新加坡 0|新加坡 1|美国 40|ro|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)claude|roxi|google|ipv6|ws|家宽|域名|新加坡 0|新加坡 1|美国 40|ro|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -537,7 +537,7 @@ proxy-groups:
   - name: Gemini
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 1200
+    interval: 1300
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
