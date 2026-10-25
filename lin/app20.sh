@@ -266,14 +266,14 @@ proxy-providers:
       enable: false
       interval: 3800
       url: http://www.gstatic.com/generate_204
-  Vanic24-9PB-Git:
-    type: http
-    url: https://s.imgki.com/BgsOOzm
-    interval: 28912
-    health-check:
-      enable: false
-      interval: 3815
-      url: http://www.gstatic.com/generate_204
+#  Vanic24-9PB-Git太多360个hy2通一半:
+#    type: http
+#    url: https://s.imgki.com/BgsOOzm
+#    interval: 28912
+#    health-check:
+#      enable: false
+#      interval: 3815
+#      url: http://www.gstatic.com/generate_204
   ssrsub-Git:
     type: http
     url: https://s.imgki.com/O6tvOB9
