@@ -290,25 +290,25 @@ proxy-providers:
 #      enable: false
 #      interval: 3820
 #      url: http://www.gstatic.com/generate_204
-  MyClaude1:
+  MyClaude-1:
     type: http
-#    url: https://cfnew.xy.kg/sub?host=https%3A%2F%2Fraspy-voice-6f45.iso9000out.workers.dev&uuid=277fa640-e8c7-4cc9-afe4-f1579c233b9a
+    url: https://v1.mk/qxlUAFx
     interval: 86421
     health-check:
       enable: false
       interval: 3825
       url: http://www.gstatic.com/generate_204
-  MyClaude2:
+  MyClaude-2:
     type: http
-    url: https://cfnew.xy.kg/sub?host=https%3A%2F%2Faged-night-bcca.iso9001out.workers.dev&uuid=15512025-99a2-4128-95a9-d86147047036
+    url: https://v1.mk/MZLgMey
     interval: 86428
     health-check:
       enable: false
       interval: 3830
       url: http://www.gstatic.com/generate_204
-  MyClaude3:
+  MyClaude-3:
     type: http
-#    url: https://cfnew.xy.kg/sub?host=https%3A%2F%2Fspring-cherry-aad1.iso9002out.workers.dev&uuid=fa16ba77-0745-464b-b55d-8e32eaf74265
+    url: https://v1.mk/DtacD3Z
     interval: 86435
     health-check:
       enable: false
