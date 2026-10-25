@@ -1,4 +1,4 @@
-# date 2026-10-25
+# date 2026-10-26
 
 port: 7890
 socks-port: 7891
@@ -543,7 +543,7 @@ proxy-groups:
     max-failed-times: 3
     #lazy: true
     include-all-providers: true
-    filter: (?i)claude|roxi|google|美国-001|德国 03|移动-0[13579]|移动-2[379]|联通-3[0]
+    filter: (?i)claude|roxi|google|美国-001|德国 03|移动-0[13579]|移动-2[379]
     exclude-filter: (?i)🇭🇰|🇨🇳
   - name: 修改IP
     type: select
