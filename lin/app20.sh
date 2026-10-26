@@ -497,7 +497,7 @@ proxy-groups:
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 1200
+    interval: 900
     timeout: 3000
     tolerance: 600
     max-failed-times: 3
@@ -511,21 +511,18 @@ proxy-groups:
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
-    #lazy: true
-    #proxies:
-      #- 节点选择
-      #- 自动选优
+    lazy: true
     include-all-providers: true
     filter: (?i)claude|roxi|google|🇺🇸|美国|us
     exclude-filter: (?i)vmess|relay|ws|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172|美国 40|美国 38|->|ro
   - name: Gemini
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 1300
+    interval: 800
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
-    #lazy: true
+    lazy: true
     include-all-providers: true
     filter: (?i)claude|roxi|google|移动-0[34]|移动-1[125678]|电信-0[3456]|电信-1[034]|电信-0[9]|联通-1[0]|联通-0[9]
     exclude-filter: (?i)🇭🇰|🇨🇳
