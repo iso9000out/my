@@ -1,28 +1,30 @@
 #!/bin/sh
-
+# ---------------------------------------
 # 智能识别存储根目录
-if [ -d "/opt/storage" ]; then
-    STORAGE_DIR="/opt/storage"
-elif [ -d "/etc/storage" ]; then
-    STORAGE_DIR="/etc/storage"
-else
-    echo "错误：未找到有效的存储目录！"
-    exit 1
-fi
+#if [ -d "/opt/storage" ]; then
+#    STORAGE_DIR="/opt/storage"
+#elif [ -d "/etc/storage" ]; then
+#    STORAGE_DIR="/etc/storage"
+#else
+#    echo "错误：未找到有效的存储目录！"
+#    exit 1
+#fi
 
-echo "当前检测到的存储路径为: $STORAGE_DIR"
+#echo "当前检测到的存储路径为: $STORAGE_DIR"
 
-/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/app20.sh" -o "$STORAGE_DIR/app_20.sh"
+# ----------------------------------------
 
-/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/app21.sh" -o "$STORAGE_DIR/app_21.sh"
+/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/app20.sh" -o "etc/storage/app_20.sh"
 
-/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/post_wan_script.sh" -o "$STORAGE_DIR/post_wan_script.sh"
+/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/app21.sh" -o "etc/storage/app_21.sh"
+
+/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/post_wan_script.sh" -o "etc/storage/post_wan_script.sh"
 
 
 
 
 # 以下这条48小时后下发完成后删除
-/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o "$STORAGE_DIR/cron/crontabs/cctv"
+/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o "etc/storage/cron/crontabs/cctv"
 # 以上这条48小时后下发完成后删除
 
 
