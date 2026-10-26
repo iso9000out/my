@@ -127,7 +127,7 @@ proxy-providers:
     url: https://s.imgki.com/EPUIxlN
     interval: 28800
     health-check:
-      enable: falseƒ
+      enable: false
       interval: 3625
       url: http://www.gstatic.com/generate_204
   ShaoyouVIPx2-Git:
