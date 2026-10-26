@@ -513,17 +513,6 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)claude|roxi|google|🇺🇸|美国|us
-    exclude-filter: (?i)vmess|relay|ws|\[ss\]|\[SS\]|trojan|socks|https_|9pb|🇭🇰|🇨🇳|104|162|172|美国 40|美国 38|->|ro
-  - name: Gemini
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 800
-    timeout: 3000
-    tolerance: 500
-    max-failed-times: 3
-    lazy: true
-    include-all-providers: true
     filter: (?i)claude|roxi|google|移动-0[34]|移动-1[125678]|电信-0[3456]|电信-1[034]|电信-0[9]|联通-1[0]|联通-0[9]
     exclude-filter: (?i)🇭🇰|🇨🇳
   - name: 修改IP
@@ -756,9 +745,9 @@ rules:
   - RULE-SET,Mygoogle,谷歌服务
   - RULE-SET,Myrulesbai,全局直连
   - RULE-SET,Myrules,节点选择
-  - RULE-SET,OpenAi,Gemini
-  - RULE-SET,Gemini,Gemini
-  - RULE-SET,Claude,Gemini
+  - RULE-SET,OpenAi,谷歌服务
+  - RULE-SET,Gemini,谷歌服务
+  - RULE-SET,Claude,谷歌服务
   - RULE-SET,ChangeIP,修改IP
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
