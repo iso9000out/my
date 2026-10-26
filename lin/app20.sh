@@ -756,9 +756,9 @@ rules:
   - RULE-SET,Mygoogle,谷歌服务
   - RULE-SET,Myrulesbai,全局直连
   - RULE-SET,Myrules,节点选择
+  - RULE-SET,OpenAi,Gemini
   - RULE-SET,Gemini,Gemini
   - RULE-SET,Claude,Gemini
-  - RULE-SET,OpenAi,谷歌服务
   - RULE-SET,ChangeIP,修改IP
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
