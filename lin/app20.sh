@@ -127,7 +127,7 @@ proxy-providers:
     url: https://s.imgki.com/EPUIxlN
     interval: 28800
     health-check:
-      enable: false
+      enable: falseƒ
       interval: 3625
       url: http://www.gstatic.com/generate_204
   ShaoyouVIPx2-Git:
@@ -202,14 +202,14 @@ proxy-providers:
 #      enable: false
 #      interval: 3720
 #      url: http://www.gstatic.com/generate_204
-  Barabama-cfmem-Git:
-    type: http
-    url: https://s.imgki.com/yahKFvL
-    interval: 28856
-    health-check:
-      enable: false
-      interval: 3730
-      url: http://www.gstatic.com/generate_204
+#  Barabama-cfmem-Git:
+#    type: http
+#    url: https://s.imgki.com/yahKFvL
+#    interval: 28856
+#    health-check:
+#      enable: false
+#      interval: 3730
+#      url: http://www.gstatic.com/generate_204
   MyNode5:
     type: http
     url: https://v1.mk/A6upSuQ
