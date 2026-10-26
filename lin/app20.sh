@@ -300,7 +300,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   MyClaude-2:
     type: http
-    url: https://v1.mk/MZLgMey
+    #url: https://v1.mk/MZLgMey
     interval: 86428
     health-check:
       enable: false
@@ -308,7 +308,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   MyClaude-3:
     type: http
-    url: https://v1.mk/DtacD3Z
+    #url: https://v1.mk/DtacD3Z
     interval: 86435
     health-check:
       enable: false
