@@ -756,9 +756,9 @@ rule-providers:
 
 rules:
 
+  - RULE-SET,Mygoogle,谷歌服务
   - RULE-SET,Myrulesbai,全局直连
   - RULE-SET,Myrules,节点选择
-  - RULE-SET,Mygoogle,谷歌服务
   - RULE-SET,Gemini,Gemini
   - RULE-SET,Claude,Gemini
   - RULE-SET,OpenAi,谷歌服务
