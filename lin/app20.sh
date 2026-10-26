@@ -290,29 +290,13 @@ proxy-providers:
 #      enable: false
 #      interval: 3820
 #      url: http://www.gstatic.com/generate_204
-  MyClaude-1:
+  MyClaudeX3:
     type: http
-    url: https://v1.mk/qxlUAFx
+    url: https://v1.mk/ACrtiMR
     interval: 86421
     health-check:
       enable: false
       interval: 3825
-      url: http://www.gstatic.com/generate_204
-  MyClaude-2:
-    type: http
-    #url: https://v1.mk/MZLgMey
-    interval: 86428
-    health-check:
-      enable: false
-      interval: 3830
-      url: http://www.gstatic.com/generate_204
-  MyClaude-3:
-    type: http
-    #url: https://v1.mk/DtacD3Z
-    interval: 86435
-    health-check:
-      enable: false
-      interval: 3835
       url: http://www.gstatic.com/generate_204
 #  gSafe-Sitex2一段时期内满了:
 #    type: http
