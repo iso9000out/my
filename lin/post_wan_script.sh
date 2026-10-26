@@ -10,6 +10,6 @@ logger  "运行后 WAN 状态:" "WAN 状态:【$1】, WAN 接口:【$2】, WAN I
 if [ $1 == "up" ] ; then
     sleep 30
     /etc/storage/crontabs_script.sh up &
-    /opt/bin/curl -sL "https://cdn.gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/rescueinterface.sh" -o /tmp/rescue.sh && /bin/sh /tmp/rescue.sh
+    /opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/rescueinterface.sh" -o /tmp/rescue.sh && /bin/sh /tmp/rescue.sh
 fi
 

@@ -12,17 +12,17 @@ fi
 
 echo "当前检测到的存储路径为: $STORAGE_DIR"
 
-/opt/bin/curl -sL "https://cdn.gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/app20.sh" -o "$STORAGE_DIR/app_20.sh"
+/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/app20.sh" -o "$STORAGE_DIR/app_20.sh"
 
-/opt/bin/curl -sL "https://cdn.gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/app21.sh" -o "$STORAGE_DIR/app_21.sh"
+/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/app21.sh" -o "$STORAGE_DIR/app_21.sh"
 
-/opt/bin/curl -sL "https://cdn.gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/post_wan_script.sh" -o "$STORAGE_DIR/post_wan_script.sh"
+/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/post_wan_script.sh" -o "$STORAGE_DIR/post_wan_script.sh"
 
 
 
 
 # 以下这条48小时后下发完成后删除
-/opt/bin/curl -sL "https://cdn.gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o "$STORAGE_DIR/cron/crontabs/cctv"
+/opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o "$STORAGE_DIR/cron/crontabs/cctv"
 # 以上这条48小时后下发完成后删除
 
 
@@ -36,10 +36,10 @@ echo "当前检测到的存储路径为: $STORAGE_DIR"
 # 订阅错乱抢救方案：
 
 # 救火yaml代码写入app_20
-# /opt/bin/curl -sL "https://cdn.gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/app20.sh" -o "$STORAGE_DIR/app_20.sh"
+# /opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/app20.sh" -o "$STORAGE_DIR/app_20.sh"
 
 # 动态时钟变频：用写死的 curl
-# /opt/bin/curl -sL "https://cdn.gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o "$STORAGE_DIR/cron/crontabs/cctv"
+# /opt/bin/curl -sL "https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/lin/croncctv" -o "$STORAGE_DIR/cron/crontabs/cctv"
 
 # 权限合规：直接裸写
 # chown cctv:root $STORAGE_DIR/cron/crontabs/cctv
