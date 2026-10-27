@@ -748,11 +748,11 @@ rules:
   - RULE-SET,OpenAi,谷歌服务
   - RULE-SET,Gemini,谷歌服务
   - RULE-SET,Claude,谷歌服务
+  - RULE-SET,AI,谷歌服务
   - RULE-SET,ChangeIP,修改IP
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
-#  - RULE-SET,AI,国外媒体
   - RULE-SET,ChinaDomain,全局直连
   - RULE-SET,ChinaCompanyIp,全局直连
   - RULE-SET,ProxyMedia,节点选择
