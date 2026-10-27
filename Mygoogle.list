@@ -7,11 +7,26 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,muse.ai
-
+DOMAIN-KEYWORD,github
+DOMAIN-SUFFIX,vscode.dev
 DOMAIN-SUFFIX,cloudflare.com
+
 
 #tiktok
 DOMAIN-KEYWORD,tiktokv
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,tiktok.com
+
+
+
+DOMAIN-SUFFIX,ffq.la
+DOMAIN-SUFFIX,sub.ffq.la
+DOMAIN-SUFFIX,nodebuf.com
+DOMAIN-KEYWORD,nodebuf
+DOMAIN-SUFFIX,roxi.cc
+DOMAIN-KEYWORD,roxi
+DOMAIN-SUFFIX,dash.infinityfree.com
+DOMAIN-SUFFIX,infinityfree.com
+DOMAIN-KEYWORD,infinityfree
+DOMAIN-SUFFIX,filemanager.ai
