@@ -521,6 +521,12 @@ proxy-groups:
       - 节点选择
       - 自动选优
       - 全局直连
+  - name: 测试IP
+    type: select
+    proxies:
+      - 自动选优
+      - 谷歌服务
+      - 全局直连
   - name: 国外媒体
     type: select
     proxies:
@@ -720,6 +726,13 @@ rule-providers:
     behavior: classical
     url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/ChangeIP.list
     path: ./ruleset/ChangeIP.yaml
+  TestIP:
+    type: http
+    format: text
+    interval: 1212
+    behavior: classical
+    url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/TestIP.list
+    path: ./ruleset/TestIP.yaml
     
 
 
@@ -750,6 +763,7 @@ rules:
   - RULE-SET,Claude,谷歌服务
   - RULE-SET,AI,谷歌服务
   - RULE-SET,ChangeIP,修改IP
+  - RULE-SET,TestIP,测试IP
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
