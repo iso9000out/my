@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,muse.ai
 
+DOMAIN-SUFFIX,cloudflare.com
 
 #tiktok
 DOMAIN-KEYWORD,tiktokv
