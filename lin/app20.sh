@@ -513,7 +513,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)8pf_us|美国 0[25]|美国 30|移动-0[56]|移动-1[125678]|电信-0[3456]|电信-1[034]|电信-0[9]|联通-1[0]|联通-0[9]
+    filter: (?i)8pf_us|美国 0[25]|美国 30|移动-0[56]|移动-1[125678]|电信-0[123456]|电信-1[03456]|电信-0[9]|联通-1[0]|联通-0[9]
     exclude-filter: (?i)🇭🇰|🇨🇳
   - name: 修改IP
     type: select
