@@ -13,739 +13,738 @@ keep-alive-interval: 30
 disable-keep-alive: false
 external-controller: 0.0.0.0:9090
 lan-allowed-ips:
-  - 0.0.0.0/0
-  - ::/0
+- 0.0.0.0/0
+- ::/0
 skip-auth-prefixes:
-  - 0.0.0.0/0
-  - ::/0
+- 0.0.0.0/0
+- ::/0
 
 dns:
-  enable: true
-  ipv6: true
-  use-hosts: true
-  respect-rules: true
-  cache-algorithm: arc
-  listen: 0.0.0.0:8053
+enable: true
+ipv6: true
+use-hosts: true
+respect-rules: true
+cache-algorithm: arc
+listen: 0.0.0.0:8053
 
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
+default-nameserver:
+- 223.5.5.5
+- 119.29.29.29
 
-  proxy-server-nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    - 223.5.5.5
-    - 119.29.29.29
+proxy-server-nameserver:
+- https://doh.pub/dns-query
+- https://dns.alidns.com/dns-query
+- 223.5.5.5
+- 119.29.29.29
 
-  nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    - https://dns.google/dns-query
-    - tls://8.8.8.8:853
+nameserver:
+- https://doh.pub/dns-query
+- https://dns.alidns.com/dns-query
+- https://dns.google/dns-query
+- tls://8.8.8.8:853
 
-  hosts:
-    'google.cn': google.com
-    'www.google.cn': google.com
-    '*.google.cn': google.com
+hosts:
+'google.cn': google.com
+'www.google.cn': google.com
+'*.google.cn': google.com
 
-  nameserver-policy:
-    "+.googleapis.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
-    "+.google.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
-    "geosite:cn,private":
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
-      - 223.5.5.5
+nameserver-policy:
+"+.googleapis.com":
+- https://dns.google/dns-query
+- tls://8.8.8.8:853
+"+.google.com":
+- https://dns.google/dns-query
+- tls://8.8.8.8:853
+"geosite:cn,private":
+- https://doh.pub/dns-query
+- https://dns.alidns.com/dns-query
+- 223.5.5.5
 
-  fallback:
-    - https://dns.google/dns-query
-    - tls://8.8.8.8:853
-    - tls://dns.google:853
+fallback:
+- https://dns.google/dns-query
+- tls://8.8.8.8:853
+- tls://dns.google:853
 
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    geosite:
-      - gfw
-    ipcidr:
-      - 240.0.0.0/4
-      - 0.0.0.0/32
-      - 127.0.0.1/32
-    domain:
-      - '+.google.com'
-      - '+.googleapis.com'
-      - '+.youtube.com'
-      - '+.appspot.com'
-      - '+.telegram.com'
-      - '+.facebook.com'
-      - '+.twitter.com'
-      - '+.x.com'
-      - '+.blogger.com'
-      - '+.gmail.com'
-      - '+.gvt1.com'
-      - "+.github.com"
+fallback-filter:
+geoip: true
+geoip-code: CN
+geosite:
+- gfw
+ipcidr:
+- 240.0.0.0/4
+- 0.0.0.0/32
+- 127.0.0.1/32
+domain:
+- '+.google.com'
+- '+.googleapis.com'
+- '+.youtube.com'
+- '+.appspot.com'
+- '+.telegram.com'
+- '+.facebook.com'
+- '+.twitter.com'
+- '+.x.com'
+- '+.blogger.com'
+- '+.gmail.com'
+- '+.gvt1.com'
+- "+.github.com"
 
-  enhanced-mode: fake-ip
-  fake-ip-filter:
-    - "+.*"
-    - "*.lan"
-    - "localhost.ptlogin2.qq.com"
-    - "+.push.apple.com"
-    - "+.mijia.com"
+enhanced-mode: fake-ip
+fake-ip-filter:
+- "+.*"
+- "*.lan"
+- "localhost.ptlogin2.qq.com"
+- "+.push.apple.com"
+- "+.mijia.com"
 
 experimental:
-  quic-go-disable-gso: true
-  quic-go-disable-ecn: true
+quic-go-disable-gso: true
+quic-go-disable-ecn: true
 
 sniffer:
-  enable: true
-  override-destination: true
-  sniff:
-    http: { ports: [80, 8080] }
-    tls: { ports: [443, 8443] }
-  skip-domain:
-    - 'courier.push.apple.com'
-    - 'Mijia Cloud'
+enable: true
+override-destination: true
+sniff:
+http: { ports: [80, 8080] }
+tls: { ports: [443, 8443] }
+skip-domain:
+- 'courier.push.apple.com'
+- 'Mijia Cloud'
 
 
 
 
 proxy-providers:
-  own-Git:
-    type: http
-    url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/test/own
-    interval: 86400
-    health-check:
-      enable: false
-      interval: 3600
-      url: http://www.gstatic.com/generate_204
-  Snakem982-Git:
-    type: http
-    url: https://s.imgki.com/EPUIxlN
-    interval: 28800
-    health-check:
-      enable: false
-      interval: 3625
-      url: http://www.gstatic.com/generate_204
-  ShaoyouVIPx2-Git:
-    type: http
-    url: https://s.imgki.com/FavDsTK
-    interval: 28807
-    health-check:
-      enable: false
-      interval: 3655
-      url: http://www.gstatic.com/generate_204
-  iKuuu-Site-upd 24:
-    type: http
-    url: https://s.imgki.com/wfiZ8mg
-    interval: 86407
-    health-check:
-      enable: false
-      interval: 3665
-      url: http://www.gstatic.com/generate_204
-  Meng-Littlebais-Git:
-    type: http
-    url: https://s.imgki.com/8cqJvKX
-    interval: 28814
-    health-check:
-      enable: false
-      interval: 3670
-      url: http://www.gstatic.com/generate_204
-#  ZhouRunFa-Git:
-#    type: http
-#    url: https://s.imgki.com/nHL6nVv
-#    interval: 28821
-#    health-check:
-#      enable: false
-#      interval: 3680
-#      url: http://www.gstatic.com/generate_204
-#  ChuanZhuo-Git都是转发不干净:
-#    type: http
-#    url: https://s.imgki.com/DCYoyot
-#    interval: 28828
-#    health-check:
-#      enable: false
-#      interval: 3690
-#      url: http://www.gstatic.com/generate_204
-  Anaer-Git:
-    type: http
-    url: https://s.imgki.com/2LobkRg
-    interval: 28835
-    health-check:
-      enable: false
-      interval: 3695
-      url: http://www.gstatic.com/generate_204
-#  go4sharing-Git十几个ss杂乱:
-#    type: http
-#    url: https://s.imgki.com/ygWru6f
-#    interval: 28842
-#    health-check:
-#      enable: false
-#      interval: 3710
-#      url: http://www.gstatic.com/generate_204
-#  PawDroid-CF-Git UPD 7h一些cross杂乱:
-#    type: http
-#    url: https://s.imgki.com/DOffMBA
-#    interval: 25200
-#    health-check:
-#      enable: false
-#      interval: 3715
-#      url: http://www.gstatic.com/generate_204
-#  Zhangkaiitugithub-PassCRO-Git十几个ss杂乱:
-#    type: http
-#    url: https://s.imgki.com/Ty4sWoo
-#    interval: 28849
-#    health-check:
-#      enable: false
-#      interval: 3720
-#      url: http://www.gstatic.com/generate_204
-#  Barabama-cfmem-Git:
-#    type: http
-#    url: https://s.imgki.com/yahKFvL
-#    interval: 28856
-#    health-check:
-#      enable: false
-#      interval: 3730
-#      url: http://www.gstatic.com/generate_204
-  MyNode5:
-    type: http
-    url: https://v1.mk/A6upSuQ
-    interval: 28863
-    health-check:
-      enable: false
-      interval: 3735
-      url: http://www.gstatic.com/generate_204
-#  PuddinCat-Git十几个hy ss太杂:
-#    type: http
-#    url: https://s.imgki.com/OtnN7rU
-#    interval: 28870
-#    health-check:
-#      enable: false
-#      interval: 3740
-#      url: http://www.gstatic.com/generate_204
-#  Mfuu-Git一些cross杂乱:
-#    type: http
-#    url: https://s.imgki.com/lhHyGWy
-#    interval: 28877
-#    health-check:
-#      enable: false
-#      interval: 3755
-#      url: http://www.gstatic.com/generate_204
-  132X2-Site:
-    type: http
-    url: https://s.imgki.com/XocsQmj
-    interval: 28884
-    health-check:
-      enable: false
-      interval: 3775
-      url: http://www.gstatic.com/generate_204
-  ZhuhaiUK-Git:
-    type: http
-    url: https://s.imgki.com/SiR9aNj
-    interval: 28891
-    health-check:
-      enable: false
-      interval: 3780
-      url: http://www.gstatic.com/generate_204
-  Valvatacea-Git:
-    type: http
-    url: https://s.imgki.com/WKGC6Q9
-    interval: 28898
-    health-check:
-      enable: false
-      interval: 3785
-      url: http://www.gstatic.com/generate_204
-  Firefoxmmx2-Git:
-    type: http
-    url: https://s.imgki.com/9F1XXfy
-    interval: 28905
-    health-check:
-      enable: false
-      interval: 3800
-      url: http://www.gstatic.com/generate_204
-#  Vanic24-9PB-Git太多360个hy2通一半:
-#    type: http
-#    url: https://s.imgki.com/BgsOOzm
-#    interval: 28912
-#    health-check:
-#      enable: false
-#      interval: 3815
-#      url: http://www.gstatic.com/generate_204
-  ssrsub-Git:
-    type: http
-    url: https://s.imgki.com/O6tvOB9
-    interval: 28919
-    health-check:
-      enable: false
-      interval: 3790
-      url: http://www.gstatic.com/generate_204
-#  LoveHK-SiteX2跑了:
-#    type: http
-#    url: https://s.imgki.com/8ki4oTi
-#    interval: 86414
-#    health-check:
-#      enable: false
-#      interval: 3820
-#      url: http://www.gstatic.com/generate_204
-  MyClaudeX3:
-    type: http
-    url: https://v1.mk/ACrtiMR
-    interval: 86421
-    health-check:
-      enable: false
-      interval: 3825
-      url: http://www.gstatic.com/generate_204
-#  gSafe-Sitex2一段时期内满了:
-#    type: http
-#    url: https://s.imgki.com/NLRfkCp
-#    interval: 43480
-#    health-check:
-#      enable: false
-#      interval: 3830
-#      url: http://www.gstatic.com/generate_204
-#  JiangJiang-Site太多太杂通的不多:
-#    type: http
-#    url: https://s.imgki.com/wn3LHHA
-#    interval: 43200
-#    health-check:
-#      enable: false
-#      interval: 3605
-#      url: http://www.gstatic.com/generate_204
-#  RiPao-Git十几个全不通:
-#    type: http
-#    url: https://v1.mk/gUX6fUH
-#    interval: 43207
-#    health-check:
-#      enable: false
-#      interval: 3610
-#      url: http://www.gstatic.com/generate_204
-#  Free18-Git暂时停用723个:
-#    type: http
-#    url: https://v1.mk/BqrDxLy
-#    interval: 43214
-#    health-check:
-#      enable: false
-#      interval: 3615
-#      url: http://www.gstatic.com/generate_204
-#  pgkj0402 dapei太多不通130个暂时隐藏:
-#    type: http
-#    url: https://v1.mk/I2iGw2N
-#    interval: 43221
-#    health-check:
-#      enable: false
-#      interval: 3620
-#      url: http://www.gstatic.com/generate_204
-#  ts-sf-Git暂时停用85个:
-#    type: http
-#    url: https://v1.mk/enxRC1t
-#    interval: 43382
-#    health-check:
-#      enable: false
-#      interval: 3760
-#      url: http://www.gstatic.com/generate_204
-#  Peasoft-Git十几个都不通还是ripao:
-#    type: http
-#    url: https://suo.yt/DBwxJDR
-#    interval: 43389
-#    health-check:
-#      enable: false
-#      interval: 3765
-#      url: http://www.gstatic.com/generate_204
-#  itsyebekhe-Git共20个没通的:
-#    type: http
-#    url: https://v1.mk/cEV1C8m
-#    interval: 43396
-#    health-check:
-#      enable: false
-#      interval: 3770
-#      url: http://www.gstatic.com/generate_204
-#  Vanic24-8EB-Git维护经常混入出错暂时隐藏:
-#    type: http
-#    url: https://s.imgki.com/3lZemyQ
-#    interval: 43445
-#    health-check:
-#      enable: false
-#      interval: 3805
-#      url: http://www.gstatic.com/generate_204
-#  Leon406-a11-Git都不通125个还都中转还都ss:
-#    type: http
-#    url: https://s.imgki.com/XhwUw5X
-#    interval: 43452
-#    health-check:
-#      enable: false
-#      interval: 3810
-#      url: http://www.gstatic.com/generate_204
-#  ShuaiDaoYa-Git休假呢:
-#    type: http
-#    url: https://v1.mk/WYg2u6P
-#    interval: 43424
-#    health-check:
-#      enable: false
-#      interval: 3790
-#      url: http://www.gstatic.com/generate_204
-#  o00o抓的45个污染厉害:
-#    type: http
-#    url: https://v1.mk/C9zAjfj
-#    interval: 43431
-#    health-check:
-#      enable: false
-#      interval: 3795
-#      url: http://www.gstatic.com/generate_204
-#  Misaka-blog-Git很多280个都不通还ss:
-#    type: http
-#    url: https://v1.mk/tuntD1k
-#    interval: 43361
-#    health-check:
-#      enable: false
-#      interval: 3745
-#      url: http://www.gstatic.com/generate_204
-#  Mahdibland-Git暂时停用201个英国不通的多:
-#    type: http
-#    url: https://v1.mk/qHDu29Z
-#    interval: 43368
-#    health-check:
-#      enable: false
-#      interval: 3750
-#      url: http://www.gstatic.com/generate_204
-#  NodeBuf2整合过了下次替换掉:
-#    type: http
-#    url: https://s.imgki.com/5zCbYAb
-#    interval: 43354
-#    health-check:
-#      enable: false
-#      interval: 3733
-#      url: http://www.gstatic.com/generate_204
-#  cnqq-Site一段时期内满了:
-#    type: http
-#    url: https://s.imgki.com/FckE08j
-#    interval: 43340
-#    health-check:
-#      enable: false
-#      interval: 3725
-#      url: http://www.gstatic.com/generate_204
-#  HKG-Site失效了下次替换:
-#    type: http
-#    url: https://s.imgki.com/xJC2t90
-#    interval: 43312
-#    health-check:
-#      enable: false
-#      interval: 3700
-#      url: http://www.gstatic.com/generate_204
-#  Q3dlaXpoaQ-Git特别多更新不勤不通:
-#    type: http
-#    url: https://suo.yt/UtgiGRS
-#    interval: 43319
-#    health-check:
-#      enable: false
-#      interval: 3705
-#      url: http://www.gstatic.com/generate_204
-#  FeiNiaoYun过期了:
-#    type: http
-#    url: https://s.imgki.com/9BnK3s2
-#    interval: 43298
-#    health-check:
-#      enable: false
-#      interval: 3685
-#      url: http://www.gstatic.com/generate_204
-#  YuYan-BJD好多BGP和anytls都不通了:
-#    type: http
-#    url: https://v1.mk/nGckgm4
-#    interval: 43284
-#    health-check:
-#      enable: false
-#      interval: 3675
-#      url: http://www.gstatic.com/generate_204
-#  ChenGaoPan-Git爬别人的zhangkai暂时隐藏:
-#    type: http
-#    url: https://s.subcsub.com/mtaeHb6
-#    interval: 43263
-#    health-check:
-#      enable: false
-#      interval: 3660
-#      url: http://www.gstatic.com/generate_204
-#  Xrayvip-Site很多100个都不通了vless:
-#    type: http
-#    url: https://s.imgki.com/cPzWgO9
-#    interval: 43233
-#    health-check:
-#      enable: false
-#      interval: 3630
-#      url: http://www.gstatic.com/generate_204
-#  YouZiLite-Site都过期了不通了10个:
-#    exclude-filter: 关键词|关键的词
-#    type: http
-#    url: https://s.imgki.com/yVKqMg3
-#    interval: 43249
-#    health-check:
-#      enable: false
-#      interval: 3650
-#      url: http://www.gstatic.com/generate_204
+own-Git:
+type: http
+url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/test/own
+interval: 86400
+health-check:
+enable: false
+interval: 3600
+url: http://www.gstatic.com/generate_204
+Snakem982-Git:
+type: http
+url: https://s.imgki.com/EPUIxlN
+interval: 28800
+health-check:
+enable: false
+interval: 3625
+url: http://www.gstatic.com/generate_204
+ShaoyouVIPx2-Git:
+type: http
+url: https://s.imgki.com/FavDsTK
+interval: 28807
+health-check:
+enable: false
+interval: 3655
+url: http://www.gstatic.com/generate_204
+iKuuu-Site-upd 24:
+type: http
+url: https://s.imgki.com/wfiZ8mg
+interval: 86407
+health-check:
+enable: false
+interval: 3665
+url: http://www.gstatic.com/generate_204
+Meng-Littlebais-Git:
+type: http
+url: https://s.imgki.com/8cqJvKX
+interval: 28814
+health-check:
+enable: false
+interval: 3670
+url: http://www.gstatic.com/generate_204
+# ZhouRunFa-Git:
+# type: http
+# url: https://s.imgki.com/nHL6nVv
+# interval: 28821
+# health-check:
+# enable: false
+# interval: 3680
+# url: http://www.gstatic.com/generate_204
+# ChuanZhuo-Git都是转发不干净:
+# type: http
+# url: https://s.imgki.com/DCYoyot
+# interval: 28828
+# health-check:
+# enable: false
+# interval: 3690
+# url: http://www.gstatic.com/generate_204
+Anaer-Git:
+type: http
+url: https://s.imgki.com/2LobkRg
+interval: 28835
+health-check:
+enable: false
+interval: 3695
+url: http://www.gstatic.com/generate_204
+# go4sharing-Git十几个ss杂乱:
+# type: http
+# url: https://s.imgki.com/ygWru6f
+# interval: 28842
+# health-check:
+# enable: false
+# interval: 3710
+# url: http://www.gstatic.com/generate_204
+# PawDroid-CF-Git UPD 7h一些cross杂乱:
+# type: http
+# url: https://s.imgki.com/DOffMBA
+# interval: 25200
+# health-check:
+# enable: false
+# interval: 3715
+# url: http://www.gstatic.com/generate_204
+# Zhangkaiitugithub-PassCRO-Git十几个ss杂乱:
+# type: http
+# url: https://s.imgki.com/Ty4sWoo
+# interval: 28849
+# health-check:
+# enable: false
+# interval: 3720
+# url: http://www.gstatic.com/generate_204
+# Barabama-cfmem-Git:
+# type: http
+# url: https://s.imgki.com/yahKFvL
+# interval: 28856
+# health-check:
+# enable: false
+# interval: 3730
+# url: http://www.gstatic.com/generate_204
+MyNode5:
+type: http
+url: https://v1.mk/A6upSuQ
+interval: 28863
+health-check:
+enable: false
+interval: 3735
+url: http://www.gstatic.com/generate_204
+# PuddinCat-Git十几个hy ss太杂:
+# type: http
+# url: https://s.imgki.com/OtnN7rU
+# interval: 28870
+# health-check:
+# enable: false
+# interval: 3740
+# url: http://www.gstatic.com/generate_204
+# Mfuu-Git一些cross杂乱:
+# type: http
+# url: https://s.imgki.com/lhHyGWy
+# interval: 28877
+# health-check:
+# enable: false
+# interval: 3755
+# url: http://www.gstatic.com/generate_204
+132X2-Site:
+type: http
+url: https://s.imgki.com/XocsQmj
+interval: 28884
+health-check:
+enable: false
+interval: 3775
+url: http://www.gstatic.com/generate_204
+ZhuhaiUK-Git:
+type: http
+url: https://s.imgki.com/SiR9aNj
+interval: 28891
+health-check:
+enable: false
+interval: 3780
+url: http://www.gstatic.com/generate_204
+Valvatacea-Git:
+type: http
+url: https://s.imgki.com/WKGC6Q9
+interval: 28898
+health-check:
+enable: false
+interval: 3785
+url: http://www.gstatic.com/generate_204
+Firefoxmmx2-Git:
+type: http
+url: https://s.imgki.com/9F1XXfy
+interval: 28905
+health-check:
+enable: false
+interval: 3800
+url: http://www.gstatic.com/generate_204
+# Vanic24-9PB-Git太多360个hy2通一半:
+# type: http
+# url: https://s.imgki.com/BgsOOzm
+# interval: 28912
+# health-check:
+# enable: false
+# interval: 3815
+# url: http://www.gstatic.com/generate_204
+ssrsub-Git:
+type: http
+url: https://s.imgki.com/O6tvOB9
+interval: 28919
+health-check:
+enable: false
+interval: 3790
+url: http://www.gstatic.com/generate_204
+# LoveHK-SiteX2跑了:
+# type: http
+# url: https://s.imgki.com/8ki4oTi
+# interval: 86414
+# health-check:
+# enable: false
+# interval: 3820
+# url: http://www.gstatic.com/generate_204
+MyClaudeX3:
+type: http
+url: https://v1.mk/ACrtiMR
+interval: 86421
+health-check:
+enable: false
+interval: 3825
+url: http://www.gstatic.com/generate_204
+# gSafe-Sitex2一段时期内满了:
+# type: http
+# url: https://s.imgki.com/NLRfkCp
+# interval: 43480
+# health-check:
+# enable: false
+# interval: 3830
+# url: http://www.gstatic.com/generate_204
+# JiangJiang-Site太多太杂通的不多:
+# type: http
+# url: https://s.imgki.com/wn3LHHA
+# interval: 43200
+# health-check:
+# enable: false
+# interval: 3605
+# url: http://www.gstatic.com/generate_204
+# RiPao-Git十几个全不通:
+# type: http
+# url: https://v1.mk/gUX6fUH
+# interval: 43207
+# health-check:
+# enable: false
+# interval: 3610
+# url: http://www.gstatic.com/generate_204
+# Free18-Git暂时停用723个:
+# type: http
+# url: https://v1.mk/BqrDxLy
+# interval: 43214
+# health-check:
+# enable: false
+# interval: 3615
+# url: http://www.gstatic.com/generate_204
+# pgkj0402 dapei太多不通130个暂时隐藏:
+# type: http
+# url: https://v1.mk/I2iGw2N
+# interval: 43221
+# health-check:
+# enable: false
+# interval: 3620
+# url: http://www.gstatic.com/generate_204
+# ts-sf-Git暂时停用85个:
+# type: http
+# url: https://v1.mk/enxRC1t
+# interval: 43382
+# health-check:
+# enable: false
+# interval: 3760
+# url: http://www.gstatic.com/generate_204
+# Peasoft-Git十几个都不通还是ripao:
+# type: http
+# url: https://suo.yt/DBwxJDR
+# interval: 43389
+# health-check:
+# enable: false
+# interval: 3765
+# url: http://www.gstatic.com/generate_204
+# itsyebekhe-Git共20个没通的:
+# type: http
+# url: https://v1.mk/cEV1C8m
+# interval: 43396
+# health-check:
+# enable: false
+# interval: 3770
+# url: http://www.gstatic.com/generate_204
+# Vanic24-8EB-Git维护经常混入出错暂时隐藏:
+# type: http
+# url: https://s.imgki.com/3lZemyQ
+# interval: 43445
+# health-check:
+# enable: false
+# interval: 3805
+# url: http://www.gstatic.com/generate_204
+# Leon406-a11-Git都不通125个还都中转还都ss:
+# type: http
+# url: https://s.imgki.com/XhwUw5X
+# interval: 43452
+# health-check:
+# enable: false
+# interval: 3810
+# url: http://www.gstatic.com/generate_204
+# ShuaiDaoYa-Git休假呢:
+# type: http
+# url: https://v1.mk/WYg2u6P
+# interval: 43424
+# health-check:
+# enable: false
+# interval: 3790
+# url: http://www.gstatic.com/generate_204
+# o00o抓的45个污染厉害:
+# type: http
+# url: https://v1.mk/C9zAjfj
+# interval: 43431
+# health-check:
+# enable: false
+# interval: 3795
+# url: http://www.gstatic.com/generate_204
+# Misaka-blog-Git很多280个都不通还ss:
+# type: http
+# url: https://v1.mk/tuntD1k
+# interval: 43361
+# health-check:
+# enable: false
+# interval: 3745
+# url: http://www.gstatic.com/generate_204
+# Mahdibland-Git暂时停用201个英国不通的多:
+# type: http
+# url: https://v1.mk/qHDu29Z
+# interval: 43368
+# health-check:
+# enable: false
+# interval: 3750
+# url: http://www.gstatic.com/generate_204
+# NodeBuf2整合过了下次替换掉:
+# type: http
+# url: https://s.imgki.com/5zCbYAb
+# interval: 43354
+# health-check:
+# enable: false
+# interval: 3733
+# url: http://www.gstatic.com/generate_204
+# cnqq-Site一段时期内满了:
+# type: http
+# url: https://s.imgki.com/FckE08j
+# interval: 43340
+# health-check:
+# enable: false
+# interval: 3725
+# url: http://www.gstatic.com/generate_204
+# HKG-Site失效了下次替换:
+# type: http
+# url: https://s.imgki.com/xJC2t90
+# interval: 43312
+# health-check:
+# enable: false
+# interval: 3700
+# url: http://www.gstatic.com/generate_204
+# Q3dlaXpoaQ-Git特别多更新不勤不通:
+# type: http
+# url: https://suo.yt/UtgiGRS
+# interval: 43319
+# health-check:
+# enable: false
+# interval: 3705
+# url: http://www.gstatic.com/generate_204
+# FeiNiaoYun过期了:
+# type: http
+# url: https://s.imgki.com/9BnK3s2
+# interval: 43298
+# health-check:
+# enable: false
+# interval: 3685
+# url: http://www.gstatic.com/generate_204
+# YuYan-BJD好多BGP和anytls都不通了:
+# type: http
+# url: https://v1.mk/nGckgm4
+# interval: 43284
+# health-check:
+# enable: false
+# interval: 3675
+# url: http://www.gstatic.com/generate_204
+# ChenGaoPan-Git爬别人的zhangkai暂时隐藏:
+# type: http
+# url: https://s.subcsub.com/mtaeHb6
+# interval: 43263
+# health-check:
+# enable: false
+# interval: 3660
+# url: http://www.gstatic.com/generate_204
+# Xrayvip-Site很多100个都不通了vless:
+# type: http
+# url: https://s.imgki.com/cPzWgO9
+# interval: 43233
+# health-check:
+# enable: false
+# interval: 3630
+# url: http://www.gstatic.com/generate_204
+# YouZiLite-Site都过期了不通了10个:
+# exclude-filter: 关键词|关键的词
+# type: http
+# url: https://s.imgki.com/yVKqMg3
+# interval: 43249
+# health-check:
+# enable: false
+# interval: 3650
+# url: http://www.gstatic.com/generate_204
 
 
 
 proxy-groups:
-  - name: 节点选择
-    type: select
-    proxies:
-      - 自动选优
-    hidden: true
-#    include-all-providers: true
-#    exclude-filter: (?i)claude|roxi|google|机房|住宅|家宽|域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
-  - name: 自动选优
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 900
-    timeout: 3000
-    tolerance: 600
-    max-failed-times: 3
-    lazy: true
-    include-all-providers: true
-    exclude-filter: (?i)claude|roxi|google|ipv6|ws|多线|家宽|域名|新加坡 0|新加坡 1|美国 40|ro|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
-  - name: 谷歌服务
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 780
-    timeout: 3000
-    tolerance: 500
-    max-failed-times: 3
-    lazy: true
-    include-all-providers: true
-    filter: (?i)移动-0[34]|移动-1[125678]|电信-0[3456]|电信-1[034]|电信-0[9]|联通-1[0]|联通-0[9]
-    exclude-filter: (?i)🇭🇰|🇨🇳
-  - name: 修改IP
-    type: select
-    proxies:
-      - 节点选择
-      - 自动选优
-      - 全局直连
-  - name: 测试IP
-    type: select
-    proxies:
-      - 自动选优
-      - 谷歌服务
-      - 全局直连
-  - name: 国外媒体
-    type: select
-    proxies:
-      - 节点选择
-      - 自动选优
-      - 全局直连
-    hidden: true
-  - name: 微软服务
-    type: select
-    proxies:
-      - 全局直连
-      - 节点选择
-      - 自动选优
-    hidden: true
-  - name: 苹果服务
-    type: select
-    proxies:
-      - 全局直连
-      - 节点选择
-      - 自动选优
-    hidden: true
-  - name: 广告过滤
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-    hidden: true
-  - name: 全局直连
-    type: select
-    proxies:
-      - DIRECT
-      - 节点选择
-      - 自动选优
-    hidden: true
-  - name: 全局拦截
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-    hidden: true
-  - name: 漏网之鱼
-    type: select
-    proxies:
-      - 全局直连
-      - 节点选择
-      - 自动选优
+- name: 节点选择
+type: select
+proxies:
+- 自动选优
+hidden: true
+# include-all-providers: true
+# exclude-filter: (?i)claude|roxi|google|机房|住宅|家宽|域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+- name: 自动选优
+type: url-test
+url: http://www.gstatic.com/generate_204
+interval: 900
+timeout: 3000
+tolerance: 600
+max-failed-times: 3
+lazy: true
+include-all-providers: true
+exclude-filter: (?i)claude|roxi|google|ipv6|ws|多线|家宽|域名|新加坡 0|新加坡 1|美国 40|ro|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay||香港||中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+- name: 谷歌服务
+type: url-test
+url: http://www.gstatic.com/generate_204
+interval: 780
+timeout: 3000
+tolerance: 500
+max-failed-times: 3
+lazy: true
+include-all-providers: true
+filter: (?i)8pf_us|美国 0[25]|美国 30|移动-0[56]|移动-1[125678]|电信-0[3456]|电信-1[034]|电信-0[9]|联通-1[0]|联通-0[9]
+exclude-filter: (?i)|
+- name: 修改IP
+type: select
+proxies:
+- 节点选择
+- 自动选优
+- 全局直连
+- name: 测试IP
+type: select
+proxies:
+- 自动选优
+- 谷歌服务
+- 全局直连
+- name: 国外媒体
+type: select
+proxies:
+- 节点选择
+- 自动选优
+- 全局直连
+hidden: true
+- name: 微软服务
+type: select
+proxies:
+- 全局直连
+- 节点选择
+- 自动选优
+hidden: true
+- name: 苹果服务
+type: select
+proxies:
+- 全局直连
+- 节点选择
+- 自动选优
+hidden: true
+- name: 广告过滤
+type: select
+proxies:
+- REJECT
+- DIRECT
+hidden: true
+- name: 全局直连
+type: select
+proxies:
+- DIRECT
+- 节点选择
+- 自动选优
+hidden: true
+- name: 全局拦截
+type: select
+proxies:
+- REJECT
+- DIRECT
+hidden: true
+- name: 漏网之鱼
+type: select
+proxies:
+- 全局直连
+- 节点选择
+- 自动选优
 
 
 
 
 
 rule-providers:
-  LocalAreaNetwork:
-    type: http
-    format: text
-    interval: 86400
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-    path: ./ruleset/LocalAreaNetwork.yaml
-  SteamCN:
-    type: http
-    format: text
-    interval: 86403
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
-    path: ./ruleset/SteamCN.yaml
-  GoogleCN:
-    type: http
-    format: text
-    interval: 86406
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
-    path: ./ruleset/GoogleCN.yaml
-  ChinaDomain:
-    type: http
-    format: text
-    interval: 86409
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-    path: ./ruleset/ChinaDomain.yaml
-  ChinaCompanyIp:
-    type: http
-    format: text
-    interval: 86412
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-    path: ./ruleset/ChinaCompanyIp.yaml
-  ProxyMedia:
-    type: http
-    format: text
-    interval: 86415
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-    path: ./ruleset/ProxyMedia.yaml
-  ProxyGFWlist:
-    type: http
-    format: text
-    interval: 86418
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-    path: ./ruleset/ProxyGFWlist.yaml
-  Telegram:
-    type: http
-    format: text
-    interval: 86421
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
-    path: ./ruleset/Telegram.yaml
-  Apple:
-    type: http
-    format: text
-    interval: 86424
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
-    path: ./ruleset/Apple.yaml
-  Microsoft:
-    type: http
-    format: text
-    interval: 86427
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
-    path: ./ruleset/Microsoft.yaml
-  Applications:
-    type: http
-    format: yaml
-    interval: 86430
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt
-    path: ./ruleset/applications.yaml
-  BanAD:
-    type: http
-    format: text
-    interval: 86433
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-    path: ./ruleset/BanAD.yaml
-  BanProgramAD:
-    type: http
-    format: text
-    interval: 86436
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
-    path: ./ruleset/BanProgramAD.yaml
-  Myrules:
-    type: http
-    format: text
-    interval: 1203
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/Myrules.list
-    path: ./ruleset/Myrules.yaml
-  Myrulesbai:
-    type: http
-    format: text
-    interval: 1206
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/Myrulesbai.list
-    path: ./ruleset/Myrulesbai.yaml
-  Mygoogle:
-    type: http
-    format: text
-    interval: 1209
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/Mygoogle.list
-    path: ./ruleset/Mygoogle.yaml
-  Gemini:
-    type: http
-    format: text
-    interval: 86439
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Gemini.list
-    path: ./ruleset/Gemini.yaml
-  Claude:
-    type: http
-    format: text
-    interval: 86442
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list
-    path: ./ruleset/Claude.yaml
-  OpenAi:
-    type: http
-    format: text
-    interval: 86445
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
-    path: ./ruleset/OpenAi.yaml
-  AI:
-    type: http
-    format: text
-    interval: 86448
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list
-    path: ./ruleset/AI.yaml
-  ChangeIP:
-    type: http
-    format: text
-    interval: 1212
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/ChangeIP.list
-    path: ./ruleset/ChangeIP.yaml
-  TestIP:
-    type: http
-    format: text
-    interval: 1212
-    behavior: classical
-    url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/TestIP.list
-    path: ./ruleset/TestIP.yaml
-    
+LocalAreaNetwork:
+type: http
+format: text
+interval: 86400
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+path: ./ruleset/LocalAreaNetwork.yaml
+SteamCN:
+type: http
+format: text
+interval: 86403
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+path: ./ruleset/SteamCN.yaml
+GoogleCN:
+type: http
+format: text
+interval: 86406
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+path: ./ruleset/GoogleCN.yaml
+ChinaDomain:
+type: http
+format: text
+interval: 86409
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+path: ./ruleset/ChinaDomain.yaml
+ChinaCompanyIp:
+type: http
+format: text
+interval: 86412
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+path: ./ruleset/ChinaCompanyIp.yaml
+ProxyMedia:
+type: http
+format: text
+interval: 86415
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+path: ./ruleset/ProxyMedia.yaml
+ProxyGFWlist:
+type: http
+format: text
+interval: 86418
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+path: ./ruleset/ProxyGFWlist.yaml
+Telegram:
+type: http
+format: text
+interval: 86421
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+path: ./ruleset/Telegram.yaml
+Apple:
+type: http
+format: text
+interval: 86424
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+path: ./ruleset/Apple.yaml
+Microsoft:
+type: http
+format: text
+interval: 86427
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+path: ./ruleset/Microsoft.yaml
+Applications:
+type: http
+format: yaml
+interval: 86430
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt
+path: ./ruleset/applications.yaml
+BanAD:
+type: http
+format: text
+interval: 86433
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+path: ./ruleset/BanAD.yaml
+BanProgramAD:
+type: http
+format: text
+interval: 86436
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+path: ./ruleset/BanProgramAD.yaml
+Myrules:
+type: http
+format: text
+interval: 1203
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/Myrules.list
+path: ./ruleset/Myrules.yaml
+Myrulesbai:
+type: http
+format: text
+interval: 1206
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/Myrulesbai.list
+path: ./ruleset/Myrulesbai.yaml
+Mygoogle:
+type: http
+format: text
+interval: 1209
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/Mygoogle.list
+path: ./ruleset/Mygoogle.yaml
+Gemini:
+type: http
+format: text
+interval: 86439
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Gemini.list
+path: ./ruleset/Gemini.yaml
+Claude:
+type: http
+format: text
+interval: 86442
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list
+path: ./ruleset/Claude.yaml
+OpenAi:
+type: http
+format: text
+interval: 86445
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+path: ./ruleset/OpenAi.yaml
+AI:
+type: http
+format: text
+interval: 86448
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list
+path: ./ruleset/AI.yaml
+ChangeIP:
+type: http
+format: text
+interval: 1212
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/ChangeIP.list
+path: ./ruleset/ChangeIP.yaml
+TestIP:
+type: http
+format: text
+interval: 1212
+behavior: classical
+url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/TestIP.list
+path: ./ruleset/TestIP.yaml
 
 
 
 
 #--------------------------------------------------#
-#  ProxyLite:
-#    type: http
-#    format: text
-#    interval: 86400
-#    behavior: classical
-#    url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
-#    path: ./ruleset/ProxyLite.yaml
+# ProxyLite:
+# type: http
+# format: text
+# interval: 86400
+# behavior: classical
+# url: https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+# path: ./ruleset/ProxyLite.yaml
 #--------------------------------------------------#
 # https://gh-proxy.org/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
 
@@ -755,29 +754,29 @@ rule-providers:
 
 rules:
 
-  - RULE-SET,Mygoogle,谷歌服务
-  - RULE-SET,Myrulesbai,全局直连
-  - RULE-SET,Myrules,节点选择
-  - RULE-SET,OpenAi,谷歌服务
-  - RULE-SET,Gemini,谷歌服务
-  - RULE-SET,Claude,谷歌服务
-  - RULE-SET,AI,谷歌服务
-  - RULE-SET,ChangeIP,修改IP
-  - RULE-SET,TestIP,测试IP
-  - RULE-SET,LocalAreaNetwork,全局直连
-  - RULE-SET,SteamCN,全局直连
-  - RULE-SET,GoogleCN,全局直连
-  - RULE-SET,ChinaDomain,全局直连
-  - RULE-SET,ChinaCompanyIp,全局直连
-  - RULE-SET,ProxyMedia,节点选择
-  - RULE-SET,ProxyGFWlist,节点选择
-#  - RULE-SET,ProxyLite,节点选择
-  - RULE-SET,Telegram,节点选择
-  - RULE-SET,Apple,苹果服务
-  - RULE-SET,Microsoft,微软服务
-  - RULE-SET,Applications,全局直连
-  - RULE-SET,BanAD,广告过滤
-  - RULE-SET,BanProgramAD,广告过滤
-  - GEOIP,LAN,全局直连,no-resolve
-  - GEOIP,CN,全局直连,no-resolve
-  - MATCH,漏网之鱼
+- RULE-SET,Mygoogle,谷歌服务
+- RULE-SET,Myrulesbai,全局直连
+- RULE-SET,Myrules,节点选择
+- RULE-SET,OpenAi,谷歌服务
+- RULE-SET,Gemini,谷歌服务
+- RULE-SET,Claude,谷歌服务
+- RULE-SET,AI,谷歌服务
+- RULE-SET,ChangeIP,修改IP
+- RULE-SET,TestIP,测试IP
+- RULE-SET,LocalAreaNetwork,全局直连
+- RULE-SET,SteamCN,全局直连
+- RULE-SET,GoogleCN,全局直连
+- RULE-SET,ChinaDomain,全局直连
+- RULE-SET,ChinaCompanyIp,全局直连
+- RULE-SET,ProxyMedia,节点选择
+- RULE-SET,ProxyGFWlist,节点选择
+# - RULE-SET,ProxyLite,节点选择
+- RULE-SET,Telegram,节点选择
+- RULE-SET,Apple,苹果服务
+- RULE-SET,Microsoft,微软服务
+- RULE-SET,Applications,全局直连
+- RULE-SET,BanAD,广告过滤
+- RULE-SET,BanProgramAD,广告过滤
+- GEOIP,LAN,全局直连,no-resolve
+- GEOIP,CN,全局直连,no-resolve
+- MATCH,漏网之鱼
