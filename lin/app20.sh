@@ -506,14 +506,15 @@ proxy-groups:
     exclude-filter: (?i)claude|roxi|google|ipv6|ws|多线|家宽|域名|新加坡 0|新加坡 1|美国 40|ro|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent
+    expected-status: 200
     interval: 780
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)8pf_us|美国 0[25]|美国 30|移动-0[1256]|移动-1[125678]|电信-0[3456]|电信-1[03456]|电信-0[9]|联通-1[0]|联通-0[9]|多线-0[12345678]|多线-1[349]|多线-2[0]|优选域名-0[34]|优选域名-1[78]|优选域名-2[78]|优选域名-3[9]|优选域名-4[034]
+    filter: (?i)8pf_us|美国 0[25]|美国 30|移动-0[1256]|移动-1[125678]|电信-0[123456]|电信-1[03456]|电信-0[9]|联通-1[0]|联通-0[9]|多线-0[12345678]｜多线-1[349]|多线-2[0]｜优选域名-4[0]｜优选域名-4[0]
     exclude-filter: (?i)🇭🇰|🇨🇳
   - name: 修改IP
     type: select
