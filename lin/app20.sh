@@ -491,8 +491,8 @@ proxy-groups:
     type: select
     proxies:
       - 自动选优
-    hidden: true
-#    include-all-providers: true
+#    hidden: true
+    include-all-providers: true
 #    exclude-filter: (?i)claude|roxi|google|机房|住宅|家宽|域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     type: url-test
@@ -513,7 +513,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)8pf_us|美国 0[25]|美国 30|移动-0[56]|移动-1[125678]|电信-0[123456]|电信-1[03456]|电信-0[9]|联通-1[0]|联通-0[9]
+    filter: (?i)8pf_us|美国 0[25]|美国 30|移动-0[1256]|移动-1[125678]|电信-0[123456]|电信-1[03456]|电信-0[9]|联通-1[0]|联通-0[9]
     exclude-filter: (?i)🇭🇰|🇨🇳
   - name: 修改IP
     type: select
