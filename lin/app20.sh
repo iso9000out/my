@@ -513,7 +513,7 @@ proxy-groups:
     type: url-test
     url: https://api.openai.com/v1/chat/completions
     #url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent
-    expected-status: 200
+    expected-status: 200/401
     interval: 780
     timeout: 3000
     tolerance: 500
