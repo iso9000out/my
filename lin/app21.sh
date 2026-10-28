@@ -23,15 +23,20 @@ dns:
     - tls://8.8.8.8:853
 
   hosts:
+    'google.hk': google.com
+    'google.com.hk': google.com
     'google.cn': google.com
     'www.google.cn': google.com
     '*.google.cn': google.com
 
   nameserver-policy:
-    "+.googleapis.com":
+    "+google.com":
       - https://dns.google/dns-query
       - tls://8.8.8.8:853
     "+.google.com":
+      - https://dns.google/dns-query
+      - tls://8.8.8.8:853
+    "+.googleapis.com":
       - https://dns.google/dns-query
       - tls://8.8.8.8:853
     "geosite:cn,private":
