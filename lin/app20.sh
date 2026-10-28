@@ -520,7 +520,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)8pf_us|美国 0[25]|美国 30|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]|优选域名-2[78]
+    filter: (?i)8pf_us|美国 0[25]|美国 30|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
     exclude-filter: (?i)🇭🇰|🇨🇳
   - name: 修改IP
     type: select
