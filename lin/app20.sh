@@ -518,7 +518,7 @@ proxy-groups:
   - name: 修改IP
     type: select
     proxies:
-      - 自动选优
+      - 节点选择
       - 谷歌服务
       - 全局直连
   - name: 国外媒体
