@@ -460,8 +460,8 @@ proxy-groups:
     max-failed-times: 3
     #lazy: true
     include-all-providers: true
-    filter: (?i)9pb|🇺🇸|美国|us|🇩🇪|德国|de|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
-    exclude-filter: (?i)🇭🇰|🇨🇳
+    filter: (?i)9pb|🇺🇸|美国|us|🇯🇵|日本|jp|🇸🇬|新加坡|sg|🇩🇪|德国|de|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
+    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess
   - name: 修改IP
     type: select
     proxies:
