@@ -145,11 +145,6 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-  - name: 修改IP
-    type: select
-    proxies:
-      - 节点选择
-      - 全局直连
   - name: 谷歌服务
     type: select
     proxies:
