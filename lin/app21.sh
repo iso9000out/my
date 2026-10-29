@@ -1,3 +1,5 @@
+# date 2026-10-29
+
 dns:
   enable: true
   ipv6: true
@@ -30,9 +32,6 @@ dns:
     '*.google.cn': google.com
 
   nameserver-policy:
-    "+google.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
     "+.google.com":
       - https://dns.google/dns-query
       - tls://8.8.8.8:853
@@ -49,11 +48,12 @@ dns:
     - tls://8.8.8.8:853
     - tls://dns.google:853
 
-  fallback-filter:
+fallback-filter:
     geoip: true
     geoip-code: CN
     geosite:
       - gfw
+
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
@@ -72,8 +72,8 @@ dns:
       - '+.gvt1.com'
       - "+.github.com"
 
-  enhanced-mode: fake-ip
-  fake-ip-filter:
+enhanced-mode: fake-ip
+fake-ip-filter:
     - "+.*"
     - "*.lan"
     - "localhost.ptlogin2.qq.com"
@@ -93,4 +93,3 @@ sniffer:
   skip-domain:
     - 'courier.push.apple.com'
     - 'Mijia Cloud'
-
