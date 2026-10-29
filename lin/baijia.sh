@@ -149,7 +149,6 @@ proxy-groups:
     type: select
     proxies:
       - 节点选择
-      - 谷歌服务
       - 全局直连
   - name: 谷歌服务
     type: select
