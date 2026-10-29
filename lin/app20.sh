@@ -205,7 +205,7 @@ proxy-providers:
 #      enable: false
 #      interval: 3720
 #      url: http://www.gstatic.com/generate_204
-#  Barabama-cfmem-Git:
+#  Barabama-cfmem-Git好多:
 #    type: http
 #    url: https://s.imgki.com/yahKFvL
 #    interval: 28856
@@ -269,14 +269,14 @@ proxy-providers:
       enable: false
       interval: 3800
       url: http://www.gstatic.com/generate_204
-#  Vanic24-9PB-Git太多360个hy2通一半:
-#    type: http
-#    url: https://s.imgki.com/BgsOOzm
-#    interval: 28912
-#    health-check:
-#      enable: false
-#      interval: 3815
-#      url: http://www.gstatic.com/generate_204
+  Vanic24-9PB-Git:
+    type: http
+    url: https://s.imgki.com/BgsOOzm
+    interval: 28912
+    health-check:
+      enable: false
+      interval: 3815
+      url: http://www.gstatic.com/generate_204
   ssrsub-Git:
     type: http
     url: https://s.imgki.com/O6tvOB9
@@ -285,14 +285,6 @@ proxy-providers:
       enable: false
       interval: 3790
       url: http://www.gstatic.com/generate_204
-#  LoveHK-SiteX2跑了:
-#    type: http
-#    url: https://s.imgki.com/8ki4oTi
-#    interval: 86414
-#    health-check:
-#      enable: false
-#      interval: 3820
-#      url: http://www.gstatic.com/generate_204
   MyClaudeX3:
     type: http
     url: https://v1.mk/ACrtiMR
@@ -301,14 +293,6 @@ proxy-providers:
       enable: false
       interval: 3825
       url: http://www.gstatic.com/generate_204
-#  gSafe-Sitex2一段时期内满了:
-#    type: http
-#    url: https://s.imgki.com/NLRfkCp
-#    interval: 43480
-#    health-check:
-#      enable: false
-#      interval: 3830
-#      url: http://www.gstatic.com/generate_204
 #  JiangJiang-Site太多太杂通的不多:
 #    type: http
 #    url: https://s.imgki.com/wn3LHHA
@@ -413,30 +397,6 @@ proxy-providers:
 #      enable: false
 #      interval: 3750
 #      url: http://www.gstatic.com/generate_204
-#  NodeBuf2整合过了下次替换掉:
-#    type: http
-#    url: https://s.imgki.com/5zCbYAb
-#    interval: 43354
-#    health-check:
-#      enable: false
-#      interval: 3733
-#      url: http://www.gstatic.com/generate_204
-#  cnqq-Site一段时期内满了:
-#    type: http
-#    url: https://s.imgki.com/FckE08j
-#    interval: 43340
-#    health-check:
-#      enable: false
-#      interval: 3725
-#      url: http://www.gstatic.com/generate_204
-#  HKG-Site失效了下次替换:
-#    type: http
-#    url: https://s.imgki.com/xJC2t90
-#    interval: 43312
-#    health-check:
-#      enable: false
-#      interval: 3700
-#      url: http://www.gstatic.com/generate_204
 #  Q3dlaXpoaQ-Git特别多更新不勤不通:
 #    type: http
 #    url: https://suo.yt/UtgiGRS
@@ -444,22 +404,6 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3705
-#      url: http://www.gstatic.com/generate_204
-#  FeiNiaoYun过期了:
-#    type: http
-#    url: https://s.imgki.com/9BnK3s2
-#    interval: 43298
-#    health-check:
-#      enable: false
-#      interval: 3685
-#      url: http://www.gstatic.com/generate_204
-#  YuYan-BJD好多BGP和anytls都不通了:
-#    type: http
-#    url: https://v1.mk/nGckgm4
-#    interval: 43284
-#    health-check:
-#      enable: false
-#      interval: 3675
 #      url: http://www.gstatic.com/generate_204
 #  ChenGaoPan-Git爬别人的zhangkai暂时隐藏:
 #    type: http
@@ -477,16 +421,10 @@ proxy-providers:
 #      enable: false
 #      interval: 3630
 #      url: http://www.gstatic.com/generate_204
-#  YouZiLite-Site都过期了不通了10个:
-#    exclude-filter: 关键词|关键的词
-#    type: http
-#    url: https://s.imgki.com/yVKqMg3
-#    interval: 43249
-#    health-check:
-#      enable: false
-#      interval: 3650
-#      url: http://www.gstatic.com/generate_204
 
+
+#错误｜
+#正确|
 
 
 proxy-groups:
@@ -504,7 +442,7 @@ proxy-groups:
     timeout: 3000
     tolerance: 600
     max-failed-times: 3
-    lazy: true
+    #lazy: true
     include-all-providers: true
     exclude-filter: (?i)claude|roxi|google|ipv6|ws|新加坡 0|新加坡 1|美国 40|ro|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
@@ -520,9 +458,9 @@ proxy-groups:
     timeout: 3000
     tolerance: 500
     max-failed-times: 3
-    lazy: true
+    #lazy: true
     include-all-providers: true
-    filter: (?i)🇺🇸｜美国|us|🇩🇪|德国|de|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
+    filter: (?i)9pb|🇺🇸|美国|us|🇩🇪|德国|de|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
     exclude-filter: (?i)🇭🇰|🇨🇳
   - name: 修改IP
     type: select
