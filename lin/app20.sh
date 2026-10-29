@@ -444,7 +444,7 @@ proxy-groups:
     max-failed-times: 3
     #lazy: true
     include-all-providers: true
-    exclude-filter: (?i)claude|roxi|google|ipv6|ws|新加坡 0|新加坡 1|美国 40|ro|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇭🇰|香港|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)claude|roxi|google|ipv6|ws|新加坡 0|新加坡 1|美国 40|ro|s[0123]|s9999|\[ss\]|\[SS\]|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -461,7 +461,7 @@ proxy-groups:
     #lazy: true
     include-all-providers: true
     filter: (?i)9pb|🇺🇸|美国|us|🇯🇵|日本|jp|🇸🇬|新加坡|sg|🇩🇪|德国|de|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
-    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess
+    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|https_
   - name: 修改IP
     type: select
     proxies:
