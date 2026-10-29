@@ -67,11 +67,12 @@ dns:
     - tls://8.8.8.8:853
     - tls://dns.google:853
 
-  fallback-filter:
+fallback-filter:
     geoip: true
     geoip-code: CN
     geosite:
       - gfw
+
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
@@ -90,8 +91,8 @@ dns:
       - '+.gvt1.com'
       - "+.github.com"
 
-  enhanced-mode: fake-ip
-  fake-ip-filter:
+enhanced-mode: fake-ip
+fake-ip-filter:
     - "+.*"
     - "*.lan"
     - "localhost.ptlogin2.qq.com"
@@ -521,7 +522,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)8pf_us|美国 0[25]|美国 30|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
+    filter: (?i)🇺🇸｜美国|us|🇩🇪|德国|de|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
     exclude-filter: (?i)🇭🇰|🇨🇳
   - name: 修改IP
     type: select
