@@ -197,3 +197,4 @@ pan.baidu.com##.app-download
 v2rayssr.com##div.mask:nth-child(24)
 v2rayssr.com###gong-box
 blog.csdn.net##.simple-ad-slot, .simple-ad-slot-right
+blog.csdn.net##.article-aside-container
