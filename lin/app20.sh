@@ -461,7 +461,7 @@ proxy-groups:
     #lazy: true
     include-all-providers: true
     filter: (?i)9pb|google|🇺🇸|美国|us|🇯🇵|日本|jp|🇸🇬|新加坡|sg|🇩🇪|德国|de|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
-    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|https_|新加坡 0|新加坡 1
+    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|https_|新加坡 0|新加坡 1|00
   - name: 修改IP
     type: select
     proxies:
