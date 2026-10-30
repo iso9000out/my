@@ -194,3 +194,6 @@ baidu.com###\32
 baidu.com###\33 
 pan.baidu.com##.app-user-vip-center
 pan.baidu.com##.app-download
+v2rayssr.com##div.mask:nth-child(24)
+v2rayssr.com###gong-box
+blog.csdn.net##.simple-ad-slot, .simple-ad-slot-right
