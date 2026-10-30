@@ -117,18 +117,10 @@ sniffer:
 
 
 proxy-providers:
-  own-Git:
-    type: http
-    url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/test/own
-    interval: 86400
-    health-check:
-      enable: false
-      interval: 3600
-      url: http://www.gstatic.com/generate_204
   Snakem982-Git:
     type: http
     url: https://s.imgki.com/EPUIxlN
-    interval: 28800
+    interval: 14400
     health-check:
       enable: false
       interval: 3625
@@ -136,7 +128,7 @@ proxy-providers:
   ShaoyouVIPx2-Git:
     type: http
     url: https://s.imgki.com/FavDsTK
-    interval: 28807
+    interval: 14407
     health-check:
       enable: false
       interval: 3655
@@ -144,7 +136,7 @@ proxy-providers:
   iKuuu-Site-upd 24:
     type: http
     url: https://s.imgki.com/wfiZ8mg
-    interval: 86407
+    interval: 14414
     health-check:
       enable: false
       interval: 3665
@@ -152,95 +144,23 @@ proxy-providers:
   Meng-Littlebais-Git:
     type: http
     url: https://s.imgki.com/8cqJvKX
-    interval: 28814
+    interval: 14421
     health-check:
       enable: false
       interval: 3670
       url: http://www.gstatic.com/generate_204
-#  ZhouRunFa-Git:
-#    type: http
-#    url: https://s.imgki.com/nHL6nVv
-#    interval: 28821
-#    health-check:
-#      enable: false
-#      interval: 3680
-#      url: http://www.gstatic.com/generate_204
-#  ChuanZhuo-Git都是转发不干净:
-#    type: http
-#    url: https://s.imgki.com/DCYoyot
-#    interval: 28828
-#    health-check:
-#      enable: false
-#      interval: 3690
-#      url: http://www.gstatic.com/generate_204
   Anaer-Git:
     type: http
     url: https://s.imgki.com/2LobkRg
-    interval: 28835
+    interval: 14428
     health-check:
       enable: false
       interval: 3695
       url: http://www.gstatic.com/generate_204
-#  go4sharing-Git十几个ss杂乱:
-#    type: http
-#    url: https://s.imgki.com/ygWru6f
-#    interval: 28842
-#    health-check:
-#      enable: false
-#      interval: 3710
-#      url: http://www.gstatic.com/generate_204
-#  PawDroid-CF-Git UPD 7h一些cross杂乱:
-#    type: http
-#    url: https://s.imgki.com/DOffMBA
-#    interval: 25200
-#    health-check:
-#      enable: false
-#      interval: 3715
-#      url: http://www.gstatic.com/generate_204
-#  Zhangkaiitugithub-PassCRO-Git十几个ss杂乱:
-#    type: http
-#    url: https://s.imgki.com/Ty4sWoo
-#    interval: 28849
-#    health-check:
-#      enable: false
-#      interval: 3720
-#      url: http://www.gstatic.com/generate_204
-#  Barabama-cfmem-Git好多:
-#    type: http
-#    url: https://s.imgki.com/yahKFvL
-#    interval: 28856
-#    health-check:
-#      enable: false
-#      interval: 3730
-#      url: http://www.gstatic.com/generate_204
-  MyNode5:
-    type: http
-    url: https://v1.mk/A6upSuQ
-    interval: 28863
-    health-check:
-      enable: false
-      interval: 3735
-      url: http://www.gstatic.com/generate_204
-#  PuddinCat-Git十几个hy ss太杂:
-#    type: http
-#    url: https://s.imgki.com/OtnN7rU
-#    interval: 28870
-#    health-check:
-#      enable: false
-#      interval: 3740
-#      url: http://www.gstatic.com/generate_204
-#  Mfuu-Git一些cross杂乱:
-#    type: http
-#    url: https://s.imgki.com/lhHyGWy
-#    interval: 28877
-#    health-check:
-#      enable: false
-#      interval: 3755
-#      url: http://www.gstatic.com/generate_204
   132X2-Site:
     type: http
     url: https://s.imgki.com/XocsQmj
-    interval: 28884
+    interval: 14435
     health-check:
       enable: false
       interval: 3775
@@ -248,7 +168,7 @@ proxy-providers:
   ZhuhaiUK-Git:
     type: http
     url: https://s.imgki.com/SiR9aNj
-    interval: 28891
+    interval: 14442
     health-check:
       enable: false
       interval: 3780
@@ -256,7 +176,7 @@ proxy-providers:
   Valvatacea-Git:
     type: http
     url: https://s.imgki.com/WKGC6Q9
-    interval: 28898
+    interval: 14449
     health-check:
       enable: false
       interval: 3785
@@ -264,7 +184,7 @@ proxy-providers:
   Firefoxmmx2-Git:
     type: http
     url: https://s.imgki.com/9F1XXfy
-    interval: 28905
+    interval: 14456
     health-check:
       enable: false
       interval: 3800
@@ -272,7 +192,7 @@ proxy-providers:
   Vanic24-9PB-Git:
     type: http
     url: https://s.imgki.com/BgsOOzm
-    interval: 28912
+    interval: 14463
     health-check:
       enable: false
       interval: 3815
@@ -280,18 +200,34 @@ proxy-providers:
   ssrsub-Git:
     type: http
     url: https://s.imgki.com/O6tvOB9
-    interval: 28919
+    interval: 14472
     health-check:
       enable: false
       interval: 3790
       url: http://www.gstatic.com/generate_204
+  own-Git:
+    type: http
+    url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/test/own
+    interval: 172800
+    health-check:
+      enable: false
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
   MyClaudeX3:
     type: http
     url: https://v1.mk/ACrtiMR
-    interval: 86421
+    interval: 86400
     health-check:
       enable: false
       interval: 3825
+      url: http://www.gstatic.com/generate_204
+  MyNode5:
+    type: http
+    url: https://v1.mk/A6upSuQ
+    interval: 86407
+    health-check:
+      enable: false
+      interval: 3735
       url: http://www.gstatic.com/generate_204
 #  JiangJiang-Site太多太杂通的不多:
 #    type: http
@@ -420,6 +356,70 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3630
+#      url: http://www.gstatic.com/generate_204
+#  ZhouRunFa-Git:
+#    type: http
+#    url: https://s.imgki.com/nHL6nVv
+#    interval: 28821
+#    health-check:
+#      enable: false
+#      interval: 3680
+#      url: http://www.gstatic.com/generate_204
+#  ChuanZhuo-Git都是转发不干净:
+#    type: http
+#    url: https://s.imgki.com/DCYoyot
+#    interval: 28828
+#    health-check:
+#      enable: false
+#      interval: 3690
+#      url: http://www.gstatic.com/generate_204
+#  go4sharing-Git十几个ss杂乱:
+#    type: http
+#    url: https://s.imgki.com/ygWru6f
+#    interval: 28842
+#    health-check:
+#      enable: false
+#      interval: 3710
+#      url: http://www.gstatic.com/generate_204
+#  PawDroid-CF-Git UPD 7h一些cross杂乱:
+#    type: http
+#    url: https://s.imgki.com/DOffMBA
+#    interval: 25200
+#    health-check:
+#      enable: false
+#      interval: 3715
+#      url: http://www.gstatic.com/generate_204
+#  Zhangkaiitugithub-PassCRO-Git十几个ss杂乱:
+#    type: http
+#    url: https://s.imgki.com/Ty4sWoo
+#    interval: 28849
+#    health-check:
+#      enable: false
+#      interval: 3720
+#      url: http://www.gstatic.com/generate_204
+#  Barabama-cfmem-Git好多:
+#    type: http
+#    url: https://s.imgki.com/yahKFvL
+#    interval: 28856
+#    health-check:
+#      enable: false
+#      interval: 3730
+#      url: http://www.gstatic.com/generate_204
+#  PuddinCat-Git十几个hy ss太杂:
+#    type: http
+#    url: https://s.imgki.com/OtnN7rU
+#    interval: 28870
+#    health-check:
+#      enable: false
+#      interval: 3740
+#      url: http://www.gstatic.com/generate_204
+#  Mfuu-Git一些cross杂乱:
+#    type: http
+#    url: https://s.imgki.com/lhHyGWy
+#    interval: 28877
+#    health-check:
+#      enable: false
+#      interval: 3755
 #      url: http://www.gstatic.com/generate_204
 
 
