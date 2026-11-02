@@ -51,9 +51,6 @@ dns:
     '*.google.cn': google.com
 
   nameserver-policy:
-    "+google.com":
-      - https://dns.google/dns-query
-      - tls://8.8.8.8:853
     "+.google.com":
       - https://dns.google/dns-query
       - tls://8.8.8.8:853
