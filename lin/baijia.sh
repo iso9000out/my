@@ -118,21 +118,11 @@ sniffer:
 proxy-providers:
   MyClaudeX3:
     type: http
-    url: https://v1.mk/ACrtiMR
+    url: https://subapi.cmliussss.net/sub?target=clash&url=https%3A%2F%2Fcfnew.xy.kg%2Fsub%3Fhost%3Dhttps%253A%252F%252Fraspy-voice-6f45.iso9000out.workers.dev%26uuid%3D277fa640-e8c7-4cc9-afe4-f1579c233b9a%7Chttps%3A%2F%2Fcfnew.xy.kg%2Fsub%3Fhost%3Dhttps%253A%252F%252Faged-night-bcca.iso9001out.workers.dev%26uuid%3D15512025-99a2-4128-95a9-d86147047036%7Chttps%3A%2F%2Fcfnew.xy.kg%2Fsub%3Fhost%3Dhttps%253A%252F%252Fspring-cherry-aad1.iso9002out.workers.dev%26uuid%3Dfa16ba77-0745-464b-b55d-8e32eaf74265&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&tls13=true&emoji=true&list=true&xudp=true&udp=true&tfo=false&expand=true&scv=true&fdn=false&clash.doh=true&new_name=true
     interval: 86421
     health-check:
       enable: false
       interval: 3825
-      url: http://www.gstatic.com/generate_204
-
-
-  MyNode5:
-    type: http
-    url: https://v1.mk/A6upSuQ
-    interval: 86407
-    health-check:
-      enable: false
-      interval: 3735
       url: http://www.gstatic.com/generate_204
 
 proxy-groups:
