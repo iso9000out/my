@@ -126,6 +126,14 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
 
+  MyNode5:
+    type: http
+    url: https://v1.mk/A6upSuQ
+    interval: 86407
+    health-check:
+      enable: false
+      interval: 3735
+      url: http://www.gstatic.com/generate_204
 
 proxy-groups:
   - name: 节点选择
