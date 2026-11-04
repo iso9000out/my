@@ -15,7 +15,7 @@ DOMAIN-KEYWORD,grokipedia
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,muse.ai
 DOMAIN-KEYWORD,github
-DOMAIN-SUFFIX,vscode.dev
+#DOMAIN-SUFFIX,vscode.dev
 DOMAIN-SUFFIX,cloudflare.com
 
 
