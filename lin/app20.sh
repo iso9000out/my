@@ -141,14 +141,14 @@ proxy-providers:
       enable: false
       interval: 3665
       url: http://www.gstatic.com/generate_204
-  Meng-Littlebais-Git:
-    type: http
-    url: https://s.imgki.com/8cqJvKX
-    interval: 14421
-    health-check:
-      enable: false
-      interval: 3670
-      url: http://www.gstatic.com/generate_204
+#  Meng-Littlebais-Git:
+#    type: http
+#    url: https://s.imgki.com/8cqJvKX
+#    interval: 14421
+#    health-check:
+#      enable: false
+#      interval: 3670
+#      url: http://www.gstatic.com/generate_204
   Anaer-Git:
     type: http
     url: https://s.imgki.com/2LobkRg
