@@ -123,7 +123,7 @@ proxy-providers:
     health-check:
       enable: false
       interval: 3825
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
 
 proxy-groups:
   - name: 节点选择
@@ -133,7 +133,7 @@ proxy-groups:
     include-all-providers: true
   - name: 自动选优
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 900
     timeout: 3000
     tolerance: 600
