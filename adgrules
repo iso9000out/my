@@ -200,3 +200,6 @@ blog.csdn.net##.simple-ad-slot, .simple-ad-slot-right
 blog.csdn.net##.article-aside-container
 bbs.csdn.net##.detail-shell-ad, .detail-shell-ad--right, .simple-ad-slot, .simple-ad-slot-right
 gemini.google.com##.capabilities-disclaimer
+pan.baidu.com##div.nd-main-layout.aichat-width:first-child > div.nd-main-layout__container:first-child > div.wp-s-header-wrapper:first-child > div.wp-s-header:first-child > div.wp-s-header__right.clearfix:last-child > div.gameEntry.wp-s-header__right-item.nd-game-entry:first-child
+pan.baidu.com##div.nd-main-layout.aichat-width:first-child > div.nd-main-layout__container:first-child > div.wp-s-header-wrapper:first-child > div.wp-s-header:first-child > div.wp-s-header__right.clearfix:last-child > div.wp-s-header__right-item.nd-vip-btn:nth-child(2)
+pan.baidu.com##div.nd-main-layout.aichat-width:first-child > div.nd-main-layout__container:first-child > div.wp-s-header-wrapper:first-child > div.wp-s-header:first-child > div.wp-s-header__right.clearfix:last-child > span.wp-s-header__right-item.nd-team-space:nth-child(3)
