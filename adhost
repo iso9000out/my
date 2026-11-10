@@ -1,5 +1,6 @@
 ! MyCustom
 
+@@||cdn.bootcdn.net^$important
 ||sdkapp.m.weibo.cn^
 @@||e.weather.com.cn^$important
 @@||push.clients6.google.com^$important
