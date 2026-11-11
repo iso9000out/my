@@ -70,8 +70,8 @@ dns:
   fallback-filter:
     geoip: true
     geoip-code: CN
-    geosite:
-      - gfw
+#    geosite:
+#      - gfw
 
     ipcidr:
       - 240.0.0.0/4
