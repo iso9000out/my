@@ -437,7 +437,7 @@ proxy-groups:
     exclude-filter: (?i)claude|roxi|google|机房|住宅|家宽|域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 900
     timeout: 3000
     tolerance: 600
@@ -447,7 +447,7 @@ proxy-groups:
     exclude-filter: (?i)claude|roxi|google|ipv6|ws|新加坡 0|新加坡 1|香港 02|美国 40|ro|s[0123]|s9999|\[ss|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: https://www.gstatic.com/generate_204
     #url: https://api.openai.com/v1/models
     #expected-status: 401
     #url: https://generativelanguage.googleapis.com/v1beta/models
