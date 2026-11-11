@@ -1,4 +1,4 @@
-# date 2026-10-29
+# date 2026-11-11
 
 dns:
   enable: true
@@ -48,7 +48,7 @@ dns:
     - tls://8.8.8.8:853
     - tls://dns.google:853
 
-fallback-filter:
+  fallback-filter:
     geoip: true
     geoip-code: CN
     geosite:
@@ -93,3 +93,4 @@ sniffer:
   skip-domain:
     - 'courier.push.apple.com'
     - 'Mijia Cloud'
+
