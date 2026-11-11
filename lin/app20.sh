@@ -67,11 +67,11 @@ dns:
     - tls://8.8.8.8:853
     - tls://dns.google:853
 
-fallback-filter:
-    geoip: true
-    geoip-code: CN
-    geosite:
-      - gfw
+  fallback-filter:
+      geoip: true
+      geoip-code: CN
+      geosite:
+        - gfw
 
     ipcidr:
       - 240.0.0.0/4
