@@ -72,6 +72,7 @@ dns:
     geoip-code: CN
     geosite:
       - gfw
+
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
@@ -90,8 +91,8 @@ dns:
       - '+.gvt1.com'
       - "+.github.com"
 
-  enhanced-mode: fake-ip
-  fake-ip-filter:
+enhanced-mode: fake-ip
+fake-ip-filter:
     - "+.*"
     - "*.lan"
     - "localhost.ptlogin2.qq.com"
