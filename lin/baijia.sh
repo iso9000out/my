@@ -41,7 +41,7 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
     - https://dns.google/dns-query
-    - tls://8.8.8.8:853
+#    - tls://8.8.8.8:853
 
   hosts:
     'google.hk': google.com
@@ -64,14 +64,14 @@ dns:
 
   fallback:
     - https://dns.google/dns-query
-    - tls://8.8.8.8:853
+#    - tls://8.8.8.8:853
     - tls://dns.google:853
 
   fallback-filter:
     geoip: true
     geoip-code: CN
-    geosite:
-      - gfw
+#    geosite:
+#      - gfw
 
     ipcidr:
       - 240.0.0.0/4
