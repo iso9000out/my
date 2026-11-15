@@ -64,14 +64,14 @@ dns:
 
   fallback:
     - https://dns.google/dns-query
-#    - tls://8.8.8.8:853
     - tls://dns.google:853
+#    - tls://8.8.8.8:853
 
   fallback-filter:
     geoip: true
     geoip-code: CN
-#    geosite:
-#      - gfw
+    geosite:
+      - gfw
 
     ipcidr:
       - 240.0.0.0/4
@@ -141,14 +141,6 @@ proxy-providers:
       enable: false
       interval: 3665
       url: https://www.gstatic.com/generate_204
-#  Meng-Littlebais-Git:
-#    type: http
-#    url: https://s.imgki.com/8cqJvKX
-#    interval: 14421
-#    health-check:
-#      enable: false
-#      interval: 3670
-#      url: https://www.gstatic.com/generate_204
   Anaer-Git:
     type: http
     url: https://s.imgki.com/2LobkRg
@@ -229,6 +221,14 @@ proxy-providers:
       enable: false
       interval: 3735
       url: https://www.gstatic.com/generate_204
+#  Meng-Littlebais-Git:
+#    type: http
+#    url: https://s.imgki.com/8cqJvKX
+#    interval: 14421
+#    health-check:
+#      enable: false
+#      interval: 3670
+#      url: https://www.gstatic.com/generate_204
 #  JiangJiang-Site太多太杂通的不多:
 #    type: http
 #    url: https://s.imgki.com/wn3LHHA
@@ -439,9 +439,9 @@ proxy-groups:
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 900
-    timeout: 3000
+    timeout: 1500
     tolerance: 600
-    max-failed-times: 3
+    max-failed-times: 2
     #lazy: true
     include-all-providers: true
     exclude-filter: (?i)claude|roxi|google|ipv6|ws|新加坡 0|新加坡 1|香港 02|美国 40|ro|s[0123]|s9999|\[ss|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
@@ -455,9 +455,9 @@ proxy-groups:
     #url: https://api.anthropic.com/v1/messages
     #expected-status: 200/401/405
     interval: 780
-    timeout: 3000
+    timeout: 1500
     tolerance: 500
-    max-failed-times: 3
+    max-failed-times: 2
     #lazy: true
     include-all-providers: true
     filter: (?i)9pb|google|🇺🇸|美国|us|🇯🇵|日本|jp|🇸🇬|新加坡|sg|🇩🇪|德国|de|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
