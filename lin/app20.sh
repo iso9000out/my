@@ -439,7 +439,7 @@ proxy-groups:
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 900
-    timeout: 1500
+    timeout: 1200
     tolerance: 600
     max-failed-times: 2
     #lazy: true
@@ -455,7 +455,7 @@ proxy-groups:
     #url: https://api.anthropic.com/v1/messages
     #expected-status: 200/401/405
     interval: 780
-    timeout: 1500
+    timeout: 1200
     tolerance: 500
     max-failed-times: 2
     #lazy: true
