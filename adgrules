@@ -177,6 +177,7 @@ buondua.com##.ie460fb668f7dad92b4d84ee032916ab0
 nownews.com##.container
 mail.163.com##.Oj0, .Nn1, .rY1
 mail.163.com###_mail_component_73_73
+mail.163.com###_mail_component_75_75
 mail.163.com##.bc1
 mail.yandex.com##.c1pDOxCWbKE9rADi9SjIl, .c7oqE3zKqKE9yCCTCVzQ2Qwg
 mail.yandex.com##.cwJDbyTKsC0pwCA-portal
@@ -198,8 +199,10 @@ v2rayssr.com##div.mask:nth-child(24)
 v2rayssr.com###gong-box
 blog.csdn.net##.simple-ad-slot, .simple-ad-slot-right
 blog.csdn.net##.article-aside-container
-bbs.csdn.net##.detail-shell-ad, .detail-shell-ad--right, .simple-ad-slot, .simple-ad-slot-right
 gemini.google.com##.capabilities-disclaimer
 pan.baidu.com##div.nd-main-layout.aichat-width:first-child > div.nd-main-layout__container:first-child > div.wp-s-header-wrapper:first-child > div.wp-s-header:first-child > div.wp-s-header__right.clearfix:last-child > div.gameEntry.wp-s-header__right-item.nd-game-entry:first-child
-pan.baidu.com##div.nd-main-layout.aichat-width:first-child > div.nd-main-layout__container:first-child > div.wp-s-header-wrapper:first-child > div.wp-s-header:first-child > div.wp-s-header__right.clearfix:last-child > div.wp-s-header__right-item.nd-vip-btn:nth-child(2)
-pan.baidu.com##div.nd-main-layout.aichat-width:first-child > div.nd-main-layout__container:first-child > div.wp-s-header-wrapper:first-child > div.wp-s-header:first-child > div.wp-s-header__right.clearfix:last-child > span.wp-s-header__right-item.nd-team-space:nth-child(3)
+pan.baidu.com##div.nd-main-layout.aichat-width:first-child > div.nd-main-layout__container:first-child > div.wp-s-header-wrapper:first-child > div.wp-s-header:first-child > div.wp-s-header__right.clearfix:last-child > span.wp-s-header__nav-tooltip.wp-s-header__right-item.nd-sug-ad-item:nth-child(2)
+pan.baidu.com##div.nd-main-layout.aichat-width:first-child > div.nd-main-layout__container:first-child > div.wp-s-header-wrapper:first-child > div.wp-s-header:first-child > div.wp-s-header__right.clearfix:last-child > div.wp-s-header__right-item.nd-vip-btn:nth-child(3)
+pan.baidu.com##div.nd-main-layout.aichat-width:first-child > div.nd-main-layout__container:first-child > div.wp-s-header-wrapper:first-child > div.wp-s-header:first-child > div.wp-s-header__right.clearfix:last-child > span.wp-s-header__right-item.nd-team-space:nth-child(4)
+pan.baidu.com##div.nd-main-layout.aichat-width:first-child > div.nd-main-layout__container:first-child > div.nd-main-layout__wrapper:last-child > div.nd-main-layout__body:last-child > div.nd-new-main-list:last-child > div.wp-s-core-pan.yunyiduo-guide-show:first-child > div.wp-s-core-pan__contain.is-undefined-skin > div.wp-s-core-pan__header.is-show-header:first-child > div.wp-s-core-pan__header-tool-bar > div.wp-s-core-pan__header-tool-bar--action:first-child > div.wp-s-agile-tool-bar.is-header-tool > div.wp-s-agile-tool-bar__header.is-header-tool > div.wp-s-agile-tool-bar__h-group:nth-child(3) > div.u-button-group.wp-s-agile-tool-bar__h-button-group.is-list > div.wp-s-agile-tool-bar__h-action.is-need-left-sep.is-list:last-child
+pan.baidu.com##div.nd-main-layout.aichat-width:first-child > div.nd-main-layout__container:first-child > div.nd-main-layout__wrapper:last-child > div.nd-main-layout__body:last-child > div.nd-new-main-list:last-child > div.wp-s-core-pan.yunyiduo-guide-show:first-child > div.wp-s-core-pan__contain.is-undefined-skin > div.wp-s-core-pan__header.is-show-header:first-child > div.wp-s-core-pan__header-tool-bar > div.wp-s-core-pan__header-tool-bar--action:first-child > div.wp-s-agile-tool-bar.is-header-tool > div.wp-s-agile-tool-bar__header.is-header-tool > div.wp-s-core-pan__header-tool-bar--action:last-child
