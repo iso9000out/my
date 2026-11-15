@@ -133,14 +133,6 @@ proxy-providers:
       enable: false
       interval: 3655
       url: https://www.gstatic.com/generate_204
-  iKuuu-Site-upd 24:
-    type: http
-    url: https://s.imgki.com/wfiZ8mg
-    interval: 14414
-    health-check:
-      enable: false
-      interval: 3665
-      url: https://www.gstatic.com/generate_204
   Anaer-Git:
     type: http
     url: https://s.imgki.com/2LobkRg
@@ -149,14 +141,6 @@ proxy-providers:
       enable: false
       interval: 3695
       url: https://www.gstatic.com/generate_204
-  132X2-Site:
-    type: http
-    url: https://s.imgki.com/XocsQmj
-    interval: 14435
-    health-check:
-      enable: false
-      interval: 3775
-      url: https://www.gstatic.com/generate_204
   ZhuhaiUK-Git:
     type: http
     url: https://s.imgki.com/SiR9aNj
@@ -164,22 +148,6 @@ proxy-providers:
     health-check:
       enable: false
       interval: 3780
-      url: https://www.gstatic.com/generate_204
-  Valvatacea-Git:
-    type: http
-    url: https://s.imgki.com/WKGC6Q9
-    interval: 14449
-    health-check:
-      enable: false
-      interval: 3785
-      url: https://www.gstatic.com/generate_204
-  Firefoxmmx2-Git:
-    type: http
-    url: https://s.imgki.com/9F1XXfy
-    interval: 14456
-    health-check:
-      enable: false
-      interval: 3800
       url: https://www.gstatic.com/generate_204
   Vanic24-9PB-Git:
     type: http
@@ -213,14 +181,46 @@ proxy-providers:
       enable: false
       interval: 3825
       url: https://www.gstatic.com/generate_204
-  MyNode5:
-    type: http
-    url: https://v1.mk/A6upSuQ
-    interval: 86407
-    health-check:
-      enable: false
-      interval: 3735
-      url: https://www.gstatic.com/generate_204
+#救火再开启  132X2-Site:
+#    type: http
+#    url: https://s.imgki.com/XocsQmj
+#    interval: 14435
+#    health-check:
+#      enable: false
+#      interval: 3775
+#      url: https://www.gstatic.com/generate_204
+#救火再开启  Valvatacea-Git:
+#    type: http
+#    url: https://s.imgki.com/WKGC6Q9
+#    interval: 14449
+#    health-check:
+#      enable: false
+#      interval: 3785
+#      url: https://www.gstatic.com/generate_204
+#救火再开启  Firefoxmmx2-Git:
+#    type: http
+#    url: https://s.imgki.com/9F1XXfy
+#    interval: 14456
+#    health-check:
+#      enable: false
+#      interval: 3800
+#      url: https://www.gstatic.com/generate_204
+#救火再开启  iKuuu-Site-upd 24:
+#    type: http
+#    url: https://s.imgki.com/wfiZ8mg
+#    interval: 14414
+#    health-check:
+#      enable: false
+#      interval: 3665
+#      url: https://www.gstatic.com/generate_204
+#救火再开启  MyNode5:
+#    type: http
+#    url: https://v1.mk/A6upSuQ
+#    interval: 86407
+#    health-check:
+#      enable: false
+#      interval: 3735
+#      url: https://www.gstatic.com/generate_204
 #  Meng-Littlebais-Git:
 #    type: http
 #    url: https://s.imgki.com/8cqJvKX
