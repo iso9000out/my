@@ -178,8 +178,8 @@ proxy-providers:
     url: https://v1.mk/ACrtiMR
     interval: 86400
     health-check:
-      enable: false
-      interval: 3825
+      enable: true
+      interval: 7200
       url: https://www.gstatic.com/generate_204
 #救火再开启  132X2-Site:
 #    type: http
