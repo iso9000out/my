@@ -64,7 +64,7 @@ dns:
 
   fallback:
     - https://dns.google/dns-query
-    - tls://dns.google:853
+#    - tls://dns.google:853
 #    - tls://8.8.8.8:853
 
   fallback-filter:
@@ -442,7 +442,7 @@ proxy-groups:
     timeout: 1200
     tolerance: 600
     max-failed-times: 2
-    #lazy: true
+    lazy: true
     include-all-providers: true
     exclude-filter: (?i)claude|roxi|google|ipv6|ws|新加坡 0|新加坡 1|香港 02|美国 40|ro|s[0123]|s9999|\[ss|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
@@ -458,7 +458,7 @@ proxy-groups:
     timeout: 1200
     tolerance: 500
     max-failed-times: 2
-    #lazy: true
+    lazy: true
     include-all-providers: true
     filter: (?i)9pb|google|🇺🇸|美国|us|🇯🇵|日本|jp|🇸🇬|新加坡|sg|🇩🇪|德国|de|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
     exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|https_|新加坡 0|新加坡 1|00
