@@ -183,7 +183,7 @@ proxy-providers:
   MyClaudeX3:
     type: http
     url: https://v1.mk/ACrtiMR
-    interval: 86400
+    interval: 172000
     health-check:
       enable: true
       interval: 3500
