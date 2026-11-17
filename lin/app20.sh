@@ -123,7 +123,8 @@ proxy-providers:
     interval: 14400
     health-check:
       enable: false
-      interval: 3625
+      interval: 3600
+      timeout: 5000
       url: https://www.gstatic.com/generate_204
   ShaoyouVIPx2-Git:
     type: http
@@ -131,7 +132,8 @@ proxy-providers:
     interval: 14407
     health-check:
       enable: false
-      interval: 3655
+      interval: 3605
+      timeout: 5000
       url: https://www.gstatic.com/generate_204
   Anaer-Git:
     type: http
@@ -139,7 +141,8 @@ proxy-providers:
     interval: 14428
     health-check:
       enable: false
-      interval: 3695
+      interval: 3610
+      timeout: 5000
       url: https://www.gstatic.com/generate_204
   ZhuhaiUK-Git:
     type: http
@@ -147,7 +150,8 @@ proxy-providers:
     interval: 14442
     health-check:
       enable: false
-      interval: 3780
+      interval: 3615
+      timeout: 5000
       url: https://www.gstatic.com/generate_204
   Vanic24-9PB-Git:
     type: http
@@ -155,7 +159,8 @@ proxy-providers:
     interval: 14463
     health-check:
       enable: false
-      interval: 3815
+      interval: 3620
+      timeout: 5000
       url: https://www.gstatic.com/generate_204
   ssrsub-Git:
     type: http
@@ -163,7 +168,8 @@ proxy-providers:
     interval: 14472
     health-check:
       enable: false
-      interval: 3790
+      interval: 3625
+      timeout: 5000
       url: https://www.gstatic.com/generate_204
   own-Git:
     type: http
@@ -171,15 +177,17 @@ proxy-providers:
     interval: 172800
     health-check:
       enable: false
-      interval: 3600
+      interval: 3630
+      timeout: 5000
       url: https://www.gstatic.com/generate_204
   MyClaudeX3:
     type: http
     url: https://v1.mk/ACrtiMR
     interval: 86400
     health-check:
-      enable: false
-      interval: 7200
+      enable: true
+      interval: 3500
+      timeout: 5000
       url: https://www.gstatic.com/generate_204
 #救火再开启  132X2-Site:
 #    type: http
@@ -439,7 +447,7 @@ proxy-groups:
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 900
-    timeout: 1200
+    timeout: 3500
     tolerance: 600
     max-failed-times: 2
     lazy: true
@@ -455,7 +463,7 @@ proxy-groups:
     #url: https://api.anthropic.com/v1/messages
     #expected-status: 200/401/405
     interval: 780
-    timeout: 1200
+    timeout: 3500
     tolerance: 500
     max-failed-times: 2
     lazy: true
