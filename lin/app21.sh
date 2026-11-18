@@ -21,7 +21,7 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-    - https://dns.google/dns-query
+#    - https://dns.google/dns-query
 #    - tls://8.8.8.8:853
 
   hosts:
@@ -32,11 +32,11 @@ dns:
     '*.google.cn': google.com
 
   nameserver-policy:
-    "+.google.com":
-      - https://dns.google/dns-query
+#    "+.google.com":
+#      - https://dns.google/dns-query
 #      - tls://8.8.8.8:853
-    "+.googleapis.com":
-      - https://dns.google/dns-query
+#    "+.googleapis.com":
+#      - https://dns.google/dns-query
 #      - tls://8.8.8.8:853
     "geosite:cn,private":
       - https://doh.pub/dns-query
@@ -45,6 +45,7 @@ dns:
 
   fallback:
     - https://dns.google/dns-query
+    - https://dns.cloudflare.com/dns-query
 #    - tls://dns.google:853
 #    - tls://8.8.8.8:853
 
