@@ -10,13 +10,14 @@ dns:
 
   default-nameserver:
     - 223.5.5.5
-    - 119.29.29.29
+    - 1.1.1.1
+    - 8.8.8.8
 
   proxy-server-nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
     - 223.5.5.5
     - 119.29.29.29
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
 
   nameserver:
     - https://doh.pub/dns-query
