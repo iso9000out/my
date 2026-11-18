@@ -130,6 +130,6 @@ DOMAIN-SUFFIX,business-api.tiktok.com
 DOMAIN-SUFFIX,us.tiktok.com
 
 #CloudFlare
-DOMAIN-SUFFIX,dash.cloudflare.com
-DOMAIN-SUFFIX,dnshe.com
+#DOMAIN-SUFFIX,dash.cloudflare.com
+#DOMAIN-SUFFIX,dnshe.com
 
