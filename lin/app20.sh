@@ -65,7 +65,7 @@ dns:
   fallback:
     - https://dns.cloudflare.com/dns-query
     - https://dns.google/dns-query
-    - https://1.1.1.1/dns-query
+#    - https://1.1.1.1/dns-query
 #    - tls://dns.google:853
 #    - tls://8.8.8.8:853
 
