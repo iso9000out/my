@@ -1,4 +1,4 @@
-# data 2026-10-31
+# data 2026-11-20
 
 port: 7890
 socks-port: 7891
@@ -29,20 +29,15 @@ dns:
 
   default-nameserver:
     - 223.5.5.5
-    - 1.1.1.1
-    - 8.8.8.8
+    - 119.29.29.29
 
   proxy-server-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
 
   nameserver:
-    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-#    - https://dns.google/dns-query
-#    - tls://8.8.8.8:853
+    - https://doh.pub/dns-query
 
   hosts:
     'google.hk': google.com
@@ -52,23 +47,17 @@ dns:
     '*.google.cn': google.com
 
   nameserver-policy:
-#    "+.google.com":
-#      - https://dns.google/dns-query
-#      - tls://8.8.8.8:853
-#    "+.googleapis.com":
-#      - https://dns.google/dns-query
-#      - tls://8.8.8.8:853
+    "+.google.com":
+      - https://dns.google/dns-query
+    "+.googleapis.com":
+      - https://dns.google/dns-query
     "geosite:cn,private":
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
       - 223.5.5.5
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
 
   fallback:
-    - https://dns.cloudflare.com/dns-query
     - https://dns.google/dns-query
-#    - https://1.1.1.1/dns-query
-#    - tls://dns.google:853
-#    - tls://8.8.8.8:853
 
   fallback-filter:
     geoip: true
@@ -118,7 +107,6 @@ sniffer:
 
 
 
-
 proxy-providers:
   Snakem982-Git:
     type: http
@@ -128,7 +116,7 @@ proxy-providers:
       enable: false
       interval: 3600
       timeout: 5000
-      url: https://www.gstatic.com/generate_204
+      url: http://www.gstatic.com/generate_204
   ShaoyouVIPx2-Git:
     type: http
     url: https://s.imgki.com/FavDsTK
@@ -137,7 +125,7 @@ proxy-providers:
       enable: false
       interval: 3605
       timeout: 5000
-      url: https://www.gstatic.com/generate_204
+      url: http://www.gstatic.com/generate_204
   Anaer-Git:
     type: http
     url: https://s.imgki.com/2LobkRg
@@ -146,7 +134,7 @@ proxy-providers:
       enable: false
       interval: 3610
       timeout: 5000
-      url: https://www.gstatic.com/generate_204
+      url: http://www.gstatic.com/generate_204
   ZhuhaiUK-Git:
     type: http
     url: https://s.imgki.com/SiR9aNj
@@ -155,16 +143,7 @@ proxy-providers:
       enable: false
       interval: 3615
       timeout: 5000
-      url: https://www.gstatic.com/generate_204
-  Vanic24-9PB-Git:
-    type: http
-    url: https://s.imgki.com/BgsOOzm
-    interval: 14463
-    health-check:
-      enable: false
-      interval: 3620
-      timeout: 5000
-      url: https://www.gstatic.com/generate_204
+      url: http://www.gstatic.com/generate_204
   ssrsub-Git:
     type: http
     url: https://s.imgki.com/O6tvOB9
@@ -173,7 +152,7 @@ proxy-providers:
       enable: false
       interval: 3625
       timeout: 5000
-      url: https://www.gstatic.com/generate_204
+      url: http://www.gstatic.com/generate_204
   own-Git:
     type: http
     url: https://gh-proxy.org/raw.githubusercontent.com/iso9000out/my/main/test/own
@@ -182,16 +161,25 @@ proxy-providers:
       enable: false
       interval: 3630
       timeout: 5000
-      url: https://www.gstatic.com/generate_204
+      url: http://www.gstatic.com/generate_204
   MyClaudeX3:
     type: http
     url: https://v1.mk/ACrtiMR
     interval: 172000
     health-check:
-      enable: true
+      enable: false
       interval: 3500
       timeout: 5000
-      url: https://www.gstatic.com/generate_204
+      url: http://www.gstatic.com/generate_204
+#救火再开启  Vanic24-9PB-Git:
+#    type: http
+#    url: https://s.imgki.com/BgsOOzm
+#    interval: 14463
+#    health-check:
+#      enable: false
+#      interval: 3620
+#      timeout: 5000
+#      url: http://www.gstatic.com/generate_204
 #救火再开启  132X2-Site:
 #    type: http
 #    url: https://s.imgki.com/XocsQmj
@@ -199,7 +187,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3775
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #救火再开启  Valvatacea-Git:
 #    type: http
 #    url: https://s.imgki.com/WKGC6Q9
@@ -207,7 +195,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3785
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #救火再开启  Firefoxmmx2-Git:
 #    type: http
 #    url: https://s.imgki.com/9F1XXfy
@@ -215,7 +203,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3800
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #救火再开启  iKuuu-Site-upd 24:
 #    type: http
 #    url: https://s.imgki.com/wfiZ8mg
@@ -223,7 +211,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3665
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #救火再开启  MyNode5:
 #    type: http
 #    url: https://v1.mk/A6upSuQ
@@ -231,7 +219,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3735
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Meng-Littlebais-Git:
 #    type: http
 #    url: https://s.imgki.com/8cqJvKX
@@ -239,7 +227,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3670
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  JiangJiang-Site太多太杂通的不多:
 #    type: http
 #    url: https://s.imgki.com/wn3LHHA
@@ -247,7 +235,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3605
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  RiPao-Git十几个全不通:
 #    type: http
 #    url: https://v1.mk/gUX6fUH
@@ -255,7 +243,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3610
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Free18-Git暂时停用723个:
 #    type: http
 #    url: https://v1.mk/BqrDxLy
@@ -263,7 +251,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3615
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  pgkj0402 dapei太多不通130个暂时隐藏:
 #    type: http
 #    url: https://v1.mk/I2iGw2N
@@ -271,7 +259,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3620
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  ts-sf-Git暂时停用85个:
 #    type: http
 #    url: https://v1.mk/enxRC1t
@@ -279,7 +267,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3760
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Peasoft-Git十几个都不通还是ripao:
 #    type: http
 #    url: https://suo.yt/DBwxJDR
@@ -287,7 +275,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3765
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  itsyebekhe-Git共20个没通的:
 #    type: http
 #    url: https://v1.mk/cEV1C8m
@@ -295,7 +283,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3770
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Vanic24-8EB-Git维护经常混入出错暂时隐藏:
 #    type: http
 #    url: https://s.imgki.com/3lZemyQ
@@ -303,7 +291,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3805
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Leon406-a11-Git都不通125个还都中转还都ss:
 #    type: http
 #    url: https://s.imgki.com/XhwUw5X
@@ -311,7 +299,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3810
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  ShuaiDaoYa-Git休假呢:
 #    type: http
 #    url: https://v1.mk/WYg2u6P
@@ -319,7 +307,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3790
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  o00o抓的45个污染厉害:
 #    type: http
 #    url: https://v1.mk/C9zAjfj
@@ -327,7 +315,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3795
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Misaka-blog-Git很多280个都不通还ss:
 #    type: http
 #    url: https://v1.mk/tuntD1k
@@ -335,7 +323,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3745
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Mahdibland-Git暂时停用201个英国不通的多:
 #    type: http
 #    url: https://v1.mk/qHDu29Z
@@ -343,7 +331,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3750
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Q3dlaXpoaQ-Git特别多更新不勤不通:
 #    type: http
 #    url: https://suo.yt/UtgiGRS
@@ -351,7 +339,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3705
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  ChenGaoPan-Git爬别人的zhangkai暂时隐藏:
 #    type: http
 #    url: https://s.subcsub.com/mtaeHb6
@@ -359,7 +347,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3660
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Xrayvip-Site很多100个都不通了vless:
 #    type: http
 #    url: https://s.imgki.com/cPzWgO9
@@ -367,7 +355,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3630
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  ZhouRunFa-Git:
 #    type: http
 #    url: https://s.imgki.com/nHL6nVv
@@ -375,7 +363,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3680
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  ChuanZhuo-Git都是转发不干净:
 #    type: http
 #    url: https://s.imgki.com/DCYoyot
@@ -383,7 +371,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3690
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  go4sharing-Git十几个ss杂乱:
 #    type: http
 #    url: https://s.imgki.com/ygWru6f
@@ -391,7 +379,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3710
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  PawDroid-CF-Git UPD 7h一些cross杂乱:
 #    type: http
 #    url: https://s.imgki.com/DOffMBA
@@ -399,7 +387,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3715
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Zhangkaiitugithub-PassCRO-Git十几个ss杂乱:
 #    type: http
 #    url: https://s.imgki.com/Ty4sWoo
@@ -407,7 +395,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3720
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Barabama-cfmem-Git好多:
 #    type: http
 #    url: https://s.imgki.com/yahKFvL
@@ -415,7 +403,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3730
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  PuddinCat-Git十几个hy ss太杂:
 #    type: http
 #    url: https://s.imgki.com/OtnN7rU
@@ -423,7 +411,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3740
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 #  Mfuu-Git一些cross杂乱:
 #    type: http
 #    url: https://s.imgki.com/lhHyGWy
@@ -431,7 +419,7 @@ proxy-providers:
 #    health-check:
 #      enable: false
 #      interval: 3755
-#      url: https://www.gstatic.com/generate_204
+#      url: http://www.gstatic.com/generate_204
 
 
 #错误｜
@@ -448,8 +436,8 @@ proxy-groups:
     exclude-filter: (?i)claude|roxi|google|机房|住宅|家宽|域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 900
+    url: http://www.gstatic.com/generate_204
+    interval: 1200
     timeout: 5000
     tolerance: 600
     max-failed-times: 3
@@ -458,14 +446,14 @@ proxy-groups:
     exclude-filter: (?i)claude|roxi|google|ipv6|ws|新加坡 0|新加坡 1|香港 02|美国 40|ro|s[0123]|s9999|\[ss|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
-    url: https://www.gstatic.com/generate_204
+    url: http://www.gstatic.com/generate_204
     #url: https://api.openai.com/v1/models
     #expected-status: 401
     #url: https://generativelanguage.googleapis.com/v1beta/models
     #expected-status: xxx
     #url: https://api.anthropic.com/v1/messages
     #expected-status: 200/401/405
-    interval: 780
+    interval: 1320
     timeout: 5000
     tolerance: 500
     max-failed-times: 3
