@@ -29,20 +29,15 @@ dns:
 
   default-nameserver:
     - 223.5.5.5
-    - 1.1.1.1
-    - 8.8.8.8
+    - 119.29.29.29
 
   proxy-server-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
 
   nameserver:
-    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-#    - https://dns.google/dns-query
-#    - tls://8.8.8.8:853
+    - https://doh.pub/dns-query
 
   hosts:
     'google.hk': google.com
@@ -52,23 +47,17 @@ dns:
     '*.google.cn': google.com
 
   nameserver-policy:
-#    "+.google.com":
-#      - https://dns.google/dns-query
-#      - tls://8.8.8.8:853
-#    "+.googleapis.com":
-#      - https://dns.google/dns-query
-#      - tls://8.8.8.8:853
+    "+.google.com":
+      - https://dns.google/dns-query
+    "+.googleapis.com":
+      - https://dns.google/dns-query
     "geosite:cn,private":
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
       - 223.5.5.5
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
 
   fallback:
-    - https://dns.cloudflare.com/dns-query
     - https://dns.google/dns-query
-#    - https://1.1.1.1/dns-query
-#    - tls://dns.google:853
-#    - tls://8.8.8.8:853
 
   fallback-filter:
     geoip: true
@@ -123,7 +112,7 @@ proxy-providers:
   MyClaudeX3:
     type: http
     url: https://v1.mk/ACrtiMR
-    interval: 86421
+    interval: 172000
     health-check:
       enable: false
       interval: 3825
@@ -138,8 +127,8 @@ proxy-groups:
   - name: 自动选优
     type: url-test
     url: https://www.gstatic.com/generate_204
-    interval: 900
-    timeout: 3000
+    interval: 1500
+    timeout: 5000
     tolerance: 600
     max-failed-times: 3
     lazy: true

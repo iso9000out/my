@@ -1,4 +1,4 @@
-# date 2026-11-15
+# date 2026-11-20
 
 dns:
   enable: true
@@ -10,20 +10,15 @@ dns:
 
   default-nameserver:
     - 223.5.5.5
-    - 1.1.1.1
-    - 8.8.8.8
+    - 119.29.29.29
 
   proxy-server-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
 
   nameserver:
-    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-#    - https://dns.google/dns-query
-#    - tls://8.8.8.8:853
+    - https://doh.pub/dns-query
 
   hosts:
     'google.hk': google.com
@@ -33,23 +28,17 @@ dns:
     '*.google.cn': google.com
 
   nameserver-policy:
-#    "+.google.com":
-#      - https://dns.google/dns-query
-#      - tls://8.8.8.8:853
-#    "+.googleapis.com":
-#      - https://dns.google/dns-query
-#      - tls://8.8.8.8:853
+    "+.google.com":
+      - https://dns.google/dns-query
+    "+.googleapis.com":
+      - https://dns.google/dns-query
     "geosite:cn,private":
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
       - 223.5.5.5
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
 
   fallback:
-    - https://dns.cloudflare.com/dns-query
     - https://dns.google/dns-query
-#    - https://1.1.1.1/dns-query
-#    - tls://dns.google:853
-#    - tls://8.8.8.8:853
 
   fallback-filter:
     geoip: true
