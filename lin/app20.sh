@@ -446,20 +446,24 @@ proxy-groups:
     exclude-filter: (?i)claude|roxi|google|ipv6|ws|新加坡 0|新加坡 1|香港 02|美国 40|ro|s[0123]|s9999|\[ss|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 谷歌服务
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    #url: http://www.gstatic.com/generate_204
     #url: https://api.openai.com/v1/models
     #expected-status: 401
     #url: https://generativelanguage.googleapis.com/v1beta/models
-    #expected-status: xxx
+    #expected-status: 404
     #url: https://api.anthropic.com/v1/messages
     #expected-status: 200/401/405
+    #url: https://chatgpt.com
+    #expected-status: 200
+    url: https://gemini.google.com
+    expected-status: 204
     interval: 1320
     timeout: 5000
     tolerance: 500
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    filter: (?i)9pb|google|🇺🇸|美国|us|🇯🇵|日本|jp|🇸🇬|新加坡|sg|🇩🇪|德国|de|域名|移动-0[1256]|移动-1[125678]|电信-0[1234569]|电信-1[03456]|联通-0[9]|联通-1[0]
+    filter: (?i)9pb|google|🇺🇸|美国|us|🇯🇵|日本|jp|🇸🇬|新加坡|sg|🇩🇪|德国|de|🇫🇷|法国|fr|🇳🇱|荷兰|nl|域名|移动|电信|联通
     exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|https_|新加坡 0|新加坡 1|00
   - name: 修改IP
     type: select
