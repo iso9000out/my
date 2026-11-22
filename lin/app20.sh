@@ -111,7 +111,7 @@ proxy-providers:
   Snakem982-Git:
     type: http
     url: https://s.imgki.com/EPUIxlN
-    interval: 14400
+    interval: 86400
     health-check:
       enable: false
       interval: 3600
@@ -120,7 +120,7 @@ proxy-providers:
   ShaoyouVIPx2-Git:
     type: http
     url: https://s.imgki.com/FavDsTK
-    interval: 14407
+    interval: 86407
     health-check:
       enable: false
       interval: 3605
@@ -129,7 +129,7 @@ proxy-providers:
   Anaer-Git:
     type: http
     url: https://s.imgki.com/2LobkRg
-    interval: 14428
+    interval: 86414
     health-check:
       enable: false
       interval: 3610
@@ -138,7 +138,7 @@ proxy-providers:
   ZhuhaiUK-Git:
     type: http
     url: https://s.imgki.com/SiR9aNj
-    interval: 14442
+    interval: 86421
     health-check:
       enable: false
       interval: 3615
@@ -147,7 +147,7 @@ proxy-providers:
   ssrsub-Git:
     type: http
     url: https://s.imgki.com/O6tvOB9
-    interval: 14472
+    interval: 86428
     health-check:
       enable: false
       interval: 3625
