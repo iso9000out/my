@@ -463,7 +463,7 @@ proxy-groups:
     include-all-providers: true
     #filter: (?i)9pb|google|🇺🇸|美国|us|🇯🇵|日本|jp|🇸🇬|新加坡|sg|🇩🇪|德国|de|🇫🇷|法国|fr|🇳🇱|荷兰|nl|域名|移动|电信|联通
     filter: (?i)9pb|google|🇺🇸|美国|🇸🇬|新加坡|🇫🇷|法国|🇳🇱|荷兰|nl|域名|移动|电信|联通
-    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|anytls|vmess|https_|新加坡 0|新加坡 1|00
+    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|anytls|vmess|https_|新加坡 0|新加坡 1|00|sgp
   - name: 修改IP
     type: select
     proxies:
