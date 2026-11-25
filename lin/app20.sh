@@ -433,7 +433,7 @@ proxy-groups:
       - 自动选优
     hidden: true
     include-all-providers: true
-    exclude-filter: (?i)claude|roxi|google|机房|住宅|家宽|域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
+    exclude-filter: (?i)机房|住宅|家宽|域名|电信|联通|移动|多线|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法
   - name: 自动选优
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -443,7 +443,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)claude|roxi|google|ipv6|ws|新加坡 0|新加坡 1|香港 02|美国 40|ro|s[0123]|s9999|\[ss|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法|机房|住宅|家宽|域名|电信|联通|移动|多线
+    exclude-filter: (?i)sgp|\[ss|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法|机房|住宅|家宽|域名|电信|联通|移动|多线
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -461,10 +461,9 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    #filter: (?i)9pb|google|🇺🇸|美国|us|🇯🇵|日本|jp|🇸🇬|新加坡|sg|🇩🇪|德国|de|🇫🇷|法国|fr|🇳🇱|荷兰|nl|域名|移动|电信|联通
-    filter: (?i)9pb|google|🇺🇸|美国|🇸🇬|新加坡|🇫🇷|法国|🇳🇱|荷兰|nl|域名|移动|电信|联通
-    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|https_|新加坡 0|新加坡 1|00|sgp
-  - name: 修改IP
+    filter: (?i)🇺🇸|美国|🇸🇬|新加坡|🇫🇷|法国|🇳🇱|荷兰|nl|域名|移动|电信|联通
+    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|00|sgp|美国 98
+  - name: 测试IP
     type: select
     proxies:
       - 全局直连
@@ -705,8 +704,8 @@ rules:
   - RULE-SET,Gemini,谷歌服务
   - RULE-SET,Claude,谷歌服务
   - RULE-SET,AI,谷歌服务
-  - RULE-SET,ChangeIP,修改IP
-  - RULE-SET,TestIP,修改IP
+  - RULE-SET,ChangeIP,测试IP
+  - RULE-SET,TestIP,测试IP
   - RULE-SET,LocalAreaNetwork,全局直连
   - RULE-SET,SteamCN,全局直连
   - RULE-SET,GoogleCN,全局直连
