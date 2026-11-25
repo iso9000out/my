@@ -439,7 +439,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 1200
     timeout: 5000
-    tolerance: 600
+    tolerance: 200
     max-failed-times: 3
     lazy: true
     include-all-providers: true
@@ -457,12 +457,12 @@ proxy-groups:
     #expected-status: 200
     interval: 1320
     timeout: 5000
-    tolerance: 500
+    tolerance: 100
     max-failed-times: 3
     lazy: true
     include-all-providers: true
     filter: (?i)🇺🇸|美国|🇸🇬|新加坡|🇫🇷|法国|🇳🇱|荷兰|nl|域名|移动|电信|联通
-    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|00|sgp|美国 98|美国 83
+    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|00|sgp|美国 98|美国 8[239]|us 0[358]|hyst
   - name: 测试IP
     type: select
     proxies:
