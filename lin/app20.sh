@@ -443,7 +443,7 @@ proxy-groups:
     max-failed-times: 3
     lazy: true
     include-all-providers: true
-    exclude-filter: (?i)sgp|\[ss|socks|trojan|vmess|cloud|none|ikuuu|->|relay|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法|机房|住宅|家宽|域名|电信|联通|移动|多线
+    exclude-filter: (?i)sgp|\[ss|socks|trojan|vmess|anytls|cloud|none|ikuuu|->|relay|🇨🇳|中国|cn|china|其他|未知|重置|更新|下次|刷新|机场|剩余|电报|期|页|官网|交流|群组|账号|无法|机房|住宅|家宽|域名|电信|联通|移动|多线
   - name: 谷歌服务
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -462,7 +462,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)🇺🇸|美国|🇸🇬|新加坡|🇫🇷|法国|🇳🇱|荷兰|nl|域名|移动|电信|联通
-    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|00|sgp|美国 98|美国 8[239]|us 0[358]|hyst
+    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|00|sgp|美国 98|美国 8[239]|us 0[358]|hyst|anytls
   - name: 测试IP
     type: select
     proxies:
