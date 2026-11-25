@@ -462,7 +462,7 @@ proxy-groups:
     lazy: true
     include-all-providers: true
     filter: (?i)🇺🇸|美国|🇸🇬|新加坡|🇫🇷|法国|🇳🇱|荷兰|nl|域名|移动|电信|联通
-    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|00|sgp|美国 98
+    exclude-filter: (?i)🇭🇰|🇨🇳|\[ss|socks|trojan|vmess|00|sgp|美国 98|美国 83
   - name: 测试IP
     type: select
     proxies:
